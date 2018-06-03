@@ -41,26 +41,26 @@ def main():
     #Graph4thAndDistanceRunAndPass(earlyGameFgs, earlyGameGoingForItRunAndPass, 1)
 
     #ExpectedPoints
-    #GraphExpectedPointsByStartPosition()
-    #GraphExpectedPointsByStartPositionFullField()
-    #GraphTeamPointsPerPossessionByYear("Oklahoma")
-    #GraphTeamPointsPerPossessionByYear("Notre Dame")
-    #GraphTeamPointsPerPossessionByYear("Boise State")
+    GraphExpectedPointsByStartPosition()
+    GraphExpectedPointsByStartPositionFullField()
+    GraphTeamPointsPerPossessionByYear("Oklahoma")
+    GraphTeamPointsPerPossessionByYear("Notre Dame")
+    GraphTeamPointsPerPossessionByYear("Boise State")
     GraphCompareTeamsPointsPerPossession(["Notre Dame", "Oklahoma", "Syracuse", "Miami (Florida)"])
     #make sure following call works with no conferences list
     #GraphCompareConferencePointsPerPossession()
-    #GraphCompareConferencePointsPerPossession(conferences = ["Atlantic Coast Conference", "Southeastern Conference", "Big 12 Conference"])
-    #TopPointsPerPossession()
-    #print(PointsPerPossessionForTeamForYear("Boise State", 2009))
+    GraphCompareConferencePointsPerPossession(conferences = ["Atlantic Coast Conference", "Southeastern Conference", "Big 12 Conference"])
+    TopPointsPerPossession()
+    print(PointsPerPossessionForTeamForYear("Boise State", 2009))
 
     #GoOn4th
-    #GraphKnnGoOn4thAccuracy(9)
-    #GraphLogisticRegressionGoOn4thAccuracy(6)
+    GraphKnnGoOn4thAccuracy(9)
+    GraphLogisticRegressionGoOn4thAccuracy(6)
 
     #FieldGoals
-    #GraphFieldGoalPercentByDistance()
-    #GraphKnnFieldGoalAccuracy(10)
-    #GraphNaiveBayesFieldGoalAccuracy(5)
+    GraphFieldGoalPercentByDistance()
+    GraphKnnFieldGoalAccuracy(10)
+    GraphNaiveBayesFieldGoalAccuracy(5)
 
     #Get working gaussian
     #GraphGaussianProcessFieldGoalAccuracy(3)
