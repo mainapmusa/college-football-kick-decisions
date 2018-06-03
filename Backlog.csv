@@ -1,7 +1,7 @@
 Item,Assigned To,Status,Priority,Expected Duration,Notes
 Move csv files into own folders,Maina,Done,Medium,,
-Get wins per team per year (web scrape?),Maina,In Progress,High,,http://football.stassen.com/cgi-bin/records/show-team.pl
-Account for team quality using wins per in year and conference affiliation,,Blocked,High,,
+Get wins per team per year (web scrape?),Maina,Done,High,,http://football.stassen.com/cgi-bin/records/show-team.pl
+Account for team quality using wins per in year and conference affiliation,,To Do,High,,
 Update main script to take command line args,,To Do,Low,,
 ExpectedPointsByStartPositionLogisticRegression,Maina,Done,Medium,,
 Convert qtr + time time left to just overall time left for ML pieces,,To Do,Medium,,
@@ -15,7 +15,7 @@ Multiple Graph4thAndDistance graphs displayed somehow,,To Do,Medium,,
 Find more accurate algorithms that allow finding of % probable,Maina,In Progress,Medium,,"Naive Bayes, Random Forests, probabalistic decision trees"
 Double check that kNN can't show % probable,Maina,Done,Low,,It just puts the % of the neighbors of the class (so if n_neighbors=8 and 3 neighbors are positive class then probability is .375 or 3/8)
 Make a listing of each function and show functionality (README?),,To Do,Medium,,
-Set up GitHub account and put project up,,To Do,High,,
+Set up GitHub account and put project up,Maina,Done,High,,
 "Review names of files and functions, update where needed",Maina,Done,High,,
 Update skins on matplotlib (change defaults?),,To Do,Medium,,
 remove 'End Spot' legend from graph GraphCompareConferencePointsPerPossession,Maina,Done,High,,
