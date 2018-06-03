@@ -1,0 +1,13 @@
+
+Assumptions:
+    Starting at a position is the most accurate tell of picking up a 4th down to that Position
+    Can ignore giving the ball up on downs and the PPP of the other team because that would be similar field position for a kickoff
+        Graph ExpectedPointsByStartPosition for all distances, not just inside 35
+        graph Starting position of kick returns
+        taking typical close game early situation is good proxy for standard game situation
+Challenges:
+    kNN gives 97-98% accuracy but no percent likelihood
+    Logistic regression lower at the 72% accuracy range but with percent likelihood needed for
+Why interesting:
+    Could debunk the always kick heuristic
+          If picking up 1-2 yards is 80% then you should go for it inside the 20
