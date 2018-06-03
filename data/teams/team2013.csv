@@ -1,0 +1,248 @@
+Team Code,Name,Conference Code,Year
+5,Akron,875,2013
+8,Alabama,911,2013
+9,UAB,24312,2013
+28,Arizona State,905,2013
+29,Arizona,905,2013
+30,Arkansas State,818,2013
+31,Arkansas,911,2013
+37,Auburn,911,2013
+47,Ball State,875,2013
+51,Baylor,25354,2013
+66,Boise State,5486,2013
+67,Boston College,821,2013
+71,Bowling Green,875,2013
+77,BYU,99001,2013
+86,Buffalo,875,2013
+96,Fresno State,5486,2013
+107,California,905,2013
+110,UCLA,905,2013
+128,UCF,823,2013
+129,Central Michigan,875,2013
+140,Cincinnati,823,2013
+147,Clemson,821,2013
+156,Colorado State,5486,2013
+157,Colorado,905,2013
+164,Connecticut,823,2013
+193,Duke,821,2013
+196,East Carolina,24312,2013
+204,Eastern Michigan,875,2013
+229,Florida Atlantic,24312,2013
+231,Florida International,24312,2013
+234,Florida State,821,2013
+235,Florida,911,2013
+254,Georgia State,818,2013
+255,Georgia Tech,821,2013
+257,Georgia,911,2013
+277,Hawai'i,5486,2013
+288,Houston,823,2013
+295,Idaho,99001,2013
+301,Illinois,827,2013
+306,Indiana,827,2013
+311,Iowa State,25354,2013
+312,Iowa,827,2013
+327,Kansas State,25354,2013
+328,Kansas,25354,2013
+331,Kent State,875,2013
+334,Kentucky,911,2013
+365,LSU,911,2013
+366,Louisiana Tech,24312,2013
+367,Louisville,823,2013
+388,Marshall,24312,2013
+392,Maryland,821,2013
+400,Massachusetts,875,2013
+404,Memphis,823,2013
+414,Miami (Ohio),875,2013
+415,Miami (Florida),821,2013
+416,Michigan State,827,2013
+418,Michigan,827,2013
+419,Middle Tennessee,24312,2013
+428,Minnesota,827,2013
+430,Mississippi State,911,2013
+433,Mississippi,911,2013
+434,Missouri,911,2013
+457,North Carolina,821,2013
+463,Nebraska,827,2013
+465,UNLV,5486,2013
+466,Nevada,5486,2013
+472,New Mexico State,99001,2013
+473,New Mexico,5486,2013
+490,North Carolina State,821,2013
+497,North Texas,24312,2013
+498,Louisiana-Monroe,818,2013
+503,Northern Illinois,875,2013
+509,Northwestern,827,2013
+513,Notre Dame,99001,2013
+518,Ohio State,827,2013
+519,Ohio,875,2013
+521,Oklahoma State,25354,2013
+522,Oklahoma,25354,2013
+528,Oregon State,905,2013
+529,Oregon,905,2013
+539,Penn State,827,2013
+545,Pittsburgh,821,2013
+559,Purdue,827,2013
+574,Rice,24312,2013
+587,Rutgers,823,2013
+626,San Diego State,5486,2013
+630,San Jose State,5486,2013
+646,South Alabama,818,2013
+648,South Carolina,911,2013
+651,South Florida,823,2013
+657,USC,905,2013
+663,SMU,823,2013
+664,Southern Mississippi,24312,2013
+670,Texas State,818,2013
+671,Louisiana-Lafayette,818,2013
+674,Stanford,905,2013
+688,Syracuse,821,2013
+690,Temple,823,2013
+694,Tennessee,911,2013
+697,Texas A&M,911,2013
+698,TCU,25354,2013
+700,Texas Tech,25354,2013
+703,Texas,25354,2013
+704,UTEP,24312,2013
+706,UTSA,24312,2013
+709,Toledo,875,2013
+716,Troy,818,2013
+718,Tulane,24312,2013
+719,Tulsa,24312,2013
+721,Air Force,5486,2013
+725,Army,99001,2013
+726,Navy,99001,2013
+731,Utah State,5486,2013
+732,Utah,905,2013
+736,Vanderbilt,911,2013
+742,Virginia Tech,821,2013
+746,Virginia,821,2013
+749,Wake Forest,821,2013
+754,Washington State,905,2013
+756,Washington,905,2013
+768,West Virginia,25354,2013
+772,Western Kentucky,818,2013
+774,Western Michigan,875,2013
+796,Wisconsin,827,2013
+811,Wyoming,5486,2013
+2,Abilene Christian,99005,2013
+6,Alabama A&M,916,2013
+7,Alabama St.,916,2013
+14,Albany (N.Y.),846,2013
+17,Alcorn St.,916,2013
+27,Appalachian State,912,2013
+43,Austin Peay,902,2013
+48,Charleston So.,826,2013
+61,Bethune-Cookman,876,2013
+80,Brown,865,2013
+81,Bryant,846,2013
+83,Bucknell,838,2013
+87,Butler,21451,2013
+90,Cal Poly,825,2013
+102,Sacramento State,825,2013
+108,UC Davis,825,2013
+115,Campbell,21451,2013
+127,Central Conn. St.,846,2013
+141,Citadel,912,2013
+149,Coastal Carolina,826,2013
+153,Colgate,838,2013
+158,Columbia,865,2013
+167,Cornell,865,2013
+172,Dartmouth,865,2013
+173,Davidson,21451,2013
+175,Dayton,21451,2013
+178,Delaware State,876,2013
+180,Delaware,837,2013
+189,Drake,21451,2013
+194,Duquesne,846,2013
+201,Eastern Illinois,902,2013
+202,Eastern Kentucky,902,2013
+207,Eastern Washington,825,2013
+228,Florida A&M,876,2013
+236,Fordham,838,2013
+244,Furman,912,2013
+251,Georgetown,838,2013
+253,Georgia Southern,912,2013
+261,Grambling,916,2013
+270,Hampton,876,2013
+275,Harvard,865,2013
+285,Holy Cross,838,2013
+290,Howard,876,2013
+294,Idaho State,825,2013
+299,Illinois State,853,2013
+305,Indiana State,853,2013
+314,Jackson State,916,2013
+315,Jacksonville State,902,2013
+316,Jacksonville,21451,2013
+317,James Madison,837,2013
+342,Lafayette,838,2013
+346,Lamar,914,2013
+352,Lehigh,838,2013
+355,Liberty,826,2013
+380,Maine,837,2013
+386,Marist,21451,2013
+402,McNeese State,914,2013
+432,Mississippi Valley State,916,2013
+439,Monmouth,846,2013
+440,Montana State,825,2013
+441,Montana,825,2013
+444,Morehead State,21451,2013
+446,Morgan State,876,2013
+454,Murray State,902,2013
+469,New Hampshire,837,2013
+483,Nicholls State,914,2013
+485,Norfolk State,876,2013
+488,North Carolina A&T,876,2013
+489,N.C. Central,876,2013
+493,North Dakota State,853,2013
+494,North Dakota,825,2013
+501,Northern Arizona,825,2013
+502,Northern Colorado,825,2013
+504,Northern Iowa,853,2013
+508,Northwestern State,914,2013
+523,Old Dominion,837,2013
+540,Pennsylvania,865,2013
+550,Portland State,825,2013
+553,Prairie View A&M,916,2013
+554,Princeton,865,2013
+572,Rhode Island,837,2013
+575,Richmond,837,2013
+579,Robert Morris,846,2013
+590,Sacred Heart,846,2013
+600,St. Francis (Pa.),846,2013
+624,Sam Houston State,914,2013
+625,Samford,912,2013
+627,San Diego,21451,2013
+632,Savannah State,876,2013
+647,South Carolina State,876,2013
+649,South Dakota State,853,2013
+650,South Dakota,853,2013
+654,Southeast Missouri State,902,2013
+655,Southeastern Louisiana,914,2013
+659,Southern Illinois,853,2013
+665,Southern University,916,2013
+667,Southern Utah,825,2013
+669,Missouri State,853,2013
+676,Stephen F. Austin,914,2013
+683,Stony Brook,826,2013
+691,Tennessee State,902,2013
+692,Tennessee Tech,902,2013
+693,Chattanooga,912,2013
+695,Tennessee-Martin,902,2013
+699,Texas Southern,916,2013
+711,Towson,837,2013
+735,Valparaiso,21451,2013
+739,Villanova,837,2013
+741,Virginia Military,826,2013
+748,Wagner,846,2013
+758,Weber State,825,2013
+769,Western Carolina,912,2013
+771,Western Illinois,853,2013
+786,William & Mary,837,2013
+813,Yale,865,2013
+817,Youngstown State,853,2013
+1004,Central Arkansas,914,2013
+1068,Elon,912,2013
+1092,Gardner-Webb,826,2013
+1320,Presbyterian,826,2013
+2678,Arkansas-Pine Bluff,916,2013
+2915,Wofford,912,2013

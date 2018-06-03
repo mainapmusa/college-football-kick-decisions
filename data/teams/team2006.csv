@@ -1,0 +1,242 @@
+Team Code,Name,Conference Code,Year
+5,Akron,875,2006
+8,Alabama,911,2006
+9,UAB,24312,2006
+28,Arizona State,905,2006
+29,Arizona,905,2006
+30,Arkansas State,818,2006
+31,Arkansas,911,2006
+37,Auburn,911,2006
+47,Ball State,875,2006
+51,Baylor,25354,2006
+66,Boise State,923,2006
+67,Boston College,821,2006
+71,Bowling Green,875,2006
+77,BYU,5486,2006
+86,Buffalo,875,2006
+96,Fresno State,923,2006
+107,California,905,2006
+110,UCLA,905,2006
+128,UCF,24312,2006
+129,Central Michigan,875,2006
+140,Cincinnati,823,2006
+147,Clemson,821,2006
+156,Colorado State,5486,2006
+157,Colorado,25354,2006
+164,Connecticut,823,2006
+193,Duke,821,2006
+196,East Carolina,24312,2006
+204,Eastern Michigan,875,2006
+229,Florida Atlantic,818,2006
+231,Florida International,818,2006
+234,Florida State,821,2006
+235,Florida,911,2006
+255,Georgia Tech,821,2006
+257,Georgia,911,2006
+277,Hawai'i,923,2006
+288,Houston,24312,2006
+295,Idaho,923,2006
+301,Illinois,827,2006
+306,Indiana,827,2006
+311,Iowa State,25354,2006
+312,Iowa,827,2006
+327,Kansas State,25354,2006
+328,Kansas,25354,2006
+331,Kent State,875,2006
+334,Kentucky,911,2006
+365,LSU,911,2006
+366,Louisiana Tech,923,2006
+367,Louisville,823,2006
+388,Marshall,24312,2006
+392,Maryland,821,2006
+404,Memphis,24312,2006
+414,Miami (Ohio),875,2006
+415,Miami (Florida),821,2006
+416,Michigan State,827,2006
+418,Michigan,827,2006
+419,Middle Tennessee,818,2006
+428,Minnesota,827,2006
+430,Mississippi State,911,2006
+433,Mississippi,911,2006
+434,Missouri,25354,2006
+457,North Carolina,821,2006
+463,Nebraska,25354,2006
+465,UNLV,5486,2006
+466,Nevada,923,2006
+472,New Mexico State,923,2006
+473,New Mexico,5486,2006
+490,North Carolina State,821,2006
+497,North Texas,818,2006
+498,Louisiana-Monroe,818,2006
+503,Northern Illinois,875,2006
+509,Northwestern,827,2006
+513,Notre Dame,99001,2006
+518,Ohio State,827,2006
+519,Ohio,875,2006
+521,Oklahoma State,25354,2006
+522,Oklahoma,25354,2006
+528,Oregon State,905,2006
+529,Oregon,905,2006
+539,Penn State,827,2006
+545,Pittsburgh,823,2006
+559,Purdue,827,2006
+574,Rice,24312,2006
+587,Rutgers,823,2006
+626,San Diego State,5486,2006
+630,San Jose State,923,2006
+648,South Carolina,911,2006
+651,South Florida,823,2006
+657,USC,905,2006
+663,SMU,24312,2006
+664,Southern Mississippi,24312,2006
+671,Louisiana-Lafayette,818,2006
+674,Stanford,905,2006
+688,Syracuse,823,2006
+690,Temple,99001,2006
+694,Tennessee,911,2006
+697,Texas A&M,25354,2006
+698,TCU,5486,2006
+700,Texas Tech,25354,2006
+703,Texas,25354,2006
+704,UTEP,24312,2006
+709,Toledo,875,2006
+716,Troy,818,2006
+718,Tulane,24312,2006
+719,Tulsa,24312,2006
+721,Air Force,5486,2006
+725,Army,99001,2006
+726,Navy,99001,2006
+731,Utah State,923,2006
+732,Utah,5486,2006
+736,Vanderbilt,911,2006
+742,Virginia Tech,821,2006
+746,Virginia,821,2006
+749,Wake Forest,821,2006
+754,Washington State,905,2006
+756,Washington,905,2006
+768,West Virginia,823,2006
+774,Western Michigan,875,2006
+796,Wisconsin,827,2006
+811,Wyoming,5486,2006
+6,Alabama A&M,916,2006
+7,Alabama St.,916,2006
+14,Albany (N.Y.),846,2006
+17,Alcorn St.,916,2006
+27,Appalachian State,912,2006
+43,Austin Peay,99005,2006
+48,Charleston So.,826,2006
+61,Bethune-Cookman,876,2006
+80,Brown,865,2006
+83,Bucknell,838,2006
+87,Butler,21451,2006
+90,Cal Poly,99005,2006
+102,Sacramento State,825,2006
+108,UC Davis,99005,2006
+127,Central Conn. St.,846,2006
+141,Citadel,912,2006
+149,Coastal Carolina,826,2006
+153,Colgate,838,2006
+158,Columbia,865,2006
+167,Cornell,865,2006
+172,Dartmouth,865,2006
+173,Davidson,21451,2006
+175,Dayton,21451,2006
+178,Delaware State,876,2006
+180,Delaware,820,2006
+189,Drake,21451,2006
+194,Duquesne,871,2006
+201,Eastern Illinois,902,2006
+202,Eastern Kentucky,902,2006
+207,Eastern Washington,825,2006
+228,Florida A&M,876,2006
+236,Fordham,838,2006
+244,Furman,912,2006
+251,Georgetown,838,2006
+253,Georgia Southern,912,2006
+261,Grambling,916,2006
+270,Hampton,876,2006
+275,Harvard,865,2006
+283,Hofstra,820,2006
+285,Holy Cross,838,2006
+290,Howard,876,2006
+294,Idaho State,825,2006
+299,Illinois State,853,2006
+305,Indiana State,853,2006
+310,Iona,871,2006
+314,Jackson State,916,2006
+315,Jacksonville State,902,2006
+316,Jacksonville,21451,2006
+317,James Madison,820,2006
+340,La Salle,871,2006
+342,Lafayette,838,2006
+352,Lehigh,838,2006
+355,Liberty,826,2006
+380,Maine,820,2006
+386,Marist,871,2006
+400,Massachusetts,820,2006
+402,McNeese State,914,2006
+432,Mississippi Valley State,916,2006
+439,Monmouth,846,2006
+440,Montana State,825,2006
+441,Montana,825,2006
+444,Morehead State,21451,2006
+446,Morgan State,876,2006
+454,Murray State,902,2006
+469,New Hampshire,820,2006
+483,Nicholls State,914,2006
+485,Norfolk State,876,2006
+488,North Carolina A&T,876,2006
+493,North Dakota State,99005,2006
+500,Northeastern,820,2006
+501,Northern Arizona,825,2006
+502,Northern Colorado,99005,2006
+504,Northern Iowa,853,2006
+508,Northwestern State,914,2006
+540,Pennsylvania,865,2006
+550,Portland State,825,2006
+553,Prairie View,916,2006
+554,Princeton,865,2006
+572,Rhode Island,820,2006
+575,Richmond,820,2006
+579,Robert Morris,846,2006
+590,Sacred Heart,846,2006
+600,St. Francis (Pa.),846,2006
+617,St. Peter's,871,2006
+624,Sam Houston State,914,2006
+625,Samford,902,2006
+627,San Diego,21451,2006
+632,Savannah State,99005,2006
+647,South Carolina State,876,2006
+649,South Dakota State,99005,2006
+654,Southeast Missouri State,902,2006
+655,Southeastern Louisiana,914,2006
+659,Southern Illinois,853,2006
+665,Southern University,916,2006
+667,Southern Utah,99005,2006
+669,Missouri State,853,2006
+670,Texas State,914,2006
+676,Stephen F. Austin,914,2006
+683,Stony Brook,846,2006
+691,Tennessee State,902,2006
+692,Tennessee Tech,902,2006
+693,Chattanooga,912,2006
+695,Tennessee-Martin,902,2006
+699,Texas Southern,916,2006
+711,Towson,820,2006
+735,Valparaiso,21451,2006
+739,Villanova,820,2006
+741,Virginia Military,826,2006
+748,Wagner,846,2006
+758,Weber State,825,2006
+769,Western Carolina,912,2006
+771,Western Illinois,853,2006
+772,Western Kentucky,853,2006
+786,William & Mary,820,2006
+791,Winston-Salem,99005,2006
+813,Yale,865,2006
+817,Youngstown State,853,2006
+1004,Central Arkansas,99005,2006
+1068,Elon,912,2006
+1092,Gardner-Webb,826,2006
+2678,Ark.-Pine Bluff,916,2006
+2915,Wofford,912,2006
