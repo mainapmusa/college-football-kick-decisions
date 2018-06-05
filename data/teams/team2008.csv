@@ -1,243 +1,243 @@
-Team Code,Name,Conference Code,Year
-5,Akron,875,2008
-8,Alabama,911,2008
-9,UAB,24312,2008
-28,Arizona State,905,2008
-29,Arizona,905,2008
-30,Arkansas State,818,2008
-31,Arkansas,911,2008
-37,Auburn,911,2008
-47,Ball State,875,2008
-51,Baylor,25354,2008
-66,Boise State,923,2008
-67,Boston College,821,2008
-71,Bowling Green,875,2008
-77,BYU,5486,2008
-86,Buffalo,875,2008
-96,Fresno State,923,2008
-107,California,905,2008
-110,UCLA,905,2008
-128,UCF,24312,2008
-129,Central Michigan,875,2008
-140,Cincinnati,823,2008
-147,Clemson,821,2008
-156,Colorado State,5486,2008
-157,Colorado,25354,2008
-164,Connecticut,823,2008
-193,Duke,821,2008
-196,East Carolina,24312,2008
-204,Eastern Michigan,875,2008
-229,Florida Atlantic,818,2008
-231,Florida International,818,2008
-234,Florida State,821,2008
-235,Florida,911,2008
-255,Georgia Tech,821,2008
-257,Georgia,911,2008
-277,Hawai'i,923,2008
-288,Houston,24312,2008
-295,Idaho,923,2008
-301,Illinois,827,2008
-306,Indiana,827,2008
-311,Iowa State,25354,2008
-312,Iowa,827,2008
-327,Kansas State,25354,2008
-328,Kansas,25354,2008
-331,Kent State,875,2008
-334,Kentucky,911,2008
-365,LSU,911,2008
-366,Louisiana Tech,923,2008
-367,Louisville,823,2008
-388,Marshall,24312,2008
-392,Maryland,821,2008
-404,Memphis,24312,2008
-414,Miami (Ohio),875,2008
-415,Miami (Florida),821,2008
-416,Michigan State,827,2008
-418,Michigan,827,2008
-419,Middle Tennessee,818,2008
-428,Minnesota,827,2008
-430,Mississippi State,911,2008
-433,Mississippi,911,2008
-434,Missouri,25354,2008
-457,North Carolina,821,2008
-463,Nebraska,25354,2008
-465,UNLV,5486,2008
-466,Nevada,923,2008
-472,New Mexico State,923,2008
-473,New Mexico,5486,2008
-490,North Carolina State,821,2008
-497,North Texas,818,2008
-498,Louisiana-Monroe,818,2008
-503,Northern Illinois,875,2008
-509,Northwestern,827,2008
-513,Notre Dame,99001,2008
-518,Ohio State,827,2008
-519,Ohio,875,2008
-521,Oklahoma State,25354,2008
-522,Oklahoma,25354,2008
-528,Oregon State,905,2008
-529,Oregon,905,2008
-539,Penn State,827,2008
-545,Pittsburgh,823,2008
-559,Purdue,827,2008
-574,Rice,24312,2008
-587,Rutgers,823,2008
-626,San Diego State,5486,2008
-630,San Jose State,923,2008
-648,South Carolina,911,2008
-651,South Florida,823,2008
-657,USC,905,2008
-663,SMU,24312,2008
-664,Southern Mississippi,24312,2008
-671,Louisiana-Lafayette,818,2008
-674,Stanford,905,2008
-688,Syracuse,823,2008
-690,Temple,875,2008
-694,Tennessee,911,2008
-697,Texas A&M,25354,2008
-698,TCU,5486,2008
-700,Texas Tech,25354,2008
-703,Texas,25354,2008
-704,UTEP,24312,2008
-709,Toledo,875,2008
-716,Troy,818,2008
-718,Tulane,24312,2008
-719,Tulsa,24312,2008
-721,Air Force,5486,2008
-725,Army,99001,2008
-726,Navy,99001,2008
-731,Utah State,923,2008
-732,Utah,5486,2008
-736,Vanderbilt,911,2008
-742,Virginia Tech,821,2008
-746,Virginia,821,2008
-749,Wake Forest,821,2008
-754,Washington State,905,2008
-756,Washington,905,2008
-768,West Virginia,823,2008
-772,Western Kentucky,99001,2008
-774,Western Michigan,875,2008
-796,Wisconsin,827,2008
-811,Wyoming,5486,2008
-6,Alabama A&M,916,2008
-7,Alabama St.,916,2008
-14,Albany (N.Y.),846,2008
-17,Alcorn St.,916,2008
-27,Appalachian State,912,2008
-43,Austin Peay,902,2008
-48,Charleston So.,826,2008
-61,Bethune-Cookman,876,2008
-80,Brown,865,2008
-83,Bucknell,838,2008
-87,Butler,21451,2008
-90,Cal Poly,99005,2008
-102,Sacramento State,825,2008
-108,UC Davis,99005,2008
-127,Central Conn. St.,846,2008
-141,Citadel,912,2008
-149,Coastal Carolina,826,2008
-153,Colgate,838,2008
-158,Columbia,865,2008
-167,Cornell,865,2008
-172,Dartmouth,865,2008
-173,Davidson,21451,2008
-175,Dayton,21451,2008
-178,Delaware State,876,2008
-180,Delaware,837,2008
-189,Drake,21451,2008
-194,Duquesne,871,2008
-201,Eastern Illinois,902,2008
-202,Eastern Kentucky,902,2008
-207,Eastern Washington,825,2008
-228,Florida A&M,876,2008
-236,Fordham,838,2008
-244,Furman,912,2008
-251,Georgetown,838,2008
-253,Georgia Southern,912,2008
-261,Grambling,916,2008
-270,Hampton,876,2008
-275,Harvard,865,2008
-283,Hofstra,837,2008
-285,Holy Cross,838,2008
-290,Howard,876,2008
-294,Idaho State,825,2008
-299,Illinois State,853,2008
-305,Indiana State,853,2008
-310,Iona,871,2008
-314,Jackson State,916,2008
-315,Jacksonville State,902,2008
-316,Jacksonville,21451,2008
-317,James Madison,837,2008
-340,La Salle,871,2008
-342,Lafayette,838,2008
-352,Lehigh,838,2008
-355,Liberty,826,2008
-380,Maine,837,2008
-386,Marist,871,2008
-400,Massachusetts,837,2008
-402,McNeese State,914,2008
-432,Mississippi Valley State,916,2008
-439,Monmouth,846,2008
-440,Montana State,825,2008
-441,Montana,825,2008
-444,Morehead State,21451,2008
-446,Morgan State,876,2008
-454,Murray State,902,2008
-469,New Hampshire,837,2008
-483,Nicholls State,914,2008
-485,Norfolk State,876,2008
-488,North Carolina A&T,876,2008
-489,N.C. Central,99005,2008
-493,North Dakota State,99005,2008
-500,Northeastern,837,2008
-501,Northern Arizona,825,2008
-502,Northern Colorado,825,2008
-504,Northern Iowa,853,2008
-508,Northwestern State,914,2008
-540,Pennsylvania,865,2008
-550,Portland State,825,2008
-553,Prairie View,916,2008
-554,Princeton,865,2008
-572,Rhode Island,837,2008
-575,Richmond,837,2008
-579,Robert Morris,846,2008
-590,Sacred Heart,846,2008
-600,St. Francis (Pa.),846,2008
-624,Sam Houston State,914,2008
-625,Samford,902,2008
-627,San Diego,21451,2008
-632,Savannah State,99005,2008
-647,South Carolina State,876,2008
-649,South Dakota State,99005,2008
-654,Southeast Missouri State,902,2008
-655,Southeastern Louisiana,914,2008
-659,Southern Illinois,853,2008
-665,Southern University,916,2008
-667,Southern Utah,99005,2008
-669,Missouri State,853,2008
-670,Texas State,914,2008
-676,Stephen F. Austin,914,2008
-683,Stony Brook,99005,2008
-691,Tennessee State,902,2008
-692,Tennessee Tech,902,2008
-693,Chattanooga,912,2008
-695,Tennessee-Martin,902,2008
-699,Texas Southern,916,2008
-711,Towson,837,2008
-735,Valparaiso,21451,2008
-739,Villanova,837,2008
-741,Virginia Military,826,2008
-748,Wagner,846,2008
-758,Weber State,825,2008
-769,Western Carolina,912,2008
-771,Western Illinois,853,2008
-786,William & Mary,837,2008
-791,Winston-Salem,99005,2008
-813,Yale,865,2008
-817,Youngstown State,853,2008
-1004,Central Arkansas,99005,2008
-1068,Elon,912,2008
-1092,Gardner-Webb,826,2008
-1320,Presbyterian,99005,2008
-2678,Ark.-Pine Bluff,916,2008
-2915,Wofford,912,2008
+Team Code,Name,Conference Code,Year,Wins
+5,Akron,875,2008,5
+8,Alabama,911,2008,12
+9,UAB,24312,2008,4
+28,Arizona State,905,2008,5
+29,Arizona,905,2008,8
+30,Arkansas State,818,2008,6
+31,Arkansas,911,2008,5
+37,Auburn,911,2008,5
+47,Ball State,875,2008,12
+51,Baylor,25354,2008,4
+66,Boise State,923,2008,12
+67,Boston College,821,2008,9
+71,Bowling Green,875,2008,6
+77,BYU,5486,2008,10
+86,Buffalo,875,2008,8
+96,Fresno State,923,2008,7
+107,California,905,2008,9
+110,UCLA,905,2008,4
+128,UCF,24312,2008,4
+129,Central Michigan,875,2008,8
+140,Cincinnati,823,2008,11
+147,Clemson,821,2008,7
+156,Colorado State,5486,2008,7
+157,Colorado,25354,2008,5
+164,Connecticut,823,2008,8
+193,Duke,821,2008,4
+196,East Carolina,24312,2008,9
+204,Eastern Michigan,875,2008,3
+229,Florida Atlantic,818,2008,7
+231,Florida International,818,2008,5
+234,Florida State,821,2008,9
+235,Florida,911,2008,13
+255,Georgia Tech,821,2008,9
+257,Georgia,911,2008,10
+277,Hawai'i,923,2008,7
+288,Houston,24312,2008,8
+295,Idaho,923,2008,2
+301,Illinois,827,2008,5
+306,Indiana,827,2008,3
+311,Iowa State,25354,2008,2
+312,Iowa,827,2008,9
+327,Kansas State,25354,2008,5
+328,Kansas,25354,2008,8
+331,Kent State,875,2008,4
+334,Kentucky,911,2008,7
+365,LSU,911,2008,8
+366,Louisiana Tech,923,2008,8
+367,Louisville,823,2008,5
+388,Marshall,24312,2008,4
+392,Maryland,821,2008,8
+404,Memphis,24312,2008,6
+414,Miami (Ohio),875,2008,2
+415,Miami (Florida),821,2008,7
+416,Michigan State,827,2008,9
+418,Michigan,827,2008,3
+419,Middle Tennessee,818,2008,5
+428,Minnesota,827,2008,7
+430,Mississippi State,911,2008,4
+433,Mississippi,911,2008,9
+434,Missouri,25354,2008,10
+457,North Carolina,821,2008,0
+463,Nebraska,25354,2008,9
+465,UNLV,5486,2008,5
+466,Nevada,923,2008,7
+472,New Mexico State,923,2008,3
+473,New Mexico,5486,2008,4
+490,North Carolina State,821,2008,6
+497,North Texas,818,2008,1
+498,Louisiana-Monroe,818,2008,4
+503,Northern Illinois,875,2008,6
+509,Northwestern,827,2008,9
+513,Notre Dame,99001,2008,7
+518,Ohio State,827,2008,10
+519,Ohio,875,2008,4
+521,Oklahoma State,25354,2008,9
+522,Oklahoma,25354,2008,12
+528,Oregon State,905,2008,9
+529,Oregon,905,2008,10
+539,Penn State,827,2008,11
+545,Pittsburgh,823,2008,9
+559,Purdue,827,2008,4
+574,Rice,24312,2008,10
+587,Rutgers,823,2008,8
+626,San Diego State,5486,2008,2
+630,San Jose State,923,2008,6
+648,South Carolina,911,2008,7
+651,South Florida,823,2008,8
+657,USC,905,2008,12
+663,SMU,24312,2008,1
+664,Southern Mississippi,24312,2008,7
+671,Louisiana-Lafayette,818,2008,6
+674,Stanford,905,2008,5
+688,Syracuse,823,2008,3
+690,Temple,875,2008,5
+694,Tennessee,911,2008,5
+697,Texas A&M,25354,2008,4
+698,TCU,5486,2008,11
+700,Texas Tech,25354,2008,11
+703,Texas,25354,2008,12
+704,UTEP,24312,2008,5
+709,Toledo,875,2008,3
+716,Troy,818,2008,8
+718,Tulane,24312,2008,2
+719,Tulsa,24312,2008,11
+721,Air Force,5486,2008,8
+725,Army,99001,2008,3
+726,Navy,99001,2008,8
+731,Utah State,923,2008,3
+732,Utah,5486,2008,13
+736,Vanderbilt,911,2008,7
+742,Virginia Tech,821,2008,10
+746,Virginia,821,2008,5
+749,Wake Forest,821,2008,8
+754,Washington State,905,2008,2
+756,Washington,905,2008,0
+768,West Virginia,823,2008,9
+772,Western Kentucky,99001,2008,2
+774,Western Michigan,875,2008,9
+796,Wisconsin,827,2008,7
+811,Wyoming,5486,2008,4
+6,Alabama A&M,916,2008,#N/A
+7,Alabama St.,916,2008,#N/A
+14,Albany (N.Y.),846,2008,#N/A
+17,Alcorn St.,916,2008,#N/A
+27,Appalachian State,912,2008,#N/A
+43,Austin Peay,902,2008,#N/A
+48,Charleston So.,826,2008,#N/A
+61,Bethune-Cookman,876,2008,#N/A
+80,Brown,865,2008,7
+83,Bucknell,838,2008,5
+87,Butler,21451,2008,#N/A
+90,Cal Poly,99005,2008,#N/A
+102,Sacramento State,825,2008,#N/A
+108,UC Davis,99005,2008,#N/A
+127,Central Conn. St.,846,2008,#N/A
+141,Citadel,912,2008,#N/A
+149,Coastal Carolina,826,2008,#N/A
+153,Colgate,838,2008,9
+158,Columbia,865,2008,2
+167,Cornell,865,2008,4
+172,Dartmouth,865,2008,0
+173,Davidson,21451,2008,4
+175,Dayton,21451,2008,9
+178,Delaware State,876,2008,#N/A
+180,Delaware,837,2008,#N/A
+189,Drake,21451,2008,6
+194,Duquesne,871,2008,3
+201,Eastern Illinois,902,2008,#N/A
+202,Eastern Kentucky,902,2008,#N/A
+207,Eastern Washington,825,2008,#N/A
+228,Florida A&M,876,2008,#N/A
+236,Fordham,838,2008,5
+244,Furman,912,2008,7
+251,Georgetown,838,2008,2
+253,Georgia Southern,912,2008,6
+261,Grambling,916,2008,#N/A
+270,Hampton,876,2008,#N/A
+275,Harvard,865,2008,9
+283,Hofstra,837,2008,#N/A
+285,Holy Cross,838,2008,7
+290,Howard,876,2008,#N/A
+294,Idaho State,825,2008,#N/A
+299,Illinois State,853,2008,#N/A
+305,Indiana State,853,2008,#N/A
+310,Iona,871,2008,#N/A
+314,Jackson State,916,2008,#N/A
+315,Jacksonville State,902,2008,#N/A
+316,Jacksonville,21451,2008,#N/A
+317,James Madison,837,2008,#N/A
+340,La Salle,871,2008,#N/A
+342,Lafayette,838,2008,7
+352,Lehigh,838,2008,#N/A
+355,Liberty,826,2008,#N/A
+380,Maine,837,2008,#N/A
+386,Marist,871,2008,#N/A
+400,Massachusetts,837,2008,#N/A
+402,McNeese State,914,2008,#N/A
+432,Mississippi Valley State,916,2008,#N/A
+439,Monmouth,846,2008,#N/A
+440,Montana State,825,2008,7
+441,Montana,825,2008,14
+444,Morehead State,21451,2008,#N/A
+446,Morgan State,876,2008,#N/A
+454,Murray State,902,2008,#N/A
+469,New Hampshire,837,2008,#N/A
+483,Nicholls State,914,2008,#N/A
+485,Norfolk State,876,2008,#N/A
+488,North Carolina A&T,876,2008,#N/A
+489,N.C. Central,99005,2008,#N/A
+493,North Dakota State,99005,2008,#N/A
+500,Northeastern,837,2008,#N/A
+501,Northern Arizona,825,2008,#N/A
+502,Northern Colorado,825,2008,1
+504,Northern Iowa,853,2008,#N/A
+508,Northwestern State,914,2008,#N/A
+540,Pennsylvania,865,2008,6
+550,Portland State,825,2008,#N/A
+553,Prairie View,916,2008,#N/A
+554,Princeton,865,2008,4
+572,Rhode Island,837,2008,#N/A
+575,Richmond,837,2008,13
+579,Robert Morris,846,2008,#N/A
+590,Sacred Heart,846,2008,#N/A
+600,St. Francis (Pa.),846,2008,#N/A
+624,Sam Houston State,914,2008,#N/A
+625,Samford,902,2008,#N/A
+627,San Diego,21451,2008,#N/A
+632,Savannah State,99005,2008,#N/A
+647,South Carolina State,876,2008,#N/A
+649,South Dakota State,99005,2008,#N/A
+654,Southeast Missouri State,902,2008,#N/A
+655,Southeastern Louisiana,914,2008,#N/A
+659,Southern Illinois,853,2008,#N/A
+665,Southern University,916,2008,#N/A
+667,Southern Utah,99005,2008,#N/A
+669,Missouri State,853,2008,#N/A
+670,Texas State,914,2008,8
+676,Stephen F. Austin,914,2008,#N/A
+683,Stony Brook,99005,2008,#N/A
+691,Tennessee State,902,2008,#N/A
+692,Tennessee Tech,902,2008,#N/A
+693,Chattanooga,912,2008,#N/A
+695,Tennessee-Martin,902,2008,#N/A
+699,Texas Southern,916,2008,#N/A
+711,Towson,837,2008,#N/A
+735,Valparaiso,21451,2008,#N/A
+739,Villanova,837,2008,10
+741,Virginia Military,826,2008,#N/A
+748,Wagner,846,2008,#N/A
+758,Weber State,825,2008,#N/A
+769,Western Carolina,912,2008,#N/A
+771,Western Illinois,853,2008,#N/A
+786,William & Mary,837,2008,#N/A
+791,Winston-Salem,99005,2008,#N/A
+813,Yale,865,2008,6
+817,Youngstown State,853,2008,#N/A
+1004,Central Arkansas,99005,2008,#N/A
+1068,Elon,912,2008,#N/A
+1092,Gardner-Webb,826,2008,#N/A
+1320,Presbyterian,99005,2008,#N/A
+2678,Ark.-Pine Bluff,916,2008,#N/A
+2915,Wofford,912,2008,#N/A
