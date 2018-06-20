@@ -42,7 +42,7 @@ for key, value in points.items():
 
 
 drives = SelectColumnsFromMultipleFiles(driveFiles, ["Team Code", "Start Period", "Start Clock", "Start Reason" ,"Start Spot", "End Reason", "Plays", "Yards", "Time Of Possession", "Year"])
-teams = SelectColumnsFromMultipleFilesRemoveDuplicates(teamFiles,["Team Code", "Name", "Conference Code","Wins"], "Team Code")
+teams = SelectColumnsFromMultipleFilesRemoveDuplicates(teamFiles,["Team Code", "Name", "Conference Code"], "Team Code")
 conferences = SelectColumnsFromMultipleFilesRemoveDuplicates(conferenceFiles,["Conference Code", "Name", "Subdivision"], "Conference Code")
 
 drivesWithTeam = pd.merge(drives, teams, how = "left", on = ["Team Code"])
@@ -50,7 +50,6 @@ drivesWithConference = pd.merge(drivesWithTeam, conferences, how = "left", on = 
 
 drivesWithConference.rename(columns = {"Name_x": "Team Name", "Name_y": "Conference Name"}, inplace = True)
 drivesWithConference["End Reason"].replace(["TOUCHDOWN", "FIELD GOAL", "DOWNS", "END OF HALF", "FUMBLE", "INTERCEPTION", "MISSED FIELD GOAL", "PUNT", "SAFETY"], [7, 3, 0, 0, 0, 0, 0, 0, 0], inplace=True)
-
 
 def ExpectedPointsByStartPosition(startPosition):
     return points[startPosition]
