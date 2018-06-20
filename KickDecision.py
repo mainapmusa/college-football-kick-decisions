@@ -22,6 +22,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 from sys import argv
+from SendTweet import tweet
 #from ImportFiles import GetSituation
 
 def main():
@@ -40,33 +41,36 @@ def main():
     #Graph4thAndDistance(earlyGameFgs, earlyGameGoingForIt,1)
     #Graph4thAndDistanceRunAndPass(earlyGameFgs, earlyGameGoingForItRunAndPass, 1)
 
+    tweet("test tweet")
+
+
     #ExpectedPoints
     GraphExpectedPointsByStartPosition()
-    GraphExpectedPointsByStartPositionFullField()
-    GraphTeamPointsPerPossessionByYear("Oklahoma")
-    GraphTeamPointsPerPossessionByYear("Notre Dame")
-    GraphTeamPointsPerPossessionByYear("Boise State")
-    GraphCompareTeamsPointsPerPossession(["Notre Dame", "Oklahoma", "Syracuse", "Miami (Florida)"])
+    #GraphExpectedPointsByStartPositionFullField()
+    #GraphTeamPointsPerPossessionByYear("Oklahoma")
+    #GraphTeamPointsPerPossessionByYear("Notre Dame")
+    #GraphTeamPointsPerPossessionByYear("Boise State")
+    #GraphCompareTeamsPointsPerPossession(["Notre Dame", "Oklahoma", "Syracuse", "Miami (Florida)"])
     #make sure following call works with no conferences list
     #GraphCompareConferencePointsPerPossession()
-    GraphCompareConferencePointsPerPossession(conferences = ["Atlantic Coast Conference", "Southeastern Conference", "Big 12 Conference"])
-    TopPointsPerPossession()
-    print(PointsPerPossessionForTeamForYear("Boise State", 2009))
+    #GraphCompareConferencePointsPerPossession(conferences = ["Atlantic Coast Conference", "Southeastern Conference", "Big 12 Conference"])
+    #TopPointsPerPossession()
+    #print(PointsPerPossessionForTeamForYear("Boise State", 2009))
 
     #GoOn4th
-    GraphKnnGoOn4thAccuracy(9)
-    GraphLogisticRegressionGoOn4thAccuracy(6)
+    #GraphKnnGoOn4thAccuracy(9)
+    #GraphLogisticRegressionGoOn4thAccuracy(6)
 
     #FieldGoals
-    GraphFieldGoalPercentByDistance()
-    GraphKnnFieldGoalAccuracy(10)
-    GraphNaiveBayesFieldGoalAccuracy(5)
+    #GraphFieldGoalPercentByDistance()
+    #GraphKnnFieldGoalAccuracy(10)
+    #GraphNaiveBayesFieldGoalAccuracy(5)
 
     #Get working gaussian
     #GraphGaussianProcessFieldGoalAccuracy(3)
-    
-    GraphRandomForestFieldGoalAccuracy(10)
-    GraphLogisticRegressionFieldGoalAccuracy(6)
+
+    #GraphRandomForestFieldGoalAccuracy(10)
+    #GraphLogisticRegressionFieldGoalAccuracy(6)
 
 def GetFieldGoalDecision(fgSituation, g4Situation, printResults = False):
     #"End Period", "End Clock", "End Spot"
