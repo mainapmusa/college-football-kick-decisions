@@ -50,3 +50,4 @@ Turn 'situation' variables that are passed in from lists into objects,,To Do,Med
 Graph 4th down conversion rate from each distance for both passing and rushing,Maina,To Do,High,,
 Add ability to tweet,Maina,Done,High,,
 Add ability to tweet images,Maina,To Do,Medium,,
+inspect.stack()[0][3] for img and model names,Maina,To Do,Medium,,
