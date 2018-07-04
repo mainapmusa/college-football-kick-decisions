@@ -41,7 +41,7 @@ def main():
     #Graph4thAndDistance(earlyGameFgs, earlyGameGoingForIt,1)
     #Graph4thAndDistanceRunAndPass(earlyGameFgs, earlyGameGoingForItRunAndPass, 1)
 
-    tweet("test tweet")
+    #tweet("test tweet")
 
 
     #ExpectedPoints
@@ -58,23 +58,23 @@ def main():
     #print(PointsPerPossessionForTeamForYear("Boise State", 2009))
 
     #GoOn4th
-    #GraphKnnGoOn4thAccuracy(9)
-    #GraphLogisticRegressionGoOn4thAccuracy(6)
+    GraphKnnGoOn4thAccuracy(9,True)
+    GraphLogisticRegressionGoOn4thAccuracy(6,True)
 
     #FieldGoals
-    #GraphFieldGoalPercentByDistance()
-    #GraphKnnFieldGoalAccuracy(10)
-    #GraphNaiveBayesFieldGoalAccuracy(5)
+    GraphFieldGoalPercentByDistance()
+    GraphKnnFieldGoalAccuracy(10,True)
+    GraphNaiveBayesFieldGoalAccuracy(5,True)
 
     #Get working gaussian
     #GraphGaussianProcessFieldGoalAccuracy(3)
 
-    #GraphRandomForestFieldGoalAccuracy(10)
-    #GraphLogisticRegressionFieldGoalAccuracy(6)
+    GraphRandomForestFieldGoalAccuracy(10,True)
+    GraphLogisticRegressionFieldGoalAccuracy(6,True)
 
 def GetFieldGoalDecision(fgSituation, g4Situation, printResults = False):
     #"End Period", "End Clock", "End Spot"
-    fieldGoalExpectedValue = FieldGoalExpectedValueKnn(fgSituation)
+    fieldGoalExpectedValue = FieldGoalExpectedValueKnn(fgSituation,True)
     #"Play Number", "Period Number", "Offense Points", "Defense Points", "Distance", "Spot", "Play Type", "Drive Number", "Drive Play"
     goOn4thSuccessPrediction = GoOn4thSuccessPredictionLogisticRegression(g4Situation)
     #Spot - Distance OR 7 if Spot - Distance == 0

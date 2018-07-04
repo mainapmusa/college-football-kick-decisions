@@ -1,6 +1,8 @@
 import pandas as pd
 import csv
 import numpy as np
+from sklearn.externals import joblib
+import os.path
 import matplotlib.pyplot as plt
 import glob
 from ImportFiles import SelectColumnsFromMultipleFiles
@@ -22,41 +24,75 @@ from sklearn.metrics import classification_report
 #from sas7bdat import SAS7BDAT
 
 #sudo pip install pandas
+def GetFieldGoalDrives():
+    driveFiles = glob.glob("./data/drives/*.csv")
 
-driveFiles = glob.glob("./data/drives/*.csv")
+    drives = SelectColumnsFromMultipleFiles(driveFiles, ["End Period", "End Clock", "End Spot", "End Reason"]) #usecols=["End Period", "End Clock", "End Spot", "End Reason", "Plays", "Yards", "Time Of Possession"]
 
-drives = SelectColumnsFromMultipleFiles(driveFiles, ["End Period", "End Clock", "End Spot", "End Reason"]) #usecols=["End Period", "End Clock", "End Spot", "End Reason", "Plays", "Yards", "Time Of Possession"]
+    fieldGoalDrives = drives.loc[(drives["End Reason"] == "FIELD GOAL") | (drives["End Reason"] == "MISSED FIELD GOAL")]
 
-fieldGoalDrives = drives.loc[(drives["End Reason"] == "FIELD GOAL") | (drives["End Reason"] == "MISSED FIELD GOAL")]
+    fieldGoalDrives["End Reason"].replace(["FIELD GOAL", "MISSED FIELD GOAL"], [1, 0], inplace=True)
+    fieldGoalDrives.fillna({"End Clock":0}, inplace=True)
 
-fieldGoalDrives["End Reason"].replace(["FIELD GOAL", "MISSED FIELD GOAL"], [1, 0], inplace=True)
-fieldGoalDrives.fillna({"End Clock":0}, inplace=True)
+    return fieldGoalDrives
 
-y = fieldGoalDrives["End Reason"].values
-X = fieldGoalDrives.drop("End Reason", axis=1).values
+def GetTestAndTrainSets():
+    fieldGoalDrives = GetFieldGoalDrives()
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state=42, stratify=y)
+    y = fieldGoalDrives["End Reason"].values
+    X = fieldGoalDrives.drop("End Reason", axis=1).values
+
+    #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state=42, stratify=y)
+    return train_test_split(X, y, test_size = 0.2, random_state=42, stratify=y)
 
 #svc = SVC(kernel="linear",probability=True)
 #svc.fit(X_train, y_train)
 #prediction = svc.predict(X_test)
 #expectedValueOfKick = pd.DataFrame(svc.predict_proba(X_test))[1]*3.0
 
-def FieldGoalExpectedValueLogisticRegression(situation):
-    logistic = LogisticRegression(C=100000)
-    logistic.fit(X_train,y_train)
+def ModelExistence(usePersistedModel, filename):
+    currentModelExists = True
+    if usePersistedModel:
+        if not os.path.isfile(filename):
+            print(filename+" does not exist so model being created and saved")
+            currentModelExists = False
+    return currentModelExists
+
+def FieldGoalExpectedValueLogisticRegression(situation, usePersistedModel = False):
+    filename = "./models/FieldGoalExpectedValueLogisticRegression.sav"
+    currentModelExists = ModelExistence(usePersistedModel,filename)
+    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
+
+    if (not usePersistedModel) or (not currentModelExists):
+        logistic = LogisticRegression(C=100000)
+        logistic.fit(X_train,y_train)
+        #persist model
+        joblib.dump(logistic, filename)
+    else:
+        logistic = joblib.load(filename)
+
     prediction = pd.DataFrame(logistic.predict_proba(np.asarray(situation).reshape(1,-1)))[1]*3
     return prediction.iloc[0]
 
-def FieldGoalExpectedValueKnn(situation):
-    knn = KNeighborsClassifier(n_neighbors=12)
-    knn.fit(X_train,y_train)
+def FieldGoalExpectedValueKnn(situation, usePersistedModel = False):
+    filename = "./models/FieldGoalExpectedValueKnn.sav"
+    currentModelExists = ModelExistence(usePersistedModel,filename)
+    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
+
+    if (not usePersistedModel) or (not currentModelExists):
+        knn = KNeighborsClassifier(n_neighbors=12)
+        knn.fit(X_train,y_train)
+        #persist model
+        joblib.dump(knn, filename)
+    else:
+        knn = joblib.load(filename)
+
     prediction = pd.DataFrame(knn.predict_proba(np.asarray(situation).reshape(1,-1)))[1]*3
-    print(knn.predict_proba(np.asarray(situation).reshape(1,-1)))
     return prediction.iloc[0]
 
 def GraphFieldGoalPercentByDistance():
     kicks = {}
+    fieldGoalDrives = GetFieldGoalDrives()
     spotCounts = fieldGoalDrives["End Spot"].value_counts()
     for i, drive in fieldGoalDrives.iterrows():
         if drive["End Spot"] in kicks:
@@ -75,20 +111,30 @@ def GraphFieldGoalPercentByDistance():
     plt.savefig("./imgs/FieldGoalsMadeEachSpot.png")
     plt.show()
 
-def GraphKnnFieldGoalAccuracy(neighborsCount):
+def GraphKnnFieldGoalAccuracy(neighborsCount, usePersistedModel = False):
 
     # Setup arrays to store train and test accuracies
     neighbors = np.arange(1, neighborsCount)
     train_accuracy = np.empty(len(neighbors))
     test_accuracy = np.empty(len(neighbors))
+    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
 
     # Loop over different values of k
     for i, k in enumerate(neighbors):
-        # Setup a k-NN Classifier with k neighbors: knn
-        knn = KNeighborsClassifier(n_neighbors=k)
+        filename = "./models/GraphKnnFieldGoalAccuracy_"+str(k)+".sav"
+        currentModelExists = ModelExistence(usePersistedModel,filename)
 
-        # Fit the classifier to the training data
-        knn.fit(X_train, y_train)
+        if (not usePersistedModel) or (not currentModelExists):
+            # Setup a k-NN Classifier with k neighbors: knn
+            knn = KNeighborsClassifier(n_neighbors=k)
+
+            # Fit the classifier to the training data
+            knn.fit(X_train, y_train)
+
+            #persist model
+            joblib.dump(knn, filename)
+        else:
+            knn = joblib.load(filename)
 
         #Compute accuracy on the training set
         train_accuracy[i] = knn.score(X_train, y_train)
@@ -106,21 +152,30 @@ def GraphKnnFieldGoalAccuracy(neighborsCount):
     plt.savefig("./imgs/FieldGoalsKnn"+str(neighborsCount)+"Neighbors.png")
     plt.show()
 
-def GraphNaiveBayesFieldGoalAccuracy(maxAlpha):
+def GraphNaiveBayesFieldGoalAccuracy(maxAlpha, usePersistedModel = False):
 
     # Setup arrays to store train and test accuracies
     alphas = np.arange(0, (maxAlpha+1))
     train_accuracy = np.empty(len(alphas))
     test_accuracy = np.empty(len(alphas))
+    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
 
     # Loop over different values of k
     for i, a in enumerate(alphas):
-        # Setup a k-NN Classifier with k neighbors: knn
-        print(10**(-a))
-        naiveBayes = MultinomialNB(alpha=10**(-a))
+        filename = "./models/GraphNaiveBayesFieldGoalAccuracy_"+str(10**float(-a))+".sav"
+        currentModelExists = ModelExistence(usePersistedModel,filename)
 
-        # Fit the classifier to the training data
-        naiveBayes.fit(X_train, y_train)
+        if (not usePersistedModel) or (not currentModelExists):
+            # Setup a k-NN Classifier with k neighbors: knn
+            naiveBayes = MultinomialNB(alpha=10**float(-a))
+
+            # Fit the classifier to the training data
+            naiveBayes.fit(X_train, y_train)
+
+            #persist model
+            joblib.dump(naiveBayes, filename)
+        else:
+            naiveBayes = joblib.load(filename)
 
         #Compute accuracy on the training set
         train_accuracy[i] = naiveBayes.score(X_train, y_train)
@@ -138,20 +193,31 @@ def GraphNaiveBayesFieldGoalAccuracy(maxAlpha):
     plt.savefig("./imgs/FieldGoalsNaiveBayes"+str(maxAlpha)+"Alphas.png")
     plt.show()
 
-def GraphRandomForestFieldGoalAccuracy(maxEstimators):
+def GraphRandomForestFieldGoalAccuracy(maxEstimators, usePersistedModel = False):
 
     # Setup arrays to store train and test accuracies
     estimators = np.arange(1, (maxEstimators+1))
     train_accuracy = np.empty(len(estimators))
     test_accuracy = np.empty(len(estimators))
+    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
 
     # Loop over different values of n
     for i, n in enumerate(estimators):
-        # Setup a k-NN Classifier with k neighbors: knn
-        randomForest = RandomForestClassifier(n_estimators=n, criterion="gini")
+        filename = "./models/GraphRandomForestFieldGoalAccuracy_"+str(n)+".sav"
+        currentModelExists = ModelExistence(usePersistedModel,filename)
 
-        # Fit the classifier to the training data
-        randomForest.fit(X_train, y_train)
+        if (not usePersistedModel) or (not currentModelExists):
+
+            # Setup a k-NN Classifier with k neighbors: knn
+            randomForest = RandomForestClassifier(n_estimators=n, criterion="gini")
+
+            # Fit the classifier to the training data
+            randomForest.fit(X_train, y_train)
+
+            #persist model
+            joblib.dump(randomForest, filename)
+        else:
+            randomForest = joblib.load(filename)
 
         #Compute accuracy on the training set
         train_accuracy[i] = randomForest.score(X_train, y_train)
@@ -169,21 +235,32 @@ def GraphRandomForestFieldGoalAccuracy(maxEstimators):
     plt.savefig("./imgs/FieldGoalsRandomForestClassifier"+str(maxEstimators)+"MaxEstimators.png")
     plt.show()
 
-def GraphGaussianProcessFieldGoalAccuracy(kernels):
+def GraphGaussianProcessFieldGoalAccuracy(kernels, usePersistedModel = False):
 
     # Setup arrays to store train and test accuracies
     kernels = np.arange(1, (kernels+1))
     train_accuracy = np.empty(len(kernels))
     test_accuracy = np.empty(len(kernels))
+    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
 
     # Loop over different values of k
     for i, k in enumerate(kernels):
-        # Setup a k-NN Classifier with k neighbors: knn
-        #print(10**(-a))
-        gaussianProcess = GaussianProcessClassifier(kernel=k * RBF(length_scale=1.0), optimizer = None)
+        filename = "./models/GraphGaussianProcessFieldGoalAccuracy_"+str(k)+".sav"
+        currentModelExists = ModelExistence(usePersistedModel,filename)
 
-        # Fit the classifier to the training data
-        gaussianProcess.fit(X_train, y_train)
+        if (not usePersistedModel) or (not currentModelExists):
+
+            # Setup a k-NN Classifier with k neighbors: knn
+            gaussianProcess = GaussianProcessClassifier(kernel=k * RBF(length_scale=1.0), optimizer = None)
+
+            # Fit the classifier to the training data
+            gaussianProcess.fit(X_train, y_train)
+
+            #persist model
+            joblib.dump(gaussianProcess, filename)
+        else:
+            gaussianProcess = joblib.load(filename)
+
 
         #Compute accuracy on the training set
         train_accuracy[i] = gaussianProcess.score(X_train, y_train)
@@ -201,17 +278,28 @@ def GraphGaussianProcessFieldGoalAccuracy(kernels):
     plt.savefig("./imgs/FieldGoalsGaussianProcess"+str(kernels)+"Kernels.png")
     plt.show()
 
-def GraphLogisticRegressionFieldGoalAccuracy(maxC):
+def GraphLogisticRegressionFieldGoalAccuracy(maxC, usePersistedModel = False):
     Cs = np.arange(1, maxC)
     train_accuracy2 = np.empty(len(Cs))
     test_accuracy2 = np.empty(len(Cs))
+    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
     # Loop over different values of C
     for i, c in enumerate(Cs):
-        # Setup a k-NN Classifier with k neighbors: knn
-        logistic = LogisticRegression(C=10**c)
+        filename = "./models/GraphLogisticRegressionFieldGoalAccuracy_"+str(10**c)+".sav"
+        currentModelExists = ModelExistence(usePersistedModel,filename)
 
-        # Fit the classifier to the training data
-        logistic.fit(X_train, y_train)
+        if (not usePersistedModel) or (not currentModelExists):
+
+            # Setup a k-NN Classifier with k neighbors: knn
+            logistic = LogisticRegression(C=10**c)
+
+            # Fit the classifier to the training data
+            logistic.fit(X_train, y_train)
+
+            #persist model
+            joblib.dump(logistic, filename)
+        else:
+            logistic = joblib.load(filename)
 
         #Compute accuracy on the training set
         train_accuracy2[i] = logistic.score(X_train, y_train)

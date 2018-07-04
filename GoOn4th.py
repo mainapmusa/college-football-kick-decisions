@@ -1,6 +1,8 @@
 import pandas as pd
 import csv
 import numpy as np
+from sklearn.externals import joblib
+import os.path
 import matplotlib.pyplot as plt
 import glob
 from ImportFiles import SelectColumnsFromMultipleFiles
@@ -24,56 +26,86 @@ from sklearn.metrics import classification_report
 #from rush: Game Code, Play Number, Team Code*, Player Code*, Attempt*, Yards, Touchdown, 1st Down
 #from pass: Game Code, Play Number, Team Code*, Passer Player Code*, Receiver Player Code*, Attempt*, Yards, Touchdown, 1st Down
 
-playFiles = glob.glob("./data/plays/*.csv")
-rushFiles = glob.glob("./data/rushes/*.csv")
-passFiles = glob.glob("./data/passes/*.csv")
+def GetTestAndTrainSets():
+    playFiles = glob.glob("./data/plays/*.csv")
+    rushFiles = glob.glob("./data/rushes/*.csv")
+    passFiles = glob.glob("./data/passes/*.csv")
 
-playColumns = ["Game Code", "Play Number", "Period Number", "Offense Points", "Defense Points", "Down", "Distance", "Spot", "Play Type", "Drive Number", "Drive Play"]
-rushPassColumns = ["Game Code", "Play Number", "Attempt", "Yards", "Touchdown", "1st Down"]
+    playColumns = ["Game Code", "Play Number", "Period Number", "Offense Points", "Defense Points", "Down", "Distance", "Spot", "Play Type", "Drive Number", "Drive Play"]
+    rushPassColumns = ["Game Code", "Play Number", "Attempt", "Yards", "Touchdown", "1st Down"]
 
-plays = SelectColumnsFromMultipleFiles(playFiles, playColumns)
-rushes = SelectColumnsFromMultipleFiles(rushFiles, rushPassColumns)
-passes = SelectColumnsFromMultipleFiles(passFiles, rushPassColumns)
+    plays = SelectColumnsFromMultipleFiles(playFiles, playColumns)
+    rushes = SelectColumnsFromMultipleFiles(rushFiles, rushPassColumns)
+    passes = SelectColumnsFromMultipleFiles(passFiles, rushPassColumns)
 
-fourthDownAttempts = plays.loc[(plays["Down"] == 4) & ((plays["Play Type"] == "RUSH") | (plays["Play Type"] == "PASS"))]
+    fourthDownAttempts = plays.loc[(plays["Down"] == 4) & ((plays["Play Type"] == "RUSH") | (plays["Play Type"] == "PASS"))]
 
-fourthRushes = pd.merge(fourthDownAttempts.loc[fourthDownAttempts["Play Type"] == "RUSH"], rushes, how = "left", on = ["Game Code", "Play Number"])
-fourthPasses = pd.merge(fourthDownAttempts.loc[fourthDownAttempts["Play Type"] == "PASS"], passes, how = "left", on = ["Game Code", "Play Number"])
+    fourthRushes = pd.merge(fourthDownAttempts.loc[fourthDownAttempts["Play Type"] == "RUSH"], rushes, how = "left", on = ["Game Code", "Play Number"])
+    fourthPasses = pd.merge(fourthDownAttempts.loc[fourthDownAttempts["Play Type"] == "PASS"], passes, how = "left", on = ["Game Code", "Play Number"])
 
-fourthDownAttempts = pd.concat([fourthRushes,fourthPasses])
+    fourthDownAttempts = pd.concat([fourthRushes,fourthPasses])
 
-fourthDownAttempts["Play Type"].replace(["RUSH", "PASS"], [1, 0], inplace=True)
+    fourthDownAttempts["Play Type"].replace(["RUSH", "PASS"], [1, 0], inplace=True)
 
-fourthDownAttempts["Convert"] = fourthDownAttempts["Touchdown"] | fourthDownAttempts["1st Down"]
+    fourthDownAttempts["Convert"] = fourthDownAttempts["Touchdown"] | fourthDownAttempts["1st Down"]
 
-fourthDownAttempts.drop(["Game Code", "Touchdown","1st Down", "Attempt", "Down", "Yards"], axis=1, inplace = True)
+    fourthDownAttempts.drop(["Game Code", "Touchdown","1st Down", "Attempt", "Down", "Yards"], axis=1, inplace = True)
 
-y = fourthDownAttempts["Convert"].values
-X = fourthDownAttempts.drop("Convert", axis=1).values
+    y = fourthDownAttempts["Convert"].values
+    X = fourthDownAttempts.drop("Convert", axis=1).values
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state=42, stratify=y)
+    #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state=42, stratify=y)
+    return train_test_split(X, y, test_size = 0.2, random_state=42, stratify=y)
 
-def GoOn4thSuccessPredictionLogisticRegression(situation):
-    logistic = LogisticRegression(C=10000)
-    LogisticRegression(C=100000.0, class_weight=None, dual=False, fit_intercept=True, intercept_scaling=1, max_iter=100, multi_class="ovr", n_jobs=1, penalty="l2", random_state=None, solver="liblinear", tol=0.0001, verbose=0, warm_start=False)
+def ModelExistence(usePersistedModel, filename):
+    currentModelExists = True
+    if usePersistedModel:
+        if not os.path.isfile(filename):
+            print(filename+" does not exist so model being created and saved")
+            currentModelExists = False
+    return currentModelExists
 
-    logistic.fit(X_train, y_train)
+def GoOn4thSuccessPredictionLogisticRegression(situation, usePersistedModel = False):
+    filename = "./models/GoOn4thSuccessPredictionLogisticRegression.sav"
+    currentModelExists = ModelExistence(usePersistedModel,filename)
+    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
+
+    if (not usePersistedModel) or (not currentModelExists):
+        logistic = LogisticRegression(C=10000)
+        LogisticRegression(C=100000.0, class_weight=None, dual=False, fit_intercept=True, intercept_scaling=1, max_iter=100, multi_class="ovr", n_jobs=1, penalty="l2", random_state=None, solver="liblinear", tol=0.0001, verbose=0, warm_start=False)
+
+        logistic.fit(X_train, y_train)
+        #persist model
+        joblib.dump(logistic, filename)
+    else:
+        logistic = joblib.load(filename)
+
     prediction = logistic.predict_proba(np.asarray(situation).reshape(1,-1))[:,1]
     return prediction[0]
 
-def GraphKnnGoOn4thAccuracy(neighborsCount):
+def GraphKnnGoOn4thAccuracy(neighborsCount, usePersistedModel = False):
     # Setup arrays to store train and test accuracies
     neighbors = np.arange(1, neighborsCount)
     train_accuracy = np.empty(len(neighbors))
     test_accuracy = np.empty(len(neighbors))
+    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
 
     # Loop over different values of k
     for i, k in enumerate(neighbors):
-        # Setup a k-NN Classifier with k neighbors: knn
-        knn = KNeighborsClassifier(n_neighbors=k)
+        filename = "./models/GraphKnnGoOn4thAccuracy_"+str(k)+".sav"
+        currentModelExists = ModelExistence(usePersistedModel,filename)
 
-        # Fit the classifier to the training data
-        knn.fit(X_train, y_train)
+        if (not usePersistedModel) or (not currentModelExists):
+            # Setup a k-NN Classifier with k neighbors: knn
+            knn = KNeighborsClassifier(n_neighbors=k)
+
+            # Fit the classifier to the training data
+            knn.fit(X_train, y_train)
+
+            #persist model
+            joblib.dump(knn, filename)
+        else:
+            knn = joblib.load(filename)
 
         #Compute accuracy on the training set
         train_accuracy[i] = knn.score(X_train, y_train)
@@ -91,17 +123,28 @@ def GraphKnnGoOn4thAccuracy(neighborsCount):
     plt.savefig("./imgs/Go4thKnn"+str(neighborsCount)+"Neighbors.png")
     plt.show()
 
-def GraphLogisticRegressionGoOn4thAccuracy(maxC):
+def GraphLogisticRegressionGoOn4thAccuracy(maxC, usePersistedModel = False):
     Cs = np.arange(1, maxC)
     train_accuracy2 = np.empty(len(Cs))
     test_accuracy2 = np.empty(len(Cs))
+    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
+
     # Loop over different values of C
     for i, c in enumerate(Cs):
-        # Setup a k-NN Classifier with k neighbors: knn
-        logistic = LogisticRegression(C=10**c)
+        filename = "./models/GraphLogisticRegressionGoOn4thAccuracy_"+str(10**c)+".sav"
+        currentModelExists = ModelExistence(usePersistedModel,filename)
 
-        # Fit the classifier to the training data
-        logistic.fit(X_train, y_train)
+        if (not usePersistedModel) or (not currentModelExists):
+            # Setup a k-NN Classifier with k neighbors: knn
+            logistic = LogisticRegression(C=10**c)
+
+            # Fit the classifier to the training data
+            logistic.fit(X_train, y_train)
+
+            #persist model
+            joblib.dump(logistic, filename)
+        else:
+            logistic = joblib.load(filename)
 
         #Compute accuracy on the training set
         train_accuracy2[i] = logistic.score(X_train, y_train)
