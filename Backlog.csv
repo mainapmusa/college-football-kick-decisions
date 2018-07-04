@@ -51,3 +51,4 @@ Graph 4th down conversion rate from each distance for both passing and rushing,M
 Add ability to tweet,Maina,Done,High,,
 Add ability to tweet images,Maina,To Do,Medium,,
 inspect.stack()[0][3] for img and model names,Maina,To Do,Medium,,
+Clean up import statements,Maina,To Do,Low,,
