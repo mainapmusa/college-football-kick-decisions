@@ -22,42 +22,52 @@ from sklearn.metrics import classification_report
 #from sas7bdat import SAS7BDAT
 
 #sudo pip install pandas
-driveFiles = glob.glob("./data/drives/drive*.csv")
-teamFiles = glob.glob("./data/teams/team*.csv")
-conferenceFiles = glob.glob("./data/conferences/conference*.csv")
 
-drivesInside35 = SelectColumnsFromMultipleFilesFiltered(driveFiles, ["Start Spot", "End Reason"], 0, 35)
-points = {}
-driveCounts = drivesInside35["Start Spot"].value_counts()
-for i, drive in drivesInside35.iterrows():
-    if drive["Start Spot"] in points:
-        points[drive["Start Spot"]] += 7.0 if drive["End Reason"] == "TOUCHDOWN" else 3.0 if drive["End Reason"] == "FIELD GOAL" else 0.0
-    else:
-        points[drive["Start Spot"]] = 7.0 if drive["End Reason"] == "TOUCHDOWN" else 3.0 if drive["End Reason"] == "FIELD GOAL" else 0.0
+def GetFiles():
+    driveFiles = glob.glob("./data/drives/drive*.csv")
+    teamFiles = glob.glob("./data/teams/team*.csv")
+    conferenceFiles = glob.glob("./data/conferences/conference*.csv")
+    return driveFiles, teamFiles, conferenceFiles
 
-for key, value in points.items():
-    points[key] = round(points[key]/driveCounts[key],3)
+def GetPoints():
+    driveFiles = GetFiles()[0]
+    drivesInside35 = SelectColumnsFromMultipleFilesFiltered(driveFiles, ["Start Spot", "End Reason"], 0, 35)
+    points = {}
+    driveCounts = drivesInside35["Start Spot"].value_counts()
+    for i, drive in drivesInside35.iterrows():
+        if drive["Start Spot"] in points:
+            points[drive["Start Spot"]] += 7.0 if drive["End Reason"] == "TOUCHDOWN" else 3.0 if drive["End Reason"] == "FIELD GOAL" else 0.0
+        else:
+            points[drive["Start Spot"]] = 7.0 if drive["End Reason"] == "TOUCHDOWN" else 3.0 if drive["End Reason"] == "FIELD GOAL" else 0.0
 
+    for key, value in points.items():
+        points[key] = round(points[key]/driveCounts[key],3)
+
+    return points
 
 #potential things to add teams and home/away from game.csv+team.csv+conference.csv and added wins data
 #http://football.stassen.com/cgi-bin/records/show-team.pl
 
+def GetDrivesWithConference():
+    driveFiles, teamFiles, conferenceFiles = GetFiles()
+    drives = SelectColumnsFromMultipleFiles(driveFiles, ["Team Code", "Start Period", "Start Clock", "Start Reason" ,"Start Spot", "End Reason", "Plays", "Yards", "Time Of Possession", "Year"])
+    teams = SelectColumnsFromMultipleFilesRemoveDuplicates(teamFiles,["Team Code", "Name", "Conference Code","Wins"], "Team Code")
+    conferences = SelectColumnsFromMultipleFilesRemoveDuplicates(conferenceFiles,["Conference Code", "Name", "Subdivision"], "Conference Code")
 
-drives = SelectColumnsFromMultipleFiles(driveFiles, ["Team Code", "Start Period", "Start Clock", "Start Reason" ,"Start Spot", "End Reason", "Plays", "Yards", "Time Of Possession", "Year"])
-teams = SelectColumnsFromMultipleFilesRemoveDuplicates(teamFiles,["Team Code", "Name", "Conference Code","Wins"], "Team Code")
-conferences = SelectColumnsFromMultipleFilesRemoveDuplicates(conferenceFiles,["Conference Code", "Name", "Subdivision"], "Conference Code")
+    drivesWithTeam = pd.merge(drives, teams, how = "left", on = ["Team Code"])
+    drivesWithConference = pd.merge(drivesWithTeam, conferences, how = "left", on = ["Conference Code"])
 
-drivesWithTeam = pd.merge(drives, teams, how = "left", on = ["Team Code"])
-drivesWithConference = pd.merge(drivesWithTeam, conferences, how = "left", on = ["Conference Code"])
+    drivesWithConference.rename(columns = {"Name_x": "Team Name", "Name_y": "Conference Name"}, inplace = True)
+    drivesWithConference["End Reason"].replace(["TOUCHDOWN", "FIELD GOAL", "DOWNS", "END OF HALF", "FUMBLE", "INTERCEPTION", "MISSED FIELD GOAL", "PUNT", "SAFETY"], [7, 3, 0, 0, 0, 0, 0, 0, 0], inplace=True)
 
-drivesWithConference.rename(columns = {"Name_x": "Team Name", "Name_y": "Conference Name"}, inplace = True)
-drivesWithConference["End Reason"].replace(["TOUCHDOWN", "FIELD GOAL", "DOWNS", "END OF HALF", "FUMBLE", "INTERCEPTION", "MISSED FIELD GOAL", "PUNT", "SAFETY"], [7, 3, 0, 0, 0, 0, 0, 0, 0], inplace=True)
-
+    return drivesWithConference
 
 def ExpectedPointsByStartPosition(startPosition):
+    points = GetPoints()
     return points[startPosition]
 
 def GraphExpectedPointsByStartPosition():
+    points = GetPoints()
     plt.plot(*zip(*sorted(points.items())))
     plt.title("Expected Value vs Starting Field Position")
     plt.legend()
@@ -68,6 +78,7 @@ def GraphExpectedPointsByStartPosition():
 
 
 def GraphExpectedPointsByStartPositionFullField():
+    driveFiles = GetFiles()[0]
     drivesFullField = SelectColumnsFromMultipleFiles(driveFiles, ["Start Spot", "End Reason"])
     pointsFullField = {}
     driveCountsFullField = drivesFullField["Start Spot"].value_counts()
@@ -91,12 +102,14 @@ def ExpectedPointsByStartPositionLogisticRegression(situation):
     return True
 
 def PointsPerPossessionForTeamForYear(teamName, year):
+    drivesWithConference = GetDrivesWithConference()
     teamsDrives = drivesWithConference.loc[(drivesWithConference["Team Name"] == teamName) & (drivesWithConference["Year"] == year)]
     #teamsDrives["End Reason"].replace(["TOUCHDOWN", "FIELD GOAL", "DOWNS", "END OF HALF", "FUMBLE", "INTERCEPTION", "MISSED FIELD GOAL", "PUNT", "SAFETY"], [7, 3, 0, 0, 0, 0, 0, 0, 0], inplace=True)
     yearPPP = pd.DataFrame(teamsDrives.groupby(["Year"])["End Reason"].mean())
     return yearPPP.iloc[0,0]
 
 def GraphTeamPointsPerPossessionByYear(teamName):
+    drivesWithConference = GetDrivesWithConference()
     teamsDrives = drivesWithConference.loc[drivesWithConference["Team Name"] == teamName]
     #teamsDrives["End Reason"].replace(["TOUCHDOWN", "FIELD GOAL", "DOWNS", "END OF HALF", "FUMBLE", "INTERCEPTION", "MISSED FIELD GOAL", "PUNT", "SAFETY"], [7, 3, 0, 0, 0, 0, 0, 0, 0], inplace=True)
 
@@ -114,6 +127,7 @@ def GraphTeamPointsPerPossessionByYear(teamName):
     #print(teamsDrives.head(10))
 
 def GraphCompareTeamsPointsPerPossession(teams):
+    drivesWithConference = GetDrivesWithConference()
     teamsPPPs = []
     plt.figure(figsize=(14,8))
     for team in teams:
@@ -133,6 +147,7 @@ def GraphCompareTeamsPointsPerPossession(teams):
 
 
 def GraphCompareConferencePointsPerPossession(filters = {}, conferences = []):
+    drivesWithConference = GetDrivesWithConference()
     confDrives = drivesWithConference[["Team Name","Conference Name","End Reason", "Year", "Subdivision"]]
     for key, value in filters.items():
         confDrives = confDrives.loc[confDrives[key] == value]
@@ -152,6 +167,7 @@ def GraphCompareConferencePointsPerPossession(filters = {}, conferences = []):
     plt.show()
 
 def TopPointsPerPossession():
+    drivesWithConference = GetDrivesWithConference()
     #allDrives = drivesWithConference[["Team Name", "Year", "End Reason"]]
     allDrives = drivesWithConference.loc[drivesWithConference["Subdivision"] == "FBS"][["Team Name", "Year", "End Reason"]]
 

@@ -46,31 +46,31 @@ def main():
 
     #ExpectedPoints
     GraphExpectedPointsByStartPosition()
-    #GraphExpectedPointsByStartPositionFullField()
-    #GraphTeamPointsPerPossessionByYear("Oklahoma")
-    #GraphTeamPointsPerPossessionByYear("Notre Dame")
-    #GraphTeamPointsPerPossessionByYear("Boise State")
-    #GraphCompareTeamsPointsPerPossession(["Notre Dame", "Oklahoma", "Syracuse", "Miami (Florida)"])
+    GraphExpectedPointsByStartPositionFullField()
+    GraphTeamPointsPerPossessionByYear("Oklahoma")
+    GraphTeamPointsPerPossessionByYear("Notre Dame")
+    GraphTeamPointsPerPossessionByYear("Boise State")
+    GraphCompareTeamsPointsPerPossession(["Notre Dame", "Oklahoma", "Syracuse", "Miami (Florida)"])
     #make sure following call works with no conferences list
     #GraphCompareConferencePointsPerPossession()
-    #GraphCompareConferencePointsPerPossession(conferences = ["Atlantic Coast Conference", "Southeastern Conference", "Big 12 Conference"])
-    #TopPointsPerPossession()
-    #print(PointsPerPossessionForTeamForYear("Boise State", 2009))
+    GraphCompareConferencePointsPerPossession(conferences = ["Atlantic Coast Conference", "Southeastern Conference", "Big 12 Conference"])
+    TopPointsPerPossession()
+    print(PointsPerPossessionForTeamForYear("Boise State", 2009))
 
     #GoOn4th
-    GraphKnnGoOn4thAccuracy(9,True)
-    GraphLogisticRegressionGoOn4thAccuracy(6,True)
+    #GraphKnnGoOn4thAccuracy(9,True)
+    #GraphLogisticRegressionGoOn4thAccuracy(6,True)
 
     #FieldGoals
-    GraphFieldGoalPercentByDistance()
-    GraphKnnFieldGoalAccuracy(10,True)
-    GraphNaiveBayesFieldGoalAccuracy(5,True)
+    #GraphFieldGoalPercentByDistance()
+    #GraphKnnFieldGoalAccuracy(10,True)
+    #GraphNaiveBayesFieldGoalAccuracy(5,True)
 
     #Get working gaussian
     #GraphGaussianProcessFieldGoalAccuracy(3)
 
-    GraphRandomForestFieldGoalAccuracy(10,True)
-    GraphLogisticRegressionFieldGoalAccuracy(6,True)
+    #GraphRandomForestFieldGoalAccuracy(10,True)
+    #GraphLogisticRegressionFieldGoalAccuracy(6,True)
 
 def GetFieldGoalDecision(fgSituation, g4Situation, printResults = False):
     #"End Period", "End Clock", "End Spot"
