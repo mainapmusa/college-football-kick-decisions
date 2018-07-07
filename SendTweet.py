@@ -6,7 +6,7 @@ def get_api(cfg):
     auth.set_access_token(cfg["access_token"], cfg["access_token_secret"])
     return tweepy.API(auth)
 
-def tweet(message):
+def tweet(message, imagePath = ""):
 
     # Fill in the values noted in previous step here
     cfg = {
@@ -18,4 +18,7 @@ def tweet(message):
 
     api = get_api(cfg)
     #tweet = message
-    status = api.update_status(status=message)
+    if imagePath == "":
+        api.update_status(status=message)
+    else:
+        api.update_with_media(imagePath,message)

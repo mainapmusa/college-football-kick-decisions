@@ -23,6 +23,7 @@ import matplotlib.pyplot as plt
 import time
 from sys import argv
 from SendTweet import tweet
+import os
 #from ImportFiles import GetSituation
 
 def main():
@@ -37,25 +38,26 @@ def main():
     earlyGameFgs = [2,615]
     earlyGameGoingForIt = [100, 2, 7, 7, 1, 10, 1]
     earlyGameGoingForItRunAndPass = [100, 2, 7, 7, 10, 1]
-    GetFieldGoalDecision(fgSituation, g4Situation, True)
+    #GetFieldGoalDecision(fgSituation, g4Situation, True)
     #Graph4thAndDistance(earlyGameFgs, earlyGameGoingForIt,1)
     #Graph4thAndDistanceRunAndPass(earlyGameFgs, earlyGameGoingForItRunAndPass, 1)
 
-    #tweet("test tweet")
-
+    #imagePath = "./imgs/"+os.listdir("./imgs")[0]
+    #tweet("test tweet Saturday")
 
     #ExpectedPoints
-    GraphExpectedPointsByStartPosition()
-    GraphExpectedPointsByStartPositionFullField()
-    GraphTeamPointsPerPossessionByYear("Oklahoma")
-    GraphTeamPointsPerPossessionByYear("Notre Dame")
-    GraphTeamPointsPerPossessionByYear("Boise State")
-    GraphCompareTeamsPointsPerPossession(["Notre Dame", "Oklahoma", "Syracuse", "Miami (Florida)"])
+    #GraphExpectedPointsByStartPosition()
+    #GraphExpectedPointsByStartPositionFullField()
+    #GraphTeamPointsPerPossessionByYear("Oklahoma")
+    #GraphTeamPointsPerPossessionByYear("Notre Dame")
+    #GraphTeamPointsPerPossessionByYear("Boise State")
+    #GraphCompareTeamsPointsPerPossession(["Notre Dame", "Oklahoma", "Syracuse", "Miami (Florida)"])
     #make sure following call works with no conferences list
     #GraphCompareConferencePointsPerPossession()
-    GraphCompareConferencePointsPerPossession(conferences = ["Atlantic Coast Conference", "Southeastern Conference", "Big 12 Conference"])
-    TopPointsPerPossession()
-    print(PointsPerPossessionForTeamForYear("Boise State", 2009))
+    #GraphCompareConferencePointsPerPossession(conferences = ["Atlantic Coast Conference", "Southeastern Conference", "Big 12 Conference"])
+    #TopPointsPerPossession()
+    #print(PointsPerPossessionForTeamForYear("Boise State", 2009))
+
 
     #GoOn4th
     #GraphKnnGoOn4thAccuracy(9,True)
