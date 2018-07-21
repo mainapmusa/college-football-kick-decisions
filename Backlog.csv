@@ -2,13 +2,13 @@ Item,Assigned To,Status,Priority,Expected Duration,Notes
 Move csv files into own folders,Maina,Done,Medium,,
 Get wins per team per year (web scrape?),Maina,Done,High,,http://football.stassen.com/cgi-bin/records/show-team.pl
 Account for team quality using wins per in year and conference affiliation,,To Do,High,,
-Update main script to take command line args,,Done,High,,
+Update main script to take command line args,Maina,Done,High,,
 ExpectedPointsByStartPositionLogisticRegression,Maina,Done,Medium,,
 Convert qtr + time time left to just overall time left for ML pieces,,To Do,Medium,,
 GraphCompareConferencePointsPerPossession takes list of conferences to compare,Maina,Done,Medium,,Also can give dictionary of things to filter on
 GraphCompareConferencePointsPerPossession but line graphs over period (should take list of conferences to compare),Maina,In Progress,Medium,,bug if no conferences or filters given
 Move old commented out code that made graphs of accuracy of ML algorithms into functions,Maina,Done,High,,
-"Review architecture - possible to have ""global"" set up pieces in own functions? (ExpectedPoints has multiple set ups)",,Done,Medium,,
+"Review architecture - possible to have ""global"" set up pieces in own functions? (ExpectedPoints has multiple set ups)",Maina,Done,Medium,,
 Review why it doesn't matter if RUSH or PASS for GoOn4th,Maina,In Progress,High,,
 Title for Graph4thAndDistance to show data entered,Maina,Done,High,,
 Multiple Graph4thAndDistance graphs displayed somehow,,To Do,Medium,,
@@ -17,7 +17,7 @@ Double check that kNN can't show % probable,Maina,Done,Low,,It just puts the % o
 Make a listing of each function and show functionality (README?),,To Do,Medium,,
 Set up GitHub account and put project up,Maina,Done,High,,
 "Review names of files and functions, update where needed",Maina,Done,High,,
-Update skins on matplotlib (change defaults?),,Done,Medium,,Used XKCD skin
+Update skins on matplotlib (change defaults?),Maina,Done,Medium,,Used XKCD skin
 remove 'End Spot' legend from graph GraphCompareConferencePointsPerPossession,Maina,Done,High,,
 rotate bar labels GraphCompareConferencePointsPerPossession (maybe take into account # of conferences),,To Do,Medium,,
 "Graph ExpectedPointsByStartPosition for all distances, not just inside 35",Maina,Done,Low,,
@@ -29,7 +29,7 @@ Print top 10 list of PPP for a team in a year,Maina,Done,High,,
 Compare PPP to wins and see if there is a correlation,,To Do,High,,
 Contact to see if they'll be releasing new data (2014-2017),Maina,Done,High,,$350: http://coachesbythenumbers.com/sportsource-college-football-data-packages/
 Move changing End Reason to points scored from functions up to global? Check if good idea,Maina,Done,High,,
-Clean up commented out debugging statements,,Done,Low,,
+Clean up commented out debugging statements,Maina,Done,Low,,
 Add real comments for legibility,,To Do,Medium,,
 For top PPP only check FBS,Maina,Done,High,,
 For top PPP give ability to filter by desired conferences,,To Do,Medium,,
