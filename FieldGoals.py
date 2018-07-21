@@ -61,9 +61,9 @@ def ModelExistence(usePersistedModel, filename):
 def FieldGoalExpectedValueLogisticRegression(situation, usePersistedModel = False):
     filename = "./models/FieldGoalExpectedValueLogisticRegression.sav"
     currentModelExists = ModelExistence(usePersistedModel,filename)
-    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
 
     if (not usePersistedModel) or (not currentModelExists):
+        X_train, X_test, y_train, y_test = GetTestAndTrainSets()
         logistic = LogisticRegression(C=100000)
         logistic.fit(X_train,y_train)
         #persist model
@@ -77,9 +77,9 @@ def FieldGoalExpectedValueLogisticRegression(situation, usePersistedModel = Fals
 def FieldGoalExpectedValueKnn(situation, usePersistedModel = False):
     filename = "./models/FieldGoalExpectedValueKnn.sav"
     currentModelExists = ModelExistence(usePersistedModel,filename)
-    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
 
     if (not usePersistedModel) or (not currentModelExists):
+        X_train, X_test, y_train, y_test = GetTestAndTrainSets()
         knn = KNeighborsClassifier(n_neighbors=12)
         knn.fit(X_train,y_train)
         #persist model

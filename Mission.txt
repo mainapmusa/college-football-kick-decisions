@@ -11,3 +11,15 @@ Challenges:
 Why interesting:
     Could debunk the always kick heuristic
           If picking up 1-2 yards is 80% then you should go for it inside the 20
+
+
+=== Metrics to investigate ===
+- accumulation of points given up across the season
+  -- per team and then across all games
+
+- what % of time on 4th downs inside the 40 did a team (or all teams) pick the wrong choice
+
+- show line graph over time season or over years of % of bad decisions to see if coaches getting better
+  -- per team and then across all games
+
+- 

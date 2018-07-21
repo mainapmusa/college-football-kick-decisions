@@ -68,9 +68,10 @@ def ModelExistence(usePersistedModel, filename):
 def GoOn4thSuccessPredictionLogisticRegression(situation, usePersistedModel = False):
     filename = "./models/GoOn4thSuccessPredictionLogisticRegression.sav"
     currentModelExists = ModelExistence(usePersistedModel,filename)
-    X_train, X_test, y_train, y_test = GetTestAndTrainSets()
+
 
     if (not usePersistedModel) or (not currentModelExists):
+        X_train, X_test, y_train, y_test = GetTestAndTrainSets()
         logistic = LogisticRegression(C=10000)
         LogisticRegression(C=100000.0, class_weight=None, dual=False, fit_intercept=True, intercept_scaling=1, max_iter=100, multi_class="ovr", n_jobs=1, penalty="l2", random_state=None, solver="liblinear", tol=0.0001, verbose=0, warm_start=False)
 

@@ -1,5 +1,5 @@
 import tweepy
-from sys import argv
+import json
 
 def get_api(cfg):
     auth = tweepy.OAuthHandler(cfg["consumer_key"], cfg["consumer_secret"])
@@ -9,12 +9,7 @@ def get_api(cfg):
 def tweet(message, imagePath = ""):
 
     # Fill in the values noted in previous step here
-    cfg = {
-        "consumer_key"        : "",
-        "consumer_secret"     : "",
-        "access_token"        : "",
-        "access_token_secret" : ""
-    }
+    cfg = json.load(open("../configs/cfg.json"))
 
     api = get_api(cfg)
     #tweet = message
