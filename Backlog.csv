@@ -2,11 +2,11 @@ Item,Assigned To,Status,Priority,Expected Duration,Notes
 Move csv files into own folders,Maina,Done,Medium,,
 Get wins per team per year (web scrape?),Maina,Done,High,,http://football.stassen.com/cgi-bin/records/show-team.pl
 Account for team quality using wins per in year and conference affiliation,,To Do,High,,
-Update main script to take command line args,,To Do,High,,
+Update main script to take command line args,,Done,High,,
 ExpectedPointsByStartPositionLogisticRegression,Maina,Done,Medium,,
 Convert qtr + time time left to just overall time left for ML pieces,,To Do,Medium,,
 GraphCompareConferencePointsPerPossession takes list of conferences to compare,Maina,Done,Medium,,Also can give dictionary of things to filter on
-GraphCompareConferencePointsPerPossession but line graphs over period (should take list of conferences to compare),,In Progress,Medium,,bug if no conferences or filters given
+GraphCompareConferencePointsPerPossession but line graphs over period (should take list of conferences to compare),Maina,In Progress,Medium,,bug if no conferences or filters given
 Move old commented out code that made graphs of accuracy of ML algorithms into functions,Maina,Done,High,,
 "Review architecture - possible to have ""global"" set up pieces in own functions? (ExpectedPoints has multiple set ups)",,Done,Medium,,
 Review why it doesn't matter if RUSH or PASS for GoOn4th,Maina,In Progress,High,,
@@ -29,7 +29,7 @@ Print top 10 list of PPP for a team in a year,Maina,Done,High,,
 Compare PPP to wins and see if there is a correlation,,To Do,High,,
 Contact to see if they'll be releasing new data (2014-2017),Maina,Done,High,,$350: http://coachesbythenumbers.com/sportsource-college-football-data-packages/
 Move changing End Reason to points scored from functions up to global? Check if good idea,Maina,Done,High,,
-Clean up commented out debugging statements,,In Progress,Low,,
+Clean up commented out debugging statements,,Done,Low,,
 Add real comments for legibility,,To Do,Medium,,
 For top PPP only check FBS,Maina,Done,High,,
 For top PPP give ability to filter by desired conferences,,To Do,Medium,,
@@ -37,7 +37,7 @@ Make single quote vs double quote for column names consistent,Maina,Done,High,,D
 Rename FieldGoalExpectedValue function to be logistic regression specific,Maina,Done,Low,,
 "investigate ""test_size = 0.2, random_state=42, stratify=y"" in FieldGoals.py",,To Do,Medium,,
 Rename Go4thSuccessPrediction to be logistic regression specific,Maina,Done,Low,,
-IFTTT type thing that tweets out what team should do on 4th down (or maybe when they chose wrongly),,To Do,Medium,,
+IFTTT type thing that tweets out what team should do on 4th down (or maybe when they chose wrongly),,To Do,Medium,,Potential duplicate
 Do some feature regularization,,To Do,Medium,,
 Add time left to Go4th ML,Maina,To Do,Medium,,
 Add title to points per possession for conferences graph,Maina,Done,High,,
@@ -45,7 +45,7 @@ Ticks on 2005-2013 graphs show correctly instead of 0-8,,To Do,Medium,,
 Add function to graph comparing list of teams in PPP over time span,Maina,Done,High,,
 Add ability to optionally save models or overwrite them,Maina,Done,High,,http://scikit-learn.org/stable/modules/model_persistence.html
 Investigate warnings,Maina,To Do,Medium,,
-Turn 'situation' variables that are passed in from lists into objects,,To Do,Medium,,
+Turn 'situation' variables that are passed in from lists into objects,,To Do,Low,,Maybe something to reject
 "GoOn4th drops several columns before doing ML, investigate if we can just ignore them from beginning",,To Do,Low,,
 Graph 4th down conversion rate from each distance for both passing and rushing,Maina,To Do,High,,
 Add ability to tweet,Maina,Done,High,,
@@ -56,11 +56,11 @@ Make plotting function(s) in ExpectedPoints.py,,To Do,Low,,
 Time functions and do some performance tuning,Maina,To Do,Medium,,inspect.stack()[0][3] for function names
 "Team wise expected points for starting position, team and year?",,To Do,Medium,,
 Maybe day after games tweet out the number of illogical decisions especially in games that ended close,Maina,To Do,High,,
-Hide twitter keys and tokens,Maina,To Do,Medium,,just pull values from file that is not in source control?
+Hide twitter keys and tokens,Maina,Done,Medium,,just pull values from file that is not in source control?
 Move GetTestAndTrainSets() inside the create new model sections,Maina,In Progress,High,,
 "Use the ""Clock"" column from plays to actually get time left as well and not just what quarter it is",,To Do,Medium,,use data frame fill options
 Do something with play type in the GoOn4th calls,,To Do,Medium,,"need to figure out for both, partially there already I think"
 Compile all the twitter handles of college football teams and coaches to tweet at,,To Do,High,,
-Tweet simple image for kick decision,Maina,In Progress,High,,
+Tweet simple image for kick decision,Maina,Done,High,,
 Tweet good image for kick decision,,To Do,Medium,,Will require thinking up a good image
 Get teams into image tweeting function,,To Do,High,,
