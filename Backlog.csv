@@ -53,7 +53,8 @@ Add ability to tweet images,Maina,Done,Medium,,
 inspect.stack()[0][3] for img and model names,Maina,To Do,Medium,,
 Clean up import statements,Maina,To Do,Low,,
 Make plotting function(s) in ExpectedPoints.py,,To Do,Low,,
-Time functions and do some performance tuning,Maina,To Do,Medium,,
+Time functions and do some performance tuning,Maina,To Do,Medium,,inspect.stack()[0][3] for function names
 "Team wise expected points for starting position, team and year?",,To Do,Medium,,
 Maybe day after games tweet out the number of illogical decisions especially in games that ended close,Maina,To Do,High,,
-Hide twitter keys and tokens,Maina,To Do,Medium,,
+Hide twitter keys and tokens,Maina,To Do,Medium,,just pull values from file that is not in source control?
+Move GetTestAndTrainSets() inside the create new model sections,Maina,In Progress,High,,
