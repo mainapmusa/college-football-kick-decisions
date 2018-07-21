@@ -58,3 +58,9 @@ Time functions and do some performance tuning,Maina,To Do,Medium,,inspect.stack(
 Maybe day after games tweet out the number of illogical decisions especially in games that ended close,Maina,To Do,High,,
 Hide twitter keys and tokens,Maina,To Do,Medium,,just pull values from file that is not in source control?
 Move GetTestAndTrainSets() inside the create new model sections,Maina,In Progress,High,,
+"Use the ""Clock"" column from plays to actually get time left as well and not just what quarter it is",,To Do,Medium,,use data frame fill options
+Do something with play type in the GoOn4th calls,,To Do,Medium,,"need to figure out for both, partially there already I think"
+Compile all the twitter handles of college football teams and coaches to tweet at,,To Do,High,,
+Tweet simple image for kick decision,Maina,In Progress,High,,
+Tweet good image for kick decision,,To Do,Medium,,Will require thinking up a good image
+Get teams into image tweeting function,,To Do,High,,
