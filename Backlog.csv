@@ -64,3 +64,5 @@ Compile all the twitter handles of college football teams and coaches to tweet a
 Tweet simple image for kick decision,Maina,Done,High,,
 Tweet good image for kick decision,,To Do,Medium,,Will require thinking up a good image
 Get teams into image tweeting function,,To Do,High,,
+Fix current state where KickDecision exits the program at the first call that will not work.,,To Do,Low,,If comparing conferences has all the params it needs but getting a kick decision does not then neither of them work
+Figure out naming of image files convention to be used for tweeting,,To Do,High,,maybe just use guids

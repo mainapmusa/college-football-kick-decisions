@@ -9,6 +9,7 @@ from ImportFiles import SelectColumnsFromMultipleFiles
 from ImportFiles import SelectColumnsFromMultipleFilesFiltered
 from ImportFiles import SelectColumnsFromMultipleFilesFilteredIn
 from ImportFiles import SelectColumnsFromMultipleFilesRemoveDuplicates
+from SendTweet import tweet
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import Normalizer
 from sklearn.pipeline import make_pipeline
@@ -146,7 +147,7 @@ def GraphCompareTeamsPointsPerPossession(teams):
     plt.show()
 
 
-def GraphCompareConferencePointsPerPossession(filters = {}, conferences = []):
+def GraphCompareConferencePointsPerPossession(filters = {}, conferences = [], tweetResults = False):
     drivesWithConference = GetDrivesWithConference()
     confDrives = drivesWithConference[["Team Name","Conference Name","End Reason", "Year", "Subdivision"]]
     for key, value in filters.items():
@@ -164,7 +165,14 @@ def GraphCompareConferencePointsPerPossession(filters = {}, conferences = []):
     plt.subplots_adjust(bottom=0.2)
     plt.title("Points per Possession for Conferences")
     plt.savefig("./imgs/ConferencesPointsPerPossesion"+".png")
-    plt.show()
+    print("about to tweet")
+    if(tweetResults):
+        print("tweet results!")
+        print(", ".join(conferences))
+        print("./imgs/ConferencesPointsPerPossesion"+".png")
+        TweetResults(", ".join(conferences), "./imgs/ConferencesPointsPerPossesion"+".png")
+    print("done tweeting")
+    #plt.show()
 
 def TopPointsPerPossession():
     drivesWithConference = GetDrivesWithConference()
@@ -175,3 +183,6 @@ def TopPointsPerPossession():
     teamsPPP = pd.DataFrame(allDrives.groupby(["Team Name", "Year"])["End Reason"].mean())
     teamsPPP.rename(columns = {"End Reason": "Points Per Possession"}, inplace = True)
     print(teamsPPP.sort_values(["Points Per Possession"], ascending=False).head(25))
+
+def TweetResults(message, imagePath = ""):
+    tweet(message,imagePath)

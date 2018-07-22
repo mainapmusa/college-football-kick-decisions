@@ -51,16 +51,23 @@ def main():
         if(len(args.Situation)) != 10:
             exit("If getting a field goal decision must pass the situation for which you are investigating with the -Situation parameter:\n" + helpStrings["Situation"])
 
-    fgSituation = args.Situation[:3]
-    g4Situation = [args.Situation[3]] + [args.Situation[0]] + args.Situation[4:7] + [args.Situation[2]] + args.Situation[7:]
+        fgSituation = args.Situation[:3]
+        g4Situation = [args.Situation[3]] + [args.Situation[0]] + args.Situation[4:7] + [args.Situation[2]] + args.Situation[7:]
 
+        GetFieldGoalDecision(fgSituation, g4Situation, args.tweet)
+
+    if(args.GraphCompareConferencePointsPerPossession):
+        if(len(args.Conferences) == 0):
+            exit("Must include list of conferences using -Conferences to compare with -GraphCompareConferencePointsPerPossession")
+
+        GraphCompareConferencePointsPerPossession(conferences = args.Conferences, tweetResults=args.tweet)
 
     #earlyGameFgs = [2,615]
     #earlyGameGoingForIt = [100, 2, 7, 7, 1, 10, 1]
     #earlyGameGoingForItRunAndPass = [100, 2, 7, 7, 10, 1]
 
 
-    GetFieldGoalDecision(fgSituation, g4Situation, args.tweet)
+    #GetFieldGoalDecision(fgSituation, g4Situation, args.tweet)
     #Graph4thAndDistance(earlyGameFgs, earlyGameGoingForIt,5)
     #Graph4thAndDistanceRunAndPass(earlyGameFgs, earlyGameGoingForItRunAndPass, 1)
 
@@ -141,7 +148,6 @@ def TweetDecision(decisionValues, conversionStartingSpot):
     #plt.xlabel("Teams")
     plt.ylabel("Expected Points")
     plt.savefig(imagePath)
-    plt.show()
 
     tweet(message,imagePath)
 
