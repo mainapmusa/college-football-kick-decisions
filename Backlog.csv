@@ -66,3 +66,5 @@ Tweet good image for kick decision,,To Do,Medium,,Will require thinking up a goo
 Get teams into image tweeting function,,To Do,High,,
 Fix current state where KickDecision exits the program at the first call that will not work.,,To Do,Low,,If comparing conferences has all the params it needs but getting a kick decision does not then neither of them work
 Figure out naming of image files convention to be used for tweeting,,To Do,High,,maybe just use guids
+If unable to do live tweeting change it to respond to tweets at TBM with kick decision,,To Do,Medium,,less fun but may allow for some level of exposure - will have to follow strict format probably
+Expected points to use ML and not just average,,To Do,Medium,,
