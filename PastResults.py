@@ -65,8 +65,8 @@ def investigateGame(gameId, homeTeamId, awayTeamId):
             src = drive.find_element_by_css_selector(".accordion-header .webview-internal .left .team-logo").get_attribute("src")
             print(str(homeTeam)+ " " + str(homeScore))
             print(str(awayTeam) + " " + str(awayScore))
-            #src = strig.replace("http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/","")
-            #print(src)
+            offenseId = src.replace("http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/","").split(".")[0]
+            print(offenseId)
         except:
             pass
 
