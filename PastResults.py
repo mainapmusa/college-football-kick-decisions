@@ -42,6 +42,37 @@ for week in weeks:
 
 '''
 
+
+
+def investigateGame(gameId, homeTeamId, awayTeamId):
+    option = webdriver.ChromeOptions()
+    option.add_argument(" - incognito")
+    browser = webdriver.Chrome(executable_path="/Applications/chromedriver", chrome_options=option)
+
+    #travel to play by play site for each game found for the week
+    browser.get("http://www.espn.com/college-football/playbyplay?gameId="+gameId)
+
+    #get list of drives
+    drives = browser.find_elements_by_css_selector("#gamepackage-drives-wrap li.accordion-item")
+
+    #drill into each drive of that list of drives for this game
+    for drive in drives:
+        try:
+            homeTeam = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .home .team-name").get_attribute("innerHTML")
+            awayTeam = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .away .team-name").get_attribute("innerHTML")
+            homeScore = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .home .team-score").get_attribute("innerHTML")
+            awayScore = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .away .team-score").get_attribute("innerHTML")
+            src = drive.find_element_by_css_selector(".accordion-header .webview-internal .left .team-logo").get_attribute("src")
+            print(str(homeTeam)+ " " + str(homeScore))
+            print(str(awayTeam) + " " + str(awayScore))
+            #src = strig.replace("http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/","")
+            #print(src)
+        except:
+            pass
+
+    browser.quit()
+
+
 def main():
     parser = argparse.ArgumentParser()
 
@@ -65,8 +96,14 @@ def main():
         print("starting year: "+year)
         for week in weeks:
             print("starting week: "+week)
+
+            #navigate to list of games that week
             browser.get("http://www.espn.com/college-football/scoreboard/_/group/80/year/"+year+"/seasontype/2/week/"+week)
-            games = browser.find_elements_by_css_selector('.scoreboard.football')
+
+            #grab each game for that week
+            games = browser.find_elements_by_css_selector(".scoreboard.football")
+
+            #get important IDs for each game
             gameAndTeamIds = []
             for game in games:
                 gameId = game.get_attribute("id")
@@ -74,10 +111,14 @@ def main():
                 homeTeamId = game.get_attribute("data-homeid")
                 gameAndTeamIds.append([gameId,homeTeamId,awayTeamId])
 
-            print(gameAndTeamIds)
 
+            print(gameAndTeamIds)
+            browser.quit()
+            #drill into each game for the week that we found
             for game in gameAndTeamIds:
-                browser.get("http://www.espn.com/college-football/playbyplay?gameId="+game[0])
+                investigateGame(game[0], game[1], game[2])
+
+
 
 if __name__ == "__main__":
     main()
