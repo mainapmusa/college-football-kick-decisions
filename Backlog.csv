@@ -68,3 +68,5 @@ Fix current state where KickDecision exits the program at the first call that wi
 Figure out naming of image files convention to be used for tweeting,,To Do,High,,maybe just use guids
 If unable to do live tweeting change it to respond to tweets at TBM with kick decision,,To Do,Medium,,less fun but may allow for some level of exposure - will have to follow strict format probably
 Expected points to use ML and not just average,,To Do,Medium,,
+Create dictionary of team to important twitter handles,,To Do,Medium,,https://www.sbnation.com/college-football/2013/5/22/4299860/sec-football-twitter-coaches-teams-blogs
+Add losses to team CSVs to be able to use win percent and not just wins,,To Do,Medium,,should be basically the same vlookup 
