@@ -112,13 +112,19 @@ def investigateGame(gameId, homeTeamId, awayTeamId):
                                 defensePoints = awayPoints
 
                             print("\t\t"+"offense points: " + str(offensePoints) + ",defense points: " + str(defensePoints) + ", position: " + str(ballPosition) + ", drive number: " + str(driveNumber) + ", play number: " + str(PlayNumber))
-                            print("\t\t"+"quarter: "+ qtr + ", time: "+time)
+                            print("\t\t"+"quarter: "+ qtr + ", time: "+str(time))
                     except:
                         pass
 
-                    stuff = attempt.split(")")[0].split("-")
-                    time = stuff[0].strip().replace("(","")
-                    qtr = stuff[1].strip()[0]
+                    if "End" not in attempt:
+                        stuff = attempt.split(")")[0].split("-")
+                        time = stuff[0].strip().replace("(","")
+                        time = int(time.split(":")[0])*60 + int(time.split(":")[1])
+                        qtr = stuff[1].strip()[0]
+                    else:
+                        #get quarter number and say play started with 60*15 seconds left
+                        qtr = str(int(qtr)+1)
+                        time = 15*60
 
                 except:
                     pass
