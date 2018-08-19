@@ -55,6 +55,11 @@ def investigateGame(gameId, homeTeamId, awayTeamId):
     #get list of drives
     drives = browser.find_elements_by_css_selector("#gamepackage-drives-wrap li.accordion-item")
 
+    #set the initial offense and defense points, at end of each drive reset these
+    homePoints = 0
+    awayPoints = 0
+    driveNumber = 0
+    PlayNumber = 0
     #drill into each drive of that list of drives for this game
     for drive in drives:
         try:
@@ -63,10 +68,32 @@ def investigateGame(gameId, homeTeamId, awayTeamId):
             homeScore = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .home .team-score").get_attribute("innerHTML")
             awayScore = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .away .team-score").get_attribute("innerHTML")
             src = drive.find_element_by_css_selector(".accordion-header .webview-internal .left .team-logo").get_attribute("src")
+
+            driveNumber += 1
             print(str(homeTeam)+ " " + str(homeScore))
             print(str(awayTeam) + " " + str(awayScore))
             offenseId = src.replace("http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/","").split(".")[0]
             print(offenseId)
+            print(homeTeamId)
+
+            #this seems backwards but it works so I'll roll with it
+            offenseShortCode = awayTeam if offenseId == homeTeamId else homeTeam
+            print("drive number: "+str(driveNumber)+  ",offense team: "+offenseShortCode)
+
+            #get Plays
+            plays = drive.find_elements_by_css_selector(".drive-list li")
+            for play in plays:
+                position = play.find_element_by_css_selector("h3").get_attribute("innerHTML").strip()
+                print(position)
+                attempt = play.find_element_by_css_selector(".post-play").get_attribute("innerHTML").strip()
+                print(attempt)
+                PlayNumber += 1
+
+            #go through each play
+
+            #set end of drive score for next drive to start with
+            homePoints = homeScore
+            awayPoints = awayScore
         except:
             pass
 
@@ -107,8 +134,8 @@ def main():
             gameAndTeamIds = []
             for game in games:
                 gameId = game.get_attribute("id")
-                awayTeamId = game.get_attribute("data-awayid")
                 homeTeamId = game.get_attribute("data-homeid")
+                awayTeamId = game.get_attribute("data-awayid")
                 gameAndTeamIds.append([gameId,homeTeamId,awayTeamId])
 
 
