@@ -58,6 +58,8 @@ def investigateGame(gameId, homeTeamId, awayTeamId):
     #set the initial offense and defense points, at end of each drive reset these
     homePoints = 0
     awayPoints = 0
+    offensePoints = 0
+    defensePoints = 0
     driveNumber = 0
     PlayNumber = 0
     #drill into each drive of that list of drives for this game
@@ -70,11 +72,11 @@ def investigateGame(gameId, homeTeamId, awayTeamId):
             src = drive.find_element_by_css_selector(".accordion-header .webview-internal .left .team-logo").get_attribute("src")
 
             driveNumber += 1
-            print(str(homeTeam)+ " " + str(homeScore))
-            print(str(awayTeam) + " " + str(awayScore))
+            #print(str(homeTeam)+ " " + str(homeScore))
+            #print(str(awayTeam) + " " + str(awayScore))
             offenseId = src.replace("http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/","").split(".")[0]
-            print(offenseId)
-            print(homeTeamId)
+            #print(offenseId)
+            #print(homeTeamId)
 
             #this seems backwards but it works so I'll roll with it
             offenseShortCode = awayTeam if offenseId == homeTeamId else homeTeam
@@ -83,11 +85,43 @@ def investigateGame(gameId, homeTeamId, awayTeamId):
             #get Plays
             plays = drive.find_elements_by_css_selector(".drive-list li")
             for play in plays:
-                position = play.find_element_by_css_selector("h3").get_attribute("innerHTML").strip()
-                print(position)
-                attempt = play.find_element_by_css_selector(".post-play").get_attribute("innerHTML").strip()
-                print(attempt)
-                PlayNumber += 1
+                try:
+                    attempt = play.find_element_by_css_selector(".post-play").get_attribute("innerHTML").strip()
+                    PlayNumber += 1
+
+                    #print(time)
+                    #print(qtr)
+                    try:
+                        position = play.find_element_by_css_selector("h3").get_attribute("innerHTML").strip()
+                        #if facing a 4th down from inside the opponents 35
+                        if (position[0] == '4') and (offenseShortCode not in position) and (int(position[-2:]) <= 35):
+                            print("\t"+position)
+                            print("\t"+attempt)
+                            ballPosition = position[-2:]
+                            #print ("offense id: " + str(offenseId))
+                            #print ("homeTeamId: " + str(homeTeamId))
+                            #print ("home points: " + homePoints)
+                            #print ("away points: " + awayPoints)
+
+                            #this also seems backwards, check why
+                            if(offenseId == homeTeamId):
+                                offensePoints = awayPoints
+                                defensePoints = homePoints
+                            else:
+                                offensePoints = homePoints
+                                defensePoints = awayPoints
+
+                            print("\t\t"+"offense points: " + str(offensePoints) + ",defense points: " + str(defensePoints) + ", position: " + str(ballPosition) + ", drive number: " + str(driveNumber) + ", play number: " + str(PlayNumber))
+                            print("\t\t"+"quarter: "+ qtr + ", time: "+time)
+                    except:
+                        pass
+
+                    stuff = attempt.split(")")[0].split("-")
+                    time = stuff[0].strip().replace("(","")
+                    qtr = stuff[1].strip()[0]
+
+                except:
+                    pass
 
             #go through each play
 
