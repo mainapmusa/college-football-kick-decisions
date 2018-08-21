@@ -42,9 +42,15 @@ for week in weeks:
 
 '''
 
+def GetKickDecision(situationInfo, tweet = False):
+    print("tweet decision?:  "+ str(tweet))
+    print(situationInfo)
+    print(" ".join(situationInfo))
+    os.system("python KickDecision.py -GetFieldGoalDecision -tweet -Situation " + " ".join(situationInfo) + " -tweet")
+    #os.system("python KickDecision.py -GetFieldGoalDecision -tweet -Situation " + " ".join(situationInfo))
+    #3 200 20 100 20 21 3 1 10 1
 
-
-def investigateGame(gameId, homeTeamId, awayTeamId):
+def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
     option = webdriver.ChromeOptions()
     option.add_argument(" - incognito")
     browser = webdriver.Chrome(executable_path="/Applications/chromedriver", chrome_options=option)
@@ -98,6 +104,7 @@ def investigateGame(gameId, homeTeamId, awayTeamId):
                             print("\t"+position)
                             print("\t"+attempt)
                             ballPosition = position[-2:]
+                            distance = position.split("at")[0].split("&amp;")[1].strip()
                             #print ("offense id: " + str(offenseId))
                             #print ("homeTeamId: " + str(homeTeamId))
                             #print ("home points: " + homePoints)
@@ -112,7 +119,10 @@ def investigateGame(gameId, homeTeamId, awayTeamId):
                                 defensePoints = awayPoints
 
                             print("\t\t"+"offense points: " + str(offensePoints) + ",defense points: " + str(defensePoints) + ", position: " + str(ballPosition) + ", drive number: " + str(driveNumber) + ", play number: " + str(PlayNumber))
-                            print("\t\t"+"quarter: "+ qtr + ", time: "+str(time))
+                            print("\t\t"+"quarter: "+ qtr + ", time: "+str(time) +", distance: " + distance)
+
+                            GetKickDecision([str(qtr), str(time), str(ballPosition), str(PlayNumber), str(offensePoints), str(defensePoints), str(distance), "1", str(driveNumber), "1"], tweet)
+
                     except:
                         pass
 
@@ -183,7 +193,7 @@ def main():
             browser.quit()
             #drill into each game for the week that we found
             for game in gameAndTeamIds:
-                investigateGame(game[0], game[1], game[2])
+                InvestigateGame(game[0], game[1], game[2], tweet)
 
 
 
