@@ -58,6 +58,26 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
     #travel to play by play site for each game found for the week
     browser.get("http://www.espn.com/college-football/playbyplay?gameId="+gameId)
 
+    awayWins,awayLosses = map(int,browser.find_element_by_css_selector("div.team.away .record").text.split(",")[0].split("-"))
+    homeWins,homeLosses = map(int,browser.find_element_by_css_selector("div.team.home .record").text.split(",")[0].split("-"))
+    homeWin = "home-winner" in browser.find_element_by_css_selector(".game-strip.game-package.college-football.post").get_attribute("class");
+
+
+    if homeWin:
+        homeWins -= 1
+        awayLosses -= 1
+    else:
+        homeLosses -= 1
+        awayWins -= 1
+
+    homeWinPercent = homeWins/(homeWins+homeLosses)
+    awayWinPercent = awayWins/(awayWins+awayLosses)
+    print("homeWins: " + str(homeWins) + ", homeLosses: " + str(homeLosses) + ", win %: " + str(homeWinPercent))
+    print("awayWins: " + str(awayWins) + ", awayLosses: " + str(awayLosses) + ", win %: " + str(awayWinPercent))
+
+
+    return
+
     #get list of drives
     drives = browser.find_elements_by_css_selector("#gamepackage-drives-wrap li.accordion-item")
 
@@ -158,7 +178,7 @@ def main():
     parser.add_argument("-tweet", "- pass this to tweet at your homies", action='store_true', default=False)
 
     args = parser.parse_args()
-    print args
+    #print(args)
 
     years = list(map(str, args.years))
     weeks = list(map(str, args.weeks))

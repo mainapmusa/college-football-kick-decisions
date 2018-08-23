@@ -71,10 +71,10 @@ Expected points to use ML and not just average,,To Do,Medium,,
 "Create dictionary of team to important twitter handles (fb team, athletics dept, athletics director, conference)",,To Do,Medium,,https://www.sbnation.com/college-football/2013/5/22/4299860/sec-football-twitter-coaches-teams-blogs
 Add losses to team CSVs to be able to use win percent and not just wins,,To Do,High,,should be basically the same vlookup 
 Look into removing DrivePlay from models,,To Do,High,,
-Get records of currently playing team in web scraped kick decisions ,Maina,To Do,High,,
+Get records of currently playing team in web scraped kick decisions ,Maina,In Progress,High,,
 Add logging for modeling portions,,To Do,Medium,,
 Add logging for web scraping portions,,To Do,Medium,,
 Pass team names into kick decision and use them in tweets,,To Do,High,,
 "Clean up PastResults.py (better names of variables, more comments, more functions)",Maina,To Do,Medium,,
 Ability to tweet optimal past kick decision for given years or weeks or both,Maina,In Progress,High,,
-"Gather statistics of teams decisions by game, season, or multiple seasons",,TO DO,High,,may need to save to json file somewhere
+"Gather statistics of teams decisions by game, season, or multiple seasons",,To Do,High,,may need to save to json file somewhere

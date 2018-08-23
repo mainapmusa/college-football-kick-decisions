@@ -40,7 +40,7 @@ def main():
     parser.add_argument("-GraphTeamPointsPerPossessionByYear", help=helpStrings["GraphTeamPointsPerPossessionByYear"], action='store_true', default=False)
     parser.add_argument("-GraphCompareConferencePointsPerPossession", help=helpStrings["GraphCompareConferencePointsPerPossession"], action='store_true', default=False)
     args = parser.parse_args()
-    print args
+    #print(args)
     #set up plot design
     plt.xkcd()
 
