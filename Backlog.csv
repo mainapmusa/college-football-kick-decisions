@@ -69,9 +69,9 @@ Figure out naming of image files convention to be used for tweeting,,To Do,High,
 If unable to do live tweeting change it to respond to tweets at TBM with kick decision,,To Do,Medium,,less fun but may allow for some level of exposure - will have to follow strict format probably
 Expected points to use ML and not just average,,To Do,Medium,,
 "Create dictionary of team to important twitter handles (fb team, athletics dept, athletics director, conference)",,To Do,Medium,,https://www.sbnation.com/college-football/2013/5/22/4299860/sec-football-twitter-coaches-teams-blogs
-Add losses to team CSVs to be able to use win percent and not just wins,,To Do,High,,should be basically the same vlookup 
+Add losses to team CSVs to be able to use win percent and not just wins,Maina,Done,High,,should be basically the same vlookup 
 Look into removing DrivePlay from models,,To Do,High,,
-Get records of currently playing team in web scraped kick decisions ,Maina,In Progress,High,,
+Get records of currently playing team in web scraped kick decisions ,Maina,Done,High,,
 Add logging for modeling portions,,To Do,Medium,,
 Add logging for web scraping portions,,To Do,Medium,,
 Pass team names into kick decision and use them in tweets,,To Do,High,,
