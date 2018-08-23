@@ -1,246 +1,246 @@
-Team Code,Name,Conference Code,Year,Wins
-5,Akron,875,2010,1
-8,Alabama,911,2010,10
-9,UAB,24312,2010,4
-28,Arizona State,905,2010,6
-29,Arizona,905,2010,7
-30,Arkansas State,818,2010,4
-31,Arkansas,911,2010,10
-37,Auburn,911,2010,14
-47,Ball State,875,2010,4
-51,Baylor,25354,2010,7
-66,Boise State,923,2010,12
-67,Boston College,821,2010,7
-71,Bowling Green,875,2010,2
-77,BYU,5486,2010,7
-86,Buffalo,875,2010,2
-96,Fresno State,923,2010,8
-107,California,905,2010,5
-110,UCLA,905,2010,4
-128,UCF,24312,2010,11
-129,Central Michigan,875,2010,3
-140,Cincinnati,823,2010,4
-147,Clemson,821,2010,6
-156,Colorado State,5486,2010,3
-157,Colorado,25354,2010,5
-164,Connecticut,823,2010,8
-193,Duke,821,2010,3
-196,East Carolina,24312,2010,6
-204,Eastern Michigan,875,2010,2
-229,Florida Atlantic,818,2010,4
-231,Florida International,818,2010,7
-234,Florida State,821,2010,10
-235,Florida,911,2010,8
-255,Georgia Tech,821,2010,6
-257,Georgia,911,2010,6
-277,Hawai'i,923,2010,10
-288,Houston,24312,2010,5
-295,Idaho,923,2010,6
-301,Illinois,827,2010,7
-306,Indiana,827,2010,5
-311,Iowa State,25354,2010,5
-312,Iowa,827,2010,8
-327,Kansas State,25354,2010,7
-328,Kansas,25354,2010,3
-331,Kent State,875,2010,5
-334,Kentucky,911,2010,6
-365,LSU,911,2010,11
-366,Louisiana Tech,923,2010,5
-367,Louisville,823,2010,7
-388,Marshall,24312,2010,5
-392,Maryland,821,2010,9
-404,Memphis,24312,2010,1
-414,Miami (Ohio),875,2010,10
-415,Miami (Florida),821,2010,7
-416,Michigan State,827,2010,11
-418,Michigan,827,2010,7
-419,Middle Tennessee,818,2010,6
-428,Minnesota,827,2010,3
-430,Mississippi State,911,2010,9
-433,Mississippi,911,2010,4
-434,Missouri,25354,2010,10
-457,North Carolina,821,2010,8
-463,Nebraska,25354,2010,10
-465,UNLV,5486,2010,2
-466,Nevada,923,2010,13
-472,New Mexico State,923,2010,2
-473,New Mexico,5486,2010,1
-490,North Carolina State,821,2010,9
-497,North Texas,818,2010,3
-498,Louisiana-Monroe,818,2010,5
-503,Northern Illinois,875,2010,11
-509,Northwestern,827,2010,7
-513,Notre Dame,99001,2010,8
-518,Ohio State,827,2010,0
-519,Ohio,875,2010,8
-521,Oklahoma State,25354,2010,11
-522,Oklahoma,25354,2010,12
-528,Oregon State,905,2010,5
-529,Oregon,905,2010,12
-539,Penn State,827,2010,7
-545,Pittsburgh,823,2010,8
-559,Purdue,827,2010,4
-574,Rice,24312,2010,4
-587,Rutgers,823,2010,4
-626,San Diego State,5486,2010,9
-630,San Jose State,923,2010,1
-648,South Carolina,911,2010,9
-651,South Florida,823,2010,8
-657,USC,905,2010,8
-663,SMU,24312,2010,7
-664,Southern Mississippi,24312,2010,8
-671,Louisiana-Lafayette,818,2010,3
-674,Stanford,905,2010,12
-688,Syracuse,823,2010,8
-690,Temple,875,2010,8
-694,Tennessee,911,2010,6
-697,Texas A&M,25354,2010,9
-698,TCU,5486,2010,13
-700,Texas Tech,25354,2010,8
-703,Texas,25354,2010,5
-704,UTEP,24312,2010,6
-709,Toledo,875,2010,8
-716,Troy,818,2010,8
-718,Tulane,24312,2010,4
-719,Tulsa,24312,2010,10
-721,Air Force,5486,2010,9
-725,Army,99001,2010,7
-726,Navy,99001,2010,9
-731,Utah State,923,2010,4
-732,Utah,5486,2010,10
-736,Vanderbilt,911,2010,2
-742,Virginia Tech,821,2010,11
-746,Virginia,821,2010,4
-749,Wake Forest,821,2010,3
-754,Washington State,905,2010,2
-756,Washington,905,2010,7
-768,West Virginia,823,2010,9
-772,Western Kentucky,818,2010,2
-774,Western Michigan,875,2010,6
-796,Wisconsin,827,2010,11
-811,Wyoming,5486,2010,3
-6,Alabama A&M,916,2010,#N/A
-7,Alabama St.,916,2010,#N/A
-14,Albany (N.Y.),846,2010,#N/A
-17,Alcorn St.,916,2010,#N/A
-27,Appalachian State,912,2010,#N/A
-43,Austin Peay,902,2010,#N/A
-48,Charleston So.,826,2010,#N/A
-61,Bethune-Cookman,876,2010,#N/A
-80,Brown,865,2010,6
-81,Bryant,846,2010,#N/A
-83,Bucknell,838,2010,1
-87,Butler,21451,2010,#N/A
-90,Cal Poly,99005,2010,#N/A
-102,Sacramento State,825,2010,#N/A
-108,UC Davis,99005,2010,#N/A
-115,Campbell,21451,2010,#N/A
-127,Central Conn. St.,846,2010,#N/A
-141,Citadel,912,2010,#N/A
-149,Coastal Carolina,826,2010,#N/A
-153,Colgate,838,2010,7
-158,Columbia,865,2010,4
-167,Cornell,865,2010,2
-172,Dartmouth,865,2010,6
-173,Davidson,21451,2010,3
-175,Dayton,21451,2010,10
-178,Delaware State,876,2010,#N/A
-180,Delaware,837,2010,#N/A
-189,Drake,21451,2010,7
-194,Duquesne,846,2010,5
-201,Eastern Illinois,902,2010,#N/A
-202,Eastern Kentucky,902,2010,#N/A
-207,Eastern Washington,825,2010,#N/A
-228,Florida A&M,876,2010,#N/A
-236,Fordham,838,2010,5
-244,Furman,912,2010,5
-251,Georgetown,838,2010,4
-253,Georgia Southern,912,2010,10
-254,Georgia State,99005,2010,6
-261,Grambling,916,2010,#N/A
-270,Hampton,876,2010,#N/A
-275,Harvard,865,2010,7
-285,Holy Cross,838,2010,6
-290,Howard,876,2010,#N/A
-294,Idaho State,825,2010,#N/A
-299,Illinois State,853,2010,#N/A
-305,Indiana State,853,2010,#N/A
-314,Jackson State,916,2010,#N/A
-315,Jacksonville State,902,2010,#N/A
-316,Jacksonville,21451,2010,#N/A
-317,James Madison,837,2010,#N/A
-342,Lafayette,838,2010,2
-346,Lamar,99005,2010,#N/A
-352,Lehigh,838,2010,#N/A
-355,Liberty,826,2010,#N/A
-380,Maine,837,2010,#N/A
-386,Marist,21451,2010,#N/A
-400,Massachusetts,837,2010,#N/A
-402,McNeese State,914,2010,#N/A
-432,Mississippi Valley State,916,2010,#N/A
-439,Monmouth,846,2010,#N/A
-440,Montana State,825,2010,9
-441,Montana,825,2010,7
-444,Morehead State,21451,2010,#N/A
-446,Morgan State,876,2010,#N/A
-454,Murray State,902,2010,#N/A
-469,New Hampshire,837,2010,#N/A
-483,Nicholls State,914,2010,#N/A
-485,Norfolk State,876,2010,#N/A
-488,North Carolina A&T,876,2010,#N/A
-489,N.C. Central,99005,2010,#N/A
-493,North Dakota State,853,2010,#N/A
-494,North Dakota,99005,2010,#N/A
-501,Northern Arizona,825,2010,#N/A
-502,Northern Colorado,825,2010,3
-504,Northern Iowa,853,2010,#N/A
-508,Northwestern State,914,2010,#N/A
-523,Old Dominion,99005,2010,8
-540,Pennsylvania,865,2010,9
-550,Portland State,825,2010,#N/A
-553,Prairie View,916,2010,#N/A
-554,Princeton,865,2010,1
-572,Rhode Island,837,2010,#N/A
-575,Richmond,837,2010,6
-579,Robert Morris,846,2010,#N/A
-590,Sacred Heart,846,2010,#N/A
-600,St. Francis (Pa.),846,2010,#N/A
-624,Sam Houston State,914,2010,#N/A
-625,Samford,912,2010,#N/A
-627,San Diego,21451,2010,#N/A
-632,Savannah State,99005,2010,#N/A
-646,South Alabama,99005,2010,10
-647,South Carolina State,876,2010,#N/A
-649,South Dakota State,853,2010,#N/A
-650,South Dakota,99005,2010,#N/A
-654,Southeast Missouri State,902,2010,#N/A
-655,Southeastern Louisiana,914,2010,#N/A
-659,Southern Illinois,853,2010,#N/A
-665,Southern University,916,2010,#N/A
-667,Southern Utah,99005,2010,#N/A
-669,Missouri State,853,2010,#N/A
-670,Texas State,914,2010,4
-676,Stephen F. Austin,914,2010,#N/A
-683,Stony Brook,826,2010,#N/A
-691,Tennessee State,902,2010,#N/A
-692,Tennessee Tech,902,2010,#N/A
-693,Chattanooga,912,2010,#N/A
-695,Tennessee-Martin,902,2010,#N/A
-699,Texas Southern,916,2010,#N/A
-711,Towson,837,2010,#N/A
-735,Valparaiso,21451,2010,#N/A
-739,Villanova,837,2010,9
-741,Virginia Military,826,2010,#N/A
-748,Wagner,846,2010,#N/A
-758,Weber State,825,2010,#N/A
-769,Western Carolina,912,2010,#N/A
-771,Western Illinois,853,2010,#N/A
-786,William & Mary,837,2010,#N/A
-813,Yale,865,2010,7
-817,Youngstown State,853,2010,#N/A
-1004,Central Arkansas,914,2010,#N/A
-1068,Elon,912,2010,#N/A
-1092,Gardner-Webb,826,2010,#N/A
-1320,Presbyterian,826,2010,#N/A
-2678,Ark.-Pine Bluff,916,2010,#N/A
-2915,Wofford,912,2010,#N/A
+Team Code,Name,Conference Code,Year,Wins,Losses
+5,Akron,875,2010,1,11
+8,Alabama,911,2010,10,3
+9,UAB,24312,2010,4,8
+28,Arizona State,905,2010,6,6
+29,Arizona,905,2010,7,6
+30,Arkansas State,818,2010,4,8
+31,Arkansas,911,2010,10,3
+37,Auburn,911,2010,14,0
+47,Ball State,875,2010,4,8
+51,Baylor,25354,2010,7,6
+66,Boise State,923,2010,12,1
+67,Boston College,821,2010,7,6
+71,Bowling Green,875,2010,2,10
+77,BYU,5486,2010,7,6
+86,Buffalo,875,2010,2,10
+96,Fresno State,923,2010,8,5
+107,California,905,2010,5,7
+110,UCLA,905,2010,4,8
+128,UCF,24312,2010,11,3
+129,Central Michigan,875,2010,3,9
+140,Cincinnati,823,2010,4,8
+147,Clemson,821,2010,6,7
+156,Colorado State,5486,2010,3,9
+157,Colorado,25354,2010,5,7
+164,Connecticut,823,2010,8,5
+193,Duke,821,2010,3,9
+196,East Carolina,24312,2010,6,7
+204,Eastern Michigan,875,2010,2,10
+229,Florida Atlantic,818,2010,4,8
+231,Florida International,818,2010,7,6
+234,Florida State,821,2010,10,4
+235,Florida,911,2010,8,5
+255,Georgia Tech,821,2010,6,7
+257,Georgia,911,2010,6,7
+277,Hawai'i,923,2010,10,4
+288,Houston,24312,2010,5,7
+295,Idaho,923,2010,6,7
+301,Illinois,827,2010,7,6
+306,Indiana,827,2010,5,7
+311,Iowa State,25354,2010,5,7
+312,Iowa,827,2010,8,5
+327,Kansas State,25354,2010,7,6
+328,Kansas,25354,2010,3,9
+331,Kent State,875,2010,5,7
+334,Kentucky,911,2010,6,7
+365,LSU,911,2010,11,2
+366,Louisiana Tech,923,2010,5,7
+367,Louisville,823,2010,7,6
+388,Marshall,24312,2010,5,7
+392,Maryland,821,2010,9,4
+404,Memphis,24312,2010,1,11
+414,Miami (Ohio),875,2010,10,4
+415,Miami (Florida),821,2010,7,6
+416,Michigan State,827,2010,11,2
+418,Michigan,827,2010,7,6
+419,Middle Tennessee,818,2010,6,7
+428,Minnesota,827,2010,3,9
+430,Mississippi State,911,2010,9,4
+433,Mississippi,911,2010,4,8
+434,Missouri,25354,2010,10,3
+457,North Carolina,821,2010,8,5
+463,Nebraska,25354,2010,10,4
+465,UNLV,5486,2010,2,11
+466,Nevada,923,2010,13,1
+472,New Mexico State,923,2010,2,10
+473,New Mexico,5486,2010,1,11
+490,North Carolina State,821,2010,9,4
+497,North Texas,818,2010,3,9
+498,Louisiana-Monroe,818,2010,5,7
+503,Northern Illinois,875,2010,11,3
+509,Northwestern,827,2010,7,6
+513,Notre Dame,99001,2010,8,5
+518,Ohio State,827,2010,0,1
+519,Ohio,875,2010,8,5
+521,Oklahoma State,25354,2010,11,2
+522,Oklahoma,25354,2010,12,2
+528,Oregon State,905,2010,5,7
+529,Oregon,905,2010,12,1
+539,Penn State,827,2010,7,6
+545,Pittsburgh,823,2010,8,5
+559,Purdue,827,2010,4,8
+574,Rice,24312,2010,4,8
+587,Rutgers,823,2010,4,8
+626,San Diego State,5486,2010,9,4
+630,San Jose State,923,2010,1,12
+648,South Carolina,911,2010,9,5
+651,South Florida,823,2010,8,5
+657,USC,905,2010,8,5
+663,SMU,24312,2010,7,7
+664,Southern Mississippi,24312,2010,8,5
+671,Louisiana-Lafayette,818,2010,3,9
+674,Stanford,905,2010,12,1
+688,Syracuse,823,2010,8,5
+690,Temple,875,2010,8,4
+694,Tennessee,911,2010,6,7
+697,Texas A&M,25354,2010,9,4
+698,TCU,5486,2010,13,0
+700,Texas Tech,25354,2010,8,5
+703,Texas,25354,2010,5,7
+704,UTEP,24312,2010,6,7
+709,Toledo,875,2010,8,5
+716,Troy,818,2010,8,5
+718,Tulane,24312,2010,4,8
+719,Tulsa,24312,2010,10,3
+721,Air Force,5486,2010,9,4
+725,Army,99001,2010,7,6
+726,Navy,99001,2010,9,4
+731,Utah State,923,2010,4,8
+732,Utah,5486,2010,10,3
+736,Vanderbilt,911,2010,2,10
+742,Virginia Tech,821,2010,11,3
+746,Virginia,821,2010,4,8
+749,Wake Forest,821,2010,3,9
+754,Washington State,905,2010,2,10
+756,Washington,905,2010,7,6
+768,West Virginia,823,2010,9,4
+772,Western Kentucky,818,2010,2,10
+774,Western Michigan,875,2010,6,6
+796,Wisconsin,827,2010,11,2
+811,Wyoming,5486,2010,3,9
+6,Alabama A&M,916,2010,#N/A,#N/A
+7,Alabama St.,916,2010,#N/A,#N/A
+14,Albany (N.Y.),846,2010,#N/A,#N/A
+17,Alcorn St.,916,2010,#N/A,#N/A
+27,Appalachian State,912,2010,#N/A,#N/A
+43,Austin Peay,902,2010,#N/A,#N/A
+48,Charleston So.,826,2010,#N/A,#N/A
+61,Bethune-Cookman,876,2010,#N/A,#N/A
+80,Brown,865,2010,6,4
+81,Bryant,846,2010,#N/A,#N/A
+83,Bucknell,838,2010,1,10
+87,Butler,21451,2010,#N/A,#N/A
+90,Cal Poly,99005,2010,#N/A,#N/A
+102,Sacramento State,825,2010,#N/A,#N/A
+108,UC Davis,99005,2010,#N/A,#N/A
+115,Campbell,21451,2010,#N/A,#N/A
+127,Central Conn. St.,846,2010,#N/A,#N/A
+141,Citadel,912,2010,#N/A,#N/A
+149,Coastal Carolina,826,2010,#N/A,#N/A
+153,Colgate,838,2010,7,4
+158,Columbia,865,2010,4,6
+167,Cornell,865,2010,2,8
+172,Dartmouth,865,2010,6,4
+173,Davidson,21451,2010,3,8
+175,Dayton,21451,2010,10,1
+178,Delaware State,876,2010,#N/A,#N/A
+180,Delaware,837,2010,#N/A,#N/A
+189,Drake,21451,2010,7,4
+194,Duquesne,846,2010,5,4
+201,Eastern Illinois,902,2010,#N/A,#N/A
+202,Eastern Kentucky,902,2010,#N/A,#N/A
+207,Eastern Washington,825,2010,#N/A,#N/A
+228,Florida A&M,876,2010,#N/A,#N/A
+236,Fordham,838,2010,5,6
+244,Furman,912,2010,5,6
+251,Georgetown,838,2010,4,7
+253,Georgia Southern,912,2010,10,5
+254,Georgia State,99005,2010,6,5
+261,Grambling,916,2010,#N/A,#N/A
+270,Hampton,876,2010,#N/A,#N/A
+275,Harvard,865,2010,7,3
+285,Holy Cross,838,2010,6,5
+290,Howard,876,2010,#N/A,#N/A
+294,Idaho State,825,2010,#N/A,#N/A
+299,Illinois State,853,2010,#N/A,#N/A
+305,Indiana State,853,2010,#N/A,#N/A
+314,Jackson State,916,2010,#N/A,#N/A
+315,Jacksonville State,902,2010,#N/A,#N/A
+316,Jacksonville,21451,2010,#N/A,#N/A
+317,James Madison,837,2010,#N/A,#N/A
+342,Lafayette,838,2010,2,9
+346,Lamar,99005,2010,#N/A,#N/A
+352,Lehigh,838,2010,#N/A,#N/A
+355,Liberty,826,2010,#N/A,#N/A
+380,Maine,837,2010,#N/A,#N/A
+386,Marist,21451,2010,#N/A,#N/A
+400,Massachusetts,837,2010,#N/A,#N/A
+402,McNeese State,914,2010,#N/A,#N/A
+432,Mississippi Valley State,916,2010,#N/A,#N/A
+439,Monmouth,846,2010,#N/A,#N/A
+440,Montana State,825,2010,9,3
+441,Montana,825,2010,7,4
+444,Morehead State,21451,2010,#N/A,#N/A
+446,Morgan State,876,2010,#N/A,#N/A
+454,Murray State,902,2010,#N/A,#N/A
+469,New Hampshire,837,2010,#N/A,#N/A
+483,Nicholls State,914,2010,#N/A,#N/A
+485,Norfolk State,876,2010,#N/A,#N/A
+488,North Carolina A&T,876,2010,#N/A,#N/A
+489,N.C. Central,99005,2010,#N/A,#N/A
+493,North Dakota State,853,2010,#N/A,#N/A
+494,North Dakota,99005,2010,#N/A,#N/A
+501,Northern Arizona,825,2010,#N/A,#N/A
+502,Northern Colorado,825,2010,3,8
+504,Northern Iowa,853,2010,#N/A,#N/A
+508,Northwestern State,914,2010,#N/A,#N/A
+523,Old Dominion,99005,2010,8,3
+540,Pennsylvania,865,2010,9,1
+550,Portland State,825,2010,#N/A,#N/A
+553,Prairie View,916,2010,#N/A,#N/A
+554,Princeton,865,2010,1,9
+572,Rhode Island,837,2010,#N/A,#N/A
+575,Richmond,837,2010,6,5
+579,Robert Morris,846,2010,#N/A,#N/A
+590,Sacred Heart,846,2010,#N/A,#N/A
+600,St. Francis (Pa.),846,2010,#N/A,#N/A
+624,Sam Houston State,914,2010,#N/A,#N/A
+625,Samford,912,2010,#N/A,#N/A
+627,San Diego,21451,2010,#N/A,#N/A
+632,Savannah State,99005,2010,#N/A,#N/A
+646,South Alabama,99005,2010,10,0
+647,South Carolina State,876,2010,#N/A,#N/A
+649,South Dakota State,853,2010,#N/A,#N/A
+650,South Dakota,99005,2010,#N/A,#N/A
+654,Southeast Missouri State,902,2010,#N/A,#N/A
+655,Southeastern Louisiana,914,2010,#N/A,#N/A
+659,Southern Illinois,853,2010,#N/A,#N/A
+665,Southern University,916,2010,#N/A,#N/A
+667,Southern Utah,99005,2010,#N/A,#N/A
+669,Missouri State,853,2010,#N/A,#N/A
+670,Texas State,914,2010,4,7
+676,Stephen F. Austin,914,2010,#N/A,#N/A
+683,Stony Brook,826,2010,#N/A,#N/A
+691,Tennessee State,902,2010,#N/A,#N/A
+692,Tennessee Tech,902,2010,#N/A,#N/A
+693,Chattanooga,912,2010,#N/A,#N/A
+695,Tennessee-Martin,902,2010,#N/A,#N/A
+699,Texas Southern,916,2010,#N/A,#N/A
+711,Towson,837,2010,#N/A,#N/A
+735,Valparaiso,21451,2010,#N/A,#N/A
+739,Villanova,837,2010,9,5
+741,Virginia Military,826,2010,#N/A,#N/A
+748,Wagner,846,2010,#N/A,#N/A
+758,Weber State,825,2010,#N/A,#N/A
+769,Western Carolina,912,2010,#N/A,#N/A
+771,Western Illinois,853,2010,#N/A,#N/A
+786,William & Mary,837,2010,#N/A,#N/A
+813,Yale,865,2010,7,3
+817,Youngstown State,853,2010,#N/A,#N/A
+1004,Central Arkansas,914,2010,#N/A,#N/A
+1068,Elon,912,2010,#N/A,#N/A
+1092,Gardner-Webb,826,2010,#N/A,#N/A
+1320,Presbyterian,826,2010,#N/A,#N/A
+2678,Ark.-Pine Bluff,916,2010,#N/A,#N/A
+2915,Wofford,912,2010,#N/A,#N/A
