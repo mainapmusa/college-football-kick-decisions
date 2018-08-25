@@ -3,9 +3,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+from KickDecision import GetFieldGoalDecision
 import json
 import os
 import argparse
+import sys
+import subprocess
 
 #os.system("python KickDecision.py -GetFieldGoalDecision -GraphCompareConferencePointsPerPossession -tweet -Situation 3 200 20 100 20 21 3 1 10 1 -Teams 'Notre Dame' Michigan -Conferences 'Atlantic Coast Conference' 'Southeastern Conference' 'Big 12 Conference'")
 
@@ -43,17 +46,33 @@ for week in weeks:
 '''
 
 def GetKickDecision(situationInfo, tweet = False):
-    print("tweet decision?:  "+ str(tweet))
-    print(situationInfo)
-    print(" ".join(situationInfo))
-    os.system("python KickDecision.py -GetFieldGoalDecision -tweet -Situation " + " ".join(situationInfo) + " -tweet")
-    #os.system("python KickDecision.py -GetFieldGoalDecision -tweet -Situation " + " ".join(situationInfo))
+    #dec = os.system("python KickDecision.py -GetFieldGoalDecision -tweet -Situation " + " ".join(situationInfo) + " -tweet")
+    #dec = os.popen("python KickDecision.py -GetFieldGoalDecision -tweet -Situation " + " ".join(situationInfo)).read()
+    dec = subprocess.check_output("python KickDecision.py -GetFieldGoalDecision -tweet -Situation " + " ".join(situationInfo), shell=True)
     #3 200 20 100 20 21 3 1 10 1
+
+    #dec = subprocess.check_output([sys.executable, "KickDecision.py", "-GetFieldGoalDecision", "-Situation", situationInfo])
+
+    #fgSituation = situationInfo[:3]
+    #g4Situation = [situationInfo[3]] + [situationInfo[0]] + situationInfo[4:7] + [situationInfo[2]] + situationInfo[7:]
+    #print(fgSituation)
+    #print(g4Situation)
+    #dec = GetFieldGoalDecision(fgSituation, g4Situation, tweet)
+    fgVal = str(dec).split("Field Goal Expected Value: ")[1][:4]
+    goVal = float(str(dec).split("Expected Value Of Going For It: ")[1][:4])
+    if fgVal[3] not in "1234567890":
+        fgVal = fgVal[:3]
+    fgVal = float(fgVal)
+    shouldHaveKicked = True if "GO FOR IT!" not in str(dec) else False
+    return (fgVal,goVal,shouldHaveKicked)
 
 def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
     option = webdriver.ChromeOptions()
     option.add_argument(" - incognito")
     browser = webdriver.Chrome(executable_path="/Applications/chromedriver", chrome_options=option)
+
+    homeResults = {"CorrectKick":0,"CorrectGoForIt":0,"IncorrectKick":0,"IncorrectGoForIt":0,"PlusMinus":0}
+    awayResults = {"CorrectKick":0,"CorrectGoForIt":0,"IncorrectKick":0,"IncorrectGoForIt":0,"PlusMinus":0}
 
     #travel to play by play site for each game found for the week
     browser.get("http://www.espn.com/college-football/playbyplay?gameId="+gameId)
@@ -72,11 +91,11 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
 
     homeWinPercent = homeWins/(homeWins+homeLosses)
     awayWinPercent = awayWins/(awayWins+awayLosses)
-    print("homeWins: " + str(homeWins) + ", homeLosses: " + str(homeLosses) + ", win %: " + str(homeWinPercent))
-    print("awayWins: " + str(awayWins) + ", awayLosses: " + str(awayLosses) + ", win %: " + str(awayWinPercent))
+    #print("homeWins: " + str(homeWins) + ", homeLosses: " + str(homeLosses) + ", win %: " + str(homeWinPercent))
+    #print("awayWins: " + str(awayWins) + ", awayLosses: " + str(awayLosses) + ", win %: " + str(awayWinPercent))
 
 
-    return
+    #return
 
     #get list of drives
     drives = browser.find_elements_by_css_selector("#gamepackage-drives-wrap li.accordion-item")
@@ -91,6 +110,7 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
     #drill into each drive of that list of drives for this game
     for drive in drives:
         try:
+            print("\n\n")
             homeTeam = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .home .team-name").get_attribute("innerHTML")
             awayTeam = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .away .team-name").get_attribute("innerHTML")
             homeScore = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .home .team-score").get_attribute("innerHTML")
@@ -121,12 +141,12 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
                         position = play.find_element_by_css_selector("h3").get_attribute("innerHTML").strip()
                         #if facing a 4th down from inside the opponents 35
                         if (position[0] == '4') and (offenseShortCode not in position) and (int(position[-2:]) <= 35):
-                            print("\t"+position)
-                            print("\t"+attempt)
+                            #print("\t"+position)
+                            #print("\t"+attempt)
                             ballPosition = position[-2:]
                             distance = position.split("at")[0].split("&amp;")[1].strip()
-                            #print ("offense id: " + str(offenseId))
-                            #print ("homeTeamId: " + str(homeTeamId))
+                            print ("offense id: " + str(offenseId))
+                            print ("homeTeamId: " + str(homeTeamId))
                             #print ("home points: " + homePoints)
                             #print ("away points: " + awayPoints)
 
@@ -138,10 +158,62 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
                                 offensePoints = homePoints
                                 defensePoints = awayPoints
 
-                            print("\t\t"+"offense points: " + str(offensePoints) + ",defense points: " + str(defensePoints) + ", position: " + str(ballPosition) + ", drive number: " + str(driveNumber) + ", play number: " + str(PlayNumber))
-                            print("\t\t"+"quarter: "+ qtr + ", time: "+str(time) +", distance: " + distance)
+                            #print("\t\t"+"offense points: " + str(offensePoints) + ",defense points: " + str(defensePoints) + ", position: " + str(ballPosition) + ", drive number: " + str(driveNumber) + ", play number: " + str(PlayNumber))
+                            #print("\t\t"+"quarter: "+ qtr + ", time: "+str(time) +", distance: " + distance)
 
-                            GetKickDecision([str(qtr), str(time), str(ballPosition), str(PlayNumber), str(offensePoints), str(defensePoints), str(distance), "1", str(driveNumber), "1"], tweet)
+                            decisionValues = GetKickDecision([str(qtr), str(time), str(ballPosition), str(PlayNumber), str(offensePoints), str(defensePoints), str(distance), "1", str(driveNumber), "1"], tweet)
+                            fgValue = decisionValues[0]
+                            go4thValue = decisionValues[1]
+                            kickedFG = True if ("Field Goal" in attempt) or ("FG MISSED" in attempt) or ("FG GOOD" in attempt) else False
+                            print(attempt)
+                            print("kickedFG: " + str(kickedFG))
+                            print("offenseId: " + str(offenseId))
+                            #print(go4thValue)
+                            print(decisionValues)
+                            #homeResults = {"CorrectKick":0,"CorrectGoForIt":0,"IncorrectKick":0,"IncorrectGoForIt":0,"PlusMinus":0}
+                            #awayResults = {"CorrectKick":0,"CorrectGoForIt":0,"IncorrectKick":0,"IncorrectGoForIt":0,"PlusMinus":0}
+                            if kickedFG:
+                                if fgValue > go4thValue:
+                                    #correctly kicked fg
+                                    if(offenseId == homeTeamId):
+                                        homeResults["CorrectKick"] +=1
+                                        homeResults["PlusMinus"] += (fgValue-go4thValue)
+                                        print("home team kick correct")
+                                    else:
+                                        awayResults["CorrectKick"] +=1
+                                        awayResults["PlusMinus"] += (fgValue-go4thValue)
+                                        print("away team kick correct")
+                                else:
+                                    #incorrectly kicked fg
+                                    if(offenseId == homeTeamId):
+                                        homeResults["IncorrectKick"] +=1
+                                        homeResults["PlusMinus"] += (fgValue-go4thValue)
+                                        print("home team kick WRONG")
+                                    else:
+                                        awayResults["IncorrectKick"] +=1
+                                        awayResults["PlusMinus"] += (fgValue-go4thValue)
+                                        print("away team kick WRONG")
+                            else:
+                                if go4thValue > fgValue:
+                                    #correctly went on 4th
+                                    if(offenseId == homeTeamId):
+                                        homeResults["CorrectGoForIt"] +=1
+                                        homeResults["PlusMinus"] += (go4thValue-fgValue)
+                                        print("home team go for it correct")
+                                    else:
+                                        awayResults["CorrectGoForIt"] +=1
+                                        awayResults["PlusMinus"] += (go4thValue-fgValue)
+                                        print("away team go for it correct")
+                                else:
+                                    #incorrectly went on 4th
+                                    if(offenseId == homeTeamId):
+                                        homeResults["IncorrectGoForIt"] +=1
+                                        homeResults["PlusMinus"] += (go4thValue-fgValue)
+                                        print("home team go for it WRONG")
+                                    else:
+                                        awayResults["IncorrectGoForIt"] +=1
+                                        awayResults["PlusMinus"] += (go4thValue-fgValue)
+                                        print("away team go for it WRONG")
 
                     except:
                         pass
@@ -167,6 +239,7 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
         except:
             pass
 
+    return (homeResults,awayResults)
     browser.quit()
 
 
@@ -189,8 +262,20 @@ def main():
 
     browser = webdriver.Chrome(executable_path="/Applications/chromedriver", chrome_options=option)
 
+
+
     for year in years:
         print("starting year: "+year)
+
+        #TODO: get current years json from file
+        if os.path.isfile("./decision_logs/"+year+".json"):
+            with open("./decision_logs/"+year+".json") as data_file:
+                yearDecisions = json.load(data_file)
+        else:
+            yearDecisions = {}
+
+        #print(yearDecisions)
+
         for week in weeks:
             print("starting week: "+week)
 
@@ -209,11 +294,24 @@ def main():
                 gameAndTeamIds.append([gameId,homeTeamId,awayTeamId])
 
 
-            print(gameAndTeamIds)
             browser.quit()
             #drill into each game for the week that we found
             for game in gameAndTeamIds:
-                InvestigateGame(game[0], game[1], game[2], tweet)
+
+                #TODO: get this id from already loaded dictionary, create week if it doesn't exist
+                #if home team does not exist in this years dict, add it
+                if game[1] not in yearDecisions:
+                    yearDecisions[game[1]] = {}
+                #if away team does not exist in this years dict, add it
+                if game[2] not in yearDecisions:
+                    yearDecisions[game[2]] = {}
+
+                yearDecisions[game[1]][week],yearDecisions[game[2]][week] = InvestigateGame(game[0], game[1], game[2], tweet)
+
+            #print(yearDecisions)
+        #TODO: write years decision logs back to file
+        with open("./decision_logs/"+year+".json", "w") as file:
+             json.dump(yearDecisions, file, sort_keys=True, indent=4)
 
 
 

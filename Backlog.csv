@@ -77,4 +77,8 @@ Add logging for web scraping portions,,To Do,Medium,,
 Pass team names into kick decision and use them in tweets,,To Do,High,,
 "Clean up PastResults.py (better names of variables, more comments, more functions)",Maina,To Do,Medium,,
 Ability to tweet optimal past kick decision for given years or weeks or both,Maina,In Progress,High,,
-"Gather statistics of teams decisions by game, season, or multiple seasons",,To Do,High,,may need to save to json file somewhere
+"Gather statistics of teams decisions by game, season, or multiple seasons",Maina,In Progress,High,,may need to save to json file somewhere
+Get rid of magic strings in past results file,Maina,To Do,Medium,,
+Restrict which 4th down situations are investigated,Maina,To Do,High,,
+Fix everything in the bugs txt file,Maina,To Do,High,,
+Separate tweeting and printing ,Maina,To Do,High,,
