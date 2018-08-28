@@ -45,6 +45,45 @@ for week in weeks:
 
 '''
 
+def GetDistanceToGo(position, ballPosition):
+    distance = position.split("at")[0].split("&amp;")[1].strip()
+    if distance == 'Goal':
+        distance = ballPosition
+    return distance
+
+def WasFieldGoalKicked(attempt):
+    if ("Field Goal" in attempt) or ("FG MISSED" in attempt) or ("FG GOOD" in attempt) or ("FG BLOCKED" in attempt):
+        return True
+    else:
+        return False
+
+def IsGameInDoubt4thDown(position, offenseShortCode, qtr, time, offensePoints, defensePoints):
+    #print("\nposition: " + position)
+    #print("last 2 spots: '"+position[-2:]+"'")
+    #print("offenseShortCode: " + offenseShortCode)
+    #print("qtr: " + qtr)
+    #print("time: " + str(time))
+    #print("defensePoints: " + str(defensePoints))
+    #print("offensePoints: " + str(offensePoints))
+    # if a 4th down inside the other teams 35
+    if (position[0] == '4') and (offenseShortCode not in position) and (int(position[-2:]) <= 35):
+        #print("4th down inside the other teams 35")
+        # if in the first half and a 3 score game
+        if qtr in "12" and (abs(int(offensePoints) - int(defensePoints)) <= 21):
+            #print("first half and a 3 score game")
+            return True
+        # if in the 3rd qtr and a 2 score game
+        elif qtr == "3" and (abs(int(offensePoints) - int(defensePoints)) <= 14):
+            #print("3rd qtr and a 2 score game")
+            return True
+        # if early in the 4th qtr and a 1 score game
+        elif qtr == "4" and (time > 480) and (abs(int(offensePoints) - int(defensePoints)) <= 7):
+            #print("early in the 4th qtr and a 1 score game")
+            return True
+
+    #print("NOT A CLOSE GAME OR TOO LATE IN THE GAME")
+    return False
+
 def GetKickDecision(situationInfo, tweet = False):
     #dec = os.system("python KickDecision.py -GetFieldGoalDecision -tweet -Situation " + " ".join(situationInfo) + " -tweet")
     #dec = os.popen("python KickDecision.py -GetFieldGoalDecision -tweet -Situation " + " ".join(situationInfo)).read()
@@ -106,7 +145,7 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
     offensePoints = 0
     defensePoints = 0
     driveNumber = 0
-    PlayNumber = 0
+    playNumber = 0
     #drill into each drive of that list of drives for this game
     for drive in drives:
         try:
@@ -133,43 +172,45 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
             for play in plays:
                 try:
                     attempt = play.find_element_by_css_selector(".post-play").get_attribute("innerHTML").strip()
-                    PlayNumber += 1
+                    playNumber += 1
 
                     #print(time)
                     #print(qtr)
                     try:
                         position = play.find_element_by_css_selector("h3").get_attribute("innerHTML").strip()
+                        #this also seems backwards, check why
+                        if(offenseId == homeTeamId):
+                            offensePoints = awayPoints
+                            defensePoints = homePoints
+                        else:
+                            offensePoints = homePoints
+                            defensePoints = awayPoints
                         #if facing a 4th down from inside the opponents 35
-                        if (position[0] == '4') and (offenseShortCode not in position) and (int(position[-2:]) <= 35):
+                        if IsGameInDoubt4thDown(position, offenseShortCode, qtr, time, offensePoints, defensePoints):
                             #print("\t"+position)
                             #print("\t"+attempt)
                             ballPosition = position[-2:]
-                            distance = position.split("at")[0].split("&amp;")[1].strip()
-                            print ("offense id: " + str(offenseId))
-                            print ("homeTeamId: " + str(homeTeamId))
+                            distance = GetDistanceToGo(position, ballPosition)
+                            #print ("offense id: " + str(offenseId))
+                            #print ("homeTeamId: " + str(homeTeamId))
                             #print ("home points: " + homePoints)
                             #print ("away points: " + awayPoints)
 
-                            #this also seems backwards, check why
-                            if(offenseId == homeTeamId):
-                                offensePoints = awayPoints
-                                defensePoints = homePoints
-                            else:
-                                offensePoints = homePoints
-                                defensePoints = awayPoints
 
-                            #print("\t\t"+"offense points: " + str(offensePoints) + ",defense points: " + str(defensePoints) + ", position: " + str(ballPosition) + ", drive number: " + str(driveNumber) + ", play number: " + str(PlayNumber))
+
+                            #print("\t\t"+"offense points: " + str(offensePoints) + ",defense points: " + str(defensePoints) + ", position: " + str(ballPosition) + ", drive number: " + str(driveNumber) + ", play number: " + str(playNumber))
                             #print("\t\t"+"quarter: "+ qtr + ", time: "+str(time) +", distance: " + distance)
 
-                            decisionValues = GetKickDecision([str(qtr), str(time), str(ballPosition), str(PlayNumber), str(offensePoints), str(defensePoints), str(distance), "1", str(driveNumber), "1"], tweet)
+                            decisionValues = GetKickDecision([str(qtr), str(time), str(ballPosition), str(playNumber), str(offensePoints), str(defensePoints), str(distance), "1", str(driveNumber), "1"], tweet)
                             fgValue = decisionValues[0]
                             go4thValue = decisionValues[1]
-                            kickedFG = True if ("Field Goal" in attempt) or ("FG MISSED" in attempt) or ("FG GOOD" in attempt) else False
-                            print(attempt)
-                            print("kickedFG: " + str(kickedFG))
-                            print("offenseId: " + str(offenseId))
+                            #turn this into a function WasFieldGoalKicked(attempt)
+                            kickedFG = True if WasFieldGoalKicked(attempt) else False
+                            #print(attempt)
+                            #print("kickedFG: " + str(kickedFG))
+                            #print("offenseId: " + str(offenseId))
                             #print(go4thValue)
-                            print(decisionValues)
+                            #print(decisionValues)
                             #homeResults = {"CorrectKick":0,"CorrectGoForIt":0,"IncorrectKick":0,"IncorrectGoForIt":0,"PlusMinus":0}
                             #awayResults = {"CorrectKick":0,"CorrectGoForIt":0,"IncorrectKick":0,"IncorrectGoForIt":0,"PlusMinus":0}
                             if kickedFG:

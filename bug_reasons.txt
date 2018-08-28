@@ -1,3 +1,4 @@
+FIXED: IF GOAL TO GO THEN CONVERT DISTANCE TO BALL POSITION
 usage: KickDecision.py [-h] [-Situation SITUATION [SITUATION ...]]
                        [-Teams TEAMS [TEAMS ...]]
                        [-Conferences CONFERENCES [CONFERENCES ...]] [-tweet]
@@ -7,6 +8,7 @@ usage: KickDecision.py [-h] [-Situation SITUATION [SITUATION ...]]
 KickDecision.py: error: argument -Situation: invalid int value: 'Goal'
 
 
+FIXED: WILL NOT ATTEMPT BECAUSE AFTER 4TH QUARTER
 drive number: 33,offense team: MEM
 offense id: 235
 homeTeamId: 2116
@@ -18,31 +20,7 @@ usage: KickDecision.py [-h] [-Situation SITUATION [SITUATION ...]]
                        [-GraphCompareConferencePointsPerPossession]
 KickDecision.py: error: argument -Situation: invalid int value: '2OT'
 
-
-drive number: 17,offense team: MEM
-offense id: 235
-homeTeamId: 2116
-usage: KickDecision.py [-h] [-Situation SITUATION [SITUATION ...]]
-                       [-Teams TEAMS [TEAMS ...]]
-                       [-Conferences CONFERENCES [CONFERENCES ...]] [-tweet]
-                       [-GetFieldGoalDecision] [-Graph4thAndDistance]
-                       [-GraphTeamPointsPerPossessionByYear]
-                       [-GraphCompareConferencePointsPerPossession]
-KickDecision.py: error: argument -Situation: invalid int value: 'Goal'
-
-
-drive number: 8,offense team: FIU
-offense id: 2229
-homeTeamId: 2229
-usage: KickDecision.py [-h] [-Situation SITUATION [SITUATION ...]]
-                       [-Teams TEAMS [TEAMS ...]]
-                       [-Conferences CONFERENCES [CONFERENCES ...]] [-tweet]
-                       [-GetFieldGoalDecision] [-Graph4thAndDistance]
-                       [-GraphTeamPointsPerPossessionByYear]
-                       [-GraphCompareConferencePointsPerPossession]
-KickDecision.py: error: argument -Situation: invalid int value: 'Goal'
-
-
+IGNORED: THIS IS CORRECT
 drive number: 21,offense team: NAVY
 offense id: 2426
 homeTeamId: 248
@@ -52,7 +30,7 @@ offenseId: 2426
 (2.0, 0.27, True)
 away team go for it WRONG
 
-
+=== NOT SURE: WAS THIS AN IN BETWEEN PLAY THING, MAYBE THIS SHOULD BE IGNORED
 drive number: 10,offense team: NAVY
 offense id: 2426
 homeTeamId: 248
@@ -63,6 +41,7 @@ offenseId: 2426
 away team go for it correct
 
 
+=== NOT SURE: WHAT TO DO FOR REALLY DUMB PUNTS
 drive number: 9,offense team: NIU
 offense id: 2459
 homeTeamId: 2117
@@ -82,7 +61,7 @@ offenseId: 259
 (1.75, 1.43, True)
 away team go for it WRONG
 
-
+=== IGNORED: JUST A REALLY CLOSE CALL
 drive number: 19,offense team: VT
 offense id: 259
 homeTeamId: 258
@@ -92,7 +71,7 @@ offenseId: 259
 (2.25, 2.14, True)
 away team go for it WRONG
 
-
+=== NOT SURE: WHAT TO DO FOR REALLY REASONABLE PUNTS
 drive number: 17,offense team: VT
 offense id: 259
 homeTeamId: 258
@@ -103,7 +82,7 @@ offenseId: 259
 away team go for it WRONG
 
 
-
+=== IGNORED: JUST BAD DATA IN ESPN, VERY UNLIKE THEM
 drive number: 17,offense team: UCF
 offense id: 2116
 homeTeamId: 2116
@@ -113,7 +92,7 @@ offenseId: 2116
 (2.0, 2.46, False)
 home team go for it correct
 
-
+FIXED: WOULD NOT BE CLOSE ENOUGH GAME TO BE EVALUATED
 drive number: 26,offense team: TCU
 offense id: 2628
 homeTeamId: 2628
@@ -123,7 +102,7 @@ offenseId: 2628
 (3.0, 3.49, False)
 home team kick WRONG
 
-
+IGNORED: THEY LEGIT TRIED TO GO FOR IT
 drive number: 18,offense team: UNM
 offense id: 167
 homeTeamId: 21
@@ -134,6 +113,7 @@ offenseId: 167
 away team go for it WRONG
 
 
+FIXED: ADDED LOGIC FOR BLOCKED FIELD GOALS
 drive number: 9,offense team: TROY
 offense id: 2653
 homeTeamId: 2653
@@ -143,7 +123,7 @@ offenseId: 2653
 (2.0, 1.55, True)
 home team go for it WRONG
 
-
+FIXED: NOT A CLOSE GAME
 drive number: 17,offense team: NEB
 offense id: 158
 homeTeamId: 158
@@ -154,6 +134,7 @@ offenseId: 158
 home team go for it correct
 
 
+NOT SURE: REASONABLE PUNT
 offense id: 251
 homeTeamId: 251
 (10:06 - 3rd) Michael Dickson punt for 34 yds, downed at the TexTc 1
@@ -163,6 +144,7 @@ offenseId: 251
 home team go for it correct
 
 
+IGNORED: WHAT CAN YOU DO
 drive number: 19,offense team: MSU
 offense id: 127
 homeTeamId: 164
@@ -180,6 +162,7 @@ offenseId: 127
 away team go for it correct
 
 
+FIXED: END OF GAME SO WOULD NOT BE EVALUATED
 drive number: 21,offense team: CONN
 offense id: 41
 homeTeamId: 2132
@@ -190,7 +173,7 @@ offenseId: 41
 away team go for it WRONG
 
 
-
+IGNORED: BAD DATA, SOMEONE MIXED UP FSU AND UF
 drive number: 19,offense team: FSU
 offense id: 52
 homeTeamId: 57
@@ -201,7 +184,7 @@ offenseId: 52
 away team go for it WRONG
 
 
-
+IGNORED: JUST WEIRD PENALTIES AFTER THE PLAY, WILL BE IGNORED SINCE END OF GAME ANYWAYS
 drive number: 26,offense team: TEM
 offense id: 218
 homeTeamId: 202
@@ -212,6 +195,8 @@ offenseId: 218
 away team go for it correct
 
 
+=== TODO: HAVE SEPARATE TWEETING AND PRINTING ABILITY
+=== TODO: JUST RETURN AN EASIER TO PARSE RESULT MAYBE?
 drive number: 14,offense team: ULL
 offense id: 309
 homeTeamId: 309
@@ -233,3 +218,14 @@ Traceback (most recent call last):
   File "/anaconda3/lib/python3.6/site-packages/tweepy/binder.py", line 234, in execute
     raise TweepError(error_msg, resp, api_code=api_error_code)
 tweepy.error.TweepError: [{'code': 185, 'message': 'User is over daily status update limit.'}]
+
+
+CONCERNING: IDAHO VS IDHO, WHY DOES THE SHORT CODE NOT MATCH WHAT IS IN THE ATTEMPT TEXT
+drive number: 5,offense team: IDHO
+offense id: 70
+homeTeamId: 166
+(8:24 - 1st) Cade Coffey punt for 47 yds, punt out-of-bounds at the NMxSt 19
+kickedFG: False
+offenseId: 70
+(2.25, 0.85, True)
+away team go for it WRONG
