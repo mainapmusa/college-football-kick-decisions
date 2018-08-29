@@ -1,0 +1,822 @@
+{
+    "103": {
+        "Name": "Boston College",
+        "ShortCode": "BC"
+    },
+    "107": {
+        "Name": "Holy Cross",
+        "ShortCode": "HC"
+    },
+    "113": {
+        "Name": "UMass",
+        "ShortCode": "UMASS"
+    },
+    "119": {
+        "Name": "Towson",
+        "ShortCode": "TOWS"
+    },
+    "12": {
+        "Name": "Arizona",
+        "ShortCode": "ARIZ"
+    },
+    "120": {
+        "Name": "Maryland",
+        "ShortCode": "MD"
+    },
+    "127": {
+        "Name": "Michigan State",
+        "ShortCode": "MSU"
+    },
+    "13": {
+        "Name": "Cal Poly",
+        "ShortCode": "CP"
+    },
+    "130": {
+        "Name": "Michigan",
+        "ShortCode": "MICH"
+    },
+    "135": {
+        "Name": "Minnesota",
+        "ShortCode": "MINN"
+    },
+    "142": {
+        "Name": "Missouri",
+        "ShortCode": "MIZ"
+    },
+    "145": {
+        "Name": "Ole Miss",
+        "ShortCode": "MISS"
+    },
+    "147": {
+        "Name": "Montana State",
+        "ShortCode": "MTST"
+    },
+    "149": {
+        "Name": "Montana",
+        "ShortCode": "MONT"
+    },
+    "150": {
+        "Name": "Duke",
+        "ShortCode": "DUKE"
+    },
+    "151": {
+        "Name": "East Carolina",
+        "ShortCode": "ECU"
+    },
+    "152": {
+        "Name": "NC State",
+        "ShortCode": "NCST"
+    },
+    "153": {
+        "Name": "North Carolina",
+        "ShortCode": "UNC"
+    },
+    "154": {
+        "Name": "Wake Forest",
+        "ShortCode": "WAKE"
+    },
+    "155": {
+        "Name": "North Dakota",
+        "ShortCode": "UND"
+    },
+    "158": {
+        "Name": "Nebraska",
+        "ShortCode": "NEB"
+    },
+    "16": {
+        "Name": "Sacramento State",
+        "ShortCode": "SAC"
+    },
+    "160": {
+        "Name": "New Hampshire",
+        "ShortCode": "UNH"
+    },
+    "164": {
+        "Name": "Rutgers",
+        "ShortCode": "RUTG"
+    },
+    "166": {
+        "Name": "New Mexico State",
+        "ShortCode": "NMSU"
+    },
+    "167": {
+        "Name": "New Mexico",
+        "ShortCode": "UNM"
+    },
+    "183": {
+        "Name": "Syracuse",
+        "ShortCode": "SYR"
+    },
+    "189": {
+        "Name": "Bowling Green",
+        "ShortCode": "BGSU"
+    },
+    "193": {
+        "Name": "Miami (OH)",
+        "ShortCode": "M-OH"
+    },
+    "194": {
+        "Name": "Ohio State",
+        "ShortCode": "OSU"
+    },
+    "195": {
+        "Name": "Ohio",
+        "ShortCode": "OHIO"
+    },
+    "197": {
+        "Name": "Oklahoma State",
+        "ShortCode": "OKST"
+    },
+    "2": {
+        "Name": "Auburn",
+        "ShortCode": "AUB"
+    },
+    "2000": {
+        "Name": "Abilene Christian",
+        "ShortCode": "ACU"
+    },
+    "2005": {
+        "Name": "Air Force",
+        "ShortCode": "AFA"
+    },
+    "2006": {
+        "Name": "Akron",
+        "ShortCode": "AKR"
+    },
+    "201": {
+        "Name": "Oklahoma",
+        "ShortCode": "OKLA"
+    },
+    "2010": {
+        "Name": "Alabama A&M",
+        "ShortCode": "AAMU"
+    },
+    "2011": {
+        "Name": "Alabama State",
+        "ShortCode": "ALST"
+    },
+    "2016": {
+        "Name": "Alcorn State",
+        "ShortCode": "ALCN"
+    },
+    "202": {
+        "Name": "Tulsa",
+        "ShortCode": "TLSA"
+    },
+    "2026": {
+        "Name": "Appalachian State",
+        "ShortCode": "APP"
+    },
+    "2029": {
+        "Name": "Arkansas-Pine Bluff",
+        "ShortCode": "UAPB"
+    },
+    "2032": {
+        "Name": "Arkansas State",
+        "ShortCode": "ARST"
+    },
+    "204": {
+        "Name": "Oregon State",
+        "ShortCode": "ORST"
+    },
+    "2046": {
+        "Name": "Austin Peay",
+        "ShortCode": "PEAY"
+    },
+    "2050": {
+        "Name": "Ball State",
+        "ShortCode": "BALL"
+    },
+    "2065": {
+        "Name": "Bethune-Cookman",
+        "ShortCode": "BCU"
+    },
+    "2084": {
+        "Name": "Buffalo",
+        "ShortCode": "BUFF"
+    },
+    "21": {
+        "Name": "San Diego State",
+        "ShortCode": "SDSU"
+    },
+    "2110": {
+        "Name": "Central Arkansas",
+        "ShortCode": "UCA"
+    },
+    "2115": {
+        "Name": "Central Connecticut",
+        "ShortCode": "CCSU"
+    },
+    "2116": {
+        "Name": "UCF",
+        "ShortCode": "UCF"
+    },
+    "2117": {
+        "Name": "Central Michigan",
+        "ShortCode": "CMU"
+    },
+    "2127": {
+        "Name": "Charleston Southern",
+        "ShortCode": "CHSO"
+    },
+    "213": {
+        "Name": "Penn State",
+        "ShortCode": "PSU"
+    },
+    "2132": {
+        "Name": "Cincinnati",
+        "ShortCode": "CIN"
+    },
+    "2142": {
+        "Name": "Colgate",
+        "ShortCode": "COLG"
+    },
+    "2169": {
+        "Name": "Delaware State",
+        "ShortCode": "DSU"
+    },
+    "218": {
+        "Name": "Temple",
+        "ShortCode": "TEM"
+    },
+    "2197": {
+        "Name": "Eastern Illinois",
+        "ShortCode": "EIU"
+    },
+    "2198": {
+        "Name": "Eastern Kentucky",
+        "ShortCode": "EKY"
+    },
+    "2199": {
+        "Name": "Eastern Michigan",
+        "ShortCode": "EMU"
+    },
+    "221": {
+        "Name": "Pittsburgh",
+        "ShortCode": "PITT"
+    },
+    "2210": {
+        "Name": "Elon",
+        "ShortCode": "ELON"
+    },
+    "222": {
+        "Name": "Villanova",
+        "ShortCode": "NOVA"
+    },
+    "2226": {
+        "Name": "Florida Atlantic",
+        "ShortCode": "FAU"
+    },
+    "2229": {
+        "Name": "Florida Intl",
+        "ShortCode": "FIU"
+    },
+    "2230": {
+        "Name": "Fordham",
+        "ShortCode": "FOR"
+    },
+    "2241": {
+        "Name": "Gardner-Webb",
+        "ShortCode": "WEBB"
+    },
+    "2247": {
+        "Name": "Georgia State",
+        "ShortCode": "GAST"
+    },
+    "2261": {
+        "Name": "Hampton",
+        "ShortCode": "HAMP"
+    },
+    "227": {
+        "Name": "Rhode Island",
+        "ShortCode": "URI"
+    },
+    "2277": {
+        "Name": "Houston Baptist",
+        "ShortCode": "HBU"
+    },
+    "228": {
+        "Name": "Clemson",
+        "ShortCode": "CLEM"
+    },
+    "2294": {
+        "Name": "Iowa",
+        "ShortCode": "IOWA"
+    },
+    "2296": {
+        "Name": "Jackson State",
+        "ShortCode": "JKST"
+    },
+    "23": {
+        "Name": "San Jose State",
+        "ShortCode": "SJSU"
+    },
+    "2305": {
+        "Name": "Kansas",
+        "ShortCode": "KU"
+    },
+    "2306": {
+        "Name": "Kansas State",
+        "ShortCode": "KSU"
+    },
+    "2309": {
+        "Name": "Kent State",
+        "ShortCode": "KENT"
+    },
+    "231": {
+        "Name": "Furman",
+        "ShortCode": "FUR"
+    },
+    "2320": {
+        "Name": "Lamar",
+        "ShortCode": "LAM"
+    },
+    "233": {
+        "Name": "South Dakota",
+        "ShortCode": "SDAK"
+    },
+    "2335": {
+        "Name": "Liberty",
+        "ShortCode": "LIB"
+    },
+    "2348": {
+        "Name": "Louisiana Tech",
+        "ShortCode": "LT"
+    },
+    "235": {
+        "Name": "Memphis",
+        "ShortCode": "MEM"
+    },
+    "236": {
+        "Name": "Chattanooga",
+        "ShortCode": "CHAT"
+    },
+    "238": {
+        "Name": "Vanderbilt",
+        "ShortCode": "VAN"
+    },
+    "2382": {
+        "Name": "Mercer",
+        "ShortCode": "MER"
+    },
+    "239": {
+        "Name": "Baylor",
+        "ShortCode": "BAY"
+    },
+    "2390": {
+        "Name": "Miami",
+        "ShortCode": "MIAMI"
+    },
+    "2393": {
+        "Name": "Middle Tennessee",
+        "ShortCode": "MTSU"
+    },
+    "24": {
+        "Name": "Stanford",
+        "ShortCode": "STAN"
+    },
+    "2415": {
+        "Name": "Morgan State",
+        "ShortCode": "MORG"
+    },
+    "242": {
+        "Name": "Rice",
+        "ShortCode": "RICE"
+    },
+    "2426": {
+        "Name": "Navy",
+        "ShortCode": "NAVY"
+    },
+    "2428": {
+        "Name": "North Carolina Central",
+        "ShortCode": "NCCU"
+    },
+    "2429": {
+        "Name": "Charlotte",
+        "ShortCode": "CHAR"
+    },
+    "2433": {
+        "Name": "Louisiana Monroe",
+        "ShortCode": "ULM"
+    },
+    "2439": {
+        "Name": "UNLV",
+        "ShortCode": "UNLV"
+    },
+    "2440": {
+        "Name": "Nevada",
+        "ShortCode": "NEV"
+    },
+    "2447": {
+        "Name": "Nicholls",
+        "ShortCode": "NICH"
+    },
+    "2448": {
+        "Name": "North Carolina A&T",
+        "ShortCode": "NCAT"
+    },
+    "245": {
+        "Name": "Texas A&M",
+        "ShortCode": "TA&amp;M"
+    },
+    "2458": {
+        "Name": "Northern Colorado",
+        "ShortCode": "UNCO"
+    },
+    "2459": {
+        "Name": "Northern Illinois",
+        "ShortCode": "NIU"
+    },
+    "2460": {
+        "Name": "Northern Iowa",
+        "ShortCode": "UNI"
+    },
+    "2464": {
+        "Name": "Northern Arizona",
+        "ShortCode": "NAU"
+    },
+    "2466": {
+        "Name": "Northwestern State",
+        "ShortCode": "NWST"
+    },
+    "248": {
+        "Name": "Houston",
+        "ShortCode": "HOU"
+    },
+    "2483": {
+        "Name": "Oregon",
+        "ShortCode": "ORE"
+    },
+    "249": {
+        "Name": "North Texas",
+        "ShortCode": "UNT"
+    },
+    "25": {
+        "Name": "California",
+        "ShortCode": "CAL"
+    },
+    "2502": {
+        "Name": "Portland State",
+        "ShortCode": "PRST"
+    },
+    "2506": {
+        "Name": "Presbyterian College",
+        "ShortCode": "PRES"
+    },
+    "2509": {
+        "Name": "Purdue",
+        "ShortCode": "PUR"
+    },
+    "251": {
+        "Name": "Texas",
+        "ShortCode": "TEX"
+    },
+    "252": {
+        "Name": "BYU",
+        "ShortCode": "BYU"
+    },
+    "253": {
+        "Name": "Southern Utah",
+        "ShortCode": "SUU"
+    },
+    "2535": {
+        "Name": "Samford",
+        "ShortCode": "SAM"
+    },
+    "254": {
+        "Name": "Utah",
+        "ShortCode": "UTAH"
+    },
+    "2542": {
+        "Name": "Savannah State",
+        "ShortCode": "SAV"
+    },
+    "2545": {
+        "Name": "Southeastern Louisiana",
+        "ShortCode": "SELA"
+    },
+    "2546": {
+        "Name": "Southeast Missouri State",
+        "ShortCode": "SEMO"
+    },
+    "256": {
+        "Name": "James Madison",
+        "ShortCode": "JMU"
+    },
+    "2567": {
+        "Name": "SMU",
+        "ShortCode": "SMU"
+    },
+    "2572": {
+        "Name": "Southern Mississippi",
+        "ShortCode": "USM"
+    },
+    "2579": {
+        "Name": "South Carolina",
+        "ShortCode": "SC"
+    },
+    "258": {
+        "Name": "Virginia",
+        "ShortCode": "UVA"
+    },
+    "2582": {
+        "Name": "Southern",
+        "ShortCode": "SOU"
+    },
+    "259": {
+        "Name": "Virginia Tech",
+        "ShortCode": "VT"
+    },
+    "26": {
+        "Name": "UCLA",
+        "ShortCode": "UCLA"
+    },
+    "2617": {
+        "Name": "Stephen F. Austin",
+        "ShortCode": "SFA"
+    },
+    "2619": {
+        "Name": "Stony Brook",
+        "ShortCode": "STON"
+    },
+    "2623": {
+        "Name": "Missouri State",
+        "ShortCode": "MOST"
+    },
+    "2628": {
+        "Name": "TCU",
+        "ShortCode": "TCU"
+    },
+    "2630": {
+        "Name": "UT Martin",
+        "ShortCode": "UTM"
+    },
+    "2633": {
+        "Name": "Tennessee",
+        "ShortCode": "TENN"
+    },
+    "2634": {
+        "Name": "Tennessee State",
+        "ShortCode": "TNST"
+    },
+    "2635": {
+        "Name": "Tennessee Tech",
+        "ShortCode": "TNTC"
+    },
+    "2636": {
+        "Name": "UT San Antonio",
+        "ShortCode": "UTSA"
+    },
+    "2638": {
+        "Name": "UTEP",
+        "ShortCode": "UTEP"
+    },
+    "264": {
+        "Name": "Washington",
+        "ShortCode": "WASH"
+    },
+    "2641": {
+        "Name": "Texas Tech",
+        "ShortCode": "TTU"
+    },
+    "2649": {
+        "Name": "Toledo",
+        "ShortCode": "TOL"
+    },
+    "265": {
+        "Name": "Washington State",
+        "ShortCode": "WSU"
+    },
+    "2653": {
+        "Name": "Troy",
+        "ShortCode": "TROY"
+    },
+    "2655": {
+        "Name": "Tulane",
+        "ShortCode": "TULN"
+    },
+    "2678": {
+        "Name": "VMI",
+        "ShortCode": "VMI"
+    },
+    "2692": {
+        "Name": "Weber State",
+        "ShortCode": "WEB"
+    },
+    "2711": {
+        "Name": "Western Michigan",
+        "ShortCode": "WMU"
+    },
+    "2717": {
+        "Name": "Western Carolina",
+        "ShortCode": "WCU"
+    },
+    "2729": {
+        "Name": "William & Mary",
+        "ShortCode": "W&amp;M"
+    },
+    "275": {
+        "Name": "Wisconsin",
+        "ShortCode": "WIS"
+    },
+    "2751": {
+        "Name": "Wyoming",
+        "ShortCode": "WYO"
+    },
+    "2754": {
+        "Name": "Youngstown State",
+        "ShortCode": "YSU"
+    },
+    "2755": {
+        "Name": "Grambling",
+        "ShortCode": "GRAM"
+    },
+    "276": {
+        "Name": "Marshall",
+        "ShortCode": "MRSH"
+    },
+    "277": {
+        "Name": "West Virginia",
+        "ShortCode": "WVU"
+    },
+    "278": {
+        "Name": "Fresno State",
+        "ShortCode": "FRES"
+    },
+    "282": {
+        "Name": "Indiana State",
+        "ShortCode": "INST"
+    },
+    "290": {
+        "Name": "Georgia Southern",
+        "ShortCode": "GASO"
+    },
+    "2916": {
+        "Name": "Incarnate Word",
+        "ShortCode": "IW"
+    },
+    "295": {
+        "Name": "Old Dominion",
+        "ShortCode": "ODU"
+    },
+    "30": {
+        "Name": "USC",
+        "ShortCode": "USC"
+    },
+    "302": {
+        "Name": "UC Davis",
+        "ShortCode": "UCD"
+    },
+    "304": {
+        "Name": "Idaho State",
+        "ShortCode": "IDST"
+    },
+    "309": {
+        "Name": "Louisiana",
+        "ShortCode": "ULL"
+    },
+    "324": {
+        "Name": "Coastal Carolina",
+        "ShortCode": "CCU"
+    },
+    "326": {
+        "Name": "Texas State",
+        "ShortCode": "TXST"
+    },
+    "328": {
+        "Name": "Utah State",
+        "ShortCode": "USU"
+    },
+    "331": {
+        "Name": "Eastern Washington",
+        "ShortCode": "EWU"
+    },
+    "333": {
+        "Name": "Alabama",
+        "ShortCode": "ALA"
+    },
+    "344": {
+        "Name": "Mississippi State",
+        "ShortCode": "MSST"
+    },
+    "349": {
+        "Name": "Army",
+        "ShortCode": "ARMY"
+    },
+    "356": {
+        "Name": "Illinois",
+        "ShortCode": "ILL"
+    },
+    "36": {
+        "Name": "Colorado State",
+        "ShortCode": "CSU"
+    },
+    "38": {
+        "Name": "Colorado",
+        "ShortCode": "COLO"
+    },
+    "399": {
+        "Name": "Albany",
+        "ShortCode": "ALBY"
+    },
+    "41": {
+        "Name": "UConn",
+        "ShortCode": "CONN"
+    },
+    "47": {
+        "Name": "Howard",
+        "ShortCode": "HOW"
+    },
+    "48": {
+        "Name": "Delaware",
+        "ShortCode": "DEL"
+    },
+    "5": {
+        "Name": "UAB",
+        "ShortCode": "UAB"
+    },
+    "50": {
+        "Name": "Florida A&M",
+        "ShortCode": "FAMU"
+    },
+    "52": {
+        "Name": "Florida State",
+        "ShortCode": "FSU"
+    },
+    "55": {
+        "Name": "Jacksonville State",
+        "ShortCode": "JVST"
+    },
+    "57": {
+        "Name": "Florida",
+        "ShortCode": "FLA"
+    },
+    "58": {
+        "Name": "South Florida",
+        "ShortCode": "USF"
+    },
+    "59": {
+        "Name": "Georgia Tech",
+        "ShortCode": "GT"
+    },
+    "6": {
+        "Name": "South Alabama",
+        "ShortCode": "USA"
+    },
+    "61": {
+        "Name": "Georgia",
+        "ShortCode": "UGA"
+    },
+    "62": {
+        "Name": "Hawai'i",
+        "ShortCode": "HAW"
+    },
+    "66": {
+        "Name": "Iowa State",
+        "ShortCode": "ISU"
+    },
+    "68": {
+        "Name": "Boise State",
+        "ShortCode": "BSU"
+    },
+    "70": {
+        "Name": "Idaho",
+        "ShortCode": "IDHO"
+    },
+    "77": {
+        "Name": "Northwestern",
+        "ShortCode": "NW"
+    },
+    "8": {
+        "Name": "Arkansas",
+        "ShortCode": "ARK"
+    },
+    "84": {
+        "Name": "Indiana",
+        "ShortCode": "IND"
+    },
+    "87": {
+        "Name": "Notre Dame",
+        "ShortCode": "ND"
+    },
+    "9": {
+        "Name": "Arizona State",
+        "ShortCode": "ASU"
+    },
+    "96": {
+        "Name": "Kentucky",
+        "ShortCode": "UK"
+    },
+    "97": {
+        "Name": "Louisville",
+        "ShortCode": "LOU"
+    },
+    "98": {
+        "Name": "Western Kentucky",
+        "ShortCode": "WKU"
+    },
+    "99": {
+        "Name": "LSU",
+        "ShortCode": "LSU"
+    }
+}
