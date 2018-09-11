@@ -1,0 +1,196 @@
+{
+    "130": {
+        "2": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 2,
+            "PlusMinus": -0.71
+        }
+    },
+    "153": {
+        "7": {
+            "CorrectGoForIt": 2,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.6199999999999999
+        }
+    },
+    "183": {
+        "5": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.26
+        }
+    },
+    "24": {
+        "6": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": -0.5800000000000001
+        }
+    },
+    "242": {
+        "1": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.33999999999999986
+        }
+    },
+    "2426": {
+        "10": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.89
+        }
+    },
+    "2509": {
+        "3": {
+            "CorrectGoForIt": 2,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.7
+        }
+    },
+    "30": {
+        "14": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": -1.21
+        }
+    },
+    "52": {
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.09
+        }
+    },
+    "77": {
+        "12": {
+            "CorrectGoForIt": 2,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 0.6399999999999997
+        }
+    },
+    "87": {
+        "1": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.41999999999999993
+        },
+        "10": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
+        },
+        "11": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.22
+        },
+        "12": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.3999999999999999
+        },
+        "13": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 2,
+            "PlusMinus": -0.79
+        },
+        "14": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
+        },
+        "2": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
+        },
+        "3": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 2,
+            "PlusMinus": -1.3400000000000003
+        },
+        "5": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
+        },
+        "6": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 2,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.81
+        },
+        "7": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.3799999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 1.47
+        }
+    },
+    "9": {
+        "11": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.10000000000000009
+        }
+    },
+    "97": {
+        "13": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.10999999999999988
+        }
+    }
+}

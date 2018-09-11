@@ -128,8 +128,8 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
         homeLosses -= 1
         awayWins -= 1
 
-    homeWinPercent = homeWins/(homeWins+homeLosses)
-    awayWinPercent = awayWins/(awayWins+awayLosses)
+    homeWinPercent = homeWins/(homeWins+homeLosses) if (homeWins+homeLosses) > 0 else 0.5
+    awayWinPercent = awayWins/(awayWins+awayLosses) if (awayWins+awayLosses) > 0 else 0.5
     #print("homeWins: " + str(homeWins) + ", homeLosses: " + str(homeLosses) + ", win %: " + str(homeWinPercent))
     #print("awayWins: " + str(awayWins) + ", awayLosses: " + str(awayLosses) + ", win %: " + str(awayWinPercent))
 
@@ -149,7 +149,6 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
     #drill into each drive of that list of drives for this game
     for drive in drives:
         try:
-            print("\n\n")
             homeTeam = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .home .team-name").get_attribute("innerHTML")
             awayTeam = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .away .team-name").get_attribute("innerHTML")
             homeScore = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .home .team-score").get_attribute("innerHTML")
@@ -160,7 +159,6 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
             #print(str(homeTeam)+ " " + str(homeScore))
             #print(str(awayTeam) + " " + str(awayScore))
             offenseId = src.replace("http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/","").split(".")[0]
-            #print(offenseId)
             #print(homeTeamId)
 
             #this seems backwards but it works so I'll roll with it
@@ -280,8 +278,8 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
         except:
             pass
 
-    return (homeResults,awayResults)
     browser.quit()
+    return (homeResults,awayResults)
 
 
 def main():
@@ -289,6 +287,7 @@ def main():
 
     parser.add_argument("-years", "- what year to check yo", nargs='+', type=int)
     parser.add_argument("-weeks", "- list of weeks to check (could be single week obvs)", nargs='+', type=int)
+    parser.add_argument("-teams", "- list of teams to check (could be single team obvs)", nargs='+', type=int)
     parser.add_argument("-tweet", "- pass this to tweet at your homies", action='store_true', default=False)
 
     args = parser.parse_args()
@@ -296,29 +295,33 @@ def main():
 
     years = list(map(str, args.years))
     weeks = list(map(str, args.weeks))
+    if args.teams is not None:
+        teams = list(map(str, args.teams))
+    else:
+        teams = []
+    print(teams)
     tweet = args.tweet
 
     option = webdriver.ChromeOptions()
     option.add_argument(" - incognito")
 
-    browser = webdriver.Chrome(executable_path="/Applications/chromedriver", chrome_options=option)
 
 
 
     for year in years:
         print("starting year: "+year)
 
-        #TODO: get current years json from file
-        if os.path.isfile("./decision_logs/"+year+".json"):
-            with open("./decision_logs/"+year+".json") as data_file:
-                yearDecisions = json.load(data_file)
-        else:
-            yearDecisions = {}
-
         #print(yearDecisions)
 
         for week in weeks:
-            print("starting week: "+week)
+            browser = webdriver.Chrome(executable_path="/Applications/chromedriver", chrome_options=option)
+            print("starting week: " + week)
+            #TODO: get current years json from file
+            if os.path.isfile("./past_results_logs/"+year+".json"):
+                with open("./past_results_logs/"+year+".json") as data_file:
+                    yearDecisions = json.load(data_file)
+            else:
+                yearDecisions = {}
 
             #navigate to list of games that week
             browser.get("http://www.espn.com/college-football/scoreboard/_/group/80/year/"+year+"/seasontype/2/week/"+week)
@@ -332,9 +335,11 @@ def main():
                 gameId = game.get_attribute("id")
                 homeTeamId = game.get_attribute("data-homeid")
                 awayTeamId = game.get_attribute("data-awayid")
-                gameAndTeamIds.append([gameId,homeTeamId,awayTeamId])
+                #if teams is None or if home team or away team in teams
+                if (len(teams) == 0) or (homeTeamId in teams) or (awayTeamId in teams):
+                    gameAndTeamIds.append([gameId,homeTeamId,awayTeamId])
 
-
+            print(gameAndTeamIds)
             browser.quit()
             #drill into each game for the week that we found
             for game in gameAndTeamIds:
@@ -350,9 +355,10 @@ def main():
                 yearDecisions[game[1]][week],yearDecisions[game[2]][week] = InvestigateGame(game[0], game[1], game[2], tweet)
 
             #print(yearDecisions)
-        #TODO: write years decision logs back to file
-        with open("./decision_logs/"+year+".json", "w") as file:
-             json.dump(yearDecisions, file, sort_keys=True, indent=4)
+            #TODO: write years decision logs back to file
+
+            with open("./past_results_logs/"+year+".json", "w") as file:
+                json.dump(yearDecisions, file, sort_keys=True, indent=4)
 
 
 

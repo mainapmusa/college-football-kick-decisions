@@ -9,10 +9,10 @@ GraphCompareConferencePointsPerPossession takes list of conferences to compare,M
 GraphCompareConferencePointsPerPossession but line graphs over period (should take list of conferences to compare),Maina,In Progress,Medium,,bug if no conferences or filters given
 Move old commented out code that made graphs of accuracy of ML algorithms into functions,Maina,Done,High,,
 "Review architecture - possible to have ""global"" set up pieces in own functions? (ExpectedPoints has multiple set ups)",Maina,Done,Medium,,
-Review why it doesn't matter if RUSH or PASS for GoOn4th,Maina,In Progress,High,,
+Review why it doesn't matter if RUSH or PASS for GoOn4th,AG,In Progress,High,,
 Title for Graph4thAndDistance to show data entered,Maina,Done,High,,
 Multiple Graph4thAndDistance graphs displayed somehow,,To Do,Medium,,
-Find more accurate algorithms that allow finding of % probable,Maina,In Progress,Medium,,"Naive Bayes, Random Forests, probabalistic decision trees"
+Find more accurate algorithms that allow finding of % probable,AG,In Progress,Medium,,"Naive Bayes, Random Forests, probabalistic decision trees"
 Double check that kNN can't show % probable,Maina,Done,Low,,It just puts the % of the neighbors of the class (so if n_neighbors=8 and 3 neighbors are positive class then probability is .375 or 3/8)
 Make a listing of each function and show functionality (README?),,To Do,Medium,,
 Set up GitHub account and put project up,Maina,Done,High,,
@@ -65,8 +65,8 @@ Tweet simple image for kick decision,Maina,Done,High,,
 Tweet good image for kick decision,,To Do,Medium,,Will require thinking up a good image
 Get teams into image tweeting function,,To Do,High,,
 Fix current state where KickDecision exits the program at the first call that will not work.,,To Do,Low,,If comparing conferences has all the params it needs but getting a kick decision does not then neither of them work
-Figure out naming of image files convention to be used for tweeting,,To Do,High,,maybe just use guids
-If unable to do live tweeting change it to respond to tweets at TBM with kick decision,,To Do,Medium,,less fun but may allow for some level of exposure - will have to follow strict format probably
+Figure out naming of image files convention to be used for tweeting,,Done,High,,maybe just use guids
+If unable to do live tweeting change it to respond to tweets at TBM with kick decision,,To Do,Low,,less fun but may allow for some level of exposure - will have to follow strict format probably
 Expected points to use ML and not just average,,To Do,Medium,,
 "Create dictionary of team to important twitter handles (fb team, athletics dept, athletics director, conference)",,To Do,Medium,,https://www.sbnation.com/college-football/2013/5/22/4299860/sec-football-twitter-coaches-teams-blogs
 Add losses to team CSVs to be able to use win percent and not just wins,Maina,Done,High,,should be basically the same vlookup 
@@ -76,9 +76,11 @@ Add logging for modeling portions,,To Do,Medium,,
 Add logging for web scraping portions,,To Do,Medium,,
 Pass team names into kick decision and use them in tweets,,To Do,High,,
 "Clean up PastResults.py (better names of variables, more comments, more functions)",Maina,To Do,Medium,,
-Ability to tweet optimal past kick decision for given years or weeks or both,Maina,In Progress,High,,
-"Gather statistics of teams decisions by game, season, or multiple seasons",Maina,In Progress,High,,may need to save to json file somewhere
+Ability to tweet optimal past kick decision for given years or weeks or both,Maina,Done,High,,
+"Gather statistics of teams decisions by game, season, or multiple seasons",Maina,Done,High,,may need to save to json file somewhere
 Get rid of magic strings in past results file,Maina,To Do,Medium,,
-Restrict which 4th down situations are investigated,Maina,To Do,High,,
+Restrict which 4th down situations are investigated,Maina,Done,High,,
 Fix everything in the bugs txt file,Maina,To Do,High,,
 Separate tweeting and printing ,Maina,To Do,High,,
+Update json file to save periodically,Maina,To Do,Medium,,maybe every week or after X number of games
+Add ability to just find past results for certain team,Maina,To Do,Medium,,
