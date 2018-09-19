@@ -1,870 +1,1087 @@
 {
     "103": {
         "Name": "Boston College",
-        "ShortCode": "BC"
+        "ShortCode": "BC",
+        "TwitterHandles": "@BCFootball @bcinterruption"
     },
     "107": {
         "Name": "Holy Cross",
-        "ShortCode": "HC"
+        "ShortCode": "HC",
+        "TwitterHandles": "Holy Cross"
     },
     "113": {
         "Name": "UMass",
-        "ShortCode": "UMASS"
+        "ShortCode": "UMASS",
+        "TwitterHandles": "@UMassFootball @HustleBelt"
     },
     "119": {
         "Name": "Towson",
-        "ShortCode": "TOWS"
+        "ShortCode": "TOWS",
+        "TwitterHandles": "Towson"
     },
     "12": {
         "Name": "Arizona",
-        "ShortCode": "ARIZ"
+        "ShortCode": "ARIZ",
+        "TwitterHandles": "@ArizonaFBall @AZDesertSwarm"
     },
     "120": {
         "Name": "Maryland",
-        "ShortCode": "MD"
+        "ShortCode": "MD",
+        "TwitterHandles": "@umterps"
     },
     "127": {
         "Name": "Michigan State",
-        "ShortCode": "MSU"
+        "ShortCode": "MSU",
+        "TwitterHandles": "@MSU_Football @TheOnlyColors"
     },
     "13": {
         "Name": "Cal Poly",
-        "ShortCode": "CP"
+        "ShortCode": "CP",
+        "TwitterHandles": "Cal Poly"
     },
     "130": {
         "Name": "Michigan",
-        "ShortCode": "MICH"
+        "ShortCode": "MICH",
+        "TwitterHandles": "@UMichFootball @MaizenBrew"
     },
     "135": {
         "Name": "Minnesota",
-        "ShortCode": "MINN"
+        "ShortCode": "MINN",
+        "TwitterHandles": "@GopherFootball @TheDailyGopher"
     },
     "142": {
         "Name": "Missouri",
-        "ShortCode": "MIZ"
+        "ShortCode": "MIZ",
+        "TwitterHandles": "@MizzouFootball @RockMNation"
     },
     "145": {
         "Name": "Ole Miss",
-        "ShortCode": "MISS"
+        "ShortCode": "MISS",
+        "TwitterHandles": "@OleMissFB @RedCupRebellion"
     },
     "147": {
         "Name": "Montana State",
-        "ShortCode": "MTST"
+        "ShortCode": "MTST",
+        "TwitterHandles": "Montana State"
     },
     "149": {
         "Name": "Montana",
-        "ShortCode": "MONT"
+        "ShortCode": "MONT",
+        "TwitterHandles": "Montana"
     },
     "150": {
         "Name": "Duke",
-        "ShortCode": "DUKE"
+        "ShortCode": "DUKE",
+        "TwitterHandles": "@DukeFOOTBALL ‏@bluevsblue"
     },
     "151": {
         "Name": "East Carolina",
-        "ShortCode": "ECU"
+        "ShortCode": "ECU",
+        "TwitterHandles": "@ECUAthletics"
     },
     "152": {
         "Name": "NC State",
-        "ShortCode": "NCST"
+        "ShortCode": "NCST",
+        "TwitterHandles": "@PackFootball @BackingThePack"
     },
     "153": {
         "Name": "North Carolina",
-        "ShortCode": "UNC"
+        "ShortCode": "UNC",
+        "TwitterHandles": "@TarHeelFootball @tarheelblog"
     },
     "154": {
         "Name": "Wake Forest",
-        "ShortCode": "WAKE"
+        "ShortCode": "WAKE",
+        "TwitterHandles": "@WakeFB @BloggerSoDear"
     },
     "155": {
         "Name": "North Dakota",
-        "ShortCode": "UND"
+        "ShortCode": "UND",
+        "TwitterHandles": "North Dakota"
     },
     "158": {
         "Name": "Nebraska",
-        "ShortCode": "NEB"
+        "ShortCode": "NEB",
+        "TwitterHandles": "@Huskers @CornNation"
     },
     "16": {
         "Name": "Sacramento State",
-        "ShortCode": "SAC"
+        "ShortCode": "SAC",
+        "TwitterHandles": "Sacramento State"
     },
     "160": {
         "Name": "New Hampshire",
-        "ShortCode": "UNH"
+        "ShortCode": "UNH",
+        "TwitterHandles": "New Hampshire"
     },
     "164": {
         "Name": "Rutgers",
-        "ShortCode": "RUTG"
+        "ShortCode": "RUTG",
+        "TwitterHandles": "@RFootball"
     },
     "166": {
         "Name": "New Mexico State",
-        "ShortCode": "NMSU"
+        "ShortCode": "NMSU",
+        "TwitterHandles": "@NMStateAggies"
     },
     "167": {
         "Name": "New Mexico",
-        "ShortCode": "UNM"
+        "ShortCode": "UNM",
+        "TwitterHandles": "@UNMLOBOS"
     },
     "183": {
         "Name": "Syracuse",
-        "ShortCode": "SYR"
+        "ShortCode": "SYR",
+        "TwitterHandles": "@CuseFootball @NunesMagician"
     },
     "189": {
         "Name": "Bowling Green",
-        "ShortCode": "BGSU"
+        "ShortCode": "BGSU",
+        "TwitterHandles": "@BGathletics @HustleBelt"
     },
     "193": {
         "Name": "Miami (OH)",
-        "ShortCode": "M-OH"
+        "ShortCode": "M-OH",
+        "TwitterHandles": "@MiamiOHFootball @HustleBelt"
     },
     "194": {
         "Name": "Ohio State",
-        "ShortCode": "OSU"
+        "ShortCode": "OSU",
+        "TwitterHandles": "@OhioStateFB @Landgrant33"
     },
     "195": {
         "Name": "Ohio",
-        "ShortCode": "OHIO"
+        "ShortCode": "OHIO",
+        "TwitterHandles": "@OhioFootball @HustleBelt"
     },
     "197": {
         "Name": "Oklahoma State",
-        "ShortCode": "OKST"
+        "ShortCode": "OKST",
+        "TwitterHandles": "@CowboyFB @CowboysRFF"
     },
     "2": {
         "Name": "Auburn",
-        "ShortCode": "AUB"
+        "ShortCode": "AUB",
+        "TwitterHandles": "@AuburnFootball @CollegeAndMag"
     },
     "2000": {
         "Name": "Abilene Christian",
-        "ShortCode": "ACU"
+        "ShortCode": "ACU",
+        "TwitterHandles": "Abilene Christian"
     },
     "2005": {
         "Name": "Air Force",
-        "ShortCode": "AFA"
+        "ShortCode": "AFA",
+        "TwitterHandles": "@AF_Falcons"
     },
     "2006": {
         "Name": "Akron",
-        "ShortCode": "AKR"
+        "ShortCode": "AKR",
+        "TwitterHandles": "@ZipsFB @HustleBelt"
     },
     "201": {
         "Name": "Oklahoma",
-        "ShortCode": "OKLA"
+        "ShortCode": "OKLA",
+        "TwitterHandles": "@OU_Football @CCMachine"
     },
     "2010": {
         "Name": "Alabama A&M",
-        "ShortCode": "AAMU"
+        "ShortCode": "AAMU",
+        "TwitterHandles": "Alabama A&M"
     },
     "2011": {
         "Name": "Alabama State",
-        "ShortCode": "ALST"
+        "ShortCode": "ALST",
+        "TwitterHandles": "Alabama State"
     },
     "2016": {
         "Name": "Alcorn State",
-        "ShortCode": "ALCN"
+        "ShortCode": "ALCN",
+        "TwitterHandles": "Alcorn State"
     },
     "202": {
         "Name": "Tulsa",
-        "ShortCode": "TLSA"
+        "ShortCode": "TLSA",
+        "TwitterHandles": "@TulsaFootball"
     },
     "2026": {
         "Name": "Appalachian State",
-        "ShortCode": "APP"
+        "ShortCode": "APP",
+        "TwitterHandles": "@AppState_FB"
     },
     "2029": {
         "Name": "Arkansas-Pine Bluff",
-        "ShortCode": "UAPB"
+        "ShortCode": "UAPB",
+        "TwitterHandles": "Arkansas-Pine Bluff"
     },
     "2032": {
         "Name": "Arkansas State",
-        "ShortCode": "ARST"
+        "ShortCode": "ARST",
+        "TwitterHandles": "@AStateFB"
     },
     "204": {
         "Name": "Oregon State",
-        "ShortCode": "ORST"
+        "ShortCode": "ORST",
+        "TwitterHandles": "@BeaverFootball @BuildingTheDam"
     },
     "2046": {
         "Name": "Austin Peay",
-        "ShortCode": "PEAY"
+        "ShortCode": "PEAY",
+        "TwitterHandles": "Austin Peay"
     },
     "2050": {
         "Name": "Ball State",
-        "ShortCode": "BALL"
+        "ShortCode": "BALL",
+        "TwitterHandles": "@BallStateFB @HustleBelt"
     },
     "2065": {
         "Name": "Bethune-Cookman",
-        "ShortCode": "BCU"
+        "ShortCode": "BCU",
+        "TwitterHandles": "Bethune-Cookman"
     },
     "2084": {
         "Name": "Buffalo",
-        "ShortCode": "BUFF"
+        "ShortCode": "BUFF",
+        "TwitterHandles": "@UBFootball @UBBullRun"
     },
     "21": {
         "Name": "San Diego State",
-        "ShortCode": "SDSU"
+        "ShortCode": "SDSU",
+        "TwitterHandles": "@SDSUFootball"
     },
     "2110": {
         "Name": "Central Arkansas",
-        "ShortCode": "UCA"
+        "ShortCode": "UCA",
+        "TwitterHandles": "Central Arkansas"
     },
     "2115": {
         "Name": "Central Connecticut",
-        "ShortCode": "CCSU"
+        "ShortCode": "CCSU",
+        "TwitterHandles": "Central Connecticut"
     },
     "2116": {
         "Name": "UCF",
-        "ShortCode": "UCF"
+        "ShortCode": "UCF",
+        "TwitterHandles": "@UCF_Football"
     },
     "2117": {
         "Name": "Central Michigan",
-        "ShortCode": "CMU"
+        "ShortCode": "CMU",
+        "TwitterHandles": "@CMU_Football @HustleBelt"
     },
     "2127": {
         "Name": "Charleston Southern",
-        "ShortCode": "CHSO"
+        "ShortCode": "CHSO",
+        "TwitterHandles": "Charleston Southern"
     },
     "213": {
         "Name": "Penn State",
-        "ShortCode": "PSU"
+        "ShortCode": "PSU",
+        "TwitterHandles": "@PennStateFball @BSDtweet"
     },
     "2132": {
         "Name": "Cincinnati",
-        "ShortCode": "CIN"
+        "ShortCode": "CIN",
+        "TwitterHandles": "@GoBearcatsFB @downthedrive"
     },
     "2142": {
         "Name": "Colgate",
-        "ShortCode": "COLG"
+        "ShortCode": "COLG",
+        "TwitterHandles": "Colgate"
     },
     "2169": {
         "Name": "Delaware State",
-        "ShortCode": "DSU"
+        "ShortCode": "DSU",
+        "TwitterHandles": "Delaware State"
     },
     "218": {
         "Name": "Temple",
-        "ShortCode": "TEM"
+        "ShortCode": "TEM",
+        "TwitterHandles": "@Temple_FB"
     },
     "2197": {
         "Name": "Eastern Illinois",
-        "ShortCode": "EIU"
+        "ShortCode": "EIU",
+        "TwitterHandles": "Eastern Illinois"
     },
     "2198": {
         "Name": "Eastern Kentucky",
-        "ShortCode": "EKY"
+        "ShortCode": "EKY",
+        "TwitterHandles": "Eastern Kentucky"
     },
     "2199": {
         "Name": "Eastern Michigan",
-        "ShortCode": "EMU"
+        "ShortCode": "EMU",
+        "TwitterHandles": "@EMUFB @HustleBelt"
     },
     "221": {
         "Name": "Pittsburgh",
-        "ShortCode": "PITT"
+        "ShortCode": "PITT",
+        "TwitterHandles": "@Pitt_FB ‏@PittPantherBlog"
     },
     "2210": {
         "Name": "Elon",
-        "ShortCode": "ELON"
+        "ShortCode": "ELON",
+        "TwitterHandles": "Elon"
     },
     "222": {
         "Name": "Villanova",
-        "ShortCode": "NOVA"
+        "ShortCode": "NOVA",
+        "TwitterHandles": "Villanova"
     },
     "2226": {
         "Name": "Florida Atlantic",
-        "ShortCode": "FAU"
+        "ShortCode": "FAU",
+        "TwitterHandles": "@FAU_Football"
     },
     "2229": {
         "Name": "Florida Intl",
-        "ShortCode": "FIU"
+        "ShortCode": "FIU",
+        "TwitterHandles": "@FIUFootball"
     },
     "2230": {
         "Name": "Fordham",
-        "ShortCode": "FOR"
+        "ShortCode": "FOR",
+        "TwitterHandles": "Fordham"
     },
     "2241": {
         "Name": "Gardner-Webb",
-        "ShortCode": "WEBB"
+        "ShortCode": "WEBB",
+        "TwitterHandles": "Gardner-Webb"
     },
     "2247": {
         "Name": "Georgia State",
-        "ShortCode": "GAST"
+        "ShortCode": "GAST",
+        "TwitterHandles": "@GSUPanthers"
     },
     "2261": {
         "Name": "Hampton",
-        "ShortCode": "HAMP"
+        "ShortCode": "HAMP",
+        "TwitterHandles": "Hampton"
     },
     "227": {
         "Name": "Rhode Island",
-        "ShortCode": "URI"
+        "ShortCode": "URI",
+        "TwitterHandles": "Rhode Island"
     },
     "2277": {
         "Name": "Houston Baptist",
-        "ShortCode": "HBU"
+        "ShortCode": "HBU",
+        "TwitterHandles": "Houston Baptist"
     },
     "228": {
         "Name": "Clemson",
-        "ShortCode": "CLEM"
+        "ShortCode": "CLEM",
+        "TwitterHandles": "@ClemsonFB @QuackingTiger"
     },
     "2287": {
         "Name": "Illinois State",
-        "ShortCode": "ILST"
+        "ShortCode": "ILST",
+        "TwitterHandles": "Illinois State"
     },
     "2294": {
         "Name": "Iowa",
-        "ShortCode": "IOWA"
+        "ShortCode": "IOWA",
+        "TwitterHandles": "@HawkeyeFootball @BHGP"
     },
     "2296": {
         "Name": "Jackson State",
-        "ShortCode": "JKST"
+        "ShortCode": "JKST",
+        "TwitterHandles": "Jackson State"
     },
     "23": {
         "Name": "San Jose State",
-        "ShortCode": "SJSU"
+        "ShortCode": "SJSU",
+        "TwitterHandles": "@SJSUAthletics"
     },
     "2305": {
         "Name": "Kansas",
-        "ShortCode": "KU"
+        "ShortCode": "KU",
+        "TwitterHandles": "@KU_Football @rockchalktalk"
     },
     "2306": {
         "Name": "Kansas State",
-        "ShortCode": "KSU"
+        "ShortCode": "KSU",
+        "TwitterHandles": "@KStateFB @BringOnTheCats"
     },
     "2309": {
         "Name": "Kent State",
-        "ShortCode": "KENT"
+        "ShortCode": "KENT",
+        "TwitterHandles": "@KentStFootball @HustleBelt"
     },
     "231": {
         "Name": "Furman",
-        "ShortCode": "FUR"
+        "ShortCode": "FUR",
+        "TwitterHandles": "Furman"
     },
     "2320": {
         "Name": "Lamar",
-        "ShortCode": "LAM"
+        "ShortCode": "LAM",
+        "TwitterHandles": "Lamar"
     },
     "233": {
         "Name": "South Dakota",
-        "ShortCode": "SDAK"
+        "ShortCode": "SDAK",
+        "TwitterHandles": "South Dakota"
     },
     "2335": {
         "Name": "Liberty",
-        "ShortCode": "LIB"
+        "ShortCode": "LIB",
+        "TwitterHandles": "Liberty"
     },
     "2348": {
         "Name": "Louisiana Tech",
-        "ShortCode": "LT"
+        "ShortCode": "LT",
+        "TwitterHandles": "@LATechFB"
     },
     "235": {
         "Name": "Memphis",
-        "ShortCode": "MEM"
+        "ShortCode": "MEM",
+        "TwitterHandles": "@TigersAthletics"
     },
     "236": {
         "Name": "Chattanooga",
-        "ShortCode": "CHAT"
+        "ShortCode": "CHAT",
+        "TwitterHandles": "Chattanooga"
     },
     "2377": {
         "Name": "McNeese",
-        "ShortCode": "MCNS"
+        "ShortCode": "MCNS",
+        "TwitterHandles": "McNeese"
     },
     "238": {
         "Name": "Vanderbilt",
-        "ShortCode": "VAN"
+        "ShortCode": "VAN",
+        "TwitterHandles": "@VandyFootball @anchorofgold"
     },
     "2382": {
         "Name": "Mercer",
-        "ShortCode": "MER"
+        "ShortCode": "MER",
+        "TwitterHandles": "Mercer"
     },
     "239": {
         "Name": "Baylor",
-        "ShortCode": "BAY"
+        "ShortCode": "BAY",
+        "TwitterHandles": "@BUFootball @OurDailyBears"
     },
     "2390": {
         "Name": "Miami",
-        "ShortCode": "MIAMI"
+        "ShortCode": "MIAMI",
+        "TwitterHandles": "@CanesFootball @TheStateOfTheU"
     },
     "2393": {
         "Name": "Middle Tennessee",
-        "ShortCode": "MTSU"
+        "ShortCode": "MTSU",
+        "TwitterHandles": "@MTAthletics"
     },
     "24": {
         "Name": "Stanford",
-        "ShortCode": "STAN"
+        "ShortCode": "STAN",
+        "TwitterHandles": "@StanfordFball @RuleofTree"
     },
     "2400": {
         "Name": "Mississippi Valley State",
-        "ShortCode": "MVSU"
+        "ShortCode": "MVSU",
+        "TwitterHandles": "Mississippi Valley State"
     },
     "2415": {
         "Name": "Morgan State",
-        "ShortCode": "MORG"
+        "ShortCode": "MORG",
+        "TwitterHandles": "Morgan State"
     },
     "242": {
         "Name": "Rice",
-        "ShortCode": "RICE"
+        "ShortCode": "RICE",
+        "TwitterHandles": "@RiceFootball"
     },
     "2426": {
         "Name": "Navy",
-        "ShortCode": "NAVY"
+        "ShortCode": "NAVY",
+        "TwitterHandles": "@NavyAthletics"
     },
     "2428": {
         "Name": "North Carolina Central",
-        "ShortCode": "NCCU"
+        "ShortCode": "NCCU",
+        "TwitterHandles": "North Carolina Central"
     },
     "2429": {
         "Name": "Charlotte",
-        "ShortCode": "CHAR"
+        "ShortCode": "CHAR",
+        "TwitterHandles": "@Charlotte49ers"
     },
     "2433": {
         "Name": "Louisiana Monroe",
-        "ShortCode": "ULM"
+        "ShortCode": "ULM",
+        "TwitterHandles": "@ULMWarhawks"
     },
     "2439": {
         "Name": "UNLV",
-        "ShortCode": "UNLV"
+        "ShortCode": "UNLV",
+        "TwitterHandles": "@UNLVathletics"
     },
     "2440": {
         "Name": "Nevada",
-        "ShortCode": "NEV"
+        "ShortCode": "NEV",
+        "TwitterHandles": "@NevadaFootball"
     },
     "2447": {
         "Name": "Nicholls",
-        "ShortCode": "NICH"
+        "ShortCode": "NICH",
+        "TwitterHandles": "Nicholls"
     },
     "2448": {
         "Name": "North Carolina A&T",
-        "ShortCode": "NCAT"
+        "ShortCode": "NCAT",
+        "TwitterHandles": "North Carolina A&T"
     },
     "245": {
         "Name": "Texas A&M",
-        "ShortCode": "TA&amp;M"
+        "ShortCode": "TA&amp;M",
+        "TwitterHandles": "@AggieFootball @GBHunting"
     },
     "2458": {
         "Name": "Northern Colorado",
-        "ShortCode": "UNCO"
+        "ShortCode": "UNCO",
+        "TwitterHandles": "Northern Colorado"
     },
     "2459": {
         "Name": "Northern Illinois",
-        "ShortCode": "NIU"
+        "ShortCode": "NIU",
+        "TwitterHandles": "@NIU_Football @RABAttack"
     },
     "2460": {
         "Name": "Northern Iowa",
-        "ShortCode": "UNI"
+        "ShortCode": "UNI",
+        "TwitterHandles": "Northern Iowa"
     },
     "2464": {
         "Name": "Northern Arizona",
-        "ShortCode": "NAU"
+        "ShortCode": "NAU",
+        "TwitterHandles": "Northern Arizona"
     },
     "2466": {
         "Name": "Northwestern State",
-        "ShortCode": "NWST"
+        "ShortCode": "NWST",
+        "TwitterHandles": "Northwestern State"
     },
     "248": {
         "Name": "Houston",
-        "ShortCode": "HOU"
+        "ShortCode": "HOU",
+        "TwitterHandles": "@UHCougarFB"
     },
     "2483": {
         "Name": "Oregon",
-        "ShortCode": "ORE"
+        "ShortCode": "ORE",
+        "TwitterHandles": "@oregonfootball @AddictedToQuack"
     },
     "249": {
         "Name": "North Texas",
-        "ShortCode": "UNT"
+        "ShortCode": "UNT",
+        "TwitterHandles": "@MeanGreenFB"
     },
     "25": {
         "Name": "California",
-        "ShortCode": "CAL"
+        "ShortCode": "CAL",
+        "TwitterHandles": "@CalFootball @GoldenBlogs"
     },
     "2502": {
         "Name": "Portland State",
-        "ShortCode": "PRST"
+        "ShortCode": "PRST",
+        "TwitterHandles": "Portland State"
     },
     "2504": {
         "Name": "Prairie View",
-        "ShortCode": "PVAM"
+        "ShortCode": "PVAM",
+        "TwitterHandles": "Prairie View"
     },
     "2506": {
         "Name": "Presbyterian College",
-        "ShortCode": "PRES"
+        "ShortCode": "PRES",
+        "TwitterHandles": "Presbyterian College"
     },
     "2509": {
         "Name": "Purdue",
-        "ShortCode": "PUR"
+        "ShortCode": "PUR",
+        "TwitterHandles": "@BoilerFootball @HammerAndRails"
     },
     "251": {
         "Name": "Texas",
-        "ShortCode": "TEX"
+        "ShortCode": "TEX",
+        "TwitterHandles": "@TexasFootball @BON_SBNation"
     },
     "252": {
         "Name": "BYU",
-        "ShortCode": "BYU"
+        "ShortCode": "BYU",
+        "TwitterHandles": "@BYUfootball @VanquishTheFoe"
     },
     "253": {
         "Name": "Southern Utah",
-        "ShortCode": "SUU"
+        "ShortCode": "SUU",
+        "TwitterHandles": "Southern Utah"
     },
     "2535": {
         "Name": "Samford",
-        "ShortCode": "SAM"
+        "ShortCode": "SAM",
+        "TwitterHandles": "Samford"
     },
     "254": {
         "Name": "Utah",
-        "ShortCode": "UTAH"
+        "ShortCode": "UTAH",
+        "TwitterHandles": "@Utah_Football @BlockU"
     },
     "2542": {
         "Name": "Savannah State",
-        "ShortCode": "SAV"
+        "ShortCode": "SAV",
+        "TwitterHandles": "Savannah State"
     },
     "2545": {
         "Name": "Southeastern Louisiana",
-        "ShortCode": "SELA"
+        "ShortCode": "SELA",
+        "TwitterHandles": "Southeastern Louisiana"
     },
     "2546": {
         "Name": "Southeast Missouri State",
-        "ShortCode": "SEMO"
+        "ShortCode": "SEMO",
+        "TwitterHandles": "Southeast Missouri State"
     },
     "256": {
         "Name": "James Madison",
-        "ShortCode": "JMU"
+        "ShortCode": "JMU",
+        "TwitterHandles": "James Madison"
     },
     "2567": {
         "Name": "SMU",
-        "ShortCode": "SMU"
+        "ShortCode": "SMU",
+        "TwitterHandles": "@SMU_Football"
     },
     "2569": {
         "Name": "South Carolina State",
-        "ShortCode": "SCST"
+        "ShortCode": "SCST",
+        "TwitterHandles": "South Carolina State"
     },
     "257": {
         "Name": "Richmond",
-        "ShortCode": "RICH"
+        "ShortCode": "RICH",
+        "TwitterHandles": "Richmond"
     },
     "2571": {
         "Name": "South Dakota State",
-        "ShortCode": "SDSU"
+        "ShortCode": "SDSU",
+        "TwitterHandles": "South Dakota State"
     },
     "2572": {
         "Name": "Southern Mississippi",
-        "ShortCode": "USM"
+        "ShortCode": "USM",
+        "TwitterHandles": "@USMGoldenEagles"
     },
     "2579": {
         "Name": "South Carolina",
-        "ShortCode": "SC"
+        "ShortCode": "SC",
+        "TwitterHandles": "@GamecockFB @GABAttack"
     },
     "258": {
         "Name": "Virginia",
-        "ShortCode": "UVA"
+        "ShortCode": "UVA",
+        "TwitterHandles": "@UVAFootball "
     },
     "2582": {
         "Name": "Southern",
-        "ShortCode": "SOU"
+        "ShortCode": "SOU",
+        "TwitterHandles": "Southern"
     },
     "259": {
         "Name": "Virginia Tech",
-        "ShortCode": "VT"
+        "ShortCode": "VT",
+        "TwitterHandles": "@VT_Football @gobblercountry"
     },
     "26": {
         "Name": "UCLA",
-        "ShortCode": "UCLA"
+        "ShortCode": "UCLA",
+        "TwitterHandles": "@UCLAFootball @BruinNation"
     },
     "2617": {
         "Name": "Stephen F. Austin",
-        "ShortCode": "SFA"
+        "ShortCode": "SFA",
+        "TwitterHandles": "Stephen F. Austin"
     },
     "2619": {
         "Name": "Stony Brook",
-        "ShortCode": "STON"
+        "ShortCode": "STON",
+        "TwitterHandles": "Stony Brook"
     },
     "2623": {
         "Name": "Missouri State",
-        "ShortCode": "MOST"
+        "ShortCode": "MOST",
+        "TwitterHandles": "Missouri State"
     },
     "2628": {
         "Name": "TCU",
-        "ShortCode": "TCU"
+        "ShortCode": "TCU",
+        "TwitterHandles": "@TCUFootball @FrogsOWar"
     },
     "2630": {
         "Name": "UT Martin",
-        "ShortCode": "UTM"
+        "ShortCode": "UTM",
+        "TwitterHandles": "UT Martin"
     },
     "2633": {
         "Name": "Tennessee",
-        "ShortCode": "TENN"
+        "ShortCode": "TENN",
+        "TwitterHandles": "@Vol_Football @RockyTopTalk"
     },
     "2634": {
         "Name": "Tennessee State",
-        "ShortCode": "TNST"
+        "ShortCode": "TNST",
+        "TwitterHandles": "Tennessee State"
     },
     "2635": {
         "Name": "Tennessee Tech",
-        "ShortCode": "TNTC"
+        "ShortCode": "TNTC",
+        "TwitterHandles": "Tennessee Tech"
     },
     "2636": {
         "Name": "UT San Antonio",
-        "ShortCode": "UTSA"
+        "ShortCode": "UTSA",
+        "TwitterHandles": "@UTSAFTBL"
     },
     "2638": {
         "Name": "UTEP",
-        "ShortCode": "UTEP"
+        "ShortCode": "UTEP",
+        "TwitterHandles": "@UTEPAthletics"
     },
     "264": {
         "Name": "Washington",
-        "ShortCode": "WASH"
+        "ShortCode": "WASH",
+        "TwitterHandles": "@UW_Football @UWonSBN"
     },
     "2641": {
         "Name": "Texas Tech",
-        "ShortCode": "TTU"
+        "ShortCode": "TTU",
+        "TwitterHandles": "@TechAthletics @VivaTheMatadors"
     },
     "2643": {
         "Name": "The Citadel",
-        "ShortCode": "CIT"
+        "ShortCode": "CIT",
+        "TwitterHandles": "The Citadel"
     },
     "2649": {
         "Name": "Toledo",
-        "ShortCode": "TOL"
+        "ShortCode": "TOL",
+        "TwitterHandles": "@UToledoFootball @HustleBelt"
     },
     "265": {
         "Name": "Washington State",
-        "ShortCode": "WSU"
+        "ShortCode": "WSU",
+        "TwitterHandles": "@WSUCougFB @CougCenter"
     },
     "2653": {
         "Name": "Troy",
-        "ShortCode": "TROY"
+        "ShortCode": "TROY",
+        "TwitterHandles": "@TroyAthletics"
     },
     "2655": {
         "Name": "Tulane",
-        "ShortCode": "TULN"
+        "ShortCode": "TULN",
+        "TwitterHandles": "@GreenWaveFB"
     },
     "2678": {
         "Name": "VMI",
-        "ShortCode": "VMI"
+        "ShortCode": "VMI",
+        "TwitterHandles": "VMI"
     },
     "2692": {
         "Name": "Weber State",
-        "ShortCode": "WEB"
+        "ShortCode": "WEB",
+        "TwitterHandles": "Weber State"
     },
     "2711": {
         "Name": "Western Michigan",
-        "ShortCode": "WMU"
+        "ShortCode": "WMU",
+        "TwitterHandles": "@WMU_Football @HustleBelt"
     },
     "2717": {
         "Name": "Western Carolina",
-        "ShortCode": "WCU"
+        "ShortCode": "WCU",
+        "TwitterHandles": "Western Carolina"
     },
     "2729": {
         "Name": "William & Mary",
-        "ShortCode": "W&amp;M"
+        "ShortCode": "W&amp;M",
+        "TwitterHandles": "William & Mary"
     },
     "2747": {
         "Name": "Wofford",
-        "ShortCode": "WOF"
+        "ShortCode": "WOF",
+        "TwitterHandles": "Wofford"
     },
     "275": {
         "Name": "Wisconsin",
-        "ShortCode": "WIS"
+        "ShortCode": "WIS",
+        "TwitterHandles": "@BadgerFootball @B5Q"
     },
     "2751": {
         "Name": "Wyoming",
-        "ShortCode": "WYO"
+        "ShortCode": "WYO",
+        "TwitterHandles": "@wyo_football"
     },
     "2754": {
         "Name": "Youngstown State",
-        "ShortCode": "YSU"
+        "ShortCode": "YSU",
+        "TwitterHandles": "Youngstown State"
     },
     "2755": {
         "Name": "Grambling",
-        "ShortCode": "GRAM"
+        "ShortCode": "GRAM",
+        "TwitterHandles": "Grambling"
     },
     "276": {
         "Name": "Marshall",
-        "ShortCode": "MRSH"
+        "ShortCode": "MRSH",
+        "TwitterHandles": "@HerdZone"
     },
     "277": {
         "Name": "West Virginia",
-        "ShortCode": "WVU"
+        "ShortCode": "WVU",
+        "TwitterHandles": "@WVUfootball @smokingmusket"
     },
     "278": {
         "Name": "Fresno State",
-        "ShortCode": "FRES"
+        "ShortCode": "FRES",
+        "TwitterHandles": "@FSAthletics"
     },
     "282": {
         "Name": "Indiana State",
-        "ShortCode": "INST"
+        "ShortCode": "INST",
+        "TwitterHandles": "Indiana State"
     },
     "290": {
         "Name": "Georgia Southern",
-        "ShortCode": "GASO"
+        "ShortCode": "GASO",
+        "TwitterHandles": "@GSAthletics"
     },
     "2916": {
         "Name": "Incarnate Word",
-        "ShortCode": "IW"
+        "ShortCode": "IW",
+        "TwitterHandles": "Incarnate Word"
     },
     "295": {
         "Name": "Old Dominion",
-        "ShortCode": "ODU"
+        "ShortCode": "ODU",
+        "TwitterHandles": "@ODUFootball"
     },
     "30": {
         "Name": "USC",
-        "ShortCode": "USC"
+        "ShortCode": "USC",
+        "TwitterHandles": "@uscfootball @CChroniclesSBN"
     },
     "302": {
         "Name": "UC Davis",
-        "ShortCode": "UCD"
+        "ShortCode": "UCD",
+        "TwitterHandles": "UC Davis"
     },
     "304": {
         "Name": "Idaho State",
-        "ShortCode": "IDST"
+        "ShortCode": "IDST",
+        "TwitterHandles": "Idaho State"
     },
     "309": {
         "Name": "Louisiana",
-        "ShortCode": "ULL"
+        "ShortCode": "ULL",
+        "TwitterHandles": "@RaginCajuns"
     },
     "311": {
         "Name": "Maine",
-        "ShortCode": "MAINE"
+        "ShortCode": "MAINE",
+        "TwitterHandles": "Maine"
     },
     "324": {
         "Name": "Coastal Carolina",
-        "ShortCode": "CCU"
+        "ShortCode": "CCU",
+        "TwitterHandles": "Coastal Carolina"
     },
     "326": {
         "Name": "Texas State",
-        "ShortCode": "TXST"
+        "ShortCode": "TXST",
+        "TwitterHandles": "@TxStateBobcats"
     },
     "328": {
         "Name": "Utah State",
-        "ShortCode": "USU"
+        "ShortCode": "USU",
+        "TwitterHandles": "@USUFootball"
     },
     "331": {
         "Name": "Eastern Washington",
-        "ShortCode": "EWU"
+        "ShortCode": "EWU",
+        "TwitterHandles": "Eastern Washington"
     },
     "333": {
         "Name": "Alabama",
-        "ShortCode": "ALA"
+        "ShortCode": "ALA",
+        "TwitterHandles": "@AlabamaFTBL @RollBamaRoll"
     },
     "344": {
         "Name": "Mississippi State",
-        "ShortCode": "MSST"
+        "ShortCode": "MSST",
+        "TwitterHandles": "@HailStateFB @mstatesports"
     },
     "349": {
         "Name": "Army",
-        "ShortCode": "ARMY"
+        "ShortCode": "ARMY",
+        "TwitterHandles": "@ArmyWP_Football"
     },
     "356": {
         "Name": "Illinois",
-        "ShortCode": "ILL"
+        "ShortCode": "ILL",
+        "TwitterHandles": "@IlliniFootball @Champaign_Room"
     },
     "36": {
         "Name": "Colorado State",
-        "ShortCode": "CSU"
+        "ShortCode": "CSU",
+        "TwitterHandles": "@CSUFootball"
     },
     "38": {
         "Name": "Colorado",
-        "ShortCode": "COLO"
+        "ShortCode": "COLO",
+        "TwitterHandles": "@RunRalphieRun @RalphieReport"
     },
     "399": {
         "Name": "Albany",
-        "ShortCode": "ALBY"
+        "ShortCode": "ALBY",
+        "TwitterHandles": "Albany"
     },
     "41": {
         "Name": "UConn",
-        "ShortCode": "CONN"
+        "ShortCode": "CONN",
+        "TwitterHandles": "@UConnFootball @TheUConnBlog"
     },
     "47": {
         "Name": "Howard",
-        "ShortCode": "HOW"
+        "ShortCode": "HOW",
+        "TwitterHandles": "Howard"
     },
     "48": {
         "Name": "Delaware",
-        "ShortCode": "DEL"
+        "ShortCode": "DEL",
+        "TwitterHandles": "Delaware"
     },
     "5": {
         "Name": "UAB",
-        "ShortCode": "UAB"
+        "ShortCode": "UAB",
+        "TwitterHandles": "@UAB_FB"
     },
     "50": {
         "Name": "Florida A&M",
-        "ShortCode": "FAMU"
+        "ShortCode": "FAMU",
+        "TwitterHandles": "Florida A&M"
     },
     "52": {
         "Name": "Florida State",
-        "ShortCode": "FSU"
+        "ShortCode": "FSU",
+        "TwitterHandles": "@FSUFootball @Tomahawknation"
     },
     "55": {
         "Name": "Jacksonville State",
-        "ShortCode": "JVST"
+        "ShortCode": "JVST",
+        "TwitterHandles": "Jacksonville State"
     },
     "57": {
         "Name": "Florida",
-        "ShortCode": "FLA"
+        "ShortCode": "FLA",
+        "TwitterHandles": "@GatorsFB @AlligatorArmy"
     },
     "58": {
         "Name": "South Florida",
-        "ShortCode": "USF"
+        "ShortCode": "USF",
+        "TwitterHandles": "@USFFootball @StampedeSBN"
     },
     "59": {
         "Name": "Georgia Tech",
-        "ShortCode": "GT"
+        "ShortCode": "GT",
+        "TwitterHandles": "@GeorgiaTechFB"
     },
     "6": {
         "Name": "South Alabama",
-        "ShortCode": "USA"
+        "ShortCode": "USA",
+        "TwitterHandles": "@WeAreSouth_FB"
     },
     "61": {
         "Name": "Georgia",
-        "ShortCode": "UGA"
+        "ShortCode": "UGA",
+        "TwitterHandles": "@FootballUGA @dawgsports"
     },
     "62": {
         "Name": "Hawai'i",
-        "ShortCode": "HAW"
+        "ShortCode": "HAW",
+        "TwitterHandles": "@HawaiiFootball"
     },
     "66": {
         "Name": "Iowa State",
-        "ShortCode": "ISU"
+        "ShortCode": "ISU",
+        "TwitterHandles": "@CycloneFB @WideRtNattyLt"
     },
     "68": {
         "Name": "Boise State",
-        "ShortCode": "BSU"
+        "ShortCode": "BSU",
+        "TwitterHandles": "@BroncoSportsFB @OBNUG"
     },
     "70": {
         "Name": "Idaho",
-        "ShortCode": "IDHO"
+        "ShortCode": "IDHO",
+        "TwitterHandles": "@Idaho_Vandals"
     },
     "77": {
         "Name": "Northwestern",
-        "ShortCode": "NW"
+        "ShortCode": "NW",
+        "TwitterHandles": "@NUFBFamily @sippinonpurple"
     },
     "79": {
         "Name": "Southern Illinois",
-        "ShortCode": "SIU"
+        "ShortCode": "SIU",
+        "TwitterHandles": "Southern Illinois"
     },
     "8": {
         "Name": "Arkansas",
-        "ShortCode": "ARK"
+        "ShortCode": "ARK",
+        "TwitterHandles": "@RazorbackFB"
     },
     "84": {
         "Name": "Indiana",
-        "ShortCode": "IND"
+        "ShortCode": "IND",
+        "TwitterHandles": "@IndianaFootball @crimsonquarry"
     },
     "87": {
         "Name": "Notre Dame",
-        "ShortCode": "ND"
+        "ShortCode": "ND",
+        "TwitterHandles": "@NDFootball @OneFootDown"
     },
     "9": {
         "Name": "Arizona State",
-        "ShortCode": "ASU"
+        "ShortCode": "ASU",
+        "TwitterHandles": "@ASUFootball @HouseOfSparky"
     },
     "93": {
         "Name": "Murray State",
-        "ShortCode": "MURR"
+        "ShortCode": "MURR",
+        "TwitterHandles": "Murray State"
     },
     "96": {
         "Name": "Kentucky",
-        "ShortCode": "UK"
+        "ShortCode": "UK",
+        "TwitterHandles": "@UKFootball @ASeaOfBlue"
     },
     "97": {
         "Name": "Louisville",
-        "ShortCode": "LOU"
+        "ShortCode": "LOU",
+        "TwitterHandles": "@UofLFootball"
     },
     "98": {
         "Name": "Western Kentucky",
-        "ShortCode": "WKU"
+        "ShortCode": "WKU",
+        "TwitterHandles": "@WKUFootball"
     },
     "99": {
         "Name": "LSU",
-        "ShortCode": "LSU"
+        "ShortCode": "LSU",
+        "TwitterHandles": "@LSUfootball @valleyshook"
     }
 }
