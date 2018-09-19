@@ -149,7 +149,7 @@ def TweetDecision(decisionValues, conversionStartingSpot):
     plt.ylabel("Expected Points")
     plt.savefig(imagePath)
 
-    tweet(message,imagePath)
+    #tweet(message,imagePath)
 
 def Graph4thAndDistanceRunAndPass(fgSituation, g4Situation, distance):
     attemptsRun = []
