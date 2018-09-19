@@ -1,7 +1,41 @@
 import json
 import os
 import argparse
+from SendTweet import tweet
 
+
+def GetTeamsRanking(teams, year, best = True, week = ""):
+    if week == "":
+        message = "Year: "+year+"\n" + ("Best" if best else "Worst") + " FG decisions\n"
+    else:
+        message = "Year: "+year+" Week: "+week+"\n" + ("Best" if best else "Worst") + " FG decisions\n"
+
+    message += GetRankingString(teams)
+    return message
+
+def GetRankingString(teams):
+    with open("./data/espn_ids.json") as data_file:
+        espnInfo = json.load(data_file)
+    ranking = ""
+    spot = 1
+    for team in teams:
+        ranking += (str(spot)+". "+espnInfo[team[0]]["Name"] + " - " +espnInfo[team[0]]["TwitterHandles"].replace("@","") +"\n")
+        ranking += ("\t"+ ("+" if team[1] > 0 else "") +str(team[1])+"\n")
+        spot +=1
+    return ranking
+
+def GetPlusMinusTotals(year,date=""):
+    totals = []
+    with open("./sand_box/"+year+".json") as data_file:
+        yearDecisions = json.load(data_file)
+    for team, weeks in yearDecisions.items():
+        total = 0
+        for v,week in weeks.items():
+            if (date == "") or (v == date):
+                total += week["PlusMinus"]
+        totals.append((team,round(total,2)))
+
+    return sorted(totals, key=lambda x: x[1])
 
 def main():
     parser = argparse.ArgumentParser()
@@ -9,41 +43,33 @@ def main():
     parser.add_argument("-years", "- what year to check yo", nargs='+', type=int)
     parser.add_argument("-weeks", "- list of weeks to check (could be single week obvs)", nargs='+', type=int)
     parser.add_argument("-teams", "- list of teams to check (could be single team obvs)", nargs='+', type=int)
-    parser.add_argument("-tweet", "- pass this to tweet at your homies", action='store_true', default=False)
 
     args = parser.parse_args()
     #print(args)
 
+    topCount = 5
     years = list(map(str, args.years))
-    #weeks = list(map(str, args.weeks))
+    if args.weeks is not None:
+        dates = list(map(str, args.weeks))
+    else:
+        dates = []
 
 
 
     for year in years:
-        totals = []
-        with open("./past_results_logs/"+year+".json") as data_file:
-            yearDecisions = json.load(data_file)
-        for team, weeks in yearDecisions.items():
-            total = 0
-            for v,week in weeks.items():
-                total += week["PlusMinus"]
-            totals.append((team,total))
-
-    sortedTotals = sorted(totals, key=lambda x: x[1])
-    worst = sortedTotals[:5]
-    best = reversed(sortedTotals[-5:])
-    with open("./data/espn_ids.json") as data_file:
-        espnInfo = json.load(data_file)
-
-    print("\n\n Top Worst:")
-    for team in worst:
-        print(espnInfo[team[0]]["Name"])
-        print(team[1])
-
-    print("\n\n Top Best:")
-    for team in best:
-        print(espnInfo[team[0]]["Name"])
-        print(team[1])
+        if len(dates) > 0:
+            for date in dates:
+                sortedTotals = GetPlusMinusTotals(year,date)
+                worst = sortedTotals[:topCount]
+                best = reversed(sortedTotals[-topCount:])
+                tweet(GetTeamsRanking(worst,year,False,date))
+                tweet(GetTeamsRanking(best,year,True,date))
+        else:
+            sortedTotals = GetPlusMinusTotals(year)
+            worst = sortedTotals[:topCount]
+            best = reversed(sortedTotals[-topCount:])
+            tweet(GetTeamsRanking(worst,year,False))
+            tweet(GetTeamsRanking(best,year,True))
 
 if __name__ == "__main__":
     main()
