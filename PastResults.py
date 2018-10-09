@@ -12,39 +12,6 @@ import subprocess
 
 #os.system("python KickDecision.py -GetFieldGoalDecision -GraphCompareConferencePointsPerPossession -tweet -Situation 3 200 20 100 20 21 3 1 10 1 -Teams 'Notre Dame' Michigan -Conferences 'Atlantic Coast Conference' 'Southeastern Conference' 'Big 12 Conference'")
 
-
-'''
-NOTES:
-Get the Away team ID from the left side of the page header
-Get the home team ID from the left side of the page header
-
-Get the ID of the logo from this drive's accordion
-  use to know if home or away team
-  get the shortened value (STAN vs RICE) from score region on right of accordion
-
-Now know who has the ball and can use that to compare if on own or opponents side of the ball (50 just says 50, neither team)
-  if on own side of ball then do not do kick decision
-  if beyond 35 do not do kick decision
-'''
-
-
-'''
-GetWeeksForYear() -> returns list of weeks to check
-for week in weeks:
-    Send 'weekly round up for *YEAR* week *WEEK*' tweet
-    GetWrongCalls()
-        start crawling ESPN
-        for each game in this week:
-            go to play by play page
-            get overall info (home team id, away team id, etc)
-            for each drive:
-                for each play:
-                    if 4th down inside the 35 happened(also maybe if close game and not 4th quarter):
-                        get decision and tweet
-                        (later find if they chose right decision)
-
-'''
-
 def GetDistanceToGo(position, ballPosition):
     distance = position.split("at")[0].split("&amp;")[1].strip()
     if distance == 'Goal':
@@ -310,15 +277,15 @@ def main():
 
     for year in years:
         print("starting year: "+year)
-
+        yearFileName = "./past_results_logs/"+year+".json"
         #print(yearDecisions)
 
         for week in weeks:
             browser = webdriver.Chrome(executable_path="/Applications/chromedriver", chrome_options=option)
             print("starting week: " + week)
             #TODO: get current years json from file
-            if os.path.isfile("./past_results_logs/"+year+".json"):
-                with open("./past_results_logs/"+year+".json") as data_file:
+            if os.path.isfile(yearFileName):
+                with open(yearFileName) as data_file:
                     yearDecisions = json.load(data_file)
             else:
                 yearDecisions = {}
@@ -357,7 +324,7 @@ def main():
             #print(yearDecisions)
             #TODO: write years decision logs back to file
 
-            with open("./past_results_logs/"+year+".json", "w") as file:
+            with open(yearFileName, "w") as file:
                 json.dump(yearDecisions, file, sort_keys=True, indent=4)
 
 

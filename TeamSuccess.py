@@ -19,21 +19,25 @@ def GetRankingString(teams):
     ranking = ""
     spot = 1
     for team in teams:
-        ranking += (str(spot)+". "+espnInfo[team[0]]["Name"] + " - " +espnInfo[team[0]]["TwitterHandles"].replace("@","") +"\n")
+        ranking += (str(spot)+". "+espnInfo[team[0]]["Name"] + " - " +espnInfo[team[0]]["TwitterHandles"] +"\n")
         ranking += ("\t"+ ("+" if team[1] > 0 else "") +str(team[1])+"\n")
         spot +=1
     return ranking
 
 def GetPlusMinusTotals(year,date=""):
     totals = []
-    with open("./sand_box/"+year+".json") as data_file:
+    with open("./past_results_logs/"+year+".json") as data_file:
         yearDecisions = json.load(data_file)
+    with open("./data/espn_ids.json") as data_file:
+        espnInfo = json.load(data_file)
     for team, weeks in yearDecisions.items():
         total = 0
         for v,week in weeks.items():
             if (date == "") or (v == date):
+                print(week["PlusMinus"])
                 total += week["PlusMinus"]
-        totals.append((team,round(total,2)))
+        if team in espnInfo:
+            totals.append((team,round(total,2)))
 
     return sorted(totals, key=lambda x: x[1])
 
