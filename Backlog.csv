@@ -81,7 +81,12 @@ Ability to tweet optimal past kick decision for given years or weeks or both,Mai
 Get rid of magic strings in past results file,Maina,To Do,Medium,,
 Restrict which 4th down situations are investigated,Maina,Done,High,,
 Fix everything in the bugs txt file,Maina,To Do,High,,
-Separate tweeting and printing ,Maina,To Do,High,,
-Update json file to save periodically,Maina,To Do,Medium,,maybe every week or after X number of games
-Add ability to just find past results for certain team,Maina,To Do,Medium,,
+Separate tweeting and printing for TeamSuccess.py,Maina,Done,High,,
+Update json file to save periodically,Maina,Done,Medium,,maybe every week or after X number of games
+Add ability to just find past results for certain team,Maina,Done,Medium,,
 Incorporate kicker accuracy,Maina,To Do,Medium,,
+Also consider time remaining for field goals at end of first half,Maina,To Do,Medium,,if only 5 seconds left then kick may be right decision
+Watch out for 4th & 0 that actually means 4th and goal,Maina,To Do,Medium,,ND week 7 on 7th drive of game. see if any other 4th & 0s happen
+Make expected value from starting position better,Maina,To Do,Medium,,do all first downs from that spot not just drive starts/use ML and not just statistical means
+Write Selenium to like a bunch of posts on different hashtags on twitter for TBM,Maina,To Do,Medium,,keep track of handles so as not to like too many from the same one
+See if S&P+ rankings can be used to factor in team skill,Maina,To Do,Low,,

@@ -16,6 +16,10 @@ def GetDistanceToGo(position, ballPosition):
     distance = position.split("at")[0].split("&amp;")[1].strip()
     if distance == 'Goal':
         distance = ballPosition
+    if distance == '0':
+        print("DISTANCE GIVEN AS 0 ON ESPN")
+        print(position)
+        distance = ballPosition
     return distance
 
 def WasFieldGoalKicked(attempt):
@@ -36,8 +40,11 @@ def IsGameInDoubt4thDown(position, offenseShortCode, qtr, time, offensePoints, d
     if (position[0] == '4') and (offenseShortCode not in position) and (int(position[-2:]) <= 35):
         #print("4th down inside the other teams 35")
         # if in the first half and a 3 score game
-        if qtr in "12" and (abs(int(offensePoints) - int(defensePoints)) <= 21):
-            #print("first half and a 3 score game")
+        if qtr == "1" and (abs(int(offensePoints) - int(defensePoints)) <= 21):
+            #print("first qtr and a 3 score game")
+            return True
+        elif qtr == "2" and (time > 60)  and (abs(int(offensePoints) - int(defensePoints)) <= 21):
+            #print("second qtr and a 3 score game and time left in half to score")
             return True
         # if in the 3rd qtr and a 2 score game
         elif qtr == "3" and (abs(int(offensePoints) - int(defensePoints)) <= 14):
