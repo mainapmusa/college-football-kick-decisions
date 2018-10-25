@@ -101,6 +101,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.29
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 0.3700000000000001
         }
     },
     "119": {
@@ -161,6 +168,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 2,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 2.02
         }
     },
     "120": {
@@ -205,6 +219,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.97
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "127": {
@@ -249,6 +270,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.3200000000000003
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "130": {
@@ -300,6 +328,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 0.24
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.5499999999999998
         }
     },
     "135": {
@@ -344,6 +379,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.3700000000000001
+        },
+        "8": {
+            "CorrectGoForIt": 2,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 2.0100000000000002
         }
     },
     "142": {
@@ -388,6 +430,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -1.04
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "145": {
@@ -439,6 +488,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 0.21000000000000008
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 2,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 1,
+            "PlusMinus": 1.6800000000000002
         }
     },
     "150": {
@@ -478,6 +534,13 @@
             "PlusMinus": 0.62
         },
         "7": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
+        },
+        "8": {
             "CorrectGoForIt": 0,
             "CorrectKick": 0,
             "IncorrectGoForIt": 0,
@@ -534,6 +597,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 0.77
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.33000000000000007
         }
     },
     "152": {
@@ -578,6 +648,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.47
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "153": {
@@ -622,6 +699,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 4.029999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 3,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.2000000000000002
         }
     },
     "154": {
@@ -666,6 +750,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.43999999999999995
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.6500000000000004
         }
     },
     "155": {
@@ -726,6 +817,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.4099999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "16": {
@@ -795,6 +893,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 0.14000000000000012
         }
     },
     "166": {
@@ -839,6 +944,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.8900000000000001
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.43000000000000016
         }
     },
     "167": {
@@ -883,6 +995,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.92
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "183": {
@@ -927,6 +1046,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.31000000000000005
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 2,
+            "PlusMinus": -0.6200000000000001
         }
     },
     "189": {
@@ -973,6 +1099,13 @@
             "PlusMinus": 0.97
         },
         "7": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
+        },
+        "8": {
             "CorrectGoForIt": 0,
             "CorrectKick": 0,
             "IncorrectGoForIt": 0,
@@ -1029,6 +1162,13 @@
             "IncorrectGoForIt": 2,
             "IncorrectKick": 0,
             "PlusMinus": -0.09999999999999987
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": -0.64
         }
     },
     "194": {
@@ -1080,6 +1220,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 2,
             "PlusMinus": 1.2400000000000002
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 2,
+            "PlusMinus": 0.4700000000000002
         }
     },
     "195": {
@@ -1119,6 +1266,13 @@
             "PlusMinus": 1.8599999999999999
         },
         "7": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
+        },
+        "8": {
             "CorrectGoForIt": 0,
             "CorrectKick": 0,
             "IncorrectGoForIt": 0,
@@ -1226,6 +1380,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -1.17
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -1.01
         }
     },
     "2000": {
@@ -1279,6 +1440,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.040000000000000036
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 0.10999999999999988
         }
     },
     "2006": {
@@ -1323,6 +1491,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 0.8599999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.9699999999999998
         }
     },
     "201": {
@@ -1367,6 +1542,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 0.6699999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 3,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.46
         }
     },
     "2010": {
@@ -1445,6 +1627,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.13999999999999968
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 2,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.1400000000000001
         }
     },
     "2026": {
@@ -1489,6 +1678,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.1499999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.78
         }
     },
     "2029": {
@@ -1542,6 +1738,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 2,
             "PlusMinus": -1.02
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "204": {
@@ -1586,6 +1789,13 @@
             "IncorrectGoForIt": 1,
             "IncorrectKick": 0,
             "PlusMinus": 1.59
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "2046": {
@@ -1646,6 +1856,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 2.5700000000000003
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.52
         }
     },
     "2065": {
@@ -1706,6 +1923,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.24
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 3,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 2.66
         }
     },
     "2097": {
@@ -1759,6 +1983,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.1200000000000001
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 0.44999999999999973
         }
     },
     "2110": {
@@ -1828,6 +2059,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 2,
+            "PlusMinus": 0.45999999999999996
         }
     },
     "2117": {
@@ -1879,6 +2117,13 @@
             "IncorrectGoForIt": 1,
             "IncorrectKick": 1,
             "PlusMinus": 2.41
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "2127": {
@@ -1932,6 +2177,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 0.42000000000000015
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 2,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.8699999999999999
         }
     },
     "2132": {
@@ -1976,6 +2228,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.88
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 3,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.97
         }
     },
     "2169": {
@@ -2043,6 +2302,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 0.6999999999999997
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.7599999999999998
         }
     },
     "2184": {
@@ -2144,6 +2410,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.7400000000000002
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 0.45999999999999996
         }
     },
     "221": {
@@ -2257,6 +2530,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.1299999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.8700000000000001
         }
     },
     "2229": {
@@ -2301,6 +2581,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 5.98
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 0.10999999999999988
         }
     },
     "2230": {
@@ -2363,6 +2650,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.54
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "227": {
@@ -2425,6 +2719,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.20999999999999996
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.6400000000000001
         }
     },
     "2287": {
@@ -2478,6 +2779,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 2,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 2,
+            "PlusMinus": 1.47
         }
     },
     "2296": {
@@ -2531,6 +2839,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.69
+        },
+        "8": {
+            "CorrectGoForIt": 2,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 1.1499999999999995
         }
     },
     "2305": {
@@ -2575,6 +2890,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.6600000000000001
         }
     },
     "2306": {
@@ -2677,6 +2999,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.31000000000000005
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.13
         }
     },
     "231": {
@@ -2764,6 +3093,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.6699999999999998
         }
     },
     "2348": {
@@ -2808,6 +3144,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 0.43000000000000016
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "235": {
@@ -2859,6 +3202,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 2,
             "PlusMinus": 0.25
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": -0.7299999999999998
         }
     },
     "2377": {
@@ -2919,6 +3269,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 2,
             "PlusMinus": -1.22
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.7200000000000002
         }
     },
     "2382": {
@@ -3074,6 +3431,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.02
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "24": {
@@ -3118,6 +3482,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.0099999999999998
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -1.13
         }
     },
     "2405": {
@@ -3180,6 +3551,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.6299999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.41999999999999993
         }
     },
     "2426": {
@@ -3224,6 +3602,13 @@
             "IncorrectGoForIt": 2,
             "IncorrectKick": 1,
             "PlusMinus": -0.6100000000000001
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.040000000000000036
         }
     },
     "2428": {
@@ -3277,6 +3662,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.45999999999999996
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.5
         }
     },
     "2433": {
@@ -3328,6 +3720,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -1.33
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 2,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 2.5
         }
     },
     "2439": {
@@ -3367,6 +3766,13 @@
             "PlusMinus": 0
         },
         "7": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
+        },
+        "8": {
             "CorrectGoForIt": 0,
             "CorrectKick": 0,
             "IncorrectGoForIt": 0,
@@ -3423,6 +3829,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 0.7199999999999998
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 1.2400000000000002
         }
     },
     "2447": {
@@ -3630,6 +4043,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.09000000000000008
         }
     },
     "2483": {
@@ -3674,6 +4094,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 2.4699999999999998
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "249": {
@@ -3725,6 +4152,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.2799999999999998
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "25": {
@@ -3769,6 +4203,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.1499999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "2502": {
@@ -3845,6 +4286,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.8400000000000001
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.8599999999999999
         }
     },
     "251": {
@@ -4016,6 +4464,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 2.5500000000000003
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.22999999999999998
         }
     },
     "2542": {
@@ -4110,6 +4565,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.22999999999999998
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "2569": {
@@ -4188,6 +4650,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.13
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 0.5999999999999996
         }
     },
     "2579": {
@@ -4283,6 +4752,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.73
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 2,
+            "IncorrectKick": 1,
+            "PlusMinus": -2.27
         }
     },
     "2582": {
@@ -4394,6 +4870,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.48
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.13
         }
     },
     "2617": {
@@ -4465,6 +4948,13 @@
             "IncorrectGoForIt": 1,
             "IncorrectKick": 0,
             "PlusMinus": 0.9299999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.010000000000000009
         }
     },
     "2630": {
@@ -4525,6 +5015,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 2,
             "PlusMinus": -1.06
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "2634": {
@@ -4594,6 +5091,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -1.2999999999999998
         }
     },
     "2638": {
@@ -4638,6 +5142,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.6199999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.49
         }
     },
     "264": {
@@ -4689,6 +5200,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 2.34
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.82
         }
     },
     "2640": {
@@ -4749,6 +5267,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.2200000000000002
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 2.0
         }
     },
     "2649": {
@@ -4793,6 +5318,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 2.27
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.10000000000000009
         }
     },
     "265": {
@@ -4837,6 +5369,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.8300000000000001
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "2653": {
@@ -4932,6 +5471,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 2,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.0799999999999996
         }
     },
     "2678": {
@@ -5019,6 +5565,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 3.09
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "2729": {
@@ -5081,6 +5634,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.4700000000000002
         }
     },
     "2751": {
@@ -5125,6 +5685,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.009999999999999787
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 2,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.1600000000000001
         }
     },
     "2754": {
@@ -5194,6 +5761,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.8399999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 2,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 1.7399999999999998
         }
     },
     "277": {
@@ -5289,6 +5863,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.2599999999999998
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 1.56
         }
     },
     "282": {
@@ -5342,6 +5923,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 2,
             "PlusMinus": -1.2399999999999998
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.47
         }
     },
     "2916": {
@@ -5409,6 +5997,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.06000000000000005
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.77
         }
     },
     "30": {
@@ -5453,6 +6048,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.77
         }
     },
     "302": {
@@ -5478,6 +6080,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.2799999999999998
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 0.35
         }
     },
     "309": {
@@ -5522,6 +6131,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.2799999999999998
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.41000000000000014
         }
     },
     "311": {
@@ -5582,6 +6198,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.45999999999999996
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 2,
+            "PlusMinus": 1.2900000000000005
         }
     },
     "326": {
@@ -5626,6 +6249,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.9500000000000002
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "328": {
@@ -5670,6 +6300,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.43000000000000016
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.3400000000000001
         }
     },
     "331": {
@@ -5730,6 +6367,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.2799999999999998
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "338": {
@@ -5783,6 +6427,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 3,
             "PlusMinus": -0.29000000000000026
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -1.0999999999999996
         }
     },
     "349": {
@@ -5827,6 +6478,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.9199999999999999
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.43000000000000016
         }
     },
     "356": {
@@ -5871,6 +6529,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 1.1
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "36": {
@@ -5915,6 +6580,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 0.4400000000000004
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "38": {
@@ -5959,6 +6631,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.16000000000000014
         }
     },
     "399": {
@@ -6012,6 +6691,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.6600000000000001
         }
     },
     "47": {
@@ -6072,6 +6758,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.43999999999999995
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.14000000000000012
         }
     },
     "50": {
@@ -6125,6 +6818,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": -0.45999999999999996
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.49
         }
     },
     "57": {
@@ -6220,6 +6920,13 @@
             "IncorrectGoForIt": 1,
             "IncorrectKick": 1,
             "PlusMinus": -0.7799999999999998
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 0.47999999999999976
         }
     },
     "59": {
@@ -6424,6 +7131,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.8500000000000001
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.08999999999999986
         }
     },
     "66": {
@@ -6519,6 +7233,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         }
     },
     "70": {
@@ -6572,6 +7293,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.79
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 1,
+            "IncorrectKick": 1,
+            "PlusMinus": -1.06
         }
     },
     "79": {
@@ -6632,6 +7360,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 2.42
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 1.5500000000000003
         }
     },
     "84": {
@@ -6683,6 +7418,13 @@
             "IncorrectGoForIt": 1,
             "IncorrectKick": 1,
             "PlusMinus": -0.8200000000000003
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.3999999999999999
         }
     },
     "87": {
@@ -6778,6 +7520,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 1,
             "PlusMinus": 0.11999999999999988
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 2,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.9499999999999997
         }
     },
     "93": {
@@ -6831,6 +7580,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.3799999999999999
         }
     },
     "97": {
@@ -6926,6 +7682,13 @@
             "IncorrectGoForIt": 1,
             "IncorrectKick": 0,
             "PlusMinus": 1.37
+        },
+        "8": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": -0.019999999999999574
         }
     },
     "99": {
@@ -6977,6 +7740,13 @@
             "IncorrectGoForIt": 1,
             "IncorrectKick": 3,
             "PlusMinus": 0.76
+        },
+        "8": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 1,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 1,
+            "PlusMinus": 0.040000000000000036
         }
     }
 }
