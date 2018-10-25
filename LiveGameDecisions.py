@@ -10,6 +10,7 @@ import argparse
 import sys
 import subprocess
 import datetime
+from SendTweet import tweet
 
 #os.system("python KickDecision.py -GetFieldGoalDecision -GraphCompareConferencePointsPerPossession -tweet -Situation 3 200 20 100 20 21 3 1 10 1 -Teams 'Notre Dame' Michigan -Conferences 'Atlantic Coast Conference' 'Southeastern Conference' 'Big 12 Conference'")
 
@@ -32,10 +33,10 @@ def WasFieldGoalKicked(attempt):
 def GetMathPrintString(fgVal,goVal,conversionPercent,expectedFromConv,fgPercent):
     message = ""
     message += "Chance to convert on 4th: " + str(conversionPercent) + "\n"
-    message += "Expected pts from line to gaine: " + str(expectedFromConv) + "\n"
+    message += "Expected pts if get 1st: " + str(expectedFromConv) + "\n"
     message += "Value of going for it: " + str(goVal) + "\n"
     message += "Likelihood make FG: " + str(fgPercent) + "\n"
-    message += "FG value with respect to %% chance made: " + str(fgVal) + "\n"
+    message += "FG attempt value: " + str(fgVal) + "\n"
 
     return message
 
@@ -290,36 +291,36 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
                                     #correctly kicked fg
                                     if(offenseId == homeTeamId):
                                         print("home team kick correct")
-                                        fullMsg = hashtagName + " smartly kicked the FG on 4th & "+distance+" at the "+ballPosition+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
+                                        fullMsg = hashtagName + " smartly kicked the FG on 4th & "+str(distance)+" at the "+str(ballPosition)+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
                                     else:
                                         print("away team kick correct")
-                                        fullMsg = hashtagName + " smartly kicked the FG on 4th & "+distance+" at the "+ballPosition+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
+                                        fullMsg = hashtagName + " smartly kicked the FG on 4th & "+str(distance)+" at the "+str(ballPosition)+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
                                 else:
                                     #incorrectly kicked fg
                                     if(offenseId == homeTeamId):
                                         print("home team kick WRONG")
-                                        fullMsg = hashtagName + " should have gone for it on 4th & "+distance+" at the "+ballPosition+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
+                                        fullMsg = hashtagName + " should have gone for it on 4th & "+str(distance)+" at the "+str(ballPosition)+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
                                     else:
                                         print("away team kick WRONG")
-                                        fullMsg = hashtagName + " should have gone for it on 4th & "+distance+" at the "+ballPosition+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
+                                        fullMsg = hashtagName + " should have gone for it on 4th & "+str(distance)+" at the "+str(ballPosition)+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
                             else:
                                 if go4thValue > fgValue:
                                     #correctly went on 4th
                                     if(offenseId == homeTeamId):
                                         print("home team go for it correct")
-                                        fullMsg = hashtagName + " smartly went for it on 4th & "+distance+" at the "+ballPosition+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
+                                        fullMsg = hashtagName + " smartly went for it on 4th & "+str(distance)+" at the "+str(ballPosition)+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
                                     else:
                                         print("away team go for it correct")
-                                        fullMsg = hashtagName + " smartly went for it on 4th & "+distance+" at the "+ballPosition+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
+                                        fullMsg = hashtagName + " smartly went for it on 4th & "+str(distance)+" at the "+str(ballPosition)+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
                                 else:
                                     #incorrectly went on 4th
                                     if(offenseId == homeTeamId):
                                         print("home team go for it WRONG")
-                                        fullMsg = hashtagName + " should have kicked on 4th & "+distance+" at the "+ballPosition+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
+                                        fullMsg = hashtagName + " should have kicked on 4th & "+str(distance)+" at the "+str(ballPosition)+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
                                     else:
                                         print("away team go for it WRONG")
-                                        fullMsg = hashtagName + " should have kicked on 4th & "+distance+" at the "+ballPosition+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
-                            print(fullMsg)
+                                        fullMsg = hashtagName + " should have kicked on 4th & "+str(distance)+" at the "+str(ballPosition)+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
+                            tweet(fullMsg)
                     except:
                         pass
 
