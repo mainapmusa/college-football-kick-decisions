@@ -6,11 +6,12 @@ from selenium.common.exceptions import TimeoutException
 from KickDecision import GetFieldGoalDecision
 import json
 import os
+import time
 import argparse
 import sys
 import subprocess
 import datetime
-from SendTweet import tweet
+import SendTweet
 
 #os.system("python KickDecision.py -GetFieldGoalDecision -GraphCompareConferencePointsPerPossession -tweet -Situation 3 200 20 100 20 21 3 1 10 1 -Teams 'Notre Dame' Michigan -Conferences 'Atlantic Coast Conference' 'Southeastern Conference' 'Big 12 Conference'")
 
@@ -90,7 +91,7 @@ def GetKickDecision(gameId, year, week, situationInfo, tweet = False):
     if currQtr in alreadyTweeted[gameId]:
         print(currQtr+" already in game id: "+ gameId)
         return
-    print(currQtr+" NOT already in game id: "+ gameId)
+    print("Qtr "+currQtr+" NOT already in game id: "+ gameId)
     print(alreadyTweeted)
 
     if os.path.isfile(liveFileName):
@@ -138,8 +139,13 @@ def GetKickDecision(gameId, year, week, situationInfo, tweet = False):
     conversionPercent = float(conversionPercent)
 
     difference = abs(fgVal - goVal)
-    if difference < 0.85:
+    if difference < 0.75:
         print("difference is only " + str(difference))
+        return
+    dist = float(situationInfo[6])
+    print("distance: "+dist)
+    if dist > 10:
+        print("distance is over 10 yards")
         return
 
     alreadyTweeted[gameId] += currQtr
@@ -195,7 +201,11 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
     drives.reverse()
     for drive in drives:
         try:
-            drive.find_element_by_css_selector(".accordion-header .webview-internal .right .home .team-name").click()
+            try:
+                drive.find_element_by_css_selector(".accordion-header .webview-internal.collapsed").click()
+            except:
+                pass
+            #drive.find_element_by_css_selector(".accordion-header .webview-internal .right .home .team-name").click()
             homeTeam = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .home .team-name").get_attribute("innerHTML")
             awayTeam = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .away .team-name").get_attribute("innerHTML")
             homeScore = drive.find_element_by_css_selector(".accordion-header .webview-internal .right .home .team-score").get_attribute("innerHTML")
@@ -280,6 +290,7 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
                             #awayResults = {"CorrectKick":0,"CorrectGoForIt":0,"IncorrectKick":0,"IncorrectGoForIt":0,"PlusMinus":0}
                             with open("./data/espn_ids.json") as data_file:
                                 espnInfo = json.load(data_file)
+                            print("about to set up tweet")
                             handles = espnInfo[offenseId]["TwitterHandles"]
                             hashtagName = "#"+espnInfo[offenseId]["Name"].replace(" ","")
                             hashtags = espnInfo[offenseId]["Hashtags"]
@@ -320,7 +331,8 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
                                     else:
                                         print("away team go for it WRONG")
                                         fullMsg = hashtagName + " should have kicked on 4th & "+str(distance)+" at the "+str(ballPosition)+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
-                            tweet(fullMsg)
+                            print(fullMsg)
+                            SendTweet.tweet(fullMsg)
                     except:
                         pass
 
@@ -378,56 +390,59 @@ def main():
     yearFileName = "./live_results_logs/"+year+".json"
     #print(yearDecisions)
 
-    browser = webdriver.Chrome(executable_path="/Applications/chromedriver", chrome_options=option)
+    while True:
+        browser = webdriver.Chrome(executable_path="/Applications/chromedriver", chrome_options=option)
 
-    #TODO: get current years json from file
-    if os.path.isfile(yearFileName):
-        with open(yearFileName) as data_file:
-            yearDecisions = json.load(data_file)
-    else:
-        yearDecisions = {}
+        #TODO: get current years json from file
+        if os.path.isfile(yearFileName):
+            with open(yearFileName) as data_file:
+                yearDecisions = json.load(data_file)
+        else:
+            yearDecisions = {}
 
-    #navigate to list of games that week
-    browser.get("http://www.espn.com/college-football/scoreboard/_/group/80/year/"+year+"/seasontype/2/week/"+week)
+        #navigate to list of games that week
+        browser.get("http://www.espn.com/college-football/scoreboard/_/group/80/year/"+year+"/seasontype/2/week/"+week)
 
-    #grab each LIVE game for that week
-    #
-    #
-    # IMPORTANT: THIS GRABS JUST LIVE GAMES
-    #
-    #
-    games = browser.find_elements_by_css_selector(".scoreboard.football.live")
+        #grab each LIVE game for that week
+        #
+        #
+        # IMPORTANT: THIS GRABS JUST LIVE GAMES
+        #
+        #
+        games = browser.find_elements_by_css_selector(".scoreboard.football.live")
 
-    #get important IDs for each game
-    gameAndTeamIds = []
-    for game in games:
-        gameId = game.get_attribute("id")
-        homeTeamId = game.get_attribute("data-homeid")
-        awayTeamId = game.get_attribute("data-awayid")
-        #if teams is None or if home team or away team in teams
-        gameAndTeamIds.append([gameId,homeTeamId,awayTeamId])
+        #get important IDs for each game
+        gameAndTeamIds = []
+        for game in games:
+            gameId = game.get_attribute("id")
+            homeTeamId = game.get_attribute("data-homeid")
+            awayTeamId = game.get_attribute("data-awayid")
+            #if teams is None or if home team or away team in teams
+            gameAndTeamIds.append([gameId,homeTeamId,awayTeamId])
 
-    print(gameAndTeamIds)
-    browser.quit()
-    #drill into each game for the week that we found
-    for game in gameAndTeamIds:
+        print(gameAndTeamIds)
+        browser.quit()
+        #drill into each game for the week that we found
+        for game in gameAndTeamIds:
 
-        #TODO: get this id from already loaded dictionary, create week if it doesn't exist
-        #if home team does not exist in this years dict, add it
-        if game[1] not in yearDecisions:
-            yearDecisions[game[1]] = {}
-        #if away team does not exist in this years dict, add it
-        if game[2] not in yearDecisions:
-            yearDecisions[game[2]] = {}
+            #TODO: get this id from already loaded dictionary, create week if it doesn't exist
+            #if home team does not exist in this years dict, add it
+            if game[1] not in yearDecisions:
+                yearDecisions[game[1]] = {}
+            #if away team does not exist in this years dict, add it
+            if game[2] not in yearDecisions:
+                yearDecisions[game[2]] = {}
 
-        InvestigateGame(game[0], game[1], game[2], year, week, tweet)
+            InvestigateGame(game[0], game[1], game[2], year, week, tweet)
 
-    #print(yearDecisions)
-    #TODO: write years decision logs back to file
+        #print(yearDecisions)
+        #TODO: write years decision logs back to file
 
-    with open(yearFileName, "w") as file:
-        json.dump(yearDecisions, file, sort_keys=True, indent=4)
+        with open(yearFileName, "w") as file:
+            json.dump(yearDecisions, file, sort_keys=True, indent=4)
 
+        print(len(gameAndTeamIds))
+        time.sleep(len(gameAndTeamIds)*10)
 
 
 if __name__ == "__main__":
