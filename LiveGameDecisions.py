@@ -1,3 +1,4 @@
+import logging
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -11,10 +12,17 @@ import argparse
 import sys
 import subprocess
 import datetime
+import logging
 import SendTweet
 
-#os.system("python KickDecision.py -GetFieldGoalDecision -GraphCompareConferencePointsPerPossession -tweet -Situation 3 200 20 100 20 21 3 1 10 1 -Teams 'Notre Dame' Michigan -Conferences 'Atlantic Coast Conference' 'Southeastern Conference' 'Big 12 Conference'")
+logger = logging.getLogger('myapp')
+hdlr = logging.FileHandler('./live_game_logs/logs.log')
+formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+hdlr.setFormatter(formatter)
+logger.addHandler(hdlr)
+logger.setLevel(logging.INFO)
 
+#os.system("python KickDecision.py -GetFieldGoalDecision -GraphCompareConferencePointsPerPossession -tweet -Situation 3 200 20 100 20 21 3 1 10 1 -Teams 'Notre Dame' Michigan -Conferences 'Atlantic Coast Conference' 'Southeastern Conference' 'Big 12 Conference'")
 def GetDistanceToGo(position, ballPosition):
     distance = position.split("at")[0].split("&amp;")[1].strip()
     if distance == 'Goal':
@@ -22,6 +30,8 @@ def GetDistanceToGo(position, ballPosition):
     if distance == '0':
         print("DISTANCE GIVEN AS 0 ON ESPN")
         print(position)
+        logger.info("DISTANCE GIVEN AS 0 ON ESPN")
+        logger.info(position)
         distance = ballPosition
     return distance
 
@@ -36,7 +46,7 @@ def GetMathPrintString(fgVal,goVal,conversionPercent,expectedFromConv,fgPercent)
     message += "Chance to convert on 4th: " + str(conversionPercent) + "\n"
     message += "Expected pts if get 1st: " + str(expectedFromConv) + "\n"
     message += "Value of going for it: " + str(goVal) + "\n"
-    message += "Likelihood make FG: " + str(fgPercent) + "\n"
+    message += "Likelihood make FG: " + str(fgPercent) + "%\n"
     message += "FG attempt value: " + str(fgVal) + "\n"
 
     return message
@@ -83,16 +93,24 @@ def GetKickDecision(gameId, year, week, situationInfo, tweet = False):
     else:
         alreadyTweeted = {}
 
+
+    logger.info(alreadyTweeted)
     print(alreadyTweeted)
     currQtr = situationInfo[0]
     if gameId not in alreadyTweeted:
         alreadyTweeted[gameId] = ""
         print("new game id: " + str(gameId))
+        logger.info("new game id: " + str(gameId))
     if currQtr in alreadyTweeted[gameId]:
-        print(currQtr+" already in game id: "+ gameId)
+        print(currQtr+" qtr already in game id: "+ gameId)
+        logger.info(currQtr+" qtr already in game id: "+ gameId)
         return
     print("Qtr "+currQtr+" NOT already in game id: "+ gameId)
-    print(alreadyTweeted)
+    logger.info("Qtr "+currQtr+" NOT already in game id: "+ gameId)
+
+    #if len(alreadyTweeted[gameId]) >= 2:
+    #    print("already tweeted twice for this game id:" + gameId)
+    #    return
 
     if os.path.isfile(liveFileName):
         with open(liveFileName) as data_file:
@@ -112,6 +130,8 @@ def GetKickDecision(gameId, year, week, situationInfo, tweet = False):
     dec = subprocess.check_output("python KickDecision.py -GetFieldGoalDecision -tweet -Situation " + " ".join(situationInfo), shell=True)
     #3 200 20 100 20 21 3 1 10 1
 
+    with open(liveFileName, "w") as file:
+        json.dump(liveDecisions, file, sort_keys=True, indent=4)
     #dec = subprocess.check_output([sys.executable, "KickDecision.py", "-GetFieldGoalDecision", "-Situation", situationInfo])
 
     #fgSituation = situationInfo[:3]
@@ -120,6 +140,7 @@ def GetKickDecision(gameId, year, week, situationInfo, tweet = False):
     #print(g4Situation)
     #dec = GetFieldGoalDecision(fgSituation, g4Situation, tweet)
     print(dec)
+    logger.info(dec)
     fgVal = str(dec).split("Field Goal Expected Value: ")[1][:4]
     goVal = float(str(dec).split("Expected Value Of Going For It: ")[1][:4])
     conversionPercent = str(dec).split("4th Down Conversion Likelihood: ")[1][:4]
@@ -141,31 +162,46 @@ def GetKickDecision(gameId, year, week, situationInfo, tweet = False):
     difference = abs(fgVal - goVal)
     if difference < 0.75:
         print("difference is only " + str(difference))
+        logger.info("difference is only " + str(difference))
         return
     dist = float(situationInfo[6])
-    print("distance: "+dist)
+    print("distance: "+ str(dist))
     if dist > 10:
         print("distance is over 10 yards")
+        logger.info("distance is over 10 yards")
         return
 
     alreadyTweeted[gameId] += currQtr
     print(alreadyTweeted)
+    logger.info(alreadyTweeted)
     with open(lifeAlreadyTweetedFileName, "w") as file:
         json.dump(alreadyTweeted, file, sort_keys=True, indent=4)
 
     shouldHaveKicked = True if "GO FOR IT!" not in str(dec) else False
-    with open(liveFileName, "w") as file:
-        json.dump(liveDecisions, file, sort_keys=True, indent=4)
     print(fgVal)
     print(goVal)
     print(conversionPercent)
     print(expectedFromConv)
+    logger.info(fgVal)
+    logger.info(goVal)
+    logger.info(conversionPercent)
+    logger.info(expectedFromConv)
     return (fgVal,goVal,conversionPercent,expectedFromConv,shouldHaveKicked)
 
 def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
     option = webdriver.ChromeOptions()
     option.add_argument(" - incognito")
     browser = webdriver.Chrome(executable_path="/Applications/chromedriver", chrome_options=option)
+
+    investigatedFileName = "./investigated_drive_logs/"+str(year)+"_"+"week_"+str(week)+".json"
+    if os.path.isfile(investigatedFileName):
+        with open(investigatedFileName) as data_file:
+            investigatedDrives = json.load(data_file)
+    else:
+        investigatedDrives = {}
+
+    if gameId not in investigatedDrives:
+        investigatedDrives[gameId] = []
 
 
     #travel to play by play site for each game found for the week
@@ -218,7 +254,11 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
             #
             src = drive.find_element_by_css_selector(".accordion-header .webview-internal .left .team-logo .imageLoaded").get_attribute("src")
 
+
+
             driveNumber += 1
+            if driveNumber in investigatedDrives[gameId]:
+                continue
             #print(str(homeTeam)+ " " + str(homeScore))
             #print(str(awayTeam) + " " + str(awayScore))
             #
@@ -232,6 +272,7 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
             #this seems backwards but it works so I'll roll with it
             offenseShortCode = awayTeam if offenseId == homeTeamId else homeTeam
             print("drive number: "+str(driveNumber)+  ",offense team: "+offenseShortCode)
+            logger.info("drive number: "+str(driveNumber)+  ",offense team: "+offenseShortCode)
 
             #get Plays
             plays = drive.find_elements_by_css_selector(".drive-list li")
@@ -278,7 +319,7 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
                             go4thValue = decisionValues[1]
                             convPerc = decisionValues[2]
                             expPtsFromConv = decisionValues[3]
-                            fgPercent = float(fgValue)/3.0
+                            fgPercent = round(100*(float(fgValue)/3.0),2)
                             #turn this into a function WasFieldGoalKicked(attempt)
                             kickedFG = True if WasFieldGoalKicked(attempt) else False
                             #print(attempt)
@@ -332,7 +373,9 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
                                         print("away team go for it WRONG")
                                         fullMsg = hashtagName + " should have kicked on 4th & "+str(distance)+" at the "+str(ballPosition)+"\n" + mathMsg +"\n"+handles+" "+hashtags+" "+alwaysHashtags
                             print(fullMsg)
+                            logger.info(fullMsg)
                             SendTweet.tweet(fullMsg)
+
                     except:
                         pass
 
@@ -356,18 +399,26 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
             awayPoints = awayScore
         except:
             pass
-
+        investigatedDrives[gameId].append(driveNumber-1)
+        with open(investigatedFileName, "w") as file:
+            json.dump(investigatedDrives, file, sort_keys=True, indent=4)
     browser.quit()
 
 
 def main():
-    parser = argparse.ArgumentParser()
 
+
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-teams", "- list of teams to check (could be single team obvs)", nargs='+', type=int)
     parser.add_argument("-tweet", "- pass this to tweet at your homies", action='store_true', default=False)
 
     args = parser.parse_args()
     #print(args)
-
+    if args.teams is not None:
+        teams = list(map(str, args.teams))
+    else:
+        teams = []
     tweet = args.tweet
 
     option = webdriver.ChromeOptions()
@@ -382,11 +433,16 @@ def main():
     print(month)
     print(day)
     print(week)
+    logger.info(year)
+    logger.info(month)
+    logger.info(day)
+    logger.info(week)
 
     year = str(year)
     week = str(week)
 
     print("starting year: "+year)
+    logger.info("starting year: "+year)
     yearFileName = "./live_results_logs/"+year+".json"
     #print(yearDecisions)
 
@@ -418,8 +474,10 @@ def main():
             homeTeamId = game.get_attribute("data-homeid")
             awayTeamId = game.get_attribute("data-awayid")
             #if teams is None or if home team or away team in teams
-            gameAndTeamIds.append([gameId,homeTeamId,awayTeamId])
+            if (len(teams) == 0) or (homeTeamId in teams) or (awayTeamId in teams):
+                gameAndTeamIds.append([gameId,homeTeamId,awayTeamId])
 
+        logger.info(gameAndTeamIds)
         print(gameAndTeamIds)
         browser.quit()
         #drill into each game for the week that we found
@@ -442,7 +500,10 @@ def main():
             json.dump(yearDecisions, file, sort_keys=True, indent=4)
 
         print(len(gameAndTeamIds))
-        time.sleep(len(gameAndTeamIds)*10)
+        if(len(gameAndTeamIds) == 0):
+            time.sleep(600)
+        else:
+            time.sleep((15.0/len(gameAndTeamIds))*40)
 
 
 if __name__ == "__main__":

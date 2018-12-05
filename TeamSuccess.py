@@ -34,7 +34,6 @@ def GetPlusMinusTotals(year,date=""):
         total = 0
         for v,week in weeks.items():
             if (date == "") or (v == date):
-                print(week["PlusMinus"])
                 total += week["PlusMinus"]
         if team in espnInfo:
             totals.append((team,round(total,2)))
@@ -66,14 +65,14 @@ def main():
                 sortedTotals = GetPlusMinusTotals(year,date)
                 worst = sortedTotals[:topCount]
                 best = reversed(sortedTotals[-topCount:])
-                tweet(GetTeamsRanking(worst,year,False,date))
-                tweet(GetTeamsRanking(best,year,True,date))
+                print(GetTeamsRanking(worst,year,False,date))
+                print(GetTeamsRanking(best,year,True,date))
         else:
             sortedTotals = GetPlusMinusTotals(year)
             worst = sortedTotals[:topCount]
             best = reversed(sortedTotals[-topCount:])
-            tweet(GetTeamsRanking(worst,year,False))
-            tweet(GetTeamsRanking(best,year,True))
+            print(GetTeamsRanking(worst,year,False))
+            print(GetTeamsRanking(best,year,True))
 
 if __name__ == "__main__":
     main()
