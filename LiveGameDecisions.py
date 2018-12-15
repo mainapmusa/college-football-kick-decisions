@@ -412,6 +412,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-teams", "- list of teams to check (could be single team obvs)", nargs='+', type=int)
     parser.add_argument("-tweet", "- pass this to tweet at your homies", action='store_true', default=False)
+    parser.add_argument("-bowls", "- signify bowl season", action='store_true', default=False)
+
 
     args = parser.parse_args()
     #print(args)
@@ -420,6 +422,7 @@ def main():
     else:
         teams = []
     tweet = args.tweet
+    isBowlSeason = args.bowls
 
     option = webdriver.ChromeOptions()
     option.add_argument(" - incognito")
@@ -457,7 +460,10 @@ def main():
             yearDecisions = {}
 
         #navigate to list of games that week
-        browser.get("http://www.espn.com/college-football/scoreboard/_/group/80/year/"+year+"/seasontype/2/week/"+week)
+        if not isBowlSeason:
+            browser.get("http://www.espn.com/college-football/scoreboard/_/group/80/year/"+year+"/seasontype/2/week/"+week)
+        else:
+            browser.get("http://www.espn.com/college-football/scoreboard/_/group/80/year/"+year+"/seasontype/3/week/1")
 
         #grab each LIVE game for that week
         #

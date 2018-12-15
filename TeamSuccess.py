@@ -46,6 +46,8 @@ def main():
     parser.add_argument("-years", "- what year to check yo", nargs='+', type=int)
     parser.add_argument("-weeks", "- list of weeks to check (could be single week obvs)", nargs='+', type=int)
     parser.add_argument("-teams", "- list of teams to check (could be single team obvs)", nargs='+', type=int)
+    #parser.add_argument("-corr", "- try to find correlation for full year", action='store_true', default=False)
+
 
     args = parser.parse_args()
     #print(args)
@@ -63,6 +65,7 @@ def main():
         if len(dates) > 0:
             for date in dates:
                 sortedTotals = GetPlusMinusTotals(year,date)
+
                 worst = sortedTotals[:topCount]
                 best = reversed(sortedTotals[-topCount:])
                 print(GetTeamsRanking(worst,year,False,date))

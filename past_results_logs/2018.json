@@ -5688,6 +5688,13 @@
             "IncorrectKick": 0,
             "PlusMinus": 1.6599999999999997
         },
+        "15": {
+            "CorrectGoForIt": 1,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0.3900000000000001
+        },
         "2": {
             "CorrectGoForIt": 1,
             "CorrectKick": 0,
@@ -10214,6 +10221,13 @@
             "IncorrectGoForIt": 0,
             "IncorrectKick": 0,
             "PlusMinus": 0.77
+        },
+        "15": {
+            "CorrectGoForIt": 0,
+            "CorrectKick": 0,
+            "IncorrectGoForIt": 0,
+            "IncorrectKick": 0,
+            "PlusMinus": 0
         },
         "2": {
             "CorrectGoForIt": 0,
