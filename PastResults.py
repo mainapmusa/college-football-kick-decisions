@@ -132,8 +132,12 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, tweet = False):
             driveNumber += 1
             #print(str(homeTeam)+ " " + str(homeScore))
             #print(str(awayTeam) + " " + str(awayScore))
-            offenseId = src.replace("http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/","").split(".")[0]
+            offenseId = src.replace("https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/","").split(".")[0]
+            if not offenseId.isdigit():
+                print("offenseId using https is not numeric and trying with http")
+                offenseId = src.replace("http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/","").split(".")[0]
             #print("offenseId: " + str(offenseId))
+            #print("homeTeamId: " + str(homeTeamId))
 
             #this seems backwards but it works so I'll roll with it
             offenseShortCode = awayTeam if offenseId == homeTeamId else homeTeam

@@ -266,7 +266,10 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
             #different url
             #
             #
-            offenseId = src.replace("http://a1.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/","").split(".")[0]
+            offenseId = src.replace("https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/","").split(".")[0]
+            if not offenseId.isdigit():
+                print("offenseId using https is not numeric and trying with http")
+                offenseId = src.replace("http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/","").split(".")[0]
             #print("offense id: " + str(offenseId))
 
             #this seems backwards but it works so I'll roll with it
