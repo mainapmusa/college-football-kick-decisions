@@ -28,6 +28,7 @@ from sys import exit
 #from ImportFiles import GetSituation
 
 def main():
+    pd.options.mode.chained_assignment = None
     helpStrings = GetHelpStrings()
     parser = argparse.ArgumentParser()
 
@@ -47,12 +48,13 @@ def main():
     #"End Period", "End Clock", "End Spot"
     #"4 Play Number", "1 Period Number", "5 Offense Points", "6 Defense Points", "7 Distance", "3 Spot", "8 Play Type", "9 Drive Number", "10 Drive Play"
     #"1 Period, 2 SecondsLeft, 3 Spot, 4 PlayNumber, 5 OffensePoints, 6 DefensePoints, 7 Distance, 8 PlayType, 9 DriveNumber, 10 DrivePlay"
+    #qtr, time, ballPosition, playNumber, offensePoints, defensePoints, distance, "1", driveNumber, "1", offenseWins, offenseLosses, offenseConferenceStrength, defenseWins, defenseLosses, defenseConferenceStrength, HomeOffense
     if(args.GetFieldGoalDecision):
-        if(len(args.Situation)) != 10:
+        if(len(args.Situation)) != 17:
             exit("If getting a field goal decision must pass the situation for which you are investigating with the -Situation parameter:\n" + helpStrings["Situation"])
 
-        fgSituation = args.Situation[:3]
-        g4Situation = [args.Situation[3]] + [args.Situation[0]] + args.Situation[4:7] + [args.Situation[2]] + args.Situation[7:]
+        fgSituation = args.Situation[:3] + args.Situation[-7:]
+        g4Situation = [args.Situation[3]] + [args.Situation[0]] + args.Situation[4:7] + [args.Situation[2]] + args.Situation[8:-1]
 
         GetFieldGoalDecision(fgSituation, g4Situation, args.tweet)
 

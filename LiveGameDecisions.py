@@ -41,6 +41,23 @@ def WasFieldGoalKicked(attempt):
     else:
         return False
 
+def GetConferenceFromTeamId(teamId):
+    with open('./data/espn_ids.json') as data_file:
+        teamConf = json.load(data_file)
+
+    return teamConf[teamId]["Conference Code"]
+
+def GetConferenceStrength(teamId):
+    #P5 ACC=821, Big12=25354, Big10=827, Pac12=905, SEC=911, BigEast=823
+    #G5 Indy=99001, AAC=823, C-USA=24312, MAC=875, MWC=5486, SunBelt=818, WAC=923
+    conferenceCode = GetConferenceFromTeamId(teamId)
+    if conferenceCode in ["821","25354","827","905","911","823"]:
+        return 10
+    elif conferenceCode in ["99001","823","24312","875","5486","818","923"]:
+        return 5
+    else:
+        return 0
+
 def GetMathPrintString(fgVal,goVal,conversionPercent,expectedFromConv,fgPercent):
     message = ""
     message += "Chance to convert on 4th: " + str(conversionPercent) + "\n"
@@ -225,9 +242,16 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
     homePoints = 0
     awayPoints = 0
     offensePoints = 0
+    offenseWins = 0
+    offenseLosses = 0
+    offenseConferenceStrength = 0
     defensePoints = 0
+    defenseWins = 0
+    defenseLosses = 0
+    defenseConferenceStrength = 0
     driveNumber = 0
     playNumber = 0
+    HomeOffense = False
     #drill into each drive of that list of drives for this game
     #
     #
@@ -294,10 +318,24 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
                         #this also seems backwards, check why
                         if(offenseId == homeTeamId):
                             offensePoints = awayPoints
+                            offenseWins = awayWins
+                            offenseLosses = awayLosses
+                            offenseConferenceStrength = GetConferenceStrength(awayTeamId)
                             defensePoints = homePoints
+                            defenseWins = homeWins
+                            defenseLosses = homeLosses
+                            defenseConferenceStrength = GetConferenceStrength(homeTeamId)
+                            HomeOffense = True
                         else:
                             offensePoints = homePoints
+                            offenseWins = homeWins
+                            offenseLosses = homeLosses
+                            offenseConferenceStrength = GetConferenceStrength(homeTeamId)
                             defensePoints = awayPoints
+                            defenseWins = awayWins
+                            defenseLosses = awayLosses
+                            defenseConferenceStrength = GetConferenceStrength(awayTeamId)
+                            HomeOffense = False
                         #print("offense points: " + str(offensePoints))
                         #print("defense points: " + str(defensePoints))
                         #if facing a 4th down from inside the opponents 35
@@ -317,7 +355,8 @@ def InvestigateGame(gameId, homeTeamId, awayTeamId, year, week, tweet = False):
                             #print("\t\t"+"offense points: " + str(offensePoints) + ",defense points: " + str(defensePoints) + ", position: " + str(ballPosition) + ", drive number: " + str(driveNumber) + ", play number: " + str(playNumber))
                             #print("\t\t"+"quarter: "+ qtr + ", time: "+str(time) +", distance: " + distance)
 
-                            decisionValues = GetKickDecision(gameId, year, week, [str(qtr), str(time), str(ballPosition), str(playNumber), str(offensePoints), str(defensePoints), str(distance), "1", str(driveNumber), "1"], tweet)
+                            decisionValues = GetKickDecision(gameId, year, week, [str(qtr), str(time), str(ballPosition), str(playNumber), str(offensePoints), str(defensePoints), str(distance), "1", str(driveNumber), "1", str(offenseWins), str(offenseLosses), str(offenseConferenceStrength), str(defenseWins), str(defenseLosses), str(defenseConferenceStrength), str(int(HomeOffense))], tweet)
+
                             fgValue = decisionValues[0]
                             go4thValue = decisionValues[1]
                             convPerc = decisionValues[2]

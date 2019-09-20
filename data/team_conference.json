@@ -1,0 +1,1014 @@
+{
+    "2": {
+        "Conference Code": 99005,
+        "Name": "Abilene Christian"
+    },
+    "5": {
+        "Conference Code": 875,
+        "Name": "Akron"
+    },
+    "6": {
+        "Conference Code": 916,
+        "Name": "Alabama A&M"
+    },
+    "7": {
+        "Conference Code": 916,
+        "Name": "Alabama St."
+    },
+    "8": {
+        "Conference Code": 911,
+        "Name": "Alabama"
+    },
+    "9": {
+        "Conference Code": 24312,
+        "Name": "UAB"
+    },
+    "14": {
+        "Conference Code": 846,
+        "Name": "Albany (N.Y.)"
+    },
+    "17": {
+        "Conference Code": 916,
+        "Name": "Alcorn St."
+    },
+    "27": {
+        "Conference Code": 912,
+        "Name": "Appalachian State"
+    },
+    "28": {
+        "Conference Code": 905,
+        "Name": "Arizona State"
+    },
+    "29": {
+        "Conference Code": 905,
+        "Name": "Arizona"
+    },
+    "30": {
+        "Conference Code": 818,
+        "Name": "Arkansas State"
+    },
+    "31": {
+        "Conference Code": 911,
+        "Name": "Arkansas"
+    },
+    "37": {
+        "Conference Code": 911,
+        "Name": "Auburn"
+    },
+    "43": {
+        "Conference Code": 902,
+        "Name": "Austin Peay"
+    },
+    "47": {
+        "Conference Code": 875,
+        "Name": "Ball State"
+    },
+    "48": {
+        "Conference Code": 826,
+        "Name": "Charleston So."
+    },
+    "51": {
+        "Conference Code": 25354,
+        "Name": "Baylor"
+    },
+    "61": {
+        "Conference Code": 876,
+        "Name": "Bethune-Cookman"
+    },
+    "66": {
+        "Conference Code": 5486,
+        "Name": "Boise State"
+    },
+    "67": {
+        "Conference Code": 821,
+        "Name": "Boston College"
+    },
+    "71": {
+        "Conference Code": 875,
+        "Name": "Bowling Green"
+    },
+    "77": {
+        "Conference Code": 99001,
+        "Name": "BYU"
+    },
+    "80": {
+        "Conference Code": 865,
+        "Name": "Brown"
+    },
+    "81": {
+        "Conference Code": 846,
+        "Name": "Bryant"
+    },
+    "83": {
+        "Conference Code": 838,
+        "Name": "Bucknell"
+    },
+    "86": {
+        "Conference Code": 875,
+        "Name": "Buffalo"
+    },
+    "87": {
+        "Conference Code": 21451,
+        "Name": "Butler"
+    },
+    "90": {
+        "Conference Code": 99005,
+        "Name": "Cal Poly"
+    },
+    "96": {
+        "Conference Code": 5486,
+        "Name": "Fresno State"
+    },
+    "102": {
+        "Conference Code": 825,
+        "Name": "Sacramento State"
+    },
+    "107": {
+        "Conference Code": 905,
+        "Name": "California"
+    },
+    "108": {
+        "Conference Code": 99005,
+        "Name": "UC Davis"
+    },
+    "110": {
+        "Conference Code": 905,
+        "Name": "UCLA"
+    },
+    "115": {
+        "Conference Code": 21451,
+        "Name": "Campbell"
+    },
+    "127": {
+        "Conference Code": 846,
+        "Name": "Central Conn. St."
+    },
+    "128": {
+        "Conference Code": 24312,
+        "Name": "UCF"
+    },
+    "129": {
+        "Conference Code": 875,
+        "Name": "Central Michigan"
+    },
+    "140": {
+        "Conference Code": 823,
+        "Name": "Cincinnati"
+    },
+    "141": {
+        "Conference Code": 912,
+        "Name": "Citadel"
+    },
+    "147": {
+        "Conference Code": 821,
+        "Name": "Clemson"
+    },
+    "149": {
+        "Conference Code": 818,
+        "Name": "Coastal Carolina"
+    },
+    "153": {
+        "Conference Code": 838,
+        "Name": "Colgate"
+    },
+    "156": {
+        "Conference Code": 5486,
+        "Name": "Colorado State"
+    },
+    "157": {
+        "Conference Code": 905,
+        "Name": "Colorado"
+    },
+    "158": {
+        "Conference Code": 865,
+        "Name": "Columbia"
+    },
+    "164": {
+        "Conference Code": 823,
+        "Name": "Connecticut"
+    },
+    "167": {
+        "Conference Code": 865,
+        "Name": "Cornell"
+    },
+    "172": {
+        "Conference Code": 865,
+        "Name": "Dartmouth"
+    },
+    "173": {
+        "Conference Code": 21451,
+        "Name": "Davidson"
+    },
+    "175": {
+        "Conference Code": 21451,
+        "Name": "Dayton"
+    },
+    "178": {
+        "Conference Code": 876,
+        "Name": "Delaware State"
+    },
+    "180": {
+        "Conference Code": 837,
+        "Name": "Delaware"
+    },
+    "189": {
+        "Conference Code": 21451,
+        "Name": "Drake"
+    },
+    "193": {
+        "Conference Code": 821,
+        "Name": "Duke"
+    },
+    "194": {
+        "Conference Code": 846,
+        "Name": "Duquesne"
+    },
+    "196": {
+        "Conference Code": 24312,
+        "Name": "East Carolina"
+    },
+    "201": {
+        "Conference Code": 902,
+        "Name": "Eastern Illinois"
+    },
+    "202": {
+        "Conference Code": 902,
+        "Name": "Eastern Kentucky"
+    },
+    "204": {
+        "Conference Code": 875,
+        "Name": "Eastern Michigan"
+    },
+    "207": {
+        "Conference Code": 825,
+        "Name": "Eastern Washington"
+    },
+    "228": {
+        "Conference Code": 876,
+        "Name": "Florida A&M"
+    },
+    "229": {
+        "Conference Code": 818,
+        "Name": "Florida Atlantic"
+    },
+    "231": {
+        "Conference Code": 818,
+        "Name": "Florida International"
+    },
+    "234": {
+        "Conference Code": 821,
+        "Name": "Florida State"
+    },
+    "235": {
+        "Conference Code": 911,
+        "Name": "Florida"
+    },
+    "236": {
+        "Conference Code": 838,
+        "Name": "Fordham"
+    },
+    "244": {
+        "Conference Code": 912,
+        "Name": "Furman"
+    },
+    "251": {
+        "Conference Code": 838,
+        "Name": "Georgetown"
+    },
+    "253": {
+        "Conference Code": 912,
+        "Name": "Georgia Southern"
+    },
+    "254": {
+        "Conference Code": 99005,
+        "Name": "Georgia State"
+    },
+    "255": {
+        "Conference Code": 821,
+        "Name": "Georgia Tech"
+    },
+    "257": {
+        "Conference Code": 911,
+        "Name": "Georgia"
+    },
+    "261": {
+        "Conference Code": 916,
+        "Name": "Grambling"
+    },
+    "270": {
+        "Conference Code": 876,
+        "Name": "Hampton"
+    },
+    "275": {
+        "Conference Code": 865,
+        "Name": "Harvard"
+    },
+    "277": {
+        "Conference Code": 5486,
+        "Name": "Hawai'i"
+    },
+    "283": {
+        "Conference Code": 820,
+        "Name": "Hofstra"
+    },
+    "285": {
+        "Conference Code": 838,
+        "Name": "Holy Cross"
+    },
+    "288": {
+        "Conference Code": 24312,
+        "Name": "Houston"
+    },
+    "290": {
+        "Conference Code": 876,
+        "Name": "Howard"
+    },
+    "294": {
+        "Conference Code": 825,
+        "Name": "Idaho State"
+    },
+    "295": {
+        "Conference Code": 923,
+        "Name": "Idaho"
+    },
+    "299": {
+        "Conference Code": 853,
+        "Name": "Illinois State"
+    },
+    "301": {
+        "Conference Code": 827,
+        "Name": "Illinois"
+    },
+    "305": {
+        "Conference Code": 853,
+        "Name": "Indiana State"
+    },
+    "306": {
+        "Conference Code": 827,
+        "Name": "Indiana"
+    },
+    "310": {
+        "Conference Code": 871,
+        "Name": "Iona"
+    },
+    "311": {
+        "Conference Code": 25354,
+        "Name": "Iowa State"
+    },
+    "312": {
+        "Conference Code": 827,
+        "Name": "Iowa"
+    },
+    "314": {
+        "Conference Code": 916,
+        "Name": "Jackson State"
+    },
+    "315": {
+        "Conference Code": 902,
+        "Name": "Jacksonville State"
+    },
+    "316": {
+        "Conference Code": 21451,
+        "Name": "Jacksonville"
+    },
+    "317": {
+        "Conference Code": 837,
+        "Name": "James Madison"
+    },
+    "327": {
+        "Conference Code": 25354,
+        "Name": "Kansas State"
+    },
+    "328": {
+        "Conference Code": 25354,
+        "Name": "Kansas"
+    },
+    "331": {
+        "Conference Code": 875,
+        "Name": "Kent State"
+    },
+    "334": {
+        "Conference Code": 911,
+        "Name": "Kentucky"
+    },
+    "340": {
+        "Conference Code": 871,
+        "Name": "La Salle"
+    },
+    "342": {
+        "Conference Code": 838,
+        "Name": "Lafayette"
+    },
+    "346": {
+        "Conference Code": 914,
+        "Name": "Lamar"
+    },
+    "352": {
+        "Conference Code": 838,
+        "Name": "Lehigh"
+    },
+    "355": {
+        "Conference Code": 826,
+        "Name": "Liberty"
+    },
+    "365": {
+        "Conference Code": 911,
+        "Name": "LSU"
+    },
+    "366": {
+        "Conference Code": 923,
+        "Name": "Louisiana Tech"
+    },
+    "367": {
+        "Conference Code": 823,
+        "Name": "Louisville"
+    },
+    "380": {
+        "Conference Code": 837,
+        "Name": "Maine"
+    },
+    "386": {
+        "Conference Code": 21451,
+        "Name": "Marist"
+    },
+    "388": {
+        "Conference Code": 24312,
+        "Name": "Marshall"
+    },
+    "392": {
+        "Conference Code": 821,
+        "Name": "Maryland"
+    },
+    "400": {
+        "Conference Code": 875,
+        "Name": "Massachusetts"
+    },
+    "402": {
+        "Conference Code": 914,
+        "Name": "McNeese State"
+    },
+    "404": {
+        "Conference Code": 24312,
+        "Name": "Memphis"
+    },
+    "414": {
+        "Conference Code": 875,
+        "Name": "Miami (Ohio)"
+    },
+    "415": {
+        "Conference Code": 821,
+        "Name": "Miami (Florida)"
+    },
+    "416": {
+        "Conference Code": 827,
+        "Name": "Michigan State"
+    },
+    "418": {
+        "Conference Code": 827,
+        "Name": "Michigan"
+    },
+    "419": {
+        "Conference Code": 818,
+        "Name": "Middle Tennessee"
+    },
+    "428": {
+        "Conference Code": 827,
+        "Name": "Minnesota"
+    },
+    "430": {
+        "Conference Code": 911,
+        "Name": "Mississippi State"
+    },
+    "432": {
+        "Conference Code": 916,
+        "Name": "Mississippi Valley State"
+    },
+    "433": {
+        "Conference Code": 911,
+        "Name": "Mississippi"
+    },
+    "434": {
+        "Conference Code": 911,
+        "Name": "Missouri"
+    },
+    "439": {
+        "Conference Code": 846,
+        "Name": "Monmouth"
+    },
+    "440": {
+        "Conference Code": 825,
+        "Name": "Montana State"
+    },
+    "441": {
+        "Conference Code": 825,
+        "Name": "Montana"
+    },
+    "444": {
+        "Conference Code": 21451,
+        "Name": "Morehead State"
+    },
+    "446": {
+        "Conference Code": 876,
+        "Name": "Morgan State"
+    },
+    "454": {
+        "Conference Code": 902,
+        "Name": "Murray State"
+    },
+    "457": {
+        "Conference Code": 821,
+        "Name": "North Carolina"
+    },
+    "463": {
+        "Conference Code": 827,
+        "Name": "Nebraska"
+    },
+    "465": {
+        "Conference Code": 5486,
+        "Name": "UNLV"
+    },
+    "466": {
+        "Conference Code": 5486,
+        "Name": "Nevada"
+    },
+    "469": {
+        "Conference Code": 837,
+        "Name": "New Hampshire"
+    },
+    "472": {
+        "Conference Code": 923,
+        "Name": "New Mexico State"
+    },
+    "473": {
+        "Conference Code": 5486,
+        "Name": "New Mexico"
+    },
+    "483": {
+        "Conference Code": 914,
+        "Name": "Nicholls State"
+    },
+    "485": {
+        "Conference Code": 876,
+        "Name": "Norfolk State"
+    },
+    "488": {
+        "Conference Code": 876,
+        "Name": "North Carolina A&T"
+    },
+    "489": {
+        "Conference Code": 876,
+        "Name": "N.C. Central"
+    },
+    "490": {
+        "Conference Code": 821,
+        "Name": "North Carolina State"
+    },
+    "493": {
+        "Conference Code": 853,
+        "Name": "North Dakota State"
+    },
+    "494": {
+        "Conference Code": 99005,
+        "Name": "North Dakota"
+    },
+    "497": {
+        "Conference Code": 818,
+        "Name": "North Texas"
+    },
+    "498": {
+        "Conference Code": 818,
+        "Name": "Louisiana-Monroe"
+    },
+    "500": {
+        "Conference Code": 820,
+        "Name": "Northeastern"
+    },
+    "501": {
+        "Conference Code": 825,
+        "Name": "Northern Arizona"
+    },
+    "502": {
+        "Conference Code": 825,
+        "Name": "Northern Colorado"
+    },
+    "503": {
+        "Conference Code": 875,
+        "Name": "Northern Illinois"
+    },
+    "504": {
+        "Conference Code": 853,
+        "Name": "Northern Iowa"
+    },
+    "508": {
+        "Conference Code": 914,
+        "Name": "Northwestern State"
+    },
+    "509": {
+        "Conference Code": 827,
+        "Name": "Northwestern"
+    },
+    "513": {
+        "Conference Code": 99001,
+        "Name": "Notre Dame"
+    },
+    "518": {
+        "Conference Code": 827,
+        "Name": "Ohio State"
+    },
+    "519": {
+        "Conference Code": 875,
+        "Name": "Ohio"
+    },
+    "521": {
+        "Conference Code": 25354,
+        "Name": "Oklahoma State"
+    },
+    "522": {
+        "Conference Code": 25354,
+        "Name": "Oklahoma"
+    },
+    "523": {
+        "Conference Code": 837,
+        "Name": "Old Dominion"
+    },
+    "528": {
+        "Conference Code": 905,
+        "Name": "Oregon State"
+    },
+    "529": {
+        "Conference Code": 905,
+        "Name": "Oregon"
+    },
+    "539": {
+        "Conference Code": 827,
+        "Name": "Penn State"
+    },
+    "540": {
+        "Conference Code": 865,
+        "Name": "Pennsylvania"
+    },
+    "545": {
+        "Conference Code": 823,
+        "Name": "Pittsburgh"
+    },
+    "550": {
+        "Conference Code": 825,
+        "Name": "Portland State"
+    },
+    "553": {
+        "Conference Code": 916,
+        "Name": "Prairie View"
+    },
+    "554": {
+        "Conference Code": 865,
+        "Name": "Princeton"
+    },
+    "559": {
+        "Conference Code": 827,
+        "Name": "Purdue"
+    },
+    "572": {
+        "Conference Code": 837,
+        "Name": "Rhode Island"
+    },
+    "574": {
+        "Conference Code": 24312,
+        "Name": "Rice"
+    },
+    "575": {
+        "Conference Code": 837,
+        "Name": "Richmond"
+    },
+    "579": {
+        "Conference Code": 846,
+        "Name": "Robert Morris"
+    },
+    "587": {
+        "Conference Code": 823,
+        "Name": "Rutgers"
+    },
+    "590": {
+        "Conference Code": 846,
+        "Name": "Sacred Heart"
+    },
+    "600": {
+        "Conference Code": 846,
+        "Name": "St. Francis (Pa.)"
+    },
+    "617": {
+        "Conference Code": 871,
+        "Name": "St. Peter's"
+    },
+    "624": {
+        "Conference Code": 914,
+        "Name": "Sam Houston State"
+    },
+    "625": {
+        "Conference Code": 912,
+        "Name": "Samford"
+    },
+    "626": {
+        "Conference Code": 5486,
+        "Name": "San Diego State"
+    },
+    "627": {
+        "Conference Code": 21451,
+        "Name": "San Diego"
+    },
+    "630": {
+        "Conference Code": 923,
+        "Name": "San Jose State"
+    },
+    "632": {
+        "Conference Code": 876,
+        "Name": "Savannah State"
+    },
+    "646": {
+        "Conference Code": 818,
+        "Name": "South Alabama"
+    },
+    "647": {
+        "Conference Code": 876,
+        "Name": "South Carolina State"
+    },
+    "648": {
+        "Conference Code": 911,
+        "Name": "South Carolina"
+    },
+    "649": {
+        "Conference Code": 853,
+        "Name": "South Dakota State"
+    },
+    "650": {
+        "Conference Code": 99005,
+        "Name": "South Dakota"
+    },
+    "651": {
+        "Conference Code": 823,
+        "Name": "South Florida"
+    },
+    "654": {
+        "Conference Code": 902,
+        "Name": "Southeast Missouri State"
+    },
+    "655": {
+        "Conference Code": 914,
+        "Name": "Southeastern Louisiana"
+    },
+    "657": {
+        "Conference Code": 905,
+        "Name": "USC"
+    },
+    "659": {
+        "Conference Code": 853,
+        "Name": "Southern Illinois"
+    },
+    "663": {
+        "Conference Code": 24312,
+        "Name": "SMU"
+    },
+    "664": {
+        "Conference Code": 24312,
+        "Name": "Southern Mississippi"
+    },
+    "665": {
+        "Conference Code": 916,
+        "Name": "Southern University"
+    },
+    "667": {
+        "Conference Code": 99005,
+        "Name": "Southern Utah"
+    },
+    "669": {
+        "Conference Code": 853,
+        "Name": "Missouri State"
+    },
+    "670": {
+        "Conference Code": 923,
+        "Name": "Texas State"
+    },
+    "671": {
+        "Conference Code": 818,
+        "Name": "Louisiana-Lafayette"
+    },
+    "674": {
+        "Conference Code": 905,
+        "Name": "Stanford"
+    },
+    "676": {
+        "Conference Code": 914,
+        "Name": "Stephen F. Austin"
+    },
+    "683": {
+        "Conference Code": 826,
+        "Name": "Stony Brook"
+    },
+    "688": {
+        "Conference Code": 823,
+        "Name": "Syracuse"
+    },
+    "690": {
+        "Conference Code": 823,
+        "Name": "Temple"
+    },
+    "691": {
+        "Conference Code": 902,
+        "Name": "Tennessee State"
+    },
+    "692": {
+        "Conference Code": 902,
+        "Name": "Tennessee Tech"
+    },
+    "693": {
+        "Conference Code": 912,
+        "Name": "Chattanooga"
+    },
+    "694": {
+        "Conference Code": 911,
+        "Name": "Tennessee"
+    },
+    "695": {
+        "Conference Code": 902,
+        "Name": "Tennessee-Martin"
+    },
+    "697": {
+        "Conference Code": 911,
+        "Name": "Texas A&M"
+    },
+    "698": {
+        "Conference Code": 25354,
+        "Name": "TCU"
+    },
+    "699": {
+        "Conference Code": 916,
+        "Name": "Texas Southern"
+    },
+    "700": {
+        "Conference Code": 25354,
+        "Name": "Texas Tech"
+    },
+    "703": {
+        "Conference Code": 25354,
+        "Name": "Texas"
+    },
+    "704": {
+        "Conference Code": 24312,
+        "Name": "UTEP"
+    },
+    "706": {
+        "Conference Code": 923,
+        "Name": "UTSA"
+    },
+    "709": {
+        "Conference Code": 875,
+        "Name": "Toledo"
+    },
+    "711": {
+        "Conference Code": 837,
+        "Name": "Towson"
+    },
+    "716": {
+        "Conference Code": 818,
+        "Name": "Troy"
+    },
+    "718": {
+        "Conference Code": 24312,
+        "Name": "Tulane"
+    },
+    "719": {
+        "Conference Code": 24312,
+        "Name": "Tulsa"
+    },
+    "721": {
+        "Conference Code": 5486,
+        "Name": "Air Force"
+    },
+    "725": {
+        "Conference Code": 99001,
+        "Name": "Army"
+    },
+    "726": {
+        "Conference Code": 823,
+        "Name": "Navy"
+    },
+    "731": {
+        "Conference Code": 923,
+        "Name": "Utah State"
+    },
+    "732": {
+        "Conference Code": 905,
+        "Name": "Utah"
+    },
+    "735": {
+        "Conference Code": 21451,
+        "Name": "Valparaiso"
+    },
+    "736": {
+        "Conference Code": 911,
+        "Name": "Vanderbilt"
+    },
+    "739": {
+        "Conference Code": 837,
+        "Name": "Villanova"
+    },
+    "741": {
+        "Conference Code": 826,
+        "Name": "Virginia Military"
+    },
+    "742": {
+        "Conference Code": 821,
+        "Name": "Virginia Tech"
+    },
+    "746": {
+        "Conference Code": 821,
+        "Name": "Virginia"
+    },
+    "748": {
+        "Conference Code": 846,
+        "Name": "Wagner"
+    },
+    "749": {
+        "Conference Code": 821,
+        "Name": "Wake Forest"
+    },
+    "754": {
+        "Conference Code": 905,
+        "Name": "Washington State"
+    },
+    "756": {
+        "Conference Code": 905,
+        "Name": "Washington"
+    },
+    "758": {
+        "Conference Code": 825,
+        "Name": "Weber State"
+    },
+    "768": {
+        "Conference Code": 25354,
+        "Name": "West Virginia"
+    },
+    "769": {
+        "Conference Code": 912,
+        "Name": "Western Carolina"
+    },
+    "771": {
+        "Conference Code": 853,
+        "Name": "Western Illinois"
+    },
+    "772": {
+        "Conference Code": 818,
+        "Name": "Western Kentucky"
+    },
+    "774": {
+        "Conference Code": 875,
+        "Name": "Western Michigan"
+    },
+    "786": {
+        "Conference Code": 837,
+        "Name": "William & Mary"
+    },
+    "791": {
+        "Conference Code": 99005,
+        "Name": "Winston-Salem"
+    },
+    "796": {
+        "Conference Code": 827,
+        "Name": "Wisconsin"
+    },
+    "811": {
+        "Conference Code": 5486,
+        "Name": "Wyoming"
+    },
+    "813": {
+        "Conference Code": 865,
+        "Name": "Yale"
+    },
+    "817": {
+        "Conference Code": 853,
+        "Name": "Youngstown State"
+    },
+    "1004": {
+        "Conference Code": 914,
+        "Name": "Central Arkansas"
+    },
+    "1068": {
+        "Conference Code": 912,
+        "Name": "Elon"
+    },
+    "1092": {
+        "Conference Code": 826,
+        "Name": "Gardner-Webb"
+    },
+    "1320": {
+        "Conference Code": 826,
+        "Name": "Presbyterian"
+    },
+    "2678": {
+        "Conference Code": 916,
+        "Name": "Ark.-Pine Bluff"
+    },
+    "2915": {
+        "Conference Code": 912,
+        "Name": "Wofford"
+    }
+}

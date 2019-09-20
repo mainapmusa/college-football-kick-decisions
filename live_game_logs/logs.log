@@ -1466,3 +1466,1181 @@ FG attempt value: 0.5
 2018-12-10 18:44:36,468 INFO 16
 2018-12-10 18:44:36,468 INFO starting year: 2018
 2018-12-10 18:44:42,824 INFO []
+2018-12-15 11:12:43,585 INFO 2018
+2018-12-15 11:12:43,585 INFO 2018
+2018-12-15 11:12:43,586 INFO 12
+2018-12-15 11:12:43,586 INFO 12
+2018-12-15 11:12:43,586 INFO 15
+2018-12-15 11:12:43,586 INFO 15
+2018-12-15 11:12:43,586 INFO 16
+2018-12-15 11:12:43,586 INFO 16
+2018-12-15 11:12:43,586 INFO starting year: 2018
+2018-12-15 11:12:43,586 INFO starting year: 2018
+2018-12-15 11:13:04,419 INFO []
+2018-12-15 11:13:04,419 INFO []
+2018-12-15 11:23:10,105 INFO []
+2018-12-15 11:23:10,105 INFO []
+2018-12-15 11:33:15,267 INFO []
+2018-12-15 11:33:15,267 INFO []
+2018-12-15 11:43:20,519 INFO []
+2018-12-15 11:43:20,519 INFO []
+2018-12-15 11:53:26,045 INFO []
+2018-12-15 11:53:26,045 INFO []
+2018-12-15 12:03:31,267 INFO []
+2018-12-15 12:03:31,267 INFO []
+2018-12-15 12:13:37,173 INFO []
+2018-12-15 12:13:37,173 INFO []
+2018-12-15 12:23:42,923 INFO []
+2018-12-15 12:23:42,923 INFO []
+2018-12-15 12:33:48,480 INFO []
+2018-12-15 12:33:48,480 INFO []
+2018-12-15 12:43:54,386 INFO []
+2018-12-15 12:43:54,386 INFO []
+2018-12-15 12:53:59,839 INFO []
+2018-12-15 12:53:59,839 INFO []
+2018-12-15 13:04:05,328 INFO []
+2018-12-15 13:04:05,328 INFO []
+2018-12-15 13:14:10,699 INFO []
+2018-12-15 13:14:10,699 INFO []
+2018-12-15 13:24:16,330 INFO []
+2018-12-15 13:24:16,330 INFO []
+2018-12-15 13:34:21,833 INFO []
+2018-12-15 13:34:21,833 INFO []
+2018-12-15 13:41:01,883 INFO 2018
+2018-12-15 13:41:01,883 INFO 2018
+2018-12-15 13:41:01,884 INFO 12
+2018-12-15 13:41:01,884 INFO 12
+2018-12-15 13:41:01,884 INFO 15
+2018-12-15 13:41:01,884 INFO 15
+2018-12-15 13:41:01,884 INFO 16
+2018-12-15 13:41:01,884 INFO 16
+2018-12-15 13:41:01,884 INFO starting year: 2018
+2018-12-15 13:41:01,884 INFO starting year: 2018
+2018-12-15 13:41:10,813 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 13:41:10,813 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 13:41:19,969 INFO drive number: 1,offense team: TULN
+2018-12-15 13:41:19,969 INFO drive number: 1,offense team: TULN
+2018-12-15 13:41:20,764 INFO drive number: 2,offense team: TULN
+2018-12-15 13:41:20,764 INFO drive number: 2,offense team: TULN
+2018-12-15 13:41:21,333 INFO drive number: 3,offense team: TULN
+2018-12-15 13:41:21,333 INFO drive number: 3,offense team: TULN
+2018-12-15 13:41:21,560 INFO {}
+2018-12-15 13:41:21,560 INFO {}
+2018-12-15 13:41:21,560 INFO new game id: 401035253
+2018-12-15 13:41:21,560 INFO new game id: 401035253
+2018-12-15 13:41:21,561 INFO Qtr 1 NOT already in game id: 401035253
+2018-12-15 13:41:21,561 INFO Qtr 1 NOT already in game id: 401035253
+2018-12-15 13:41:28,540 INFO b'Field Goal Expected Value: 2.5\n4th Down Conversion Likelihood: 0.21079380948217485\nLine To Reach For Conversion: 1\nExpected Points For Starting From Converstion Spot: 6.311\nExpected Value Of Going For It: 1.3303197316420055\nKICK THE FIELD GOAL!\n'
+2018-12-15 13:41:28,540 INFO b'Field Goal Expected Value: 2.5\n4th Down Conversion Likelihood: 0.21079380948217485\nLine To Reach For Conversion: 1\nExpected Points For Starting From Converstion Spot: 6.311\nExpected Value Of Going For It: 1.3303197316420055\nKICK THE FIELD GOAL!\n'
+2018-12-15 13:41:28,540 INFO distance is over 10 yards
+2018-12-15 13:41:28,540 INFO distance is over 10 yards
+2018-12-15 13:41:28,730 INFO drive number: 4,offense team: TULN
+2018-12-15 13:41:28,730 INFO drive number: 4,offense team: TULN
+2018-12-15 13:41:29,174 INFO drive number: 5,offense team: TULN
+2018-12-15 13:41:29,174 INFO drive number: 5,offense team: TULN
+2018-12-15 13:41:29,352 INFO {}
+2018-12-15 13:41:29,352 INFO {}
+2018-12-15 13:41:29,352 INFO new game id: 401035253
+2018-12-15 13:41:29,352 INFO new game id: 401035253
+2018-12-15 13:41:29,353 INFO Qtr 1 NOT already in game id: 401035253
+2018-12-15 13:41:29,353 INFO Qtr 1 NOT already in game id: 401035253
+2018-12-15 13:41:35,854 INFO b'Field Goal Expected Value: 1.75\n4th Down Conversion Likelihood: 0.22990689189495517\nLine To Reach For Conversion: 22\nExpected Points For Starting From Converstion Spot: 4.064\nExpected Value Of Going For It: 0.9343416086610978\nKICK THE FIELD GOAL!\n'
+2018-12-15 13:41:35,854 INFO b'Field Goal Expected Value: 1.75\n4th Down Conversion Likelihood: 0.22990689189495517\nLine To Reach For Conversion: 22\nExpected Points For Starting From Converstion Spot: 4.064\nExpected Value Of Going For It: 0.9343416086610978\nKICK THE FIELD GOAL!\n'
+2018-12-15 13:41:35,854 INFO distance is over 10 yards
+2018-12-15 13:41:35,854 INFO distance is over 10 yards
+2018-12-15 13:41:36,042 INFO drive number: 6,offense team: TULN
+2018-12-15 13:41:36,042 INFO drive number: 6,offense team: TULN
+2018-12-15 13:41:36,492 INFO drive number: 7,offense team: TULN
+2018-12-15 13:41:36,492 INFO drive number: 7,offense team: TULN
+2018-12-15 13:41:36,696 INFO {}
+2018-12-15 13:41:36,696 INFO {}
+2018-12-15 13:41:36,696 INFO new game id: 401035253
+2018-12-15 13:41:36,696 INFO new game id: 401035253
+2018-12-15 13:41:36,697 INFO Qtr 2 NOT already in game id: 401035253
+2018-12-15 13:41:36,697 INFO Qtr 2 NOT already in game id: 401035253
+2018-12-15 13:41:42,922 INFO b'Field Goal Expected Value: 2.5\n4th Down Conversion Likelihood: 0.42899061289591867\nLine To Reach For Conversion: 21\nExpected Points For Starting From Converstion Spot: 4.347\nExpected Value Of Going For It: 1.8648221942585586\nKICK THE FIELD GOAL!\n'
+2018-12-15 13:41:42,922 INFO b'Field Goal Expected Value: 2.5\n4th Down Conversion Likelihood: 0.42899061289591867\nLine To Reach For Conversion: 21\nExpected Points For Starting From Converstion Spot: 4.347\nExpected Value Of Going For It: 1.8648221942585586\nKICK THE FIELD GOAL!\n'
+2018-12-15 13:41:42,923 INFO difference is only 0.6399999999999999
+2018-12-15 13:41:42,923 INFO difference is only 0.6399999999999999
+2018-12-15 13:41:43,104 INFO drive number: 8,offense team: TULN
+2018-12-15 13:41:43,104 INFO drive number: 8,offense team: TULN
+2018-12-15 13:41:43,411 INFO {}
+2018-12-15 13:41:43,411 INFO {}
+2018-12-15 13:41:43,411 INFO new game id: 401035253
+2018-12-15 13:41:43,411 INFO new game id: 401035253
+2018-12-15 13:41:43,411 INFO Qtr 2 NOT already in game id: 401035253
+2018-12-15 13:41:43,411 INFO Qtr 2 NOT already in game id: 401035253
+2018-12-15 13:41:49,667 INFO b'Field Goal Expected Value: 2.0\n4th Down Conversion Likelihood: 0.2252980625840231\nLine To Reach For Conversion: 9\nExpected Points For Starting From Converstion Spot: 4.745\nExpected Value Of Going For It: 1.0690393069611897\nKICK THE FIELD GOAL!\n'
+2018-12-15 13:41:49,667 INFO b'Field Goal Expected Value: 2.0\n4th Down Conversion Likelihood: 0.2252980625840231\nLine To Reach For Conversion: 9\nExpected Points For Starting From Converstion Spot: 4.745\nExpected Value Of Going For It: 1.0690393069611897\nKICK THE FIELD GOAL!\n'
+2018-12-15 13:41:49,668 INFO distance is over 10 yards
+2018-12-15 13:41:49,668 INFO distance is over 10 yards
+2018-12-15 13:41:49,777 INFO drive number: 9,offense team: TULN
+2018-12-15 13:41:49,777 INFO drive number: 9,offense team: TULN
+2018-12-15 13:41:50,038 INFO {}
+2018-12-15 13:41:50,038 INFO {}
+2018-12-15 13:41:50,038 INFO new game id: 401035253
+2018-12-15 13:41:50,038 INFO new game id: 401035253
+2018-12-15 13:41:50,039 INFO Qtr 2 NOT already in game id: 401035253
+2018-12-15 13:41:50,039 INFO Qtr 2 NOT already in game id: 401035253
+2018-12-15 13:41:56,246 INFO b'Field Goal Expected Value: 2.25\n4th Down Conversion Likelihood: 0.6464813658419217\nLine To Reach For Conversion: 32\nExpected Points For Starting From Converstion Spot: 3.449\nExpected Value Of Going For It: 2.229714230788788\nKICK THE FIELD GOAL!\n'
+2018-12-15 13:41:56,246 INFO b'Field Goal Expected Value: 2.25\n4th Down Conversion Likelihood: 0.6464813658419217\nLine To Reach For Conversion: 32\nExpected Points For Starting From Converstion Spot: 3.449\nExpected Value Of Going For It: 2.229714230788788\nKICK THE FIELD GOAL!\n'
+2018-12-15 13:41:56,247 INFO difference is only 0.029999999999999805
+2018-12-15 13:41:56,247 INFO difference is only 0.029999999999999805
+2018-12-15 13:42:04,862 INFO drive number: 1,offense team: USU
+2018-12-15 13:42:04,862 INFO drive number: 1,offense team: USU
+2018-12-15 13:42:05,391 INFO drive number: 2,offense team: USU
+2018-12-15 13:42:05,391 INFO drive number: 2,offense team: USU
+2018-12-15 13:42:05,710 INFO {}
+2018-12-15 13:42:05,710 INFO {}
+2018-12-15 13:42:05,710 INFO new game id: 401032054
+2018-12-15 13:42:05,710 INFO new game id: 401032054
+2018-12-15 13:42:05,710 INFO Qtr 1 NOT already in game id: 401032054
+2018-12-15 13:42:05,710 INFO Qtr 1 NOT already in game id: 401032054
+2018-12-15 13:42:12,338 INFO b'Field Goal Expected Value: 0.75\n4th Down Conversion Likelihood: 0.46302068362583376\nLine To Reach For Conversion: 23\nExpected Points For Starting From Converstion Spot: 3.845\nExpected Value Of Going For It: 1.7803145285413309\nGO FOR IT!\n'
+2018-12-15 13:42:12,338 INFO b'Field Goal Expected Value: 0.75\n4th Down Conversion Likelihood: 0.46302068362583376\nLine To Reach For Conversion: 23\nExpected Points For Starting From Converstion Spot: 3.845\nExpected Value Of Going For It: 1.7803145285413309\nGO FOR IT!\n'
+2018-12-15 13:42:12,339 INFO {'401032054': '1'}
+2018-12-15 13:42:12,339 INFO {'401032054': '1'}
+2018-12-15 13:42:12,340 INFO 0.75
+2018-12-15 13:42:12,340 INFO 0.75
+2018-12-15 13:42:12,340 INFO 1.78
+2018-12-15 13:42:12,340 INFO 1.78
+2018-12-15 13:42:12,341 INFO 0.46
+2018-12-15 13:42:12,341 INFO 0.46
+2018-12-15 13:42:12,341 INFO 3.84
+2018-12-15 13:42:12,341 INFO 3.84
+2018-12-15 13:42:12,517 INFO drive number: 3,offense team: USU
+2018-12-15 13:42:12,517 INFO drive number: 3,offense team: USU
+2018-12-15 13:42:12,902 INFO drive number: 4,offense team: USU
+2018-12-15 13:42:12,902 INFO drive number: 4,offense team: USU
+2018-12-15 13:42:13,113 INFO {'401032054': '1'}
+2018-12-15 13:42:13,113 INFO {'401032054': '1'}
+2018-12-15 13:42:13,114 INFO 1 qtr already in game id: 401032054
+2018-12-15 13:42:13,114 INFO 1 qtr already in game id: 401032054
+2018-12-15 13:42:13,311 INFO drive number: 5,offense team: USU
+2018-12-15 13:42:13,311 INFO drive number: 5,offense team: USU
+2018-12-15 13:42:13,603 INFO drive number: 6,offense team: USU
+2018-12-15 13:42:13,603 INFO drive number: 6,offense team: USU
+2018-12-15 13:47:20,645 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 13:47:20,645 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 13:47:31,166 INFO drive number: 9,offense team: TULN
+2018-12-15 13:47:31,166 INFO drive number: 9,offense team: TULN
+2018-12-15 13:47:31,414 INFO {'401032054': '1'}
+2018-12-15 13:47:31,414 INFO {'401032054': '1'}
+2018-12-15 13:47:31,414 INFO new game id: 401035253
+2018-12-15 13:47:31,414 INFO new game id: 401035253
+2018-12-15 13:47:31,415 INFO Qtr 2 NOT already in game id: 401035253
+2018-12-15 13:47:31,415 INFO Qtr 2 NOT already in game id: 401035253
+2018-12-15 13:47:37,929 INFO b'Field Goal Expected Value: 2.25\n4th Down Conversion Likelihood: 0.6122227156035265\nLine To Reach For Conversion: 32\nExpected Points For Starting From Converstion Spot: 3.449\nExpected Value Of Going For It: 2.1115561461165626\nKICK THE FIELD GOAL!\n'
+2018-12-15 13:47:37,929 INFO b'Field Goal Expected Value: 2.25\n4th Down Conversion Likelihood: 0.6122227156035265\nLine To Reach For Conversion: 32\nExpected Points For Starting From Converstion Spot: 3.449\nExpected Value Of Going For It: 2.1115561461165626\nKICK THE FIELD GOAL!\n'
+2018-12-15 13:47:37,931 INFO difference is only 0.14000000000000012
+2018-12-15 13:47:37,931 INFO difference is only 0.14000000000000012
+2018-12-15 13:47:38,186 INFO drive number: 10,offense team: TULN
+2018-12-15 13:47:38,186 INFO drive number: 10,offense team: TULN
+2018-12-15 13:47:49,289 INFO drive number: 6,offense team: USU
+2018-12-15 13:47:49,289 INFO drive number: 6,offense team: USU
+2018-12-15 13:52:56,320 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 13:52:56,320 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 13:53:06,359 INFO drive number: 10,offense team: TULN
+2018-12-15 13:53:06,359 INFO drive number: 10,offense team: TULN
+2018-12-15 13:53:16,157 INFO drive number: 6,offense team: USU
+2018-12-15 13:53:16,157 INFO drive number: 6,offense team: USU
+2018-12-15 13:53:16,792 INFO drive number: 7,offense team: USU
+2018-12-15 13:53:16,792 INFO drive number: 7,offense team: USU
+2018-12-15 13:53:16,911 INFO drive number: 8,offense team: USU
+2018-12-15 13:53:16,911 INFO drive number: 8,offense team: USU
+2018-12-15 13:58:24,074 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 13:58:24,074 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 13:59:08,731 INFO drive number: 10,offense team: TULN
+2018-12-15 13:59:08,731 INFO drive number: 10,offense team: TULN
+2018-12-15 13:59:08,828 INFO drive number: 11,offense team: TULN
+2018-12-15 13:59:08,828 INFO drive number: 11,offense team: TULN
+2018-12-15 13:59:19,749 INFO drive number: 8,offense team: USU
+2018-12-15 13:59:19,749 INFO drive number: 8,offense team: USU
+2018-12-15 13:59:20,084 INFO drive number: 9,offense team: USU
+2018-12-15 13:59:20,084 INFO drive number: 9,offense team: USU
+2018-12-15 13:59:20,237 INFO drive number: 10,offense team: USU
+2018-12-15 13:59:20,237 INFO drive number: 10,offense team: USU
+2018-12-15 14:04:26,730 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:04:26,730 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:04:37,854 INFO drive number: 11,offense team: TULN
+2018-12-15 14:04:37,854 INFO drive number: 11,offense team: TULN
+2018-12-15 14:04:49,669 INFO drive number: 10,offense team: USU
+2018-12-15 14:04:49,669 INFO drive number: 10,offense team: USU
+2018-12-15 14:04:49,998 INFO drive number: 11,offense team: USU
+2018-12-15 14:04:49,998 INFO drive number: 11,offense team: USU
+2018-12-15 14:04:50,044 INFO {'401032054': '1'}
+2018-12-15 14:04:50,044 INFO {'401032054': '1'}
+2018-12-15 14:04:50,044 INFO 1 qtr already in game id: 401032054
+2018-12-15 14:04:50,044 INFO 1 qtr already in game id: 401032054
+2018-12-15 14:04:50,152 INFO drive number: 12,offense team: USU
+2018-12-15 14:04:50,152 INFO drive number: 12,offense team: USU
+2018-12-15 14:09:57,271 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:09:57,271 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:10:08,427 INFO drive number: 11,offense team: TULN
+2018-12-15 14:10:08,427 INFO drive number: 11,offense team: TULN
+2018-12-15 14:10:20,588 INFO drive number: 12,offense team: USU
+2018-12-15 14:10:20,588 INFO drive number: 12,offense team: USU
+2018-12-15 14:15:27,582 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:15:27,582 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:15:38,177 INFO drive number: 11,offense team: TULN
+2018-12-15 14:15:38,177 INFO drive number: 11,offense team: TULN
+2018-12-15 14:15:50,066 INFO drive number: 12,offense team: USU
+2018-12-15 14:15:50,066 INFO drive number: 12,offense team: USU
+2018-12-15 14:15:50,533 INFO drive number: 13,offense team: USU
+2018-12-15 14:15:50,533 INFO drive number: 13,offense team: USU
+2018-12-15 14:15:50,770 INFO {'401032054': '1'}
+2018-12-15 14:15:50,770 INFO {'401032054': '1'}
+2018-12-15 14:15:50,770 INFO Qtr 2 NOT already in game id: 401032054
+2018-12-15 14:15:50,770 INFO Qtr 2 NOT already in game id: 401032054
+2018-12-15 14:15:56,087 INFO b'Field Goal Expected Value: 2.5\n4th Down Conversion Likelihood: 0.035582669907770724\nLine To Reach For Conversion: -11\nExpected Points For Starting From Converstion Spot: 7\nExpected Value Of Going For It: 0.24907868935439506\nKICK THE FIELD GOAL!\n'
+2018-12-15 14:15:56,087 INFO b'Field Goal Expected Value: 2.5\n4th Down Conversion Likelihood: 0.035582669907770724\nLine To Reach For Conversion: -11\nExpected Points For Starting From Converstion Spot: 7\nExpected Value Of Going For It: 0.24907868935439506\nKICK THE FIELD GOAL!\n'
+2018-12-15 14:15:56,088 INFO distance is over 10 yards
+2018-12-15 14:15:56,088 INFO distance is over 10 yards
+2018-12-15 14:21:02,202 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:21:02,202 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:21:13,384 INFO drive number: 11,offense team: TULN
+2018-12-15 14:21:13,384 INFO drive number: 11,offense team: TULN
+2018-12-15 14:21:25,087 INFO drive number: 13,offense team: USU
+2018-12-15 14:21:25,087 INFO drive number: 13,offense team: USU
+2018-12-15 14:21:25,309 INFO {'401032054': '1'}
+2018-12-15 14:21:25,309 INFO {'401032054': '1'}
+2018-12-15 14:21:25,309 INFO Qtr 2 NOT already in game id: 401032054
+2018-12-15 14:21:25,309 INFO Qtr 2 NOT already in game id: 401032054
+2018-12-15 14:21:30,492 INFO b'Field Goal Expected Value: 2.5\n4th Down Conversion Likelihood: 0.03052898834642947\nLine To Reach For Conversion: -11\nExpected Points For Starting From Converstion Spot: 7\nExpected Value Of Going For It: 0.21370291842500627\nKICK THE FIELD GOAL!\n'
+2018-12-15 14:21:30,492 INFO b'Field Goal Expected Value: 2.5\n4th Down Conversion Likelihood: 0.03052898834642947\nLine To Reach For Conversion: -11\nExpected Points For Starting From Converstion Spot: 7\nExpected Value Of Going For It: 0.21370291842500627\nKICK THE FIELD GOAL!\n'
+2018-12-15 14:21:30,492 INFO distance is over 10 yards
+2018-12-15 14:21:30,492 INFO distance is over 10 yards
+2018-12-15 14:21:30,715 INFO drive number: 14,offense team: USU
+2018-12-15 14:21:30,715 INFO drive number: 14,offense team: USU
+2018-12-15 14:21:31,050 INFO drive number: 15,offense team: USU
+2018-12-15 14:21:31,050 INFO drive number: 15,offense team: USU
+2018-12-15 14:21:31,299 INFO drive number: 16,offense team: USU
+2018-12-15 14:21:31,299 INFO drive number: 16,offense team: USU
+2018-12-15 14:26:38,064 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:26:38,064 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:26:48,733 INFO drive number: 11,offense team: TULN
+2018-12-15 14:26:48,733 INFO drive number: 11,offense team: TULN
+2018-12-15 14:26:49,084 INFO drive number: 12,offense team: TULN
+2018-12-15 14:26:49,084 INFO drive number: 12,offense team: TULN
+2018-12-15 14:26:49,358 INFO {'401032054': '1'}
+2018-12-15 14:26:49,358 INFO {'401032054': '1'}
+2018-12-15 14:26:49,358 INFO new game id: 401035253
+2018-12-15 14:26:49,358 INFO new game id: 401035253
+2018-12-15 14:26:49,358 INFO Qtr 3 NOT already in game id: 401035253
+2018-12-15 14:26:49,358 INFO Qtr 3 NOT already in game id: 401035253
+2018-12-15 14:26:55,683 INFO b'Field Goal Expected Value: 1.5\n4th Down Conversion Likelihood: 0.6553405657355736\nLine To Reach For Conversion: 32\nExpected Points For Starting From Converstion Spot: 3.449\nExpected Value Of Going For It: 2.2602696112219935\nGO FOR IT!\n'
+2018-12-15 14:26:55,683 INFO b'Field Goal Expected Value: 1.5\n4th Down Conversion Likelihood: 0.6553405657355736\nLine To Reach For Conversion: 32\nExpected Points For Starting From Converstion Spot: 3.449\nExpected Value Of Going For It: 2.2602696112219935\nGO FOR IT!\n'
+2018-12-15 14:26:55,684 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 14:26:55,684 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 14:26:55,684 INFO 1.5
+2018-12-15 14:26:55,684 INFO 1.5
+2018-12-15 14:26:55,685 INFO 2.26
+2018-12-15 14:26:55,685 INFO 2.26
+2018-12-15 14:26:55,685 INFO 0.65
+2018-12-15 14:26:55,685 INFO 0.65
+2018-12-15 14:26:55,685 INFO 3.44
+2018-12-15 14:26:55,685 INFO 3.44
+2018-12-15 14:27:08,253 INFO drive number: 16,offense team: USU
+2018-12-15 14:27:08,253 INFO drive number: 16,offense team: USU
+2018-12-15 14:27:08,468 INFO drive number: 17,offense team: USU
+2018-12-15 14:27:08,468 INFO drive number: 17,offense team: USU
+2018-12-15 14:32:15,463 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:32:15,463 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:32:26,837 INFO drive number: 12,offense team: TULN
+2018-12-15 14:32:26,837 INFO drive number: 12,offense team: TULN
+2018-12-15 14:32:27,095 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 14:32:27,095 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 14:32:27,095 INFO 3 qtr already in game id: 401035253
+2018-12-15 14:32:27,095 INFO 3 qtr already in game id: 401035253
+2018-12-15 14:32:27,195 INFO drive number: 13,offense team: TULN
+2018-12-15 14:32:27,195 INFO drive number: 13,offense team: TULN
+2018-12-15 14:32:40,115 INFO drive number: 17,offense team: USU
+2018-12-15 14:32:40,115 INFO drive number: 17,offense team: USU
+2018-12-15 14:37:47,506 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:37:47,506 INFO [['401035253', '309', '2655'], ['401032054', '249', '328']]
+2018-12-15 14:37:58,811 INFO drive number: 13,offense team: TULN
+2018-12-15 14:37:58,811 INFO drive number: 13,offense team: TULN
+2018-12-15 14:37:59,125 INFO drive number: 14,offense team: TULN
+2018-12-15 14:37:59,125 INFO drive number: 14,offense team: TULN
+2018-12-15 14:40:41,130 INFO drive number: 17,offense team: USU
+2018-12-15 14:40:41,130 INFO drive number: 17,offense team: USU
+2018-12-15 14:40:41,297 INFO drive number: 18,offense team: USU
+2018-12-15 14:40:41,297 INFO drive number: 18,offense team: USU
+2018-12-15 14:40:41,407 INFO drive number: 19,offense team: USU
+2018-12-15 14:40:41,407 INFO drive number: 19,offense team: USU
+2018-12-15 14:40:41,663 INFO drive number: 20,offense team: USU
+2018-12-15 14:40:41,663 INFO drive number: 20,offense team: USU
+2018-12-15 14:45:48,523 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 14:45:48,523 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 14:48:29,466 INFO drive number: 14,offense team: TULN
+2018-12-15 14:48:29,466 INFO drive number: 14,offense team: TULN
+2018-12-15 14:48:29,724 INFO drive number: 15,offense team: TULN
+2018-12-15 14:48:29,724 INFO drive number: 15,offense team: TULN
+2018-12-15 14:48:29,963 INFO drive number: 16,offense team: TULN
+2018-12-15 14:48:29,963 INFO drive number: 16,offense team: TULN
+2018-12-15 14:48:42,214 INFO drive number: 20,offense team: USU
+2018-12-15 14:48:42,214 INFO drive number: 20,offense team: USU
+2018-12-15 14:48:50,290 INFO drive number: 1,offense team: ASU
+2018-12-15 14:48:50,290 INFO drive number: 1,offense team: ASU
+2018-12-15 14:52:16,783 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 14:52:16,783 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 14:52:28,474 INFO drive number: 16,offense team: TULN
+2018-12-15 14:52:28,474 INFO drive number: 16,offense team: TULN
+2018-12-15 14:52:41,383 INFO drive number: 20,offense team: USU
+2018-12-15 14:52:41,383 INFO drive number: 20,offense team: USU
+2018-12-15 14:52:41,977 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 14:52:41,977 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 14:52:41,977 INFO Qtr 3 NOT already in game id: 401032054
+2018-12-15 14:52:41,977 INFO Qtr 3 NOT already in game id: 401032054
+2018-12-15 14:52:46,920 INFO b'Field Goal Expected Value: 1.5\n4th Down Conversion Likelihood: 0.021157984227515393\nLine To Reach For Conversion: 0\nExpected Points For Starting From Converstion Spot: 7\nExpected Value Of Going For It: 0.14810588959260776\nKICK THE FIELD GOAL!\n'
+2018-12-15 14:52:46,920 INFO b'Field Goal Expected Value: 1.5\n4th Down Conversion Likelihood: 0.021157984227515393\nLine To Reach For Conversion: 0\nExpected Points For Starting From Converstion Spot: 7\nExpected Value Of Going For It: 0.14810588959260776\nKICK THE FIELD GOAL!\n'
+2018-12-15 14:52:46,920 INFO distance is over 10 yards
+2018-12-15 14:52:46,920 INFO distance is over 10 yards
+2018-12-15 14:52:57,000 INFO drive number: 1,offense team: ASU
+2018-12-15 14:52:57,000 INFO drive number: 1,offense team: ASU
+2018-12-15 14:52:57,418 INFO drive number: 2,offense team: ASU
+2018-12-15 14:52:57,418 INFO drive number: 2,offense team: ASU
+2018-12-15 14:56:24,028 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 14:56:24,028 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 14:56:36,063 INFO drive number: 16,offense team: TULN
+2018-12-15 14:56:36,063 INFO drive number: 16,offense team: TULN
+2018-12-15 14:56:36,181 INFO drive number: 17,offense team: TULN
+2018-12-15 14:56:36,181 INFO drive number: 17,offense team: TULN
+2018-12-15 14:56:48,373 INFO drive number: 20,offense team: USU
+2018-12-15 14:56:48,373 INFO drive number: 20,offense team: USU
+2018-12-15 14:56:48,966 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 14:56:48,966 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 14:56:48,966 INFO Qtr 3 NOT already in game id: 401032054
+2018-12-15 14:56:48,966 INFO Qtr 3 NOT already in game id: 401032054
+2018-12-15 14:56:56,544 INFO drive number: 2,offense team: ASU
+2018-12-15 14:56:56,544 INFO drive number: 2,offense team: ASU
+2018-12-15 14:56:56,758 INFO drive number: 3,offense team: ASU
+2018-12-15 14:56:56,758 INFO drive number: 3,offense team: ASU
+2018-12-15 15:00:23,558 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:00:23,558 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:03:04,890 INFO drive number: 17,offense team: TULN
+2018-12-15 15:03:04,890 INFO drive number: 17,offense team: TULN
+2018-12-15 15:03:05,005 INFO drive number: 18,offense team: TULN
+2018-12-15 15:03:05,005 INFO drive number: 18,offense team: TULN
+2018-12-15 15:03:17,036 INFO drive number: 20,offense team: USU
+2018-12-15 15:03:17,036 INFO drive number: 20,offense team: USU
+2018-12-15 15:03:17,643 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 15:03:17,643 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 15:03:17,644 INFO Qtr 3 NOT already in game id: 401032054
+2018-12-15 15:03:17,644 INFO Qtr 3 NOT already in game id: 401032054
+2018-12-15 15:03:26,940 INFO drive number: 3,offense team: ASU
+2018-12-15 15:03:26,940 INFO drive number: 3,offense team: ASU
+2018-12-15 15:06:53,543 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:06:53,543 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:07:05,523 INFO drive number: 18,offense team: TULN
+2018-12-15 15:07:05,523 INFO drive number: 18,offense team: TULN
+2018-12-15 15:07:18,234 INFO drive number: 20,offense team: USU
+2018-12-15 15:07:18,234 INFO drive number: 20,offense team: USU
+2018-12-15 15:07:18,825 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 15:07:18,825 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 15:07:18,826 INFO Qtr 3 NOT already in game id: 401032054
+2018-12-15 15:07:18,826 INFO Qtr 3 NOT already in game id: 401032054
+2018-12-15 15:07:27,953 INFO drive number: 3,offense team: ASU
+2018-12-15 15:07:27,953 INFO drive number: 3,offense team: ASU
+2018-12-15 15:07:28,302 INFO drive number: 4,offense team: ASU
+2018-12-15 15:07:28,302 INFO drive number: 4,offense team: ASU
+2018-12-15 15:10:55,536 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:10:55,536 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:11:08,190 INFO drive number: 18,offense team: TULN
+2018-12-15 15:11:08,190 INFO drive number: 18,offense team: TULN
+2018-12-15 15:11:08,305 INFO drive number: 19,offense team: TULN
+2018-12-15 15:11:08,305 INFO drive number: 19,offense team: TULN
+2018-12-15 15:11:20,895 INFO drive number: 20,offense team: USU
+2018-12-15 15:11:20,895 INFO drive number: 20,offense team: USU
+2018-12-15 15:11:21,487 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 15:11:21,487 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 15:11:21,487 INFO Qtr 3 NOT already in game id: 401032054
+2018-12-15 15:11:21,487 INFO Qtr 3 NOT already in game id: 401032054
+2018-12-15 15:11:30,508 INFO drive number: 4,offense team: ASU
+2018-12-15 15:11:30,508 INFO drive number: 4,offense team: ASU
+2018-12-15 15:11:30,857 INFO drive number: 5,offense team: ASU
+2018-12-15 15:11:30,857 INFO drive number: 5,offense team: ASU
+2018-12-15 15:14:58,068 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:14:58,068 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:15:11,122 INFO drive number: 19,offense team: TULN
+2018-12-15 15:15:11,122 INFO drive number: 19,offense team: TULN
+2018-12-15 15:15:11,236 INFO drive number: 20,offense team: TULN
+2018-12-15 15:15:11,236 INFO drive number: 20,offense team: TULN
+2018-12-15 15:15:24,187 INFO drive number: 20,offense team: USU
+2018-12-15 15:15:24,187 INFO drive number: 20,offense team: USU
+2018-12-15 15:15:24,348 INFO drive number: 21,offense team: USU
+2018-12-15 15:15:24,348 INFO drive number: 21,offense team: USU
+2018-12-15 15:15:24,466 INFO drive number: 22,offense team: USU
+2018-12-15 15:15:24,466 INFO drive number: 22,offense team: USU
+2018-12-15 15:15:33,738 INFO drive number: 5,offense team: ASU
+2018-12-15 15:15:33,738 INFO drive number: 5,offense team: ASU
+2018-12-15 15:19:00,590 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:19:00,590 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:19:12,946 INFO drive number: 20,offense team: TULN
+2018-12-15 15:19:12,946 INFO drive number: 20,offense team: TULN
+2018-12-15 15:19:13,058 INFO drive number: 21,offense team: TULN
+2018-12-15 15:19:13,058 INFO drive number: 21,offense team: TULN
+2018-12-15 15:21:56,060 INFO drive number: 22,offense team: USU
+2018-12-15 15:21:56,060 INFO drive number: 22,offense team: USU
+2018-12-15 15:21:56,409 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 15:21:56,409 INFO {'401032054': '1', '401035253': '3'}
+2018-12-15 15:21:56,409 INFO Qtr 3 NOT already in game id: 401032054
+2018-12-15 15:21:56,409 INFO Qtr 3 NOT already in game id: 401032054
+2018-12-15 15:22:02,332 INFO b'Field Goal Expected Value: 1.25\n4th Down Conversion Likelihood: 0.46564632542345785\nLine To Reach For Conversion: 21\nExpected Points For Starting From Converstion Spot: 4.347\nExpected Value Of Going For It: 2.0241645766157714\nGO FOR IT!\n'
+2018-12-15 15:22:02,332 INFO b'Field Goal Expected Value: 1.25\n4th Down Conversion Likelihood: 0.46564632542345785\nLine To Reach For Conversion: 21\nExpected Points For Starting From Converstion Spot: 4.347\nExpected Value Of Going For It: 2.0241645766157714\nGO FOR IT!\n'
+2018-12-15 15:22:02,332 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 15:22:02,332 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 15:22:02,333 INFO 1.25
+2018-12-15 15:22:02,333 INFO 1.25
+2018-12-15 15:22:02,333 INFO 2.02
+2018-12-15 15:22:02,333 INFO 2.02
+2018-12-15 15:22:02,333 INFO 0.46
+2018-12-15 15:22:02,333 INFO 0.46
+2018-12-15 15:22:02,333 INFO 4.34
+2018-12-15 15:22:02,333 INFO 4.34
+2018-12-15 15:22:11,644 INFO drive number: 5,offense team: ASU
+2018-12-15 15:22:11,644 INFO drive number: 5,offense team: ASU
+2018-12-15 15:22:12,169 INFO drive number: 6,offense team: ASU
+2018-12-15 15:22:12,169 INFO drive number: 6,offense team: ASU
+2018-12-15 15:25:39,219 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:25:39,219 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:25:51,460 INFO drive number: 21,offense team: TULN
+2018-12-15 15:25:51,460 INFO drive number: 21,offense team: TULN
+2018-12-15 15:25:51,568 INFO drive number: 22,offense team: TULN
+2018-12-15 15:25:51,568 INFO drive number: 22,offense team: TULN
+2018-12-15 15:26:04,863 INFO drive number: 22,offense team: USU
+2018-12-15 15:26:04,863 INFO drive number: 22,offense team: USU
+2018-12-15 15:26:04,979 INFO drive number: 23,offense team: USU
+2018-12-15 15:26:04,979 INFO drive number: 23,offense team: USU
+2018-12-15 15:26:15,073 INFO drive number: 6,offense team: ASU
+2018-12-15 15:26:15,073 INFO drive number: 6,offense team: ASU
+2018-12-15 15:26:15,272 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 15:26:15,272 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 15:26:15,272 INFO new game id: 401032055
+2018-12-15 15:26:15,272 INFO new game id: 401032055
+2018-12-15 15:26:15,272 INFO Qtr 1 NOT already in game id: 401032055
+2018-12-15 15:26:15,272 INFO Qtr 1 NOT already in game id: 401032055
+2018-12-15 15:26:21,818 INFO b'Field Goal Expected Value: 1.75\n4th Down Conversion Likelihood: 0.38454601833892377\nLine To Reach For Conversion: 19\nExpected Points For Starting From Converstion Spot: 4.369\nExpected Value Of Going For It: 1.6800815541227578\nKICK THE FIELD GOAL!\n'
+2018-12-15 15:26:21,818 INFO b'Field Goal Expected Value: 1.75\n4th Down Conversion Likelihood: 0.38454601833892377\nLine To Reach For Conversion: 19\nExpected Points For Starting From Converstion Spot: 4.369\nExpected Value Of Going For It: 1.6800815541227578\nKICK THE FIELD GOAL!\n'
+2018-12-15 15:26:21,819 INFO difference is only 0.07000000000000006
+2018-12-15 15:26:21,819 INFO difference is only 0.07000000000000006
+2018-12-15 15:29:48,555 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:29:48,555 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:30:01,042 INFO drive number: 22,offense team: TULN
+2018-12-15 15:30:01,042 INFO drive number: 22,offense team: TULN
+2018-12-15 15:30:14,921 INFO drive number: 23,offense team: USU
+2018-12-15 15:30:14,921 INFO drive number: 23,offense team: USU
+2018-12-15 15:30:15,086 INFO drive number: 24,offense team: USU
+2018-12-15 15:30:15,086 INFO drive number: 24,offense team: USU
+2018-12-15 15:30:25,827 INFO drive number: 6,offense team: ASU
+2018-12-15 15:30:25,827 INFO drive number: 6,offense team: ASU
+2018-12-15 15:30:26,007 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 15:30:26,007 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 15:30:26,007 INFO new game id: 401032055
+2018-12-15 15:30:26,007 INFO new game id: 401032055
+2018-12-15 15:30:26,007 INFO Qtr 1 NOT already in game id: 401032055
+2018-12-15 15:30:26,007 INFO Qtr 1 NOT already in game id: 401032055
+2018-12-15 15:30:26,134 INFO drive number: 7,offense team: ASU
+2018-12-15 15:30:26,134 INFO drive number: 7,offense team: ASU
+2018-12-15 15:33:52,632 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:33:52,632 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:34:05,120 INFO drive number: 22,offense team: TULN
+2018-12-15 15:34:05,120 INFO drive number: 22,offense team: TULN
+2018-12-15 15:36:48,471 INFO drive number: 24,offense team: USU
+2018-12-15 15:36:48,471 INFO drive number: 24,offense team: USU
+2018-12-15 15:36:48,572 INFO drive number: 25,offense team: USU
+2018-12-15 15:36:48,572 INFO drive number: 25,offense team: USU
+2018-12-15 15:36:58,510 INFO drive number: 7,offense team: ASU
+2018-12-15 15:36:58,510 INFO drive number: 7,offense team: ASU
+2018-12-15 15:40:25,343 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:40:25,343 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:40:37,753 INFO drive number: 22,offense team: TULN
+2018-12-15 15:40:37,753 INFO drive number: 22,offense team: TULN
+2018-12-15 15:40:37,884 INFO drive number: 23,offense team: TULN
+2018-12-15 15:40:37,884 INFO drive number: 23,offense team: TULN
+2018-12-15 15:40:50,785 INFO drive number: 25,offense team: USU
+2018-12-15 15:40:50,785 INFO drive number: 25,offense team: USU
+2018-12-15 15:41:00,968 INFO drive number: 7,offense team: ASU
+2018-12-15 15:41:00,968 INFO drive number: 7,offense team: ASU
+2018-12-15 15:44:28,309 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:44:28,309 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:44:40,699 INFO drive number: 23,offense team: TULN
+2018-12-15 15:44:40,699 INFO drive number: 23,offense team: TULN
+2018-12-15 15:44:40,824 INFO drive number: 24,offense team: TULN
+2018-12-15 15:44:40,824 INFO drive number: 24,offense team: TULN
+2018-12-15 15:44:54,689 INFO drive number: 25,offense team: USU
+2018-12-15 15:44:54,689 INFO drive number: 25,offense team: USU
+2018-12-15 15:44:54,805 INFO drive number: 26,offense team: USU
+2018-12-15 15:44:54,805 INFO drive number: 26,offense team: USU
+2018-12-15 15:45:05,151 INFO drive number: 7,offense team: ASU
+2018-12-15 15:45:05,151 INFO drive number: 7,offense team: ASU
+2018-12-15 15:45:05,670 INFO drive number: 8,offense team: ASU
+2018-12-15 15:45:05,670 INFO drive number: 8,offense team: ASU
+2018-12-15 15:48:32,695 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:48:32,695 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:48:45,862 INFO drive number: 24,offense team: TULN
+2018-12-15 15:48:45,862 INFO drive number: 24,offense team: TULN
+2018-12-15 15:49:00,607 INFO drive number: 26,offense team: USU
+2018-12-15 15:49:00,607 INFO drive number: 26,offense team: USU
+2018-12-15 15:49:00,723 INFO drive number: 27,offense team: USU
+2018-12-15 15:49:00,723 INFO drive number: 27,offense team: USU
+2018-12-15 15:49:11,043 INFO drive number: 8,offense team: ASU
+2018-12-15 15:49:11,043 INFO drive number: 8,offense team: ASU
+2018-12-15 15:52:38,283 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:52:38,283 INFO [['401035253', '309', '2655'], ['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:52:50,693 INFO drive number: 24,offense team: TULN
+2018-12-15 15:52:50,693 INFO drive number: 24,offense team: TULN
+2018-12-15 15:52:50,807 INFO drive number: 25,offense team: TULN
+2018-12-15 15:52:50,807 INFO drive number: 25,offense team: TULN
+2018-12-15 15:53:06,691 INFO drive number: 27,offense team: USU
+2018-12-15 15:53:06,691 INFO drive number: 27,offense team: USU
+2018-12-15 15:53:06,853 INFO drive number: 28,offense team: USU
+2018-12-15 15:53:06,853 INFO drive number: 28,offense team: USU
+2018-12-15 15:53:06,971 INFO drive number: 29,offense team: USU
+2018-12-15 15:53:06,971 INFO drive number: 29,offense team: USU
+2018-12-15 15:53:18,476 INFO drive number: 8,offense team: ASU
+2018-12-15 15:53:18,476 INFO drive number: 8,offense team: ASU
+2018-12-15 15:53:18,951 INFO drive number: 9,offense team: ASU
+2018-12-15 15:53:18,951 INFO drive number: 9,offense team: ASU
+2018-12-15 15:56:46,036 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:56:46,036 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 15:56:59,919 INFO drive number: 29,offense team: USU
+2018-12-15 15:56:59,919 INFO drive number: 29,offense team: USU
+2018-12-15 15:57:10,955 INFO drive number: 9,offense team: ASU
+2018-12-15 15:57:10,955 INFO drive number: 9,offense team: ASU
+2018-12-15 16:02:17,689 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:02:17,689 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:02:32,866 INFO drive number: 29,offense team: USU
+2018-12-15 16:02:32,866 INFO drive number: 29,offense team: USU
+2018-12-15 16:02:32,979 INFO drive number: 30,offense team: USU
+2018-12-15 16:02:32,979 INFO drive number: 30,offense team: USU
+2018-12-15 16:02:43,859 INFO drive number: 9,offense team: ASU
+2018-12-15 16:02:43,859 INFO drive number: 9,offense team: ASU
+2018-12-15 16:02:44,407 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 16:02:44,407 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 16:02:44,407 INFO new game id: 401032055
+2018-12-15 16:02:44,407 INFO new game id: 401032055
+2018-12-15 16:02:44,407 INFO Qtr 2 NOT already in game id: 401032055
+2018-12-15 16:02:44,407 INFO Qtr 2 NOT already in game id: 401032055
+2018-12-15 16:02:50,717 INFO b'Field Goal Expected Value: 3.0\n4th Down Conversion Likelihood: 0.6246457852968096\nLine To Reach For Conversion: 9\nExpected Points For Starting From Converstion Spot: 4.745\nExpected Value Of Going For It: 2.9639442512333614\nKICK THE FIELD GOAL!\n'
+2018-12-15 16:02:50,717 INFO b'Field Goal Expected Value: 3.0\n4th Down Conversion Likelihood: 0.6246457852968096\nLine To Reach For Conversion: 9\nExpected Points For Starting From Converstion Spot: 4.745\nExpected Value Of Going For It: 2.9639442512333614\nKICK THE FIELD GOAL!\n'
+2018-12-15 16:02:50,718 INFO difference is only 0.040000000000000036
+2018-12-15 16:02:50,718 INFO difference is only 0.040000000000000036
+2018-12-15 16:07:58,002 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:07:58,002 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:08:13,065 INFO drive number: 30,offense team: USU
+2018-12-15 16:08:13,065 INFO drive number: 30,offense team: USU
+2018-12-15 16:08:23,707 INFO drive number: 9,offense team: ASU
+2018-12-15 16:08:23,707 INFO drive number: 9,offense team: ASU
+2018-12-15 16:08:24,233 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 16:08:24,233 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 16:08:24,233 INFO new game id: 401032055
+2018-12-15 16:08:24,233 INFO new game id: 401032055
+2018-12-15 16:08:24,233 INFO Qtr 2 NOT already in game id: 401032055
+2018-12-15 16:08:24,233 INFO Qtr 2 NOT already in game id: 401032055
+2018-12-15 16:13:31,414 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:13:31,414 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:13:46,008 INFO drive number: 30,offense team: USU
+2018-12-15 16:13:46,008 INFO drive number: 30,offense team: USU
+2018-12-15 16:13:57,157 INFO drive number: 9,offense team: ASU
+2018-12-15 16:13:57,157 INFO drive number: 9,offense team: ASU
+2018-12-15 16:13:57,705 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 16:13:57,705 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 16:13:57,706 INFO new game id: 401032055
+2018-12-15 16:13:57,706 INFO new game id: 401032055
+2018-12-15 16:13:57,706 INFO Qtr 2 NOT already in game id: 401032055
+2018-12-15 16:13:57,706 INFO Qtr 2 NOT already in game id: 401032055
+2018-12-15 16:13:58,030 INFO drive number: 10,offense team: ASU
+2018-12-15 16:13:58,030 INFO drive number: 10,offense team: ASU
+2018-12-15 16:19:05,108 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:19:05,108 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:19:18,809 INFO drive number: 30,offense team: USU
+2018-12-15 16:19:18,809 INFO drive number: 30,offense team: USU
+2018-12-15 16:19:29,888 INFO drive number: 10,offense team: ASU
+2018-12-15 16:19:29,888 INFO drive number: 10,offense team: ASU
+2018-12-15 16:24:36,475 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:24:36,475 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:24:51,038 INFO drive number: 30,offense team: USU
+2018-12-15 16:24:51,038 INFO drive number: 30,offense team: USU
+2018-12-15 16:24:51,184 INFO drive number: 31,offense team: USU
+2018-12-15 16:24:51,184 INFO drive number: 31,offense team: USU
+2018-12-15 16:25:02,025 INFO drive number: 10,offense team: ASU
+2018-12-15 16:25:02,025 INFO drive number: 10,offense team: ASU
+2018-12-15 16:30:10,580 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:30:10,580 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:30:25,551 INFO drive number: 31,offense team: USU
+2018-12-15 16:30:25,551 INFO drive number: 31,offense team: USU
+2018-12-15 16:30:36,464 INFO drive number: 10,offense team: ASU
+2018-12-15 16:30:36,464 INFO drive number: 10,offense team: ASU
+2018-12-15 16:35:43,495 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:35:43,495 INFO [['401032054', '249', '328'], ['401032055', '278', '9']]
+2018-12-15 16:35:57,807 INFO drive number: 31,offense team: USU
+2018-12-15 16:35:57,807 INFO drive number: 31,offense team: USU
+2018-12-15 16:35:57,970 INFO drive number: 32,offense team: USU
+2018-12-15 16:35:57,970 INFO drive number: 32,offense team: USU
+2018-12-15 16:35:58,084 INFO drive number: 33,offense team: USU
+2018-12-15 16:35:58,084 INFO drive number: 33,offense team: USU
+2018-12-15 16:36:09,104 INFO drive number: 10,offense team: ASU
+2018-12-15 16:36:09,104 INFO drive number: 10,offense team: ASU
+2018-12-15 16:36:09,404 INFO drive number: 11,offense team: ASU
+2018-12-15 16:36:09,404 INFO drive number: 11,offense team: ASU
+2018-12-15 16:41:18,421 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 16:41:18,421 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 16:41:29,465 INFO drive number: 11,offense team: ASU
+2018-12-15 16:41:29,465 INFO drive number: 11,offense team: ASU
+2018-12-15 16:41:29,744 INFO drive number: 12,offense team: ASU
+2018-12-15 16:41:29,744 INFO drive number: 12,offense team: ASU
+2018-12-15 16:41:37,306 INFO drive number: 1,offense team: GASO
+2018-12-15 16:41:37,306 INFO drive number: 1,offense team: GASO
+2018-12-15 16:46:44,317 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 16:46:44,317 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 16:46:55,945 INFO drive number: 12,offense team: ASU
+2018-12-15 16:46:55,945 INFO drive number: 12,offense team: ASU
+2018-12-15 16:46:56,201 INFO drive number: 13,offense team: ASU
+2018-12-15 16:46:56,201 INFO drive number: 13,offense team: ASU
+2018-12-15 16:47:04,085 INFO drive number: 1,offense team: GASO
+2018-12-15 16:47:04,085 INFO drive number: 1,offense team: GASO
+2018-12-15 16:47:04,430 INFO drive number: 2,offense team: GASO
+2018-12-15 16:47:04,430 INFO drive number: 2,offense team: GASO
+2018-12-15 16:52:12,219 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 16:52:12,219 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 16:52:24,933 INFO drive number: 13,offense team: ASU
+2018-12-15 16:52:24,933 INFO drive number: 13,offense team: ASU
+2018-12-15 16:52:25,474 INFO drive number: 14,offense team: ASU
+2018-12-15 16:52:25,474 INFO drive number: 14,offense team: ASU
+2018-12-15 16:52:25,669 INFO drive number: 15,offense team: ASU
+2018-12-15 16:52:25,669 INFO drive number: 15,offense team: ASU
+2018-12-15 16:52:33,918 INFO drive number: 2,offense team: GASO
+2018-12-15 16:52:33,918 INFO drive number: 2,offense team: GASO
+2018-12-15 16:52:34,161 INFO drive number: 3,offense team: GASO
+2018-12-15 16:52:34,161 INFO drive number: 3,offense team: GASO
+2018-12-15 16:57:41,205 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 16:57:41,205 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 16:57:52,544 INFO drive number: 15,offense team: ASU
+2018-12-15 16:57:52,544 INFO drive number: 15,offense team: ASU
+2018-12-15 16:57:52,829 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 16:57:52,829 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 16:57:52,829 INFO new game id: 401032055
+2018-12-15 16:57:52,829 INFO new game id: 401032055
+2018-12-15 16:57:52,829 INFO Qtr 3 NOT already in game id: 401032055
+2018-12-15 16:57:52,829 INFO Qtr 3 NOT already in game id: 401032055
+2018-12-15 16:57:59,301 INFO b'Field Goal Expected Value: 1.5\n4th Down Conversion Likelihood: 0.37082640990667365\nLine To Reach For Conversion: 19\nExpected Points For Starting From Converstion Spot: 4.369\nExpected Value Of Going For It: 1.620140584882257\nGO FOR IT!\n'
+2018-12-15 16:57:59,301 INFO b'Field Goal Expected Value: 1.5\n4th Down Conversion Likelihood: 0.37082640990667365\nLine To Reach For Conversion: 19\nExpected Points For Starting From Converstion Spot: 4.369\nExpected Value Of Going For It: 1.620140584882257\nGO FOR IT!\n'
+2018-12-15 16:57:59,302 INFO difference is only 0.1200000000000001
+2018-12-15 16:57:59,302 INFO difference is only 0.1200000000000001
+2018-12-15 16:58:07,389 INFO drive number: 3,offense team: GASO
+2018-12-15 16:58:07,389 INFO drive number: 3,offense team: GASO
+2018-12-15 17:03:14,350 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:03:14,350 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:03:26,210 INFO drive number: 15,offense team: ASU
+2018-12-15 17:03:26,210 INFO drive number: 15,offense team: ASU
+2018-12-15 17:03:26,500 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 17:03:26,500 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 17:03:26,500 INFO new game id: 401032055
+2018-12-15 17:03:26,500 INFO new game id: 401032055
+2018-12-15 17:03:26,500 INFO Qtr 3 NOT already in game id: 401032055
+2018-12-15 17:03:26,500 INFO Qtr 3 NOT already in game id: 401032055
+2018-12-15 17:03:26,602 INFO drive number: 16,offense team: ASU
+2018-12-15 17:03:26,602 INFO drive number: 16,offense team: ASU
+2018-12-15 17:03:35,043 INFO drive number: 3,offense team: GASO
+2018-12-15 17:03:35,043 INFO drive number: 3,offense team: GASO
+2018-12-15 17:08:42,667 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:08:42,667 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:08:54,794 INFO drive number: 16,offense team: ASU
+2018-12-15 17:08:54,794 INFO drive number: 16,offense team: ASU
+2018-12-15 17:08:55,017 INFO drive number: 17,offense team: ASU
+2018-12-15 17:08:55,017 INFO drive number: 17,offense team: ASU
+2018-12-15 17:09:03,049 INFO drive number: 3,offense team: GASO
+2018-12-15 17:09:03,049 INFO drive number: 3,offense team: GASO
+2018-12-15 17:09:03,744 INFO drive number: 4,offense team: GASO
+2018-12-15 17:09:03,744 INFO drive number: 4,offense team: GASO
+2018-12-15 17:14:09,941 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:14:09,941 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:14:35,291 INFO drive number: 17,offense team: ASU
+2018-12-15 17:14:35,291 INFO drive number: 17,offense team: ASU
+2018-12-15 17:14:35,453 INFO drive number: 18,offense team: ASU
+2018-12-15 17:14:35,453 INFO drive number: 18,offense team: ASU
+2018-12-15 17:14:35,564 INFO drive number: 19,offense team: ASU
+2018-12-15 17:14:35,564 INFO drive number: 19,offense team: ASU
+2018-12-15 17:14:44,072 INFO drive number: 4,offense team: GASO
+2018-12-15 17:14:44,072 INFO drive number: 4,offense team: GASO
+2018-12-15 17:19:52,703 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:19:52,703 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:21:33,964 INFO drive number: 19,offense team: ASU
+2018-12-15 17:21:33,964 INFO drive number: 19,offense team: ASU
+2018-12-15 17:21:57,202 INFO drive number: 4,offense team: GASO
+2018-12-15 17:21:57,202 INFO drive number: 4,offense team: GASO
+2018-12-15 17:21:57,646 INFO drive number: 5,offense team: GASO
+2018-12-15 17:21:57,646 INFO drive number: 5,offense team: GASO
+2018-12-15 17:27:04,727 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:27:04,727 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:27:17,889 INFO drive number: 19,offense team: ASU
+2018-12-15 17:27:17,889 INFO drive number: 19,offense team: ASU
+2018-12-15 17:27:17,986 INFO drive number: 20,offense team: ASU
+2018-12-15 17:27:17,986 INFO drive number: 20,offense team: ASU
+2018-12-15 17:27:46,113 INFO drive number: 5,offense team: GASO
+2018-12-15 17:27:46,113 INFO drive number: 5,offense team: GASO
+2018-12-15 17:27:46,406 INFO drive number: 6,offense team: GASO
+2018-12-15 17:27:46,406 INFO drive number: 6,offense team: GASO
+2018-12-15 17:32:54,983 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:32:54,983 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:34:45,577 INFO drive number: 20,offense team: ASU
+2018-12-15 17:34:45,577 INFO drive number: 20,offense team: ASU
+2018-12-15 17:34:45,939 INFO drive number: 21,offense team: ASU
+2018-12-15 17:34:45,939 INFO drive number: 21,offense team: ASU
+2018-12-15 17:34:55,499 INFO drive number: 6,offense team: GASO
+2018-12-15 17:34:55,499 INFO drive number: 6,offense team: GASO
+2018-12-15 17:40:05,250 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:40:05,250 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:40:19,487 INFO drive number: 21,offense team: ASU
+2018-12-15 17:40:19,487 INFO drive number: 21,offense team: ASU
+2018-12-15 17:40:19,605 INFO drive number: 22,offense team: ASU
+2018-12-15 17:40:19,605 INFO drive number: 22,offense team: ASU
+2018-12-15 17:40:30,247 INFO drive number: 6,offense team: GASO
+2018-12-15 17:40:30,247 INFO drive number: 6,offense team: GASO
+2018-12-15 17:40:30,596 INFO drive number: 7,offense team: GASO
+2018-12-15 17:40:30,596 INFO drive number: 7,offense team: GASO
+2018-12-15 17:45:40,114 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:45:40,114 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:47:41,201 INFO drive number: 22,offense team: ASU
+2018-12-15 17:47:41,201 INFO drive number: 22,offense team: ASU
+2018-12-15 17:47:41,525 INFO drive number: 23,offense team: ASU
+2018-12-15 17:47:41,525 INFO drive number: 23,offense team: ASU
+2018-12-15 17:48:24,216 INFO drive number: 7,offense team: GASO
+2018-12-15 17:48:24,216 INFO drive number: 7,offense team: GASO
+2018-12-15 17:48:24,568 INFO drive number: 8,offense team: GASO
+2018-12-15 17:48:24,568 INFO drive number: 8,offense team: GASO
+2018-12-15 17:48:24,762 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 17:48:24,762 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 17:48:24,762 INFO new game id: 401032056
+2018-12-15 17:48:24,762 INFO new game id: 401032056
+2018-12-15 17:48:24,763 INFO Qtr 2 NOT already in game id: 401032056
+2018-12-15 17:48:24,763 INFO Qtr 2 NOT already in game id: 401032056
+2018-12-15 17:48:31,029 INFO b'Field Goal Expected Value: 2.0\n4th Down Conversion Likelihood: 0.4168162305057352\nLine To Reach For Conversion: 21\nExpected Points For Starting From Converstion Spot: 4.347\nExpected Value Of Going For It: 1.811900154008431\nKICK THE FIELD GOAL!\n'
+2018-12-15 17:48:31,029 INFO b'Field Goal Expected Value: 2.0\n4th Down Conversion Likelihood: 0.4168162305057352\nLine To Reach For Conversion: 21\nExpected Points For Starting From Converstion Spot: 4.347\nExpected Value Of Going For It: 1.811900154008431\nKICK THE FIELD GOAL!\n'
+2018-12-15 17:48:31,029 INFO difference is only 0.18999999999999995
+2018-12-15 17:48:31,029 INFO difference is only 0.18999999999999995
+2018-12-15 17:53:36,979 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:53:36,979 INFO [['401032055', '278', '9'], ['401032056', '2199', '290']]
+2018-12-15 17:55:43,238 INFO drive number: 23,offense team: ASU
+2018-12-15 17:55:43,238 INFO drive number: 23,offense team: ASU
+2018-12-15 17:55:43,579 INFO drive number: 24,offense team: ASU
+2018-12-15 17:55:43,579 INFO drive number: 24,offense team: ASU
+2018-12-15 17:55:54,976 INFO drive number: 8,offense team: GASO
+2018-12-15 17:55:54,976 INFO drive number: 8,offense team: GASO
+2018-12-15 17:55:55,402 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 17:55:55,402 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 17:55:55,402 INFO new game id: 401032056
+2018-12-15 17:55:55,402 INFO new game id: 401032056
+2018-12-15 17:55:55,402 INFO Qtr 2 NOT already in game id: 401032056
+2018-12-15 17:55:55,402 INFO Qtr 2 NOT already in game id: 401032056
+2018-12-15 17:56:01,767 INFO b'Field Goal Expected Value: 2.0\n4th Down Conversion Likelihood: 0.39158617120224903\nLine To Reach For Conversion: 21\nExpected Points For Starting From Converstion Spot: 4.347\nExpected Value Of Going For It: 1.7022250862161767\nKICK THE FIELD GOAL!\n'
+2018-12-15 17:56:01,767 INFO b'Field Goal Expected Value: 2.0\n4th Down Conversion Likelihood: 0.39158617120224903\nLine To Reach For Conversion: 21\nExpected Points For Starting From Converstion Spot: 4.347\nExpected Value Of Going For It: 1.7022250862161767\nKICK THE FIELD GOAL!\n'
+2018-12-15 17:56:01,767 INFO difference is only 0.30000000000000004
+2018-12-15 17:56:01,767 INFO difference is only 0.30000000000000004
+2018-12-15 17:56:01,868 INFO drive number: 9,offense team: GASO
+2018-12-15 17:56:01,868 INFO drive number: 9,offense team: GASO
+2018-12-15 18:01:09,132 INFO [['401032056', '2199', '290']]
+2018-12-15 18:01:09,132 INFO [['401032056', '2199', '290']]
+2018-12-15 18:01:58,880 INFO drive number: 9,offense team: GASO
+2018-12-15 18:01:58,880 INFO drive number: 9,offense team: GASO
+2018-12-15 18:01:59,366 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 18:01:59,366 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 18:01:59,366 INFO new game id: 401032056
+2018-12-15 18:01:59,366 INFO new game id: 401032056
+2018-12-15 18:01:59,366 INFO Qtr 3 NOT already in game id: 401032056
+2018-12-15 18:01:59,366 INFO Qtr 3 NOT already in game id: 401032056
+2018-12-15 18:02:05,573 INFO b'Field Goal Expected Value: 1.25\n4th Down Conversion Likelihood: 0.4491830890513629\nLine To Reach For Conversion: 27\nExpected Points For Starting From Converstion Spot: 3.835\nExpected Value Of Going For It: 1.7226171465119766\nGO FOR IT!\n'
+2018-12-15 18:02:05,573 INFO b'Field Goal Expected Value: 1.25\n4th Down Conversion Likelihood: 0.4491830890513629\nLine To Reach For Conversion: 27\nExpected Points For Starting From Converstion Spot: 3.835\nExpected Value Of Going For It: 1.7226171465119766\nGO FOR IT!\n'
+2018-12-15 18:02:05,573 INFO difference is only 0.47
+2018-12-15 18:02:05,573 INFO difference is only 0.47
+2018-12-15 18:12:14,856 INFO [['401032056', '2199', '290']]
+2018-12-15 18:12:14,856 INFO [['401032056', '2199', '290']]
+2018-12-15 18:12:25,894 INFO drive number: 9,offense team: GASO
+2018-12-15 18:12:25,894 INFO drive number: 9,offense team: GASO
+2018-12-15 18:12:26,429 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 18:12:26,429 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 18:12:26,430 INFO new game id: 401032056
+2018-12-15 18:12:26,430 INFO new game id: 401032056
+2018-12-15 18:12:26,430 INFO Qtr 3 NOT already in game id: 401032056
+2018-12-15 18:12:26,430 INFO Qtr 3 NOT already in game id: 401032056
+2018-12-15 18:22:35,566 INFO [['401032056', '2199', '290']]
+2018-12-15 18:22:35,566 INFO [['401032056', '2199', '290']]
+2018-12-15 18:22:47,736 INFO drive number: 9,offense team: GASO
+2018-12-15 18:22:47,736 INFO drive number: 9,offense team: GASO
+2018-12-15 18:22:48,220 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 18:22:48,220 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 18:22:48,220 INFO new game id: 401032056
+2018-12-15 18:22:48,220 INFO new game id: 401032056
+2018-12-15 18:22:48,220 INFO Qtr 3 NOT already in game id: 401032056
+2018-12-15 18:22:48,220 INFO Qtr 3 NOT already in game id: 401032056
+2018-12-15 18:22:48,324 INFO drive number: 10,offense team: GASO
+2018-12-15 18:22:48,324 INFO drive number: 10,offense team: GASO
+2018-12-15 18:32:57,859 INFO [['401032056', '2199', '290']]
+2018-12-15 18:32:57,859 INFO [['401032056', '2199', '290']]
+2018-12-15 18:33:10,331 INFO drive number: 10,offense team: GASO
+2018-12-15 18:33:10,331 INFO drive number: 10,offense team: GASO
+2018-12-15 18:33:10,612 INFO drive number: 11,offense team: GASO
+2018-12-15 18:33:10,612 INFO drive number: 11,offense team: GASO
+2018-12-15 18:33:11,071 INFO drive number: 12,offense team: GASO
+2018-12-15 18:33:11,071 INFO drive number: 12,offense team: GASO
+2018-12-15 18:43:18,169 INFO [['401032056', '2199', '290']]
+2018-12-15 18:43:18,169 INFO [['401032056', '2199', '290']]
+2018-12-15 18:43:29,242 INFO drive number: 12,offense team: GASO
+2018-12-15 18:43:29,242 INFO drive number: 12,offense team: GASO
+2018-12-15 18:43:29,565 INFO drive number: 13,offense team: GASO
+2018-12-15 18:43:29,565 INFO drive number: 13,offense team: GASO
+2018-12-15 18:53:36,613 INFO [['401032056', '2199', '290']]
+2018-12-15 18:53:36,613 INFO [['401032056', '2199', '290']]
+2018-12-15 18:53:49,232 INFO drive number: 13,offense team: GASO
+2018-12-15 18:53:49,232 INFO drive number: 13,offense team: GASO
+2018-12-15 18:53:49,676 INFO drive number: 14,offense team: GASO
+2018-12-15 18:53:49,676 INFO drive number: 14,offense team: GASO
+2018-12-15 18:53:50,026 INFO drive number: 15,offense team: GASO
+2018-12-15 18:53:50,026 INFO drive number: 15,offense team: GASO
+2018-12-15 18:53:50,357 INFO drive number: 16,offense team: GASO
+2018-12-15 18:53:50,357 INFO drive number: 16,offense team: GASO
+2018-12-15 19:03:57,153 INFO [['401032056', '2199', '290']]
+2018-12-15 19:03:57,153 INFO [['401032056', '2199', '290']]
+2018-12-15 19:04:08,927 INFO drive number: 16,offense team: GASO
+2018-12-15 19:04:08,927 INFO drive number: 16,offense team: GASO
+2018-12-15 19:04:09,266 INFO drive number: 17,offense team: GASO
+2018-12-15 19:04:09,266 INFO drive number: 17,offense team: GASO
+2018-12-15 19:14:18,713 INFO [['401032056', '2199', '290']]
+2018-12-15 19:14:18,713 INFO [['401032056', '2199', '290']]
+2018-12-15 19:14:30,737 INFO drive number: 17,offense team: GASO
+2018-12-15 19:14:30,737 INFO drive number: 17,offense team: GASO
+2018-12-15 19:14:30,846 INFO drive number: 18,offense team: GASO
+2018-12-15 19:14:30,846 INFO drive number: 18,offense team: GASO
+2018-12-15 19:24:40,364 INFO [['401032056', '2199', '290']]
+2018-12-15 19:24:40,364 INFO [['401032056', '2199', '290']]
+2018-12-15 19:24:51,672 INFO drive number: 18,offense team: GASO
+2018-12-15 19:24:51,672 INFO drive number: 18,offense team: GASO
+2018-12-15 19:34:57,935 INFO [['401032056', '2199', '290']]
+2018-12-15 19:34:57,935 INFO [['401032056', '2199', '290']]
+2018-12-15 19:35:10,361 INFO drive number: 18,offense team: GASO
+2018-12-15 19:35:10,361 INFO drive number: 18,offense team: GASO
+2018-12-15 19:35:10,457 INFO drive number: 19,offense team: GASO
+2018-12-15 19:35:10,457 INFO drive number: 19,offense team: GASO
+2018-12-15 19:45:19,747 INFO []
+2018-12-15 19:45:19,747 INFO []
+2018-12-15 19:55:28,891 INFO []
+2018-12-15 19:55:28,891 INFO []
+2018-12-15 20:05:35,640 INFO []
+2018-12-15 20:05:35,640 INFO []
+2018-12-15 20:15:42,658 INFO [['401032057', '2026', '2393']]
+2018-12-15 20:15:42,658 INFO [['401032057', '2026', '2393']]
+2018-12-15 20:15:50,422 INFO drive number: 1,offense team: MTSU
+2018-12-15 20:15:50,422 INFO drive number: 1,offense team: MTSU
+2018-12-15 20:26:01,550 INFO [['401032057', '2026', '2393']]
+2018-12-15 20:26:01,550 INFO [['401032057', '2026', '2393']]
+2018-12-15 20:26:09,618 INFO drive number: 1,offense team: MTSU
+2018-12-15 20:26:09,618 INFO drive number: 1,offense team: MTSU
+2018-12-15 20:26:10,184 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 20:26:10,184 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 20:26:10,184 INFO new game id: 401032057
+2018-12-15 20:26:10,184 INFO new game id: 401032057
+2018-12-15 20:26:10,184 INFO Qtr 1 NOT already in game id: 401032057
+2018-12-15 20:26:10,184 INFO Qtr 1 NOT already in game id: 401032057
+2018-12-15 20:26:16,865 INFO b'Field Goal Expected Value: 1.75\n4th Down Conversion Likelihood: 0.4108119511699606\nLine To Reach For Conversion: 23\nExpected Points For Starting From Converstion Spot: 3.845\nExpected Value Of Going For It: 1.5795719522484986\nKICK THE FIELD GOAL!\n'
+2018-12-15 20:26:16,865 INFO b'Field Goal Expected Value: 1.75\n4th Down Conversion Likelihood: 0.4108119511699606\nLine To Reach For Conversion: 23\nExpected Points For Starting From Converstion Spot: 3.845\nExpected Value Of Going For It: 1.5795719522484986\nKICK THE FIELD GOAL!\n'
+2018-12-15 20:26:16,865 INFO difference is only 0.17999999999999994
+2018-12-15 20:26:16,865 INFO difference is only 0.17999999999999994
+2018-12-15 20:26:17,074 INFO drive number: 2,offense team: MTSU
+2018-12-15 20:26:17,074 INFO drive number: 2,offense team: MTSU
+2018-12-15 20:26:17,272 INFO drive number: 3,offense team: MTSU
+2018-12-15 20:26:17,272 INFO drive number: 3,offense team: MTSU
+2018-12-15 20:26:17,571 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 20:26:17,571 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 20:26:17,572 INFO new game id: 401032057
+2018-12-15 20:26:17,572 INFO new game id: 401032057
+2018-12-15 20:26:17,572 INFO Qtr 1 NOT already in game id: 401032057
+2018-12-15 20:26:17,572 INFO Qtr 1 NOT already in game id: 401032057
+2018-12-15 20:26:22,562 INFO b'Field Goal Expected Value: 2.75\n4th Down Conversion Likelihood: 0.3722350540950008\nLine To Reach For Conversion: 0\nExpected Points For Starting From Converstion Spot: 7\nExpected Value Of Going For It: 2.6056453786650056\nKICK THE FIELD GOAL!\n'
+2018-12-15 20:26:22,562 INFO b'Field Goal Expected Value: 2.75\n4th Down Conversion Likelihood: 0.3722350540950008\nLine To Reach For Conversion: 0\nExpected Points For Starting From Converstion Spot: 7\nExpected Value Of Going For It: 2.6056453786650056\nKICK THE FIELD GOAL!\n'
+2018-12-15 20:26:22,562 INFO difference is only 0.1499999999999999
+2018-12-15 20:26:22,562 INFO difference is only 0.1499999999999999
+2018-12-15 20:36:31,798 INFO [['401032057', '2026', '2393']]
+2018-12-15 20:36:31,798 INFO [['401032057', '2026', '2393']]
+2018-12-15 20:36:39,814 INFO drive number: 3,offense team: MTSU
+2018-12-15 20:36:39,814 INFO drive number: 3,offense team: MTSU
+2018-12-15 20:36:40,113 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 20:36:40,113 INFO {'401032054': '13', '401035253': '3'}
+2018-12-15 20:36:40,113 INFO new game id: 401032057
+2018-12-15 20:36:40,113 INFO new game id: 401032057
+2018-12-15 20:36:40,113 INFO Qtr 1 NOT already in game id: 401032057
+2018-12-15 20:36:40,113 INFO Qtr 1 NOT already in game id: 401032057
+2018-12-15 20:36:45,393 INFO b'Field Goal Expected Value: 2.75\n4th Down Conversion Likelihood: 0.3754119885880857\nLine To Reach For Conversion: 0\nExpected Points For Starting From Converstion Spot: 7\nExpected Value Of Going For It: 2.6278839201166\nKICK THE FIELD GOAL!\n'
+2018-12-15 20:36:45,393 INFO b'Field Goal Expected Value: 2.75\n4th Down Conversion Likelihood: 0.3754119885880857\nLine To Reach For Conversion: 0\nExpected Points For Starting From Converstion Spot: 7\nExpected Value Of Going For It: 2.6278839201166\nKICK THE FIELD GOAL!\n'
+2018-12-15 20:36:45,394 INFO difference is only 0.1299999999999999
+2018-12-15 20:36:45,394 INFO difference is only 0.1299999999999999
+2018-12-15 20:36:45,582 INFO drive number: 4,offense team: MTSU
+2018-12-15 20:36:45,582 INFO drive number: 4,offense team: MTSU
+2018-12-15 20:36:45,775 INFO drive number: 5,offense team: MTSU
+2018-12-15 20:36:45,775 INFO drive number: 5,offense team: MTSU
+2018-12-15 20:46:52,588 INFO [['401032057', '2026', '2393']]
+2018-12-15 20:46:52,588 INFO [['401032057', '2026', '2393']]
+2018-12-15 20:47:01,380 INFO drive number: 5,offense team: MTSU
+2018-12-15 20:47:01,380 INFO drive number: 5,offense team: MTSU
+2018-12-15 20:47:01,640 INFO drive number: 6,offense team: MTSU
+2018-12-15 20:47:01,640 INFO drive number: 6,offense team: MTSU
+2018-12-15 20:57:08,447 INFO [['401032057', '2026', '2393']]
+2018-12-15 20:57:08,447 INFO [['401032057', '2026', '2393']]
+2018-12-15 20:57:16,943 INFO drive number: 6,offense team: MTSU
+2018-12-15 20:57:16,943 INFO drive number: 6,offense team: MTSU
+2018-12-15 20:57:17,397 INFO drive number: 7,offense team: MTSU
+2018-12-15 20:57:17,397 INFO drive number: 7,offense team: MTSU
+2018-12-15 21:07:24,234 INFO [['401032057', '2026', '2393']]
+2018-12-15 21:07:24,234 INFO [['401032057', '2026', '2393']]
+2018-12-15 21:07:34,385 INFO drive number: 7,offense team: MTSU
+2018-12-15 21:07:34,385 INFO drive number: 7,offense team: MTSU
+2018-12-15 21:07:34,983 INFO drive number: 8,offense team: MTSU
+2018-12-15 21:07:34,983 INFO drive number: 8,offense team: MTSU
+2018-12-15 21:07:35,324 INFO drive number: 9,offense team: MTSU
+2018-12-15 21:07:35,324 INFO drive number: 9,offense team: MTSU
+2018-12-15 21:07:35,607 INFO drive number: 10,offense team: MTSU
+2018-12-15 21:07:35,607 INFO drive number: 10,offense team: MTSU
+2018-12-15 21:17:42,750 INFO [['401032057', '2026', '2393']]
+2018-12-15 21:17:42,750 INFO [['401032057', '2026', '2393']]
+2018-12-15 21:17:53,937 INFO drive number: 10,offense team: MTSU
+2018-12-15 21:17:53,937 INFO drive number: 10,offense team: MTSU
+2018-12-15 21:17:54,309 INFO drive number: 11,offense team: MTSU
+2018-12-15 21:17:54,309 INFO drive number: 11,offense team: MTSU
+2018-12-15 21:28:01,343 INFO [['401032057', '2026', '2393']]
+2018-12-15 21:28:01,343 INFO [['401032057', '2026', '2393']]
+2018-12-15 21:28:13,247 INFO drive number: 11,offense team: MTSU
+2018-12-15 21:28:13,247 INFO drive number: 11,offense team: MTSU
+2018-12-15 21:28:13,652 INFO drive number: 12,offense team: MTSU
+2018-12-15 21:28:13,652 INFO drive number: 12,offense team: MTSU
+2018-12-15 21:38:20,963 INFO [['401032057', '2026', '2393']]
+2018-12-15 21:38:20,963 INFO [['401032057', '2026', '2393']]
+2018-12-15 21:38:32,389 INFO drive number: 12,offense team: MTSU
+2018-12-15 21:38:32,389 INFO drive number: 12,offense team: MTSU
+2018-12-15 21:38:32,861 INFO drive number: 13,offense team: MTSU
+2018-12-15 21:38:32,861 INFO drive number: 13,offense team: MTSU
+2018-12-15 21:48:39,892 INFO [['401032057', '2026', '2393']]
+2018-12-15 21:48:39,892 INFO [['401032057', '2026', '2393']]
+2018-12-15 21:48:52,229 INFO drive number: 13,offense team: MTSU
+2018-12-15 21:48:52,229 INFO drive number: 13,offense team: MTSU
+2018-12-15 21:59:00,472 INFO [['401032057', '2026', '2393']]
+2018-12-15 21:59:00,472 INFO [['401032057', '2026', '2393']]
+2018-12-15 21:59:12,174 INFO drive number: 13,offense team: MTSU
+2018-12-15 21:59:12,174 INFO drive number: 13,offense team: MTSU
+2018-12-15 21:59:12,596 INFO drive number: 14,offense team: MTSU
+2018-12-15 21:59:12,596 INFO drive number: 14,offense team: MTSU
+2018-12-18 18:18:39,851 INFO 2018
+2018-12-18 18:18:39,851 INFO 2018
+2018-12-18 18:18:39,852 INFO 12
+2018-12-18 18:18:39,852 INFO 12
+2018-12-18 18:18:39,852 INFO 18
+2018-12-18 18:18:39,852 INFO 18
+2018-12-18 18:18:39,852 INFO 17
+2018-12-18 18:18:39,852 INFO 17
+2018-12-18 18:18:39,852 INFO starting year: 2018
+2018-12-18 18:18:39,852 INFO starting year: 2018
+2018-12-18 18:18:51,937 INFO [['401032058', '2459', '5']]
+2018-12-18 18:18:51,937 INFO [['401032058', '2459', '5']]
+2018-12-18 18:21:07,359 INFO 2018
+2018-12-18 18:21:07,359 INFO 2018
+2018-12-18 18:21:07,360 INFO 12
+2018-12-18 18:21:07,360 INFO 12
+2018-12-18 18:21:07,360 INFO 18
+2018-12-18 18:21:07,360 INFO 18
+2018-12-18 18:21:07,360 INFO 17
+2018-12-18 18:21:07,360 INFO 17
+2018-12-18 18:21:07,360 INFO starting year: 2018
+2018-12-18 18:21:07,360 INFO starting year: 2018
+2018-12-18 18:21:16,936 INFO [['401032058', '2459', '5']]
+2018-12-18 18:21:16,936 INFO [['401032058', '2459', '5']]
+2018-12-18 18:21:25,345 INFO drive number: 1,offense team: UAB
+2018-12-18 18:21:25,345 INFO drive number: 1,offense team: UAB
+2018-12-18 18:21:25,596 INFO drive number: 2,offense team: UAB
+2018-12-18 18:21:25,596 INFO drive number: 2,offense team: UAB
+2018-12-18 18:21:26,325 INFO {}
+2018-12-18 18:21:26,325 INFO {}
+2018-12-18 18:21:26,325 INFO new game id: 401032058
+2018-12-18 18:21:26,325 INFO new game id: 401032058
+2018-12-18 18:21:26,325 INFO Qtr 1 NOT already in game id: 401032058
+2018-12-18 18:21:26,325 INFO Qtr 1 NOT already in game id: 401032058
+2018-12-18 18:21:34,487 INFO b'Field Goal Expected Value: 1.5\n4th Down Conversion Likelihood: 0.5543957451589774\nLine To Reach For Conversion: 27\nExpected Points For Starting From Converstion Spot: 3.835\nExpected Value Of Going For It: 2.1261076826846783\nGO FOR IT!\n'
+2018-12-18 18:21:34,487 INFO b'Field Goal Expected Value: 1.5\n4th Down Conversion Likelihood: 0.5543957451589774\nLine To Reach For Conversion: 27\nExpected Points For Starting From Converstion Spot: 3.835\nExpected Value Of Going For It: 2.1261076826846783\nGO FOR IT!\n'
+2018-12-18 18:21:34,487 INFO difference is only 0.6200000000000001
+2018-12-18 18:21:34,487 INFO difference is only 0.6200000000000001
+2018-12-18 18:21:34,610 INFO drive number: 3,offense team: UAB
+2018-12-18 18:21:34,610 INFO drive number: 3,offense team: UAB
+2018-12-18 18:31:41,338 INFO [['401032058', '2459', '5']]
+2018-12-18 18:31:41,338 INFO [['401032058', '2459', '5']]
+2018-12-18 18:32:04,797 INFO drive number: 3,offense team: UAB
+2018-12-18 18:32:04,797 INFO drive number: 3,offense team: UAB
+2018-12-18 18:32:05,202 INFO {}
+2018-12-18 18:32:05,202 INFO {}
+2018-12-18 18:32:05,202 INFO new game id: 401032058
+2018-12-18 18:32:05,202 INFO new game id: 401032058
+2018-12-18 18:32:05,202 INFO Qtr 1 NOT already in game id: 401032058
+2018-12-18 18:32:05,202 INFO Qtr 1 NOT already in game id: 401032058
+2018-12-18 18:32:12,122 INFO b'Field Goal Expected Value: 2.25\n4th Down Conversion Likelihood: 0.5940124523694165\nLine To Reach For Conversion: 6\nExpected Points For Starting From Converstion Spot: 5.315\nExpected Value Of Going For It: 3.1571761843434487\nGO FOR IT!\n'
+2018-12-18 18:32:12,122 INFO b'Field Goal Expected Value: 2.25\n4th Down Conversion Likelihood: 0.5940124523694165\nLine To Reach For Conversion: 6\nExpected Points For Starting From Converstion Spot: 5.315\nExpected Value Of Going For It: 3.1571761843434487\nGO FOR IT!\n'
+2018-12-18 18:32:12,123 INFO {'401032058': '1'}
+2018-12-18 18:32:12,123 INFO {'401032058': '1'}
+2018-12-18 18:32:12,124 INFO 2.25
+2018-12-18 18:32:12,124 INFO 2.25
+2018-12-18 18:32:12,124 INFO 3.15
+2018-12-18 18:32:12,124 INFO 3.15
+2018-12-18 18:32:12,124 INFO 0.59
+2018-12-18 18:32:12,124 INFO 0.59
+2018-12-18 18:32:12,125 INFO 5.31
+2018-12-18 18:32:12,125 INFO 5.31
+2018-12-18 18:32:12,218 INFO drive number: 4,offense team: UAB
+2018-12-18 18:32:12,218 INFO drive number: 4,offense team: UAB
+2018-12-18 18:42:20,040 INFO [['401032058', '2459', '5']]
+2018-12-18 18:42:20,040 INFO [['401032058', '2459', '5']]
+2018-12-18 18:42:43,721 INFO drive number: 4,offense team: UAB
+2018-12-18 18:42:43,721 INFO drive number: 4,offense team: UAB
+2018-12-18 18:42:43,892 INFO {'401032058': '1'}
+2018-12-18 18:42:43,892 INFO {'401032058': '1'}
+2018-12-18 18:42:43,892 INFO 1 qtr already in game id: 401032058
+2018-12-18 18:42:43,892 INFO 1 qtr already in game id: 401032058
+2018-12-18 18:42:49,044 INFO drive number: 5,offense team: UAB
+2018-12-18 18:42:49,044 INFO drive number: 5,offense team: UAB
+2018-12-18 18:42:49,395 INFO drive number: 6,offense team: UAB
+2018-12-18 18:42:49,395 INFO drive number: 6,offense team: UAB
+2018-12-18 18:52:57,521 INFO [['401032058', '2459', '5']]
+2018-12-18 18:52:57,521 INFO [['401032058', '2459', '5']]
+2018-12-18 18:56:07,473 INFO drive number: 6,offense team: UAB
+2018-12-18 18:56:07,473 INFO drive number: 6,offense team: UAB
+2018-12-18 18:56:07,886 INFO drive number: 7,offense team: UAB
+2018-12-18 18:56:07,886 INFO drive number: 7,offense team: UAB
+2018-12-18 19:06:14,425 INFO [['401032058', '2459', '5']]
+2018-12-18 19:06:14,425 INFO [['401032058', '2459', '5']]
+2018-12-18 19:06:24,620 INFO drive number: 7,offense team: UAB
+2018-12-18 19:06:24,620 INFO drive number: 7,offense team: UAB
+2018-12-18 19:06:25,125 INFO drive number: 8,offense team: UAB
+2018-12-18 19:06:25,125 INFO drive number: 8,offense team: UAB
+2018-12-18 19:16:32,557 INFO [['401032058', '2459', '5']]
+2018-12-18 19:16:32,557 INFO [['401032058', '2459', '5']]
+2018-12-18 19:16:43,484 INFO drive number: 8,offense team: UAB
+2018-12-18 19:16:43,484 INFO drive number: 8,offense team: UAB
+2018-12-18 19:16:44,128 INFO drive number: 9,offense team: UAB
+2018-12-18 19:16:44,128 INFO drive number: 9,offense team: UAB
+2018-12-18 19:26:51,481 INFO [['401032058', '2459', '5']]
+2018-12-18 19:26:51,481 INFO [['401032058', '2459', '5']]
+2018-12-18 19:27:01,878 INFO drive number: 9,offense team: UAB
+2018-12-18 19:27:01,878 INFO drive number: 9,offense team: UAB
+2018-12-18 19:27:02,051 INFO drive number: 10,offense team: UAB
+2018-12-18 19:27:02,051 INFO drive number: 10,offense team: UAB
+2018-12-18 19:37:09,100 INFO [['401032058', '2459', '5']]
+2018-12-18 19:37:09,100 INFO [['401032058', '2459', '5']]
+2018-12-18 19:37:20,469 INFO drive number: 10,offense team: UAB
+2018-12-18 19:37:20,469 INFO drive number: 10,offense team: UAB
+2018-12-18 19:37:20,849 INFO drive number: 11,offense team: UAB
+2018-12-18 19:37:20,849 INFO drive number: 11,offense team: UAB
+2018-12-18 19:37:21,278 INFO {'401032058': '1'}
+2018-12-18 19:37:21,278 INFO {'401032058': '1'}
+2018-12-18 19:37:21,278 INFO Qtr 3 NOT already in game id: 401032058
+2018-12-18 19:37:21,278 INFO Qtr 3 NOT already in game id: 401032058
+2018-12-18 19:37:28,790 INFO b'Field Goal Expected Value: 2.0\n4th Down Conversion Likelihood: 0.15064644748385425\nLine To Reach For Conversion: 3\nExpected Points For Starting From Converstion Spot: 5.573\nExpected Value Of Going For It: 0.8395526518275198\nKICK THE FIELD GOAL!\n'
+2018-12-18 19:37:28,790 INFO b'Field Goal Expected Value: 2.0\n4th Down Conversion Likelihood: 0.15064644748385425\nLine To Reach For Conversion: 3\nExpected Points For Starting From Converstion Spot: 5.573\nExpected Value Of Going For It: 0.8395526518275198\nKICK THE FIELD GOAL!\n'
+2018-12-18 19:37:28,791 INFO distance is over 10 yards
+2018-12-18 19:37:28,791 INFO distance is over 10 yards
+2018-12-18 19:47:35,427 INFO [['401032058', '2459', '5']]
+2018-12-18 19:47:35,427 INFO [['401032058', '2459', '5']]
+2018-12-18 19:47:46,498 INFO drive number: 11,offense team: UAB
+2018-12-18 19:47:46,498 INFO drive number: 11,offense team: UAB
+2018-12-18 19:47:47,016 INFO {'401032058': '1'}
+2018-12-18 19:47:47,016 INFO {'401032058': '1'}
+2018-12-18 19:47:47,017 INFO Qtr 3 NOT already in game id: 401032058
+2018-12-18 19:47:47,017 INFO Qtr 3 NOT already in game id: 401032058
+2018-12-18 19:47:54,106 INFO b'Field Goal Expected Value: 2.0\n4th Down Conversion Likelihood: 0.12849525059656342\nLine To Reach For Conversion: 3\nExpected Points For Starting From Converstion Spot: 5.573\nExpected Value Of Going For It: 0.716104031574648\nKICK THE FIELD GOAL!\n'
+2018-12-18 19:47:54,106 INFO b'Field Goal Expected Value: 2.0\n4th Down Conversion Likelihood: 0.12849525059656342\nLine To Reach For Conversion: 3\nExpected Points For Starting From Converstion Spot: 5.573\nExpected Value Of Going For It: 0.716104031574648\nKICK THE FIELD GOAL!\n'
+2018-12-18 19:47:54,107 INFO distance is over 10 yards
+2018-12-18 19:47:54,107 INFO distance is over 10 yards
+2018-12-18 19:58:00,506 INFO [['401032058', '2459', '5']]
+2018-12-18 19:58:00,506 INFO [['401032058', '2459', '5']]
+2018-12-18 19:58:10,799 INFO drive number: 11,offense team: UAB
+2018-12-18 19:58:10,799 INFO drive number: 11,offense team: UAB
+2018-12-18 19:58:11,204 INFO {'401032058': '1'}
+2018-12-18 19:58:11,204 INFO {'401032058': '1'}
+2018-12-18 19:58:11,204 INFO Qtr 3 NOT already in game id: 401032058
+2018-12-18 19:58:11,204 INFO Qtr 3 NOT already in game id: 401032058
+2018-12-18 20:10:55,670 INFO [['401032058', '2459', '5']]
+2018-12-18 20:10:55,670 INFO [['401032058', '2459', '5']]
+2018-12-18 20:11:08,178 INFO drive number: 11,offense team: UAB
+2018-12-18 20:11:08,178 INFO drive number: 11,offense team: UAB
+2018-12-18 20:11:08,731 INFO {'401032058': '1'}
+2018-12-18 20:11:08,731 INFO {'401032058': '1'}
+2018-12-18 20:11:08,731 INFO Qtr 3 NOT already in game id: 401032058
+2018-12-18 20:11:08,731 INFO Qtr 3 NOT already in game id: 401032058
+2018-12-18 20:11:08,847 INFO drive number: 12,offense team: UAB
+2018-12-18 20:11:08,847 INFO drive number: 12,offense team: UAB
+2018-12-18 20:21:17,093 INFO [['401032058', '2459', '5']]
+2018-12-18 20:21:17,093 INFO [['401032058', '2459', '5']]
+2018-12-18 20:22:29,575 INFO drive number: 12,offense team: UAB
+2018-12-18 20:22:29,575 INFO drive number: 12,offense team: UAB
+2018-12-18 20:22:29,762 INFO {'401032058': '1'}
+2018-12-18 20:22:29,762 INFO {'401032058': '1'}
+2018-12-18 20:22:29,762 INFO Qtr 3 NOT already in game id: 401032058
+2018-12-18 20:22:29,762 INFO Qtr 3 NOT already in game id: 401032058
+2018-12-18 20:22:37,589 INFO b'Field Goal Expected Value: 1.25\n4th Down Conversion Likelihood: 0.6540717072471635\nLine To Reach For Conversion: 33\nExpected Points For Starting From Converstion Spot: 3.755\nExpected Value Of Going For It: 2.4560392607130987\nGO FOR IT!\n'
+2018-12-18 20:22:37,589 INFO b'Field Goal Expected Value: 1.25\n4th Down Conversion Likelihood: 0.6540717072471635\nLine To Reach For Conversion: 33\nExpected Points For Starting From Converstion Spot: 3.755\nExpected Value Of Going For It: 2.4560392607130987\nGO FOR IT!\n'
+2018-12-18 20:22:37,590 INFO {'401032058': '13'}
+2018-12-18 20:22:37,590 INFO {'401032058': '13'}
+2018-12-18 20:22:37,591 INFO 1.25
+2018-12-18 20:22:37,591 INFO 1.25
+2018-12-18 20:22:37,591 INFO 2.45
+2018-12-18 20:22:37,591 INFO 2.45
+2018-12-18 20:22:37,591 INFO 0.65
+2018-12-18 20:22:37,591 INFO 0.65
+2018-12-18 20:22:37,591 INFO 3.75
+2018-12-18 20:22:37,591 INFO 3.75
+2018-12-18 20:22:38,171 INFO drive number: 13,offense team: UAB
+2018-12-18 20:22:38,171 INFO drive number: 13,offense team: UAB
+2018-12-18 20:32:47,786 INFO [['401032058', '2459', '5']]
+2018-12-18 20:32:47,786 INFO [['401032058', '2459', '5']]
+2018-12-18 20:36:32,978 INFO drive number: 13,offense team: UAB
+2018-12-18 20:36:32,978 INFO drive number: 13,offense team: UAB
+2018-12-18 20:36:38,506 INFO drive number: 14,offense team: UAB
+2018-12-18 20:36:38,506 INFO drive number: 14,offense team: UAB
+2018-12-18 20:36:38,848 INFO drive number: 15,offense team: UAB
+2018-12-18 20:36:38,848 INFO drive number: 15,offense team: UAB
+2018-12-18 20:50:16,715 INFO [['401032058', '2459', '5']]
+2018-12-18 20:50:16,715 INFO [['401032058', '2459', '5']]
+2018-12-18 20:51:42,717 INFO drive number: 15,offense team: UAB
+2018-12-18 20:51:42,717 INFO drive number: 15,offense team: UAB
+2018-12-18 20:51:42,949 INFO {'401032058': '13'}
+2018-12-18 20:51:42,949 INFO {'401032058': '13'}
+2018-12-18 20:51:42,949 INFO 3 qtr already in game id: 401032058
+2018-12-18 20:51:42,949 INFO 3 qtr already in game id: 401032058
+2018-12-18 20:51:43,008 INFO {'401032058': '13'}
+2018-12-18 20:51:43,008 INFO {'401032058': '13'}
+2018-12-18 20:51:43,008 INFO 3 qtr already in game id: 401032058
+2018-12-18 20:51:43,008 INFO 3 qtr already in game id: 401032058
+2018-12-18 20:51:48,176 INFO drive number: 16,offense team: UAB
+2018-12-18 20:51:48,176 INFO drive number: 16,offense team: UAB
+2018-12-18 20:51:48,560 INFO drive number: 17,offense team: UAB
+2018-12-18 20:51:48,560 INFO drive number: 17,offense team: UAB
+2018-12-18 21:01:56,424 INFO [['401032058', '2459', '5']]
+2018-12-18 21:01:56,424 INFO [['401032058', '2459', '5']]
+2018-12-18 21:03:39,009 INFO drive number: 17,offense team: UAB
+2018-12-18 21:03:39,009 INFO drive number: 17,offense team: UAB
+2018-12-18 21:03:39,268 INFO drive number: 18,offense team: UAB
+2018-12-18 21:03:39,268 INFO drive number: 18,offense team: UAB
+2019-09-20 11:44:44,705 INFO 2019
+2019-09-20 11:44:44,705 INFO 2019
+2019-09-20 11:44:44,705 INFO 9
+2019-09-20 11:44:44,705 INFO 9
+2019-09-20 11:44:44,706 INFO 20
+2019-09-20 11:44:44,706 INFO 20
+2019-09-20 11:44:44,706 INFO 4
+2019-09-20 11:44:44,706 INFO 4
+2019-09-20 11:44:44,706 INFO starting year: 2019
+2019-09-20 11:44:44,706 INFO starting year: 2019
+2019-09-20 11:45:00,036 INFO []
+2019-09-20 11:45:00,036 INFO []
+2019-09-20 11:55:08,835 INFO []
+2019-09-20 11:55:08,835 INFO []
+2019-09-20 12:05:15,369 INFO []
+2019-09-20 12:05:15,369 INFO []
+2019-09-20 12:15:21,820 INFO []
+2019-09-20 12:15:21,820 INFO []
+2019-09-20 12:25:28,833 INFO []
+2019-09-20 12:25:28,833 INFO []

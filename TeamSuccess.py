@@ -68,14 +68,14 @@ def main():
 
                 worst = sortedTotals[:topCount]
                 best = reversed(sortedTotals[-topCount:])
-                print(GetTeamsRanking(worst,year,False,date))
-                print(GetTeamsRanking(best,year,True,date))
+                tweet(GetTeamsRanking(worst,year,False,date))
+                tweet(GetTeamsRanking(best,year,True,date))
         else:
             sortedTotals = GetPlusMinusTotals(year)
             worst = sortedTotals[:topCount]
             best = reversed(sortedTotals[-topCount:])
-            print(GetTeamsRanking(worst,year,False))
-            print(GetTeamsRanking(best,year,True))
+            tweet(GetTeamsRanking(worst,year,False))
+            tweet(GetTeamsRanking(best,year,True))
 
 if __name__ == "__main__":
     main()

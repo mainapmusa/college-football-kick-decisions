@@ -6,6 +6,7 @@ import os.path
 import matplotlib.pyplot as plt
 import glob
 from ImportFiles import SelectColumnsFromMultipleFiles
+from ImportFiles import SelectColumnsFromMultipleFilesRemoveDuplicates
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import Normalizer
 from sklearn.pipeline import make_pipeline
@@ -25,15 +26,66 @@ from sklearn.metrics import classification_report
 
 #sudo pip install pandas
 def GetFieldGoalDrives():
-    driveFiles = glob.glob("./data/drives/*.csv")
+    driveColumns = ["Game Code","Drive Number", "End Period", "End Clock", "End Spot", "End Reason", "Team Code", "Year"]
+    teamColumns = ["Team Code","Year", "Conference Code", "Wins", "Losses"]
+    playColumns = ["Game Code", "Drive Number", "Offense Team Code", "Defense Team Code"]
+    gameColumns = ["Game Code", "Home Team Code"]
 
-    drives = SelectColumnsFromMultipleFiles(driveFiles, ["End Period", "End Clock", "End Spot", "End Reason"]) #usecols=["End Period", "End Clock", "End Spot", "End Reason", "Plays", "Yards", "Time Of Possession"]
+    driveFiles = glob.glob("./data/drives/*.csv")
+    teamFiles = glob.glob("./data/teams/team*.csv")
+    playFiles = glob.glob("./data/plays/*.csv")
+    gameFiles = glob.glob("./data/games/*.csv")
+
+
+    drives = SelectColumnsFromMultipleFiles(driveFiles, driveColumns,{"Game Code": np.str, "Drive Number": np.str}) #usecols=["End Period", "End Clock", "End Spot", "End Reason", "Plays", "Yards", "Time Of Possession"]
+    drives["Game Code"] = drives["Game Code"].str.zfill(16)
 
     fieldGoalDrives = drives.loc[(drives["End Reason"] == "FIELD GOAL") | (drives["End Reason"] == "MISSED FIELD GOAL")]
+
 
     fieldGoalDrives["End Reason"].replace(["FIELD GOAL", "MISSED FIELD GOAL"], [1, 0], inplace=True)
     fieldGoalDrives.fillna({"End Clock":0}, inplace=True)
 
+
+
+    teams = SelectColumnsFromMultipleFiles(teamFiles, teamColumns)
+    # The wins and losses are N/A when the team is FCS so I'm treating those as 0-10 teams since they're almost all much less skilled than FBS teams
+    teams.fillna({"Wins":0,"Losses":10}, inplace=True)
+
+    plays = SelectColumnsFromMultipleFiles(playFiles, playColumns,{"Game Code": np.str, "Drive Number": np.str})
+    plays["Game Code"] = plays["Game Code"].str.zfill(16)
+
+    plays = plays.dropna().drop_duplicates()
+
+    games = SelectColumnsFromMultipleFiles(gameFiles,gameColumns,{ "Game Code": np.str})
+    games["Game Code"] = games["Game Code"].str.zfill(16)
+
+
+    fieldGoalDrives = pd.merge(fieldGoalDrives, teams, how = "left", on = ["Team Code", "Year"])
+
+    fieldGoalDrives = pd.merge(fieldGoalDrives, plays, how = "left", on = ["Game Code", "Drive Number"])
+
+    fieldGoalDrives = pd.merge(fieldGoalDrives, teams, how = "left", left_on = ["Defense Team Code", "Year"], right_on = ["Team Code", "Year"])
+
+    fieldGoalDrives = pd.merge(fieldGoalDrives,games, how = "left", on = ["Game Code"])
+
+    fieldGoalDrives["Offense Home Team"] = (fieldGoalDrives["Home Team Code"] == fieldGoalDrives["Offense Team Code"])
+
+    fieldGoalDrives.rename(columns={'Wins_x': 'Offense Wins','Wins_y': 'Defense Wins','Losses_x': 'Offense Losses','Losses_y': 'Defense Losses','Conference Code_x': 'Offense Conference','Conference Code_y': 'Defense Conference'}, inplace=True)
+    #fieldGoalDrives.to_csv("./data/final.csv")
+
+
+    #remove unnecessary columns
+
+    #fieldGoalDrives = pd.get_dummies(fieldGoalDrives, columns=['Offense Conference','Defense Conference'])
+    fieldGoalDrives['Offense Conference Rank'] = fieldGoalDrives['Offense Conference'].apply(GetConferenceStrength)
+    fieldGoalDrives['Defense Conference Rank'] = fieldGoalDrives['Defense Conference'].apply(GetConferenceStrength)
+    fieldGoalDrives["Offense Home Team"].replace([True, False], [1, 0], inplace=True)
+    fieldGoalDrives = fieldGoalDrives[["End Reason", "End Period", "End Clock", "End Spot", "Offense Wins", "Offense Losses",  "Offense Conference Rank", "Defense Wins", "Defense Losses", "Defense Conference Rank", "Offense Home Team"]]
+    #fieldGoalDrives = fieldGoalDrives[["Drive Number","End Period", "End Clock", "End Spot", "End Reason", "Offense Wins", "Offense Losses",  "Offense Conference Rank", "Defense Wins", "Defense Losses", "Defense Conference Rank", "Offense Home Team"]]
+
+    fieldGoalDrives.to_csv("./data/fg_final.csv")
+    #print(fieldGoalDrives.head())
     return fieldGoalDrives
 
 def GetTestAndTrainSets():
@@ -41,7 +93,7 @@ def GetTestAndTrainSets():
 
     y = fieldGoalDrives["End Reason"].values
     X = fieldGoalDrives.drop("End Reason", axis=1).values
-
+    #print(X[:4])
     #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state=42, stratify=y)
     return train_test_split(X, y, test_size = 0.2, random_state=42, stratify=y)
 
@@ -59,6 +111,7 @@ def ModelExistence(usePersistedModel, filename):
     return currentModelExists
 
 def FieldGoalExpectedValueLogisticRegression(situation, usePersistedModel = False):
+    pd.options.mode.chained_assignment = None
     filename = "./models/FieldGoalExpectedValueLogisticRegression.sav"
     currentModelExists = ModelExistence(usePersistedModel,filename)
 
@@ -75,6 +128,8 @@ def FieldGoalExpectedValueLogisticRegression(situation, usePersistedModel = Fals
     return prediction.iloc[0]
 
 def FieldGoalExpectedValueKnn(situation, usePersistedModel = False):
+    pd.options.mode.chained_assignment = None
+
     filename = "./models/FieldGoalExpectedValueKnn.sav"
     currentModelExists = ModelExistence(usePersistedModel,filename)
 
@@ -316,3 +371,13 @@ def GraphLogisticRegressionFieldGoalAccuracy(maxC, usePersistedModel = False):
     plt.ylabel("Accuracy")
     plt.savefig("./imgs/FieldGoalsLogisticRegression"+str(maxC)+"MaxC.png")
     plt.show()
+
+def GetConferenceStrength(ConferenceCode):
+    #P5 ACC=821, Big12=25354, Big10=827, Pac12=905, SEC=911, BigEast=823
+    #G5 Indy=99001, AAC=823, C-USA=24312, MAC=875, MWC=5486, SunBelt=818, WAC=923
+    if ConferenceCode in [821,25354,827,905,911,823]:
+        return 10
+    elif ConferenceCode in [99001,823,24312,875,5486,818,923]:
+        return 5
+    else:
+        return 0

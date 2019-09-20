@@ -14,7 +14,11 @@ Best FG decisions\
 \
 #AI #ML #maina #musa #time #for #us #to #go #to #the #party"
 print(tweetString.count('\n'))
+print(tweetString)
 while(len(tweetString) > 280):
     print(len(tweetString))
     tweetString = tweetString[::-1].split('#',1)[1][::-1]
-    print(tweetString)
+
+print(len(tweetString))
+print("\n\nShort Enough:\n")
+print(tweetString)

@@ -1,1301 +1,1518 @@
 {
     "103": {
+        "Conference Code": "821",
         "Hashtags": "#WeAreBC #DecideToFly",
         "Name": "Boston College",
         "ShortCode": "BC",
         "TwitterHandles": "@BCFootball @bcinterruption"
     },
     "107": {
+        "Conference Code": "838",
         "Hashtags": "#HolyCross",
         "Name": "Holy Cross",
         "ShortCode": "HC",
         "TwitterHandles": "Holy Cross"
     },
     "113": {
+        "Conference Code": "99001",
         "Hashtags": "#Flagship",
         "Name": "UMass",
         "ShortCode": "UMASS",
         "TwitterHandles": "@UMassFootball @UnderdogDynasty"
     },
     "119": {
+        "Conference Code": "837",
         "Hashtags": "#Towson",
         "Name": "Towson",
         "ShortCode": "TOWS",
         "TwitterHandles": "Towson"
     },
     "12": {
+        "Conference Code": "905",
         "Hashtags": "#BearDown #EraZona",
         "Name": "Arizona",
         "ShortCode": "ARIZ",
         "TwitterHandles": "@ArizonaFBall @AZDesertSwarm"
     },
     "120": {
+        "Conference Code": "827",
         "Hashtags": "#FearTheTurtle #FTT",
         "Name": "Maryland",
         "ShortCode": "MD",
         "TwitterHandles": "@umterps"
     },
     "127": {
+        "Conference Code": "827",
         "Hashtags": "#GoGreen #HEAVE",
         "Name": "Michigan State",
         "ShortCode": "MSU",
         "TwitterHandles": "@MSU_Football @TheOnlyColors"
     },
     "13": {
+        "Conference Code": "99005",
         "Hashtags": "#CalPoly",
         "Name": "Cal Poly",
         "ShortCode": "CP",
         "TwitterHandles": "Cal Poly"
     },
     "130": {
+        "Conference Code": "827",
         "Hashtags": "#GoBlue",
         "Name": "Michigan",
         "ShortCode": "MICH",
         "TwitterHandles": "@UMichFootball @MaizenBrew"
     },
     "135": {
+        "Conference Code": "827",
         "Hashtags": "#GopherGameDay #Gophers",
         "Name": "Minnesota",
         "ShortCode": "MINN",
         "TwitterHandles": "@GopherFootball @TheDailyGopher"
     },
     "142": {
+        "Conference Code": "25354",
         "Hashtags": "#MIZ #ShowMe",
         "Name": "Missouri",
         "ShortCode": "MIZ",
         "TwitterHandles": "@MizzouFootball @RockMNation"
     },
     "145": {
+        "Conference Code": "911",
         "Hashtags": "#HottyToddy",
         "Name": "Ole Miss",
         "ShortCode": "MISS",
         "TwitterHandles": "@OleMissFB @RedCupRebellion"
     },
     "147": {
+        "Conference Code": "825",
         "Hashtags": "#MontanaState",
         "Name": "Montana State",
         "ShortCode": "MTST",
         "TwitterHandles": "Montana State"
     },
     "149": {
+        "Conference Code": "825",
         "Hashtags": "#Montana",
         "Name": "Montana",
         "ShortCode": "MONT",
         "TwitterHandles": "Montana"
     },
     "150": {
+        "Conference Code": "821",
         "Hashtags": "#GoDuke #DukeGang",
         "Name": "Duke",
         "ShortCode": "DUKE",
         "TwitterHandles": "@DukeFOOTBALL @bluevsblue"
     },
     "151": {
+        "Conference Code": "24312",
         "Hashtags": "##PirateNation #WorkTheBody",
         "Name": "East Carolina",
         "ShortCode": "ECU",
         "TwitterHandles": "@ECUAthletics @UnderdogDynasty"
     },
     "152": {
+        "Conference Code": "821",
         "Hashtags": "#1Pack1Goal",
         "Name": "NC State",
         "ShortCode": "NCST",
         "TwitterHandles": "@PackFootball @BackingThePack"
     },
     "153": {
+        "Conference Code": "821",
         "Hashtags": "#GoHeels",
         "Name": "North Carolina",
         "ShortCode": "UNC",
         "TwitterHandles": "@TarHeelFootball @tarheelblog"
     },
     "154": {
+        "Conference Code": "821",
         "Hashtags": "#GoDeacs",
         "Name": "Wake Forest",
         "ShortCode": "WAKE",
         "TwitterHandles": "@WakeFB @BloggerSoDear"
     },
     "155": {
+        "Conference Code": "99005",
         "Hashtags": "#NorthDakota",
         "Name": "North Dakota",
         "ShortCode": "UND",
         "TwitterHandles": "North Dakota"
     },
     "158": {
+        "Conference Code": "25354",
         "Hashtags": "#Huskers #GBR",
         "Name": "Nebraska",
         "ShortCode": "NEB",
         "TwitterHandles": "@Huskers @CornNation"
     },
     "16": {
+        "Conference Code": "825",
         "Hashtags": "#SacramentoState",
         "Name": "Sacramento State",
         "ShortCode": "SAC",
         "TwitterHandles": "Sacramento State"
     },
     "160": {
+        "Conference Code": "837",
         "Hashtags": "#NewHampshire",
         "Name": "New Hampshire",
         "ShortCode": "UNH",
         "TwitterHandles": "New Hampshire"
     },
     "164": {
+        "Conference Code": "823",
         "Hashtags": "#RFootball #TheHunt",
         "Name": "Rutgers",
         "ShortCode": "RUTG",
         "TwitterHandles": "@RFootball"
     },
     "166": {
+        "Conference Code": "923",
         "Hashtags": "#A3 #MakeAPlay #AggieUp",
         "Name": "New Mexico State",
         "ShortCode": "NMSU",
         "TwitterHandles": "@NMStateAggies @UnderdogDynasty"
     },
     "167": {
+        "Conference Code": "5486",
         "Hashtags": "#GoLobos",
         "Name": "New Mexico",
         "ShortCode": "UNM",
         "TwitterHandles": "@UNMLOBOS @MWCConnection"
     },
     "183": {
+        "Conference Code": "823",
         "Hashtags": "#OITNF #OrangeNation",
         "Name": "Syracuse",
         "ShortCode": "SYR",
         "TwitterHandles": "@CuseFootball @NunesMagician"
     },
     "189": {
+        "Conference Code": "875",
         "Hashtags": "#BowlingGreen",
         "Name": "Bowling Green",
         "ShortCode": "BGSU",
         "TwitterHandles": "@BGathletics @HustleBelt"
     },
     "193": {
+        "Conference Code": "875",
         "Hashtags": "RiseUpRedHawks",
         "Name": "Miami (OH)",
         "ShortCode": "M-OH",
         "TwitterHandles": "@MiamiOHFootball @HustleBelt"
     },
     "194": {
+        "Conference Code": "827",
         "Hashtags": "#GoBucks #WinTheMoment",
         "Name": "Ohio State",
         "ShortCode": "OSU",
         "TwitterHandles": "@OhioStateFB @Landgrant33"
     },
     "195": {
+        "Conference Code": "875",
         "Hashtags": "#BleedGreen #MACtion",
         "Name": "Ohio",
         "ShortCode": "OHIO",
         "TwitterHandles": "@OhioFootball @HustleBelt"
     },
     "197": {
+        "Conference Code": "25354",
         "Hashtags": "#GoPokes #okstate",
         "Name": "Oklahoma State",
         "ShortCode": "OKST",
         "TwitterHandles": "@CowboyFB @CowboysRFF"
     },
     "2": {
+        "Conference Code": "911",
         "Hashtags": "#WarEagle",
         "Name": "Auburn",
         "ShortCode": "AUB",
         "TwitterHandles": "@AuburnFootball @CollegeAndMag"
     },
     "2000": {
+        "Conference Code": "99005",
         "Hashtags": "#AbileneChristian",
         "Name": "Abilene Christian",
         "ShortCode": "ACU",
         "TwitterHandles": "Abilene Christian"
     },
     "2005": {
+        "Conference Code": "5486",
         "Hashtags": "#LetsFly",
         "Name": "Air Force",
         "ShortCode": "AFA",
         "TwitterHandles": "@AF_Falcons @AAE_SBN"
     },
     "2006": {
+        "Conference Code": "875",
         "Hashtags": "#Akron",
         "Name": "Akron",
         "ShortCode": "AKR",
         "TwitterHandles": "@ZipsFB @HustleBelt"
     },
     "201": {
+        "Conference Code": "25354",
         "Hashtags": "#Sooners",
         "Name": "Oklahoma",
         "ShortCode": "OKLA",
         "TwitterHandles": "@OU_Football @CCMachine"
     },
     "2010": {
+        "Conference Code": "916",
         "Hashtags": "#AlabamaA&M",
         "Name": "Alabama A&M",
         "ShortCode": "AAMU",
         "TwitterHandles": "Alabama A&M"
     },
     "2011": {
+        "Conference Code": "0",
         "Hashtags": "#AlabamaState",
         "Name": "Alabama State",
         "ShortCode": "ALST",
         "TwitterHandles": "Alabama State"
     },
     "2016": {
+        "Conference Code": "0",
         "Hashtags": "#AlcornState",
         "Name": "Alcorn State",
         "ShortCode": "ALCN",
         "TwitterHandles": "Alcorn State"
     },
     "202": {
+        "Conference Code": "24312",
         "Hashtags": "#ReignCane #Elevate",
         "Name": "Tulsa",
         "ShortCode": "TLSA",
         "TwitterHandles": "@TulsaFootball @UnderdogDynasty"
     },
     "2026": {
+        "Conference Code": "912",
         "Hashtags": "#10Strong #FunBelt",
         "Name": "Appalachian State",
         "ShortCode": "APP",
         "TwitterHandles": "@AppState_FB @UnderdogDynasty"
     },
     "2029": {
+        "Conference Code": "916",
         "Hashtags": "#Arkansas-PineBluff",
         "Name": "Arkansas-Pine Bluff",
         "ShortCode": "UAPB",
         "TwitterHandles": "Arkansas-Pine Bluff"
     },
     "2032": {
+        "Conference Code": "818",
         "Hashtags": "#WolvesUp #FunBelt",
         "Name": "Arkansas State",
         "ShortCode": "ARST",
         "TwitterHandles": "@AStateFB @UnderdogDynasty"
     },
     "204": {
+        "Conference Code": "905",
         "Hashtags": "#GoBeavs",
         "Name": "Oregon State",
         "ShortCode": "ORST",
         "TwitterHandles": "@BeaverFootball @BuildingTheDam"
     },
     "2046": {
+        "Conference Code": "902",
         "Hashtags": "#AustinPeay",
         "Name": "Austin Peay",
         "ShortCode": "PEAY",
         "TwitterHandles": "Austin Peay"
     },
     "2050": {
+        "Conference Code": "875",
         "Hashtags": "#MACtion #ItsTime",
         "Name": "Ball State",
         "ShortCode": "BALL",
         "TwitterHandles": "@BallStateFB @HustleBelt"
     },
     "2065": {
+        "Conference Code": "876",
         "Hashtags": "#Bethune-Cookman",
         "Name": "Bethune-Cookman",
         "ShortCode": "BCU",
         "TwitterHandles": "Bethune-Cookman"
     },
     "2084": {
+        "Conference Code": "875",
         "Hashtags": "#Buffalo",
         "Name": "Buffalo",
         "ShortCode": "BUFF",
         "TwitterHandles": "@UBFootball @UBBullRun"
     },
     "21": {
+        "Conference Code": "5486",
         "Hashtags": "##GoAztecs #Win22 #OneCityOneTeam",
         "Name": "San Diego State",
         "ShortCode": "SDSU",
         "TwitterHandles": "@SDSUFootball @MWCConnection"
     },
     "2110": {
+        "Conference Code": "99005",
         "Hashtags": "#CentralArkansas",
         "Name": "Central Arkansas",
         "ShortCode": "UCA",
         "TwitterHandles": "Central Arkansas"
     },
     "2115": {
+        "Conference Code": "0",
         "Hashtags": "#CentralConnecticut",
         "Name": "Central Connecticut",
         "ShortCode": "CCSU",
         "TwitterHandles": "Central Connecticut"
     },
     "2116": {
+        "Conference Code": "24312",
         "Hashtags": "#ChargeOn",
         "Name": "UCF",
         "ShortCode": "UCF",
         "TwitterHandles": "@UCF_Football @UnderdogDynasty"
     },
     "2117": {
+        "Conference Code": "875",
         "Hashtags": "#FireUpChips",
         "Name": "Central Michigan",
         "ShortCode": "CMU",
         "TwitterHandles": "@CMU_Football @HustleBelt"
     },
     "2127": {
+        "Conference Code": "0",
         "Hashtags": "#CharlestonSouthern",
         "Name": "Charleston Southern",
         "ShortCode": "CHSO",
         "TwitterHandles": "Charleston Southern"
     },
     "213": {
+        "Conference Code": "827",
         "Hashtags": "#WeAre #PSUnrivaled",
         "Name": "Penn State",
         "ShortCode": "PSU",
         "TwitterHandles": "@PennStateFball @BSDtweet"
     },
     "2132": {
+        "Conference Code": "823",
         "Hashtags": "#Bearcats #CinCityPride",
         "Name": "Cincinnati",
         "ShortCode": "CIN",
         "TwitterHandles": "@GoBearcatsFB @downthedrive @UnderdogDynasty"
     },
     "2142": {
+        "Conference Code": "838",
         "Hashtags": "#Colgate",
         "Name": "Colgate",
         "ShortCode": "COLG",
         "TwitterHandles": "Colgate"
     },
     "2169": {
+        "Conference Code": "876",
         "Hashtags": "#DelawareState",
         "Name": "Delaware State",
         "ShortCode": "DSU",
         "TwitterHandles": "Delaware State"
     },
     "218": {
+        "Conference Code": "875",
         "Hashtags": "TEMPLEmade #TempleTUFF",
         "Name": "Temple",
         "ShortCode": "TEM",
         "TwitterHandles": "@Temple_FB @UnderdogDynasty"
     },
     "2197": {
+        "Conference Code": "902",
         "Hashtags": "#EasternIllinois",
         "Name": "Eastern Illinois",
         "ShortCode": "EIU",
         "TwitterHandles": "Eastern Illinois"
     },
     "2198": {
+        "Conference Code": "902",
         "Hashtags": "#EasternKentucky",
         "Name": "Eastern Kentucky",
         "ShortCode": "EKY",
         "TwitterHandles": "Eastern Kentucky"
     },
     "2199": {
+        "Conference Code": "875",
         "Hashtags": "#FocusFightFinish",
         "Name": "Eastern Michigan",
         "ShortCode": "EMU",
         "TwitterHandles": "@EMUFB @HustleBelt"
     },
     "221": {
+        "Conference Code": "823",
         "Hashtags": "#H2P #LockTheGates",
         "Name": "Pittsburgh",
         "ShortCode": "PITT",
         "TwitterHandles": "@Pitt_FB @PittPantherBlog"
     },
     "2210": {
+        "Conference Code": "912",
         "Hashtags": "#Elon",
         "Name": "Elon",
         "ShortCode": "ELON",
         "TwitterHandles": "Elon"
     },
     "222": {
+        "Conference Code": "837",
         "Hashtags": "#Villanova",
         "Name": "Villanova",
         "ShortCode": "NOVA",
         "TwitterHandles": "Villanova"
     },
     "2226": {
+        "Conference Code": "818",
         "Hashtags": "#WinningInParadise",
         "Name": "Florida Atlantic",
         "ShortCode": "FAU",
         "TwitterHandles": "@FAU_Football @UnderdogDynasty"
     },
     "2229": {
+        "Conference Code": "24312",
         "Hashtags": "#FloridaIntl",
         "Name": "Florida Intl",
         "ShortCode": "FIU",
         "TwitterHandles": "@FIUFootball @UnderdogDynasty"
     },
     "2230": {
+        "Conference Code": "838",
         "Hashtags": "#Fordham",
         "Name": "Fordham",
         "ShortCode": "FOR",
         "TwitterHandles": "Fordham"
     },
     "2241": {
+        "Conference Code": "826",
         "Hashtags": "#Gardner-Webb",
         "Name": "Gardner-Webb",
         "ShortCode": "WEBB",
         "TwitterHandles": "Gardner-Webb"
     },
     "2247": {
+        "Conference Code": "99005",
         "Hashtags": "#Panther4Life #FunBelt",
         "Name": "Georgia State",
         "ShortCode": "GAST",
         "TwitterHandles": "@GSUPanthers @UnderdogDynasty"
     },
     "2261": {
+        "Conference Code": "876",
         "Hashtags": "#Hampton",
         "Name": "Hampton",
         "ShortCode": "HAMP",
         "TwitterHandles": "Hampton"
     },
     "227": {
+        "Conference Code": "837",
         "Hashtags": "#RhodeIsland",
         "Name": "Rhode Island",
         "ShortCode": "URI",
         "TwitterHandles": "Rhode Island"
     },
     "2277": {
+        "Conference Code": "0",
         "Hashtags": "#HoustonBaptist",
         "Name": "Houston Baptist",
         "ShortCode": "HBU",
         "TwitterHandles": "Houston Baptist"
     },
     "228": {
+        "Conference Code": "821",
         "Hashtags": "#ALLIN",
         "Name": "Clemson",
         "ShortCode": "CLEM",
         "TwitterHandles": "@ClemsonFB @QuackingTiger"
     },
     "2287": {
+        "Conference Code": "853",
         "Hashtags": "#IllinoisState",
         "Name": "Illinois State",
         "ShortCode": "ILST",
         "TwitterHandles": "Illinois State"
     },
     "2294": {
+        "Conference Code": "827",
         "Hashtags": "#GoHawks #Hawkeyes",
         "Name": "Iowa",
         "ShortCode": "IOWA",
         "TwitterHandles": "@HawkeyeFootball @BHGP"
     },
     "2296": {
+        "Conference Code": "916",
         "Hashtags": "#JacksonState",
         "Name": "Jackson State",
         "ShortCode": "JKST",
         "TwitterHandles": "Jackson State"
     },
     "23": {
+        "Conference Code": "923",
         "Hashtags": "#SpartanUp",
         "Name": "San Jose State",
         "ShortCode": "SJSU",
         "TwitterHandles": "@SJSUAthletics @MWCConnection"
     },
     "2305": {
+        "Conference Code": "25354",
         "Hashtags": "#KUfball #RockChalk",
         "Name": "Kansas",
         "ShortCode": "KU",
         "TwitterHandles": "@KU_Football @rockchalktalk"
     },
     "2306": {
+        "Conference Code": "25354",
         "Hashtags": "#EMAW #KStateFB",
         "Name": "Kansas State",
         "ShortCode": "KSU",
         "TwitterHandles": "@KStateFB @BringOnTheCats"
     },
     "2309": {
+        "Conference Code": "875",
         "Hashtags": "#KentState",
         "Name": "Kent State",
         "ShortCode": "KENT",
         "TwitterHandles": "@KentStFootball @HustleBelt"
     },
     "231": {
+        "Conference Code": "912",
         "Hashtags": "#Furman",
         "Name": "Furman",
         "ShortCode": "FUR",
         "TwitterHandles": "Furman"
     },
     "2320": {
+        "Conference Code": "99005",
         "Hashtags": "#Lamar",
         "Name": "Lamar",
         "ShortCode": "LAM",
         "TwitterHandles": "Lamar"
     },
     "233": {
+        "Conference Code": "99005",
         "Hashtags": "#SouthDakota",
         "Name": "South Dakota",
         "ShortCode": "SDAK",
         "TwitterHandles": "South Dakota"
     },
     "2335": {
+        "Conference Code": "826",
         "Hashtags": "#RiseWithUs",
         "Name": "Liberty",
         "ShortCode": "LIB",
         "TwitterHandles": "@UnderdogDynasty"
     },
     "2348": {
+        "Conference Code": "923",
         "Hashtags": "#EverLoyalBe",
         "Name": "Louisiana Tech",
         "ShortCode": "LT",
         "TwitterHandles": "@LATechFB @UnderdogDynasty"
     },
     "235": {
+        "Conference Code": "24312",
         "Hashtags": "#GoTigersGo #StripeUp",
         "Name": "Memphis",
         "ShortCode": "MEM",
         "TwitterHandles": "@TigersAthletics @UnderdogDynasty"
     },
     "236": {
+        "Conference Code": "912",
         "Hashtags": "#Chattanooga",
         "Name": "Chattanooga",
         "ShortCode": "CHAT",
         "TwitterHandles": "Chattanooga"
     },
     "2377": {
+        "Conference Code": "0",
         "Hashtags": "#McNeese",
         "Name": "McNeese",
         "ShortCode": "MCNS",
         "TwitterHandles": "McNeese"
     },
     "238": {
+        "Conference Code": "911",
         "Hashtags": "#Vanderbilt",
         "Name": "Vanderbilt",
         "ShortCode": "VAN",
         "TwitterHandles": "@VandyFootball @anchorofgold"
     },
     "2382": {
+        "Conference Code": "0",
         "Hashtags": "#Mercer",
         "Name": "Mercer",
         "ShortCode": "MER",
         "TwitterHandles": "Mercer"
     },
     "239": {
+        "Conference Code": "25354",
         "Hashtags": "#SicEm #BElite",
         "Name": "Baylor",
         "ShortCode": "BAY",
         "TwitterHandles": "@BUFootball @OurDailyBears"
     },
     "2390": {
+        "Conference Code": "821",
         "Hashtags": "#ItsAllAboutTheU",
         "Name": "Miami",
         "ShortCode": "MIAMI",
         "TwitterHandles": "@CanesFootball @TheStateOfTheU"
     },
     "2393": {
+        "Conference Code": "818",
         "Hashtags": "#BlueRaiders",
         "Name": "Middle Tennessee",
         "ShortCode": "MTSU",
         "TwitterHandles": "@MTAthletics @UnderdogDynasty"
     },
     "24": {
+        "Conference Code": "905",
         "Hashtags": "#GoStanford",
         "Name": "Stanford",
         "ShortCode": "STAN",
         "TwitterHandles": "@StanfordFball @RuleofTree"
     },
     "2400": {
+        "Conference Code": "916",
         "Hashtags": "#MississippiValleyState",
         "Name": "Mississippi Valley State",
         "ShortCode": "MVSU",
         "TwitterHandles": "Mississippi Valley State"
     },
     "2415": {
+        "Conference Code": "876",
         "Hashtags": "#MorganState",
         "Name": "Morgan State",
         "ShortCode": "MORG",
         "TwitterHandles": "Morgan State"
     },
     "242": {
+        "Conference Code": "24312",
         "Hashtags": "#GoOwls #IntellectualBrutality",
         "Name": "Rice",
         "ShortCode": "RICE",
         "TwitterHandles": "@RiceFootball @UnderdogDynasty"
     },
     "2426": {
+        "Conference Code": "823",
         "Hashtags": "#AnchorsAweigh",
         "Name": "Navy",
         "ShortCode": "NAVY",
         "TwitterHandles": "@NavyAthletics @AAE_SBN"
     },
     "2428": {
+        "Conference Code": "0",
         "Hashtags": "#NorthCarolinaCentral",
         "Name": "North Carolina Central",
         "ShortCode": "NCCU",
         "TwitterHandles": "North Carolina Central"
     },
     "2429": {
+        "Conference Code": "24312",
         "Hashtags": "#rocksolid #goldstandard",
         "Name": "Charlotte",
         "ShortCode": "CHAR",
         "TwitterHandles": "@UnderdogDynasty @CharlotteFTBL"
     },
     "2433": {
+        "Conference Code": "818",
         "Hashtags": "#DefendTheNest #TalonsOut #FunBelt",
         "Name": "Louisiana Monroe",
         "ShortCode": "ULM",
         "TwitterHandles": "@ULM_FB @UnderdogDynasty"
     },
     "2439": {
+        "Conference Code": "5486",
         "Hashtags": "#UNLVFB",
         "Name": "UNLV",
         "ShortCode": "UNLV",
         "TwitterHandles": "@UNLVathletics @MWCConnection"
     },
     "2440": {
+        "Conference Code": "923",
         "Hashtags": "#BattleBorn #GoPack #NevadaGrit",
         "Name": "Nevada",
         "ShortCode": "NEV",
         "TwitterHandles": "@NevadaFootball @MWCConnection"
     },
     "2447": {
+        "Conference Code": "0",
         "Hashtags": "#Nicholls",
         "Name": "Nicholls",
         "ShortCode": "NICH",
         "TwitterHandles": "Nicholls"
     },
     "2448": {
+        "Conference Code": "876",
         "Hashtags": "#NorthCarolinaA&T",
         "Name": "North Carolina A&T",
         "ShortCode": "NCAT",
         "TwitterHandles": "North Carolina A&T"
     },
     "245": {
+        "Conference Code": "25354",
         "Hashtags": "#GigEm #TAMU",
         "Name": "Texas A&M",
         "ShortCode": "TA&amp;M",
         "TwitterHandles": "@AggieFootball @GBHunting"
     },
     "2458": {
+        "Conference Code": "825",
         "Hashtags": "#NorthernColorado",
         "Name": "Northern Colorado",
         "ShortCode": "UNCO",
         "TwitterHandles": "Northern Colorado"
     },
     "2459": {
+        "Conference Code": "875",
         "Hashtags": "#theHardWay",
         "Name": "Northern Illinois",
         "ShortCode": "NIU",
         "TwitterHandles": "@NIU_Football @RABAttack"
     },
     "2460": {
+        "Conference Code": "853",
         "Hashtags": "#NorthernIowa",
         "Name": "Northern Iowa",
         "ShortCode": "UNI",
         "TwitterHandles": "Northern Iowa"
     },
     "2464": {
+        "Conference Code": "825",
         "Hashtags": "#NorthernArizona",
         "Name": "Northern Arizona",
         "ShortCode": "NAU",
         "TwitterHandles": "Northern Arizona"
     },
     "2466": {
+        "Conference Code": "914",
         "Hashtags": "#NorthwesternState",
         "Name": "Northwestern State",
         "ShortCode": "NWST",
         "TwitterHandles": "Northwestern State"
     },
     "248": {
+        "Conference Code": "24312",
         "Hashtags": "#HTownTakeover #GoCoogs",
         "Name": "Houston",
         "ShortCode": "HOU",
         "TwitterHandles": "@UHCougarFB @UnderdogDynasty"
     },
     "2483": {
+        "Conference Code": "905",
         "Hashtags": "#GoDucks",
         "Name": "Oregon",
         "ShortCode": "ORE",
         "TwitterHandles": "@oregonfootball @AddictedToQuack"
     },
     "249": {
+        "Conference Code": "818",
         "Hashtags": "#NorthTexas",
         "Name": "North Texas",
         "ShortCode": "UNT",
         "TwitterHandles": "@MeanGreenFB @UnderdogDynasty"
     },
     "25": {
+        "Conference Code": "905",
         "Hashtags": "#EarnIt #GoldenBears",
         "Name": "California",
         "ShortCode": "CAL",
         "TwitterHandles": "@CalFootball @GoldenBlogs"
     },
     "2502": {
+        "Conference Code": "825",
         "Hashtags": "#PortlandState",
         "Name": "Portland State",
         "ShortCode": "PRST",
         "TwitterHandles": "Portland State"
     },
     "2504": {
+        "Conference Code": "916",
         "Hashtags": "#PrairieView",
         "Name": "Prairie View",
         "ShortCode": "PVAM",
         "TwitterHandles": "Prairie View"
     },
     "2506": {
+        "Conference Code": "0",
         "Hashtags": "#PresbyterianCollege",
         "Name": "Presbyterian College",
         "ShortCode": "PRES",
         "TwitterHandles": "Presbyterian College"
     },
     "2509": {
+        "Conference Code": "827",
         "Hashtags": "#BoilerUp",
         "Name": "Purdue",
         "ShortCode": "PUR",
         "TwitterHandles": "@BoilerFootball @HammerAndRails"
     },
     "251": {
+        "Conference Code": "25354",
         "Hashtags": "#ThisIsTexas #HookEm",
         "Name": "Texas",
         "ShortCode": "TEX",
         "TwitterHandles": "@TexasFootball @BON_SBNation"
     },
     "252": {
+        "Conference Code": "5486",
         "Hashtags": "#BYUFOOTBALL #GoCougs",
         "Name": "BYU",
         "ShortCode": "BYU",
         "TwitterHandles": "@BYUfootball @VanquishTheFoe @UnderdogDynasty"
     },
     "253": {
+        "Conference Code": "99005",
         "Hashtags": "#SouthernUtah",
         "Name": "Southern Utah",
         "ShortCode": "SUU",
         "TwitterHandles": "Southern Utah"
     },
     "2535": {
+        "Conference Code": "902",
         "Hashtags": "#Samford",
         "Name": "Samford",
         "ShortCode": "SAM",
         "TwitterHandles": "Samford"
     },
     "254": {
+        "Conference Code": "5486",
         "Hashtags": "#GoUtes #UteFamily #Pac12AfterDark",
         "Name": "Utah",
         "ShortCode": "UTAH",
         "TwitterHandles": "@Utah_Football @BlockU"
     },
     "2542": {
+        "Conference Code": "99005",
         "Hashtags": "#SavannahState",
         "Name": "Savannah State",
         "ShortCode": "SAV",
         "TwitterHandles": "Savannah State"
     },
     "2545": {
+        "Conference Code": "914",
         "Hashtags": "#SoutheasternLouisiana",
         "Name": "Southeastern Louisiana",
         "ShortCode": "SELA",
         "TwitterHandles": "Southeastern Louisiana"
     },
     "2546": {
+        "Conference Code": "902",
         "Hashtags": "#SoutheastMissouriState",
         "Name": "Southeast Missouri State",
         "ShortCode": "SEMO",
         "TwitterHandles": "Southeast Missouri State"
     },
     "256": {
+        "Conference Code": "837",
         "Hashtags": "#JamesMadison",
         "Name": "James Madison",
         "ShortCode": "JMU",
         "TwitterHandles": "James Madison"
     },
     "2567": {
+        "Conference Code": "24312",
         "Hashtags": "#PonyUpDallas",
         "Name": "SMU",
         "ShortCode": "SMU",
         "TwitterHandles": "@SMU_Football @UnderdogDynasty"
     },
     "2569": {
+        "Conference Code": "876",
         "Hashtags": "#SouthCarolinaState",
         "Name": "South Carolina State",
         "ShortCode": "SCST",
         "TwitterHandles": "South Carolina State"
     },
     "257": {
+        "Conference Code": "837",
         "Hashtags": "#Richmond",
         "Name": "Richmond",
         "ShortCode": "RICH",
         "TwitterHandles": "Richmond"
     },
     "2571": {
+        "Conference Code": "99005",
         "Hashtags": "#SouthDakotaState",
         "Name": "South Dakota State",
         "ShortCode": "SDSU",
         "TwitterHandles": "South Dakota State"
     },
     "2572": {
+        "Conference Code": "24312",
         "Hashtags": "#SMTTT",
         "Name": "Southern Mississippi",
         "ShortCode": "USM",
         "TwitterHandles": "@USMGoldenEagles @UnderdogDynasty"
     },
     "2579": {
+        "Conference Code": "911",
         "Hashtags": "#SpursUp",
         "Name": "South Carolina",
         "ShortCode": "SC",
         "TwitterHandles": "@GamecockFB @GABAttack"
     },
     "258": {
+        "Conference Code": "821",
         "Hashtags": "#Wahoowa #HoosRising",
         "Name": "Virginia",
         "ShortCode": "UVA",
         "TwitterHandles": "@UVAFootball @STL_UVA"
     },
     "2582": {
+        "Conference Code": "0",
         "Hashtags": "#Southern",
         "Name": "Southern",
         "ShortCode": "SOU",
         "TwitterHandles": "Southern"
     },
     "259": {
+        "Conference Code": "821",
         "Hashtags": "#Hokies #HardSmartTough",
         "Name": "Virginia Tech",
         "ShortCode": "VT",
         "TwitterHandles": "@VT_Football @gobblercountry"
     },
     "26": {
+        "Conference Code": "905",
         "Hashtags": "#GoBruins #8Clap #Pac12AfterDark",
         "Name": "UCLA",
         "ShortCode": "UCLA",
         "TwitterHandles": "@UCLAFootball @BruinNation"
     },
     "2617": {
+        "Conference Code": "914",
         "Hashtags": "#StephenF.Austin",
         "Name": "Stephen F. Austin",
         "ShortCode": "SFA",
         "TwitterHandles": "Stephen F. Austin"
     },
     "2619": {
+        "Conference Code": "99005",
         "Hashtags": "#StonyBrook",
         "Name": "Stony Brook",
         "ShortCode": "STON",
         "TwitterHandles": "Stony Brook"
     },
     "2623": {
+        "Conference Code": "853",
         "Hashtags": "#MissouriState",
         "Name": "Missouri State",
         "ShortCode": "MOST",
         "TwitterHandles": "Missouri State"
     },
     "2628": {
+        "Conference Code": "5486",
         "Hashtags": "#GoFrogs",
         "Name": "TCU",
         "ShortCode": "TCU",
         "TwitterHandles": "@TCUFootball @FrogsOWar"
     },
     "2630": {
+        "Conference Code": "0",
         "Hashtags": "#UTMartin",
         "Name": "UT Martin",
         "ShortCode": "UTM",
         "TwitterHandles": "UT Martin"
     },
     "2633": {
+        "Conference Code": "911",
         "Hashtags": "#GoVols #PoweredByTheT",
         "Name": "Tennessee",
         "ShortCode": "TENN",
         "TwitterHandles": "@Vol_Football @RockyTopTalk"
     },
     "2634": {
+        "Conference Code": "902",
         "Hashtags": "#TennesseeState",
         "Name": "Tennessee State",
         "ShortCode": "TNST",
         "TwitterHandles": "Tennessee State"
     },
     "2635": {
+        "Conference Code": "902",
         "Hashtags": "#TennesseeTech",
         "Name": "Tennessee Tech",
         "ShortCode": "TNTC",
         "TwitterHandles": "Tennessee Tech"
     },
     "2636": {
+        "Conference Code": "24312",
         "Hashtags": "#BirdsUp #DefendTheDome",
         "Name": "UT San Antonio",
         "ShortCode": "UTSA",
         "TwitterHandles": "@UTSAFTBL @UnderdogDynasty"
     },
     "2638": {
+        "Conference Code": "24312",
         "Hashtags": "#PicksUp #GoMiners",
         "Name": "UTEP",
         "ShortCode": "UTEP",
         "TwitterHandles": "@UTEPAthletics @UnderdogDynasty"
     },
     "264": {
+        "Conference Code": "905",
         "Hashtags": "#PurpleReign #GoHuskies",
         "Name": "Washington",
         "ShortCode": "WASH",
         "TwitterHandles": "@UW_Football @UWonSBN"
     },
     "2641": {
+        "Conference Code": "25354",
         "Hashtags": "#WreckEm",
         "Name": "Texas Tech",
         "ShortCode": "TTU",
         "TwitterHandles": "@TechAthletics @VivaTheMatadors"
     },
     "2643": {
+        "Conference Code": "0",
         "Hashtags": "#TheCitadel",
         "Name": "The Citadel",
         "ShortCode": "CIT",
         "TwitterHandles": "The Citadel"
     },
     "2649": {
+        "Conference Code": "875",
         "Hashtags": "#GetBetter #LiftOff #MACtion",
         "Name": "Toledo",
         "ShortCode": "TOL",
         "TwitterHandles": "@ToledoFB @HustleBelt"
     },
     "265": {
+        "Conference Code": "905",
         "Hashtags": "#GoCougs #JoinTheHunt",
         "Name": "Washington State",
         "ShortCode": "WSU",
         "TwitterHandles": "@WSUCougFB @CougCenter"
     },
     "2653": {
+        "Conference Code": "818",
         "Hashtags": "#RTW #OneTROY #FunBelt",
         "Name": "Troy",
         "ShortCode": "TROY",
         "TwitterHandles": "@TroyAthletics @UnderdogDynasty"
     },
     "2655": {
+        "Conference Code": "24312",
         "Hashtags": "#RollWave",
         "Name": "Tulane",
         "ShortCode": "TULN",
         "TwitterHandles": "@GreenWaveFB @UnderdogDynasty"
     },
     "2678": {
+        "Conference Code": "0",
         "Hashtags": "#VMI",
         "Name": "VMI",
         "ShortCode": "VMI",
         "TwitterHandles": "VMI"
     },
     "2692": {
+        "Conference Code": "825",
         "Hashtags": "#WeberState",
         "Name": "Weber State",
         "ShortCode": "WEB",
         "TwitterHandles": "Weber State"
     },
     "2711": {
+        "Conference Code": "875",
         "Hashtags": "#LetsRide #WeWillReign #MACtion",
         "Name": "Western Michigan",
         "ShortCode": "WMU",
         "TwitterHandles": "@WMU_Football @HustleBelt"
     },
     "2717": {
+        "Conference Code": "912",
         "Hashtags": "#WesternCarolina",
         "Name": "Western Carolina",
         "ShortCode": "WCU",
         "TwitterHandles": "Western Carolina"
     },
     "2729": {
+        "Conference Code": "837",
         "Hashtags": "#William&Mary",
         "Name": "William & Mary",
         "ShortCode": "W&amp;M",
         "TwitterHandles": "William & Mary"
     },
     "2747": {
+        "Conference Code": "912",
         "Hashtags": "#Wofford",
         "Name": "Wofford",
         "ShortCode": "WOF",
         "TwitterHandles": "Wofford"
     },
     "275": {
+        "Conference Code": "827",
         "Hashtags": "#OnWisconsin",
         "Name": "Wisconsin",
         "ShortCode": "WIS",
         "TwitterHandles": "@BadgerFootball @B5Q"
     },
     "2751": {
+        "Conference Code": "5486",
         "Hashtags": "#RideForTheBrand #OneWyoming #GoWyo",
         "Name": "Wyoming",
         "ShortCode": "WYO",
         "TwitterHandles": "@wyo_football @MWCConnection"
     },
     "2754": {
+        "Conference Code": "853",
         "Hashtags": "#YoungstownState",
         "Name": "Youngstown State",
         "ShortCode": "YSU",
         "TwitterHandles": "Youngstown State"
     },
     "2755": {
+        "Conference Code": "916",
         "Hashtags": "#Grambling",
         "Name": "Grambling",
         "ShortCode": "GRAM",
         "TwitterHandles": "Grambling"
     },
     "276": {
+        "Conference Code": "24312",
         "Hashtags": "#HerdFamily",
         "Name": "Marshall",
         "ShortCode": "MRSH",
         "TwitterHandles": "@HerdZone @UnderdogDynasty"
     },
     "277": {
+        "Conference Code": "823",
         "Hashtags": "#HailWV #WVU",
         "Name": "West Virginia",
         "ShortCode": "WVU",
         "TwitterHandles": "@WVUfootball @smokingmusket"
     },
     "278": {
+        "Conference Code": "923",
         "Hashtags": "#GoDogs",
         "Name": "Fresno State",
         "ShortCode": "FRES",
         "TwitterHandles": "@FSAthletics @MWCConnection"
     },
     "282": {
+        "Conference Code": "853",
         "Hashtags": "#IndianaState",
         "Name": "Indiana State",
         "ShortCode": "INST",
         "TwitterHandles": "Indiana State"
     },
     "290": {
+        "Conference Code": "912",
         "Hashtags": "#GATA #HailSouthern #FunBelt",
         "Name": "Georgia Southern",
         "ShortCode": "GASO",
         "TwitterHandles": "@GSAthletics @underdogdynasty"
     },
     "2916": {
+        "Conference Code": "0",
         "Hashtags": "#IncarnateWord",
         "Name": "Incarnate Word",
         "ShortCode": "IW",
         "TwitterHandles": "Incarnate Word"
     },
     "295": {
+        "Conference Code": "99005",
         "Hashtags": "#ODUFB",
         "Name": "Old Dominion",
         "ShortCode": "ODU",
         "TwitterHandles": "@ODUFootball @UnderdogDynasty"
     },
     "30": {
+        "Conference Code": "905",
         "Hashtags": "#FightOn",
         "Name": "USC",
         "ShortCode": "USC",
         "TwitterHandles": "@uscfootball @CChroniclesSBN"
     },
     "302": {
+        "Conference Code": "99005",
         "Hashtags": "#UCDavis",
         "Name": "UC Davis",
         "ShortCode": "UCD",
         "TwitterHandles": "UC Davis"
     },
     "304": {
+        "Conference Code": "825",
         "Hashtags": "#IdahoState",
         "Name": "Idaho State",
         "ShortCode": "IDST",
         "TwitterHandles": "Idaho State"
     },
     "309": {
+        "Conference Code": "818",
         "Hashtags": "#GeauxCajuns #FunBelt",
         "Name": "Louisiana",
         "ShortCode": "ULL",
         "TwitterHandles": "@RaginCajuns @UnderdogDynasty"
     },
     "311": {
+        "Conference Code": "837",
         "Hashtags": "#Maine",
         "Name": "Maine",
         "ShortCode": "MAINE",
         "TwitterHandles": "Maine"
     },
     "324": {
+        "Conference Code": "826",
         "Hashtags": "#ChantsUp #BAM #FunBelt",
         "Name": "Coastal Carolina",
         "ShortCode": "CCU",
         "TwitterHandles": "@UnderdogDynasty"
     },
     "326": {
+        "Conference Code": "914",
         "Hashtags": "#EatEmUpCats #PUSH #FunBelt",
         "Name": "Texas State",
         "ShortCode": "TXST",
         "TwitterHandles": "@TXSTATEFOOTBALL @UnderdogDynasty"
     },
     "328": {
+        "Conference Code": "923",
         "Hashtags": "#AggiesAllTheWay",
         "Name": "Utah State",
         "ShortCode": "USU",
         "TwitterHandles": "@USUFootball @MWCConnection"
     },
     "331": {
+        "Conference Code": "825",
         "Hashtags": "#EasternWashington",
         "Name": "Eastern Washington",
         "ShortCode": "EWU",
         "TwitterHandles": "Eastern Washington"
     },
     "333": {
+        "Conference Code": "911",
         "Hashtags": "#RollTide #OutworkYesterday",
         "Name": "Alabama",
         "ShortCode": "ALA",
         "TwitterHandles": "@AlabamaFTBL @RollBamaRoll"
     },
     "344": {
+        "Conference Code": "911",
         "Hashtags": "#HailState",
         "Name": "Mississippi State",
         "ShortCode": "MSST",
         "TwitterHandles": "@HailStateFB @mstatesports"
     },
     "349": {
+        "Conference Code": "99001",
         "Hashtags": "#GoArmy",
         "Name": "Army",
         "ShortCode": "ARMY",
         "TwitterHandles": "@ArmyWP_Football @AAE_SBN"
     },
     "356": {
+        "Conference Code": "827",
         "Hashtags": "#ILLINI",
         "Name": "Illinois",
         "ShortCode": "ILL",
         "TwitterHandles": "@IlliniFootball @Champaign_Room"
     },
     "36": {
+        "Conference Code": "5486",
         "Hashtags": "#ColoradoState",
         "Name": "Colorado State",
         "ShortCode": "CSU",
         "TwitterHandles": "@CSUFootball @MWCConnection"
     },
     "38": {
+        "Conference Code": "25354",
         "Hashtags": "#GoBuffs",
         "Name": "Colorado",
         "ShortCode": "COLO",
         "TwitterHandles": "@RunRalphieRun @RalphieReport"
     },
     "399": {
+        "Conference Code": "0",
         "Hashtags": "#Albany",
         "Name": "Albany",
         "ShortCode": "ALBY",
         "TwitterHandles": "Albany"
     },
     "41": {
+        "Conference Code": "823",
         "Hashtags": "#UConnNation #RiseAsOne",
         "Name": "UConn",
         "ShortCode": "CONN",
         "TwitterHandles": "@UConnFootball @TheUConnBlog @UnderdogDynasty"
     },
     "47": {
+        "Conference Code": "876",
         "Hashtags": "#Howard",
         "Name": "Howard",
         "ShortCode": "HOW",
         "TwitterHandles": "Howard"
     },
     "48": {
+        "Conference Code": "837",
         "Hashtags": "#Delaware",
         "Name": "Delaware",
         "ShortCode": "DEL",
         "TwitterHandles": "Delaware"
     },
     "5": {
+        "Conference Code": "24312",
         "Hashtags": "#WinAsOne",
         "Name": "UAB",
         "ShortCode": "UAB",
         "TwitterHandles": "@UAB_FB @UnderdogDynasty"
     },
     "50": {
+        "Conference Code": "876",
         "Hashtags": "#FAMU",
         "Name": "Florida A&M",
         "ShortCode": "FAMU",
         "TwitterHandles": "Florida A&M"
     },
     "52": {
+        "Conference Code": "821",
         "Hashtags": "#FSU #DoSomething",
         "Name": "Florida State",
         "ShortCode": "FSU",
         "TwitterHandles": "@FSUFootball @Tomahawknation"
     },
     "55": {
+        "Conference Code": "902",
         "Hashtags": "#JacksonvilleState",
         "Name": "Jacksonville State",
         "ShortCode": "JVST",
         "TwitterHandles": "Jacksonville State"
     },
     "57": {
+        "Conference Code": "911",
         "Hashtags": "#GoGators",
         "Name": "Florida",
         "ShortCode": "FLA",
         "TwitterHandles": "@GatorsFB @AlligatorArmy"
     },
     "58": {
+        "Conference Code": "823",
         "Hashtags": "#BullStrong",
         "Name": "South Florida",
         "ShortCode": "USF",
         "TwitterHandles": "@USFFootball @StampedeSBN @UnderdogDynasty"
     },
     "59": {
+        "Conference Code": "821",
         "Hashtags": "#TogetherWeSwarm",
         "Name": "Georgia Tech",
         "ShortCode": "GT",
         "TwitterHandles": "@GeorgiaTechFB"
     },
     "6": {
+        "Conference Code": "99005",
         "Hashtags": "#MOBMentality #FunBelt",
         "Name": "South Alabama",
         "ShortCode": "USA",
         "TwitterHandles": "@WeAreSouth_FB @UnderdogDynasty"
     },
     "61": {
+        "Conference Code": "911",
         "Hashtags": "#CommitToTheG",
         "Name": "Georgia",
         "ShortCode": "UGA",
         "TwitterHandles": "@FootballUGA @dawgsports"
     },
     "62": {
+        "Conference Code": "923",
         "Hashtags": "#HawaiiFB",
         "Name": "Hawai'i",
         "ShortCode": "HAW",
         "TwitterHandles": "@HawaiiFootball @MWCConnection"
     },
     "66": {
+        "Conference Code": "25354",
         "Hashtags": "#Cyclones",
         "Name": "Iowa State",
         "ShortCode": "ISU",
         "TwitterHandles": "@CycloneFB @WideRtNattyLt"
     },
     "68": {
+        "Conference Code": "923",
         "Hashtags": "#BleedBlue",
         "Name": "Boise State",
         "ShortCode": "BSU",
         "TwitterHandles": "@BroncoSportsFB @OBNUG @MWCConnection"
     },
     "70": {
+        "Conference Code": "923",
         "Hashtags": "#Idaho",
         "Name": "Idaho",
         "ShortCode": "IDHO",
         "TwitterHandles": "@Idaho_Vandals"
     },
     "77": {
+        "Conference Code": "827",
         "Hashtags": "#B1GCats",
         "Name": "Northwestern",
         "ShortCode": "NW",
         "TwitterHandles": "@NUFBFamily @insidenu"
     },
     "79": {
+        "Conference Code": "853",
         "Hashtags": "#SouthernIllinois",
         "Name": "Southern Illinois",
         "ShortCode": "SIU",
         "TwitterHandles": "Southern Illinois"
     },
     "8": {
+        "Conference Code": "911",
         "Hashtags": "#Arkansas",
         "Name": "Arkansas",
         "ShortCode": "ARK",
         "TwitterHandles": "@RazorbackFB"
     },
     "84": {
+        "Conference Code": "827",
         "Hashtags": "#LEO #IUFB",
         "Name": "Indiana",
         "ShortCode": "IND",
         "TwitterHandles": "@IndianaFootball @crimsonquarry"
     },
     "87": {
+        "Conference Code": "99001",
         "Hashtags": "#GoIrish #ND #DuncanHall",
         "Name": "Notre Dame",
         "ShortCode": "ND",
         "TwitterHandles": "@NDFootball @OneFootDown"
     },
     "9": {
+        "Conference Code": "905",
         "Hashtags": "#ForksUp #PT42 #SunDevilTough",
         "Name": "Arizona State",
         "ShortCode": "ASU",
         "TwitterHandles": "@ASUFootball @HouseOfSparky"
     },
     "93": {
+        "Conference Code": "902",
         "Hashtags": "#MurrayState",
         "Name": "Murray State",
         "ShortCode": "MURR",
         "TwitterHandles": "Murray State"
     },
     "96": {
+        "Conference Code": "911",
         "Hashtags": "#BBN #GetUp",
         "Name": "Kentucky",
         "ShortCode": "UK",
         "TwitterHandles": "@UKFootball @ASeaOfBlue"
     },
     "97": {
+        "Conference Code": "823",
         "Hashtags": "#L1C4 #GoCards",
         "Name": "Louisville",
         "ShortCode": "LOU",
         "TwitterHandles": "@UofLFootball"
     },
     "98": {
+        "Conference Code": "24312",
         "Hashtags": "#GoTops #ThePursuit",
         "Name": "Western Kentucky",
         "ShortCode": "WKU",
         "TwitterHandles": "@WKUFootball @UnderdogDynasty"
     },
     "99": {
+        "Conference Code": "911",
         "Hashtags": "#GeauxTigers",
         "Name": "LSU",
         "ShortCode": "LSU",

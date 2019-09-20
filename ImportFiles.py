@@ -2,10 +2,10 @@ import pandas as pd
 import csv
 import numpy as np
 
-def SelectColumnsFromMultipleFiles(fileNames, columnNames):
+def SelectColumnsFromMultipleFiles(fileNames, columnNames, dataTypes = {}):
     fullContents = []
     for file in fileNames:
-        currentContents = pd.read_csv(file, header = 0, usecols=columnNames)
+        currentContents = pd.read_csv(file, header = 0, usecols=columnNames, dtype = dataTypes)
         fullContents.append(currentContents)
 
     return pd.concat(fullContents)
